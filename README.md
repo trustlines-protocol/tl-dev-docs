@@ -29,3 +29,11 @@ This site is a work in progress and the documentation currently resides in their
 - **Smart Contract System**
 
 > The smart contract system is a collection of solidity contracts deployed on the Trustlines Blockchain. Transfers within the Trustlines Network are executed by the smart contracts. All trustlines (i.e. credit lines and balances between users) are notarized on the Trustlines Blockchain. Furthermore, the smart contracts enforce the rules determining how trustlines can be created, used and updated.
+
+### (WIP) Add steps on installing and running Jekyll locally
+
+- Install Ruby
+- Install Gem
+- Install Jekyll
+
+Run `bundle exec jekyll serve`
