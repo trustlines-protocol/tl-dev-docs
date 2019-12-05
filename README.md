@@ -30,10 +30,23 @@ This site is a work in progress and the documentation currently resides in their
 
 > The smart contract system is a collection of solidity contracts deployed on the Trustlines Blockchain. Transfers within the Trustlines Network are executed by the smart contracts. All trustlines (i.e. credit lines and balances between users) are notarized on the Trustlines Blockchain. Furthermore, the smart contracts enforce the rules determining how trustlines can be created, used and updated.
 
-### (WIP) Add steps on installing and running Jekyll locally
+### Requirements and steps for running the site locally
 
-- Install Ruby
-- Install Gem
-- Install Jekyll
+#### Requirements
 
-Run `bundle exec jekyll serve`
+- [Ruby](https://www.ruby-lang.org/en/downloads/) version 2.4.0 or above, including all development headers (ruby version can be checked by running `ruby -v`)
+- [RubyGems](https://rubygems.org/pages/download) (which you can check by running `gem -v`)
+- [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/) (in case your system doesn’t have them installed, which you can check by running `gcc -v`, `g++ -v` and `make -v` in your system’s command line interface)
+- [Jekyll](https://jekyllrb.com/) (currently using v4.0.0)
+
+#### Steps to install locally
+
+- [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- [Install Gem](https://rubygems.org/pages/download)
+- [Install Jekyll](https://jekyllrb.com/docs/installation/)
+
+#### Running locally
+- `cd path-to-your-tl-dev-docs-folder/`
+- Run `bundle exec jekyll serve`
+- Open http://127.0.0.1:4000/ in your favourite browser
+  - If you're running into a 404 Not found error, try setting `baseurl: ""` in the `_config.yml` file and run serve again.
