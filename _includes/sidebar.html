@@ -1,0 +1,61 @@
+<!-- Sidebar -->
+<div id="sidebar">
+  <div class="inner">
+
+    <!-- Search -->
+    <section id="search" class="alt">
+      <form method="post" action="#">
+        <input type="text" name="query" id="query" placeholder="Search" />
+      </form>
+    </section>
+
+    <!-- Menu -->
+    <nav id="menu">
+      <header class="major">
+        <h2>Menu</h2>
+      </header>
+      <ul>
+        <li><a href="{{ '' | absolute_url }}">Home</a></li>
+        <li><a href="{{ 'docs/tlbc.html' | absolute_url }}">Blockchain</a></li>
+        <ul class="nav">
+          <li><a href="#">Client library</a>
+            <ul>
+              <li class="side_sub"><a href="{{ 'docs/clientlib.html' | absolute_url }}">Introduction</a></li>
+              <li><a href="{{ 'docs/clientlib-guides.html' | absolute_url }}">Guides</a></li>
+              <li><a href="{{ 'docs/clientlib-development.html' | absolute_url }}">Development</a></li>
+              <li><a href="{{ 'docs/clientlib-deployment.html' | absolute_url }}">Deployment</a></li>
+            </ul>
+          </li>
+        </ul>
+        <li><a href="{{ 'docs/smart-contracts.html' | absolute_url }}">Smart contracts</a></li>
+        <ul class="nav">
+          <li><a href="#">Relay server</a>
+            <ul>
+              <li><a href="{{ 'docs/relay-server.html' | absolute_url }}">Intro</a></li>
+              <li><a href="{{ 'docs/relay-api.html' | absolute_url }}">Relay API</a></li>
+            </ul>
+          </li>
+        </ul>
+        <li><a href="{{ 'elements.html' | absolute_url }}">Site elements</a></li>
+      </ul>
+    </nav>
+
+    <!-- Section -->
+    <section>
+      <header class="major">
+        <h2>Get in touch</h2>
+      </header>
+      <p>If you need help or just want to chat with other community members, join our community channels.</p>
+      <ul class="contact">
+        <li><img class="side_icon" src="{{ 'assets/images/gitter.svg' | absolute_url }}" /><a href="#">Trustlines Technical Chat on Gitter</a></li>
+        <li><img class="side_icon" src="{{ 'assets/images/telegram.svg' | absolute_url }}" /><a href="#">Trustlines Network Telegram</a></li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="copyright">&copy; Trustlines Foundation. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
+    </footer>
+
+  </div>
+</div>
