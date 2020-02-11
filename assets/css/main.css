@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,600,700&display=swap');
 @import "syntax.css";
 
 /*
@@ -2048,7 +2048,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-re
 /* Type */
 body, input, select, textarea {
   color: #828282;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65;
@@ -2106,7 +2106,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #323232;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0;
@@ -2239,7 +2239,7 @@ section.special, article.special {
 }
 
 header p {
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -2914,7 +2914,7 @@ button,
   color: #F05A55 !important;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 0.8em;
   font-weight: 700;
   height: 3.5em;
@@ -3732,7 +3732,7 @@ button:disabled,
 #header .logo {
   border-bottom: 0;
   color: inherit;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.125em;
 }
 
@@ -3881,7 +3881,7 @@ button:disabled,
   -ms-user-select: none;
   user-select: none;
   color: #323232;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   letter-spacing: 0.075em;
   list-style: none;
