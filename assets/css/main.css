@@ -2047,7 +2047,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-re
 
 /* Type */
 body, input, select, textarea {
-  color: #828282;
+  color: #141414;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -2077,13 +2077,13 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
+  border-bottom: solid 1px #e7e7df;
   color: #F05A55;
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom-color: #F05A55;
+  border-bottom-color: #828282;
   color: #C83237 !important;
 }
 
@@ -2186,12 +2186,12 @@ blockquote {
 }
 
 code {
-  background-color: #828282;
+  background-color: #f5f2f0;
   border-radius: 0.375em;
   border: solid 1px rgba(210, 215, 217, 0.75);
-  font-family: "Courier New", monospace;
+  font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
   font-size: 0.9em;
-  color: #FAFAFA;
+  color: #000;
   margin: 0 0.25em;
   padding: 0.25em 0.65em;
 }
@@ -2208,7 +2208,7 @@ pre code {
   display: block;
   line-height: 1.75;
   padding: 1em 1.5em;
-  overflow-x: auto;
+  white-space: pre-wrap;
 }
 
 hr {
@@ -3992,4 +3992,9 @@ ul .nav {
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0;
   margin-left: -0.5em;
+}
+
+code span {
+  white-space: pre-wrap;
+  word-break: break-all;
 }
