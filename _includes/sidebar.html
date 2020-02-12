@@ -16,27 +16,35 @@
       </header>
       <ul>
         <li><a href="{{ '' | absolute_url }}">Home</a></li>
-        <li><a href="{{ 'docs/tlbc.html' | absolute_url }}">Blockchain</a></li>
+        <li><a href="{{ 'docs/blockchain/tlbc.html' | absolute_url }}">Blockchain</a></li>
         <ul class="nav">
           <li><a href="#">Client library</a>
             <ul>
-              <li class="side_sub"><a href="{{ 'docs/clientlib.html' | absolute_url }}">Introduction</a></li>
-              <li><a href="{{ 'docs/clientlib-guides.html' | absolute_url }}">Guides</a></li>
-              <li><a href="{{ 'docs/clientlib-development.html' | absolute_url }}">Development</a></li>
-              <li><a href="{{ 'docs/clientlib-deployment.html' | absolute_url }}">Deployment</a></li>
+              <li class="side_sub"><a href="{{ 'docs/clientlib/clientlib.html' | absolute_url }}">Introduction</a></li>
+              <li><a href="{{ 'docs/clientlib/clientlib-guides.html' | absolute_url }}">Guides</a></li>
+              <!-- <li><a href="{{ 'docs/clientlib/clientlib-development.html' | absolute_url }}">Development</a></li> -->
             </ul>
           </li>
         </ul>
-        <li><a href="{{ 'docs/smart-contracts.html' | absolute_url }}">Smart contracts</a></li>
+        <ul class="nav">
+          <li><a href="#">Smart contracts</a>
+          <ul>
+            <li><a href="{{ 'docs/contracts/contracts_README.html' | absolute_url }}">Introduction</a></li>
+            <li><a href="{{ 'docs/contracts/contracts_deployment.html' | absolute_url }}">Deployment</a></li>
+            <li><a href="{{ 'docs/contracts/currency_networks_tlbc.html' | absolute_url }}">Currency Networks</a></li>
+          </ul>
+          </li>
+        </ul>
         <ul class="nav">
           <li><a href="#">Relay server</a>
             <ul>
-              <li><a href="{{ 'docs/relay-server.html' | absolute_url }}">Intro</a></li>
-              <li><a href="{{ 'docs/relay-api.html' | absolute_url }}">Relay API</a></li>
+              <li><a href="{{ 'docs/relay/relay_server.html' | absolute_url }}">Intro</a></li>
+              <li><a href="{{ 'docs/relay/running_trustlines_system.html' | absolute_url }}">Relay server guide</a></li>
+              <li><a href="{{ 'docs/relay/trustlines_docker.html' | absolute_url }}">docker-compose solution</a></li>
+              <!-- <li><a href="{{ 'docs/relay/relay-api.html' | absolute_url }}">Relay API</a></li> -->
             </ul>
           </li>
         </ul>
-        <li><a href="{{ 'elements.html' | absolute_url }}">Site elements</a></li>
       </ul>
     </nav>
 

@@ -2,7 +2,7 @@
 layout: page
 title:  "Relay release 0.9.0"
 excerpt_separator: <!--more-->
-image: assets/images/tlbc.png
+image: assets/images/ann.jpg
 ---
 
 Relay version 0.9.0 was just released.

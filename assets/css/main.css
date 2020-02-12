@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,600,700&display=swap');
 @import "syntax.css";
 
 /*
@@ -2031,7 +2031,7 @@ body {
 }
 
 body {
-  background: #FFFAFF;
+  background: #fafafa;
 }
 
 body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
@@ -2047,8 +2047,8 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-re
 
 /* Type */
 body, input, select, textarea {
-  color: #828282;
-  font-family: 'Gothic A1', sans-serif;
+  color: #141414;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65;
@@ -2077,13 +2077,13 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
+  border-bottom: solid 1px #e7e7df;
   color: #F05A55;
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom-color: #F05A55;
+  border-bottom-color: #828282;
   color: #C83237 !important;
 }
 
@@ -2106,7 +2106,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #323232;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0;
@@ -2186,14 +2186,16 @@ blockquote {
 }
 
 code {
-  background-color: #828282;
+  background-color: #f5f2f0;
   border-radius: 0.375em;
   border: solid 1px rgba(210, 215, 217, 0.75);
-  font-family: "Courier New", monospace;
+  font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
   font-size: 0.9em;
-  color: #FAFAFA;
+  color: #000;
   margin: 0 0.25em;
   padding: 0.25em 0.65em;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 pre {
@@ -2208,7 +2210,9 @@ pre code {
   display: block;
   line-height: 1.75;
   padding: 1em 1.5em;
-  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  color: #fafafa;
 }
 
 hr {
@@ -2239,7 +2243,7 @@ section.special, article.special {
 }
 
 header p {
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -2834,7 +2838,7 @@ dl dd {
 
 table {
   margin: 0 0 2em 0;
-  width: 100%;
+  width: 700px;
 }
 
 table tbody tr {
@@ -2914,7 +2918,7 @@ button,
   color: #F05A55 !important;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 0.8em;
   font-weight: 700;
   height: 3.5em;
@@ -3517,11 +3521,11 @@ button:disabled,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #E1E1E1;
+  background-color: #eff1f2;
   font-size: 0.9em;
   position: relative;
   width: 26em;
-  color: #141414;
+  color: #000;
 }
 
 #sidebar h2 {
@@ -3732,7 +3736,7 @@ button:disabled,
 #header .logo {
   border-bottom: 0;
   color: inherit;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.125em;
 }
 
@@ -3881,7 +3885,7 @@ button:disabled,
   -ms-user-select: none;
   user-select: none;
   color: #323232;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   letter-spacing: 0.075em;
   list-style: none;
@@ -3892,7 +3896,7 @@ button:disabled,
 
 #menu ul a, #menu ul span {
   border-bottom: 0;
-  color: #646464;
+  color: #141414;
   cursor: pointer;
   display: block;
   font-size: 0.9em;
@@ -3992,4 +3996,43 @@ ul .nav {
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0;
   margin-left: -0.5em;
+}
+
+code span {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+blockquote p {
+  margin: auto;
+}
+
+#component_page {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  border-bottom: 1px solid #000;
+  width: 20em;
+  padding-bottom: 0.1em;
+}
+
+#component_page span {
+  margin: 1em 0.5em 0 1em;
+}
+
+.component_page_text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.component_page_text a {
+  color: #000;
+  border-bottom: none;
+}
+
+.icon.fa-github.page_layout {
+  font-size: 20px;
+}
+
+ a.icon.fa-github.page_layout {
+  color: #000;
 }

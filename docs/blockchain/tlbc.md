@@ -1,35 +1,33 @@
 ---
-layout: page
+layout: blockchain
 title: Trustlines Blockchain
-image: assets/images/tlbc.png
+image: assets/images/tlbc.jpg
 ---
 
-# Trustlines Blockchain
-
-- [The Trustlines Blockchain Infrastructure](#the-trustlines-blockchain-infrastructure)
-  - [TLBC and Laika](#tlbc-and-laika)
-  - [System Requirements](#system-requirements)
-  - [Security](#security)
-  - [Setup With the Quickstart Script](#setup-with-the-quickstart-script)
-  - [Setup With Docker](#setup-with-docker)
-    - [Blockchain Node](#blockchain-node)
-    - [Netstats Client](#netstats-client)
-    - [Monitor](#monitor)
-    - [Bridge](#bridge)
-  - [Setup Without Docker](#setup-without-docker)
-- [Development](#development)
-  - [Build Own Image](#build-own-image)
-  - [Upload Image](#upload-image)
-  - [Running Tests on Contracts](#running-tests-on-contracts)
+-   [The Trustlines Blockchain Infrastructure](#the-trustlines-blockchain-infrastructure)
+    -   [TLBC and Laika](#tlbc-and-laika)
+    -   [System Requirements](#system-requirements)
+    -   [Security](#security)
+    -   [Setup With the Quickstart Script](#setup-with-the-quickstart-script)
+    -   [Setup With Docker](#setup-with-docker)
+        -   [Blockchain Node](#blockchain-node)
+        -   [Netstats Client](#netstats-client)
+        -   [Monitor](#monitor)
+        -   [Bridge](#bridge)
+    -   [Setup Without Docker](#setup-without-docker)
+-   [Development](#development)
+    -   [Build Own Image](#build-own-image)
+    -   [Upload Image](#upload-image)
+    -   [Running Tests on Contracts](#running-tests-on-contracts)
 
 ## The Trustlines Blockchain Infrastructure
 
 Nodes of the Trustlines Blockchain run various applications:
 
-- The node of the blockchain itself
-- The monitor that checks if validators act honestly (optional)
-- The bridge between Ethereum and the Trustlines Blockchain (only run by validators)
-- The netstats client to report the node state to `https://netstats.tlbc.trustlines.foundation` (optional)
+-   The node of the blockchain itself
+-   The monitor that checks if validators act honestly (optional)
+-   The bridge between Ethereum and the Trustlines Blockchain (only run by validators)
+-   The netstats client to report the node state to `https://netstats.tlbc.trustlines.foundation` (optional)
 
 There are multiple ways to set each of these up. The most straightforward one by far is via our interactive quickstart
 script. Finer control can be achieved by starting the components individually as Docker containers. Finally, it is also
@@ -69,8 +67,8 @@ access root permissions to run containers.
 
 For validators it is crucial to safely back up their private key. If they lose their key, they will not be able to
 
-- create any blocks or earn block rewards or
-- withdraw their stake on the main chain once it is unlocked.
+-   create any blocks or earn block rewards or
+-   withdraw their stake on the main chain once it is unlocked.
 
 Furthermore, it is advisable to keep the amount of funds stored in the validator account small by regularly sending the
 newly earned income to a different account (e.g., a cold wallet stored on a different machine).
@@ -122,7 +120,7 @@ following ones.
 The blockchain image is a standard Parity client with a custom configuration for the Trustlines Blockchain. It also
 accepts a few additional command line options as described in the help message:
 
-```
+```sh
 $ docker run --rm trustlines/tlbc-node:release --help
 
 
@@ -243,15 +241,15 @@ $ docker run -d --name mainnet-node --network network-ethereum \
 
 Now, write a configuration file for the bridge node and store it in `tlbc/bridge-config.toml`:
 
-```
+```toml
 [foreign_chain]
-rpc_url = "http://mainnet-node:8545"
+rpc_url = "<http://mainnet-node:8545>"
 token_contract_address = "0x679131F591B4f369acB8cd8c51E68596806c3916"
 bridge_contract_address = "0x18BDC736b23Ff7294BED9fa988a1443357C7B0ed"
 event_fetch_start_block_number = 8932341
 
 [home_chain]
-rpc_url = "http://tlbc-node:8545"
+rpc_url = "<http://tlbc-node:8545>"
 bridge_contract_address = "0x0000000000000000000000000000000000000401"
 event_fetch_start_block_number = 0
 
@@ -276,10 +274,10 @@ $ docker run -d --name bridge-client --network network-tlbc --network network-et
 
 We refer to the documentation of the individual components:
 
-- [Parity](https://wiki.parity.io/Parity-Ethereum)
-- [Netstats](https://github.com/trustlines-protocol/ethstats-client)
-- [Monitor](https://github.com/trustlines-protocol/tlbc-monitor)
-- [Bridge](https://github.com/trustlines-protocol/blockchain/tree/master/tools/bridge)
+-   [Parity](https://wiki.parity.io/Parity-Ethereum)
+-   [Netstats](https://github.com/trustlines-protocol/ethstats-client)
+-   [Monitor](https://github.com/trustlines-protocol/tlbc-monitor)
+-   [Bridge](https://github.com/trustlines-protocol/blockchain/tree/master/tools/bridge)
 
 For the Trustlines Blockchain node, make sure it uses the correct chain
 specification file (`./chain/tlbc/tlbc-spec.json`), that the right TCP and UDP
@@ -295,7 +293,7 @@ the build must be the project root, the path to the `Dockerfile` has to be speci
 
 ```sh
 $ git clone https://github.com/trustlines-protocol/blockchain
-$ docker build -f chain/laika/Dockerfile -t MY_TAGNAME .
+$ docker build -f ./chain/laika/Dockerfile -t MY_TAGNAME ./chain
 $ docker run ... MY_TAGNAME ...
 ```
 
@@ -303,7 +301,7 @@ $ docker run ... MY_TAGNAME ...
 
 First, install the solidity compiler `solc` for compiling the contracts. You
 can follow the [official installation
-documentation](https://solidity.readthedocs.io/en/v0.4.24/installing-solidity.html).
+documentation](https://solidity.readthedocs.io/en/v0.5.8/installing-solidity.html). Make sure that you install the version `0.5.8`.
 From the root directory of the repository you can run the tests by calling `make test contracts`. This will create a virtual Python environment, install the
 dependencies, compile the contracts and run the tests.
 
@@ -313,4 +311,4 @@ The Trustlines Foundation hosts a publically accessible node for the
 Laika Testnet.
 
 You can access it via the following URL:
-https://access.laika.trustlines.foundation
+<https://access.laika.trustlines.foundation>
