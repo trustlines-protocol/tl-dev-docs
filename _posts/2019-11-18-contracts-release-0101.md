@@ -2,7 +2,7 @@
 layout: page
 title:  "Contracts release 0.10.1"
 excerpt_separator: <!--more-->
-image: assets/images/tlbc.png
+image: assets/images/ann.jpg
 ---
 
 Contracts version 0.10.1 was just released.

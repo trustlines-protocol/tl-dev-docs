@@ -2031,7 +2031,7 @@ body {
 }
 
 body {
-  background: #FFFAFF;
+  background: #fafafa;
 }
 
 body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
@@ -2194,6 +2194,8 @@ code {
   color: #000;
   margin: 0 0.25em;
   padding: 0.25em 0.65em;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 pre {
@@ -2209,6 +2211,7 @@ pre code {
   line-height: 1.75;
   padding: 1em 1.5em;
   white-space: pre-wrap;
+  overflow-wrap: break-word;
   color: #fafafa;
 }
 
@@ -2835,7 +2838,7 @@ dl dd {
 
 table {
   margin: 0 0 2em 0;
-  width: 100%;
+  width: 700px;
 }
 
 table tbody tr {
@@ -3522,7 +3525,7 @@ button:disabled,
   font-size: 0.9em;
   position: relative;
   width: 26em;
-  color: #141414;
+  color: #000;
 }
 
 #sidebar h2 {
@@ -3893,7 +3896,7 @@ button:disabled,
 
 #menu ul a, #menu ul span {
   border-bottom: 0;
-  color: #646464;
+  color: #141414;
   cursor: pointer;
   display: block;
   font-size: 0.9em;
@@ -3998,4 +4001,8 @@ ul .nav {
 code span {
   white-space: pre-wrap;
   word-break: break-all;
+}
+
+blockquote p {
+  margin: auto;
 }
