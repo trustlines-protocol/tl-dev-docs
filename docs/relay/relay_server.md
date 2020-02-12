@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: relay
 title: Trustlines relay server
 ---
 

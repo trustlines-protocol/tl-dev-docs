@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blockchain
 title: Trustlines Blockchain
 image: assets/images/tlbc.jpg
 ---

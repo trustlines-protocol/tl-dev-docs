@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                {% include header.html %}
+
+                <div id="component_page">
+                  <span><a href="https://github.com/trustlines-protocol/contracts" class="icon fa-github page_layout" target="_blank"><span class="label"></span></a></span><span class="component_page_text"><a href="https://github.com/trustlines-protocol/contracts">Code for contracts in GitHub</a></span>
+                </div>
+
+                <!-- Content -->
+                <section>
+                	<header class="main">
+                		<h1>{{ page.title }}</h1>
+                	</header>
+
+                  {% if page.image %}
+                	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
+                  {% endif %}
+
+                {{ content }}
+
+              </div>
+          </div>
+
+          {% include sidebar.html %}
+
+      </div>
+
+      {% include footer.html %}
+
+</body>
+
+</html>

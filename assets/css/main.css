@@ -3521,7 +3521,7 @@ button:disabled,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #E1E1E1;
+  background-color: #eff1f2;
   font-size: 0.9em;
   position: relative;
   width: 26em;
@@ -4005,4 +4005,34 @@ code span {
 
 blockquote p {
   margin: auto;
+}
+
+#component_page {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  border-bottom: 1px solid #000;
+  width: 20em;
+  padding-bottom: 0.1em;
+}
+
+#component_page span {
+  margin: 1em 0.5em 0 1em;
+}
+
+.component_page_text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.component_page_text a {
+  color: #000;
+  border-bottom: none;
+}
+
+.icon.fa-github.page_layout {
+  font-size: 20px;
+}
+
+ a.icon.fa-github.page_layout {
+  color: #000;
 }

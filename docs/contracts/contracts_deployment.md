@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contracts
 title: Trustlines smart contracts deployment
 ---
 

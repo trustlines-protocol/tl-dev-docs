@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: relay
 title: Running the Trustlines system
 ---
 
