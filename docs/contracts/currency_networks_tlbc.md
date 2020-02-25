@@ -57,12 +57,13 @@ Solomon Islands Dollar: `0x0FbD56e384826246dC795C1A1951c781184F8faa`
 
 [Currency Networks contracts.json](currency_networks_contracts_json)
 
-## Currency Network Registry
-
-**Address**: `0x02c3cA67cF3310295195173cb654cfd61f4c849D`
+### Currency Network Registry
 
 **Commit**: [trustlines-protocol/contracts@baebb30](https://github.com/trustlines-protocol/contracts/commit/baebb308d9ef868408c3449250aa9d963cc61d71)
 
-[Currency Network Registry on Blockscout](https://explore.tlbc.trustlines.foundation/address/0x02c3ca67cf3310295195173cb654cfd61f4c849d/transactions)
+#### Address
+`0x02c3cA67cF3310295195173cb654cfd61f4c849D`
+
+**[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0x02c3ca67cf3310295195173cb654cfd61f4c849d/transactions)**
 
 [Currency Networks Registry contracts.json](currency_networks_contracts_json)
