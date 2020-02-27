@@ -1,7 +1,7 @@
 # Site settings
 title: Trustlines
 subtitle: Developer Docs
-email: youremailaddress@gmail.com
+email: contact@trustlines.foundation
 description: Developer Documentation for Trustlines
 baseurl: "" # the subpath of your site, e.g. /blog
 author: Trustlines Foundation
@@ -10,7 +10,7 @@ city: Vaduz
 zip_code: 9490
 country: Liechtenstein
 tagline: Trustlines Dev Docs
-url: https://docs.trustlines.network/
+url: https://dev.trustlines.network/
 twitter:
   username: TrustlinesFound
 logo: /assets/images/brand/network/png/gradient/TN-Logo-Gradient_1_14.png
