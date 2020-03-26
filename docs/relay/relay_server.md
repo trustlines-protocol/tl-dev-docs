@@ -7,7 +7,7 @@ This documents describes how to install the trustlines relay server
 for local development.
 
 If you're trying to setup a complete trustlines system, please visit
-[Running the trustlines system](https://github.com/trustlines-protocol/relay/blob/master/docs/RelayServer.md)
+[Running the trustlines system](running_trustlines_system)
 
 The relay server provides a REST API. Please visit the [REST API
 Documentation](https://github.com/trustlines-protocol/relay/blob/master/docs/RelayAPI.md)

@@ -23,12 +23,12 @@ files directly into the user's home directory. Else, adapt the paths to your nee
 
 You need to run our modified parity node, which provides the JSONRPC API to the relay
 server and the indexer. The documentation on how to run it can be found on the
-[github page](https://github.com/trustlines-protocol/blockchain)
+[Blockchain Overview page](../blockchain/tlbc)
 ### Contracts
 The [trustlines-contracts
 repository](https://github.com/trustlines-protocol/contracts) contains the
 solidity contracts to be deployed on the blockchain and a commandline tool to deploy the contracts. The [how to deploy the
-contracts guide](https://github.com/trustlines-protocol/contracts) contains more information on how to deploy the contracts.
+contracts guide](../contracts/contracts_deployment) contains more information on how to deploy the contracts.
 The tool will return the addresses of the deployed contracts. You need to provide that information to the relay server with as json file `addresses.json` with the following format:
 
 ```json
