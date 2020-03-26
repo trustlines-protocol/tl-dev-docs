@@ -56,7 +56,7 @@ tool from PyPI. Solidity itself isn't needed anymore.
 The tool `tl-deploy` allows you to deploy the relevant contracts.
 
 Use `tl-deploy --help` to find out about the relevant commands or read
-further in the [deploy documentation](contracts-deployment).
+further in the [deploy documentation](contracts_deployment).
 
 ### Development
 

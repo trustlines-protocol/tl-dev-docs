@@ -120,4 +120,4 @@ This serves the injected web3 example app on `http://127.0.0.1:8080`. You can fi
 
 ## Change log
 
-See [CHANGELOG](./CHANGELOG.md)
+See [CHANGELOG](https://github.com/trustlines-protocol/clientlib/blob/master/CHANGELOG.md)
