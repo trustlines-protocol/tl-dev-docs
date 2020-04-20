@@ -1,12 +1,75 @@
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,600&display=swap');
 @import "syntax.css";
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraLight.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/Inter-Light.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter-Italic.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Inter-Medium.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Inter-SemiBold.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Inter-SemiBoldItalic.woff?v=3.13") format("woff");
+}
 
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* Inter font
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––
+    Version : 3.13
+    Website : https://rsms.me/inter/
+    Repo    : https://github.com/rsms/inter
+    Author  : The Inter Project Authors
+    License : SIL OPEN FONT LICENSE Version 1.1
+    –––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -2048,7 +2111,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-re
 /* Type */
 body, input, select, textarea {
   color: #141414;
-  font-family: 'Work Sans';
+  font-family: 'Inter';
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65;
@@ -2106,8 +2169,8 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #323232;
-  font-family: 'Work Sans';
-  font-weight: 600;
+  font-family: 'Inter';
+  font-weight: 400;
   line-height: 1.5;
   margin: 0 0 1em 0;
 }
@@ -2243,7 +2306,7 @@ section.special, article.special {
 }
 
 header p {
-  font-family: 'Work Sans';
+  font-family: 'Inter';
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -2918,7 +2981,7 @@ button,
   color: #F05A55 !important;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Work Sans';
+  font-family: 'Inter';
   font-size: 0.8em;
   font-weight: 600;
   height: 3.5em;
@@ -3736,7 +3799,7 @@ button:disabled,
 #header .logo {
   border-bottom: 0;
   color: inherit;
-  font-family: 'Work Sans';
+  font-family: 'Inter';
   font-size: 1.125em;
 }
 
@@ -3885,7 +3948,7 @@ button:disabled,
   -ms-user-select: none;
   user-select: none;
   color: #323232;
-  font-family: 'Work Sans';
+  font-family: 'Inter';
   font-weight: 600;
   letter-spacing: 0.075em;
   list-style: none;
@@ -3901,6 +3964,7 @@ button:disabled,
   display: block;
   font-size: 0.9em;
   padding: 0.625em 0;
+  font-weight: 400;
 }
 
 #menu ul a:hover, #menu ul span:hover {
