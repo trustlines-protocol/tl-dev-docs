@@ -1,7 +1,5 @@
 # Trustlines Developer Docs
 
-## Work In Progress
-
 ![Trustlines Developer Docs](assets/images/readme_header.png "Trustlines Developer Docs")
 
 ___
@@ -29,6 +27,16 @@ This site is a work in progress and the documentation currently resides in their
 - **Smart Contract System**
 
 > The smart contract system is a collection of solidity contracts deployed on the Trustlines Blockchain. Transfers within the Trustlines Network are executed by the smart contracts. All trustlines (i.e. credit lines and balances between users) are notarized on the Trustlines Blockchain. Furthermore, the smart contracts enforce the rules determining how trustlines can be created, used and updated.
+
+### Cloning the repository
+
+If you are cloning the repo for the first time, you should run `git clone --recurse-submodules https://github.com/trustlines-protocol/tl-dev-docs.git`.
+
+If you have already cloned the repo prior or forgot to add `--recurse-submodules` when cloning, you will want to `init` and `update` the submodules.
+
+This can be done with a single command, `git submodule update --init --recursive` or individually with `git submodule init` and `git submodule update`.
+
+**_Important note:_** The submodules do not update automatically with new commits made in the repos. You will need to run `git submodule update --remote` or simply do `git fetch` in the right submodule folder.
 
 ### Requirements and steps for running the site locally
 
