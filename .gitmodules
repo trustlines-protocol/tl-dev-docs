@@ -1,3 +1,6 @@
 [submodule "submodules/relay"]
 	path = submodules/relay
 	url = https://github.com/trustlines-protocol/relay.git
+[submodule "submodules/blockchain"]
+	path = submodules/blockchain
+	url = https://github.com/trustlines-protocol/blockchain.git
