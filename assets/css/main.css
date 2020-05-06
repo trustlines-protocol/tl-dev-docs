@@ -3680,6 +3680,9 @@ button:disabled,
   #sidebar>.inner {
     padding: 1.66667em 1.66667em 1.33333em 1.66667em;
     width: 24em;
+    position: fixed;
+    height: 100vh;
+    overflow-y: scroll;
   }
 
   #sidebar>.inner>.alt {
