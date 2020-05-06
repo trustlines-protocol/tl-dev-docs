@@ -206,8 +206,6 @@
 
 									$sidebar_inner
 										.data('locked', 0)
-										.css('position', '')
-										.css('top', '');
 
 									return;
 
@@ -223,11 +221,6 @@
 									if (y <= 0)
 										$sidebar_inner
 											.data('locked', 0)
-											.css('position', '')
-											.css('top', '');
-									else
-										$sidebar_inner
-											.css('top', -1 * x);
 
 								}
 								else {
@@ -235,8 +228,6 @@
 									if (y > 0)
 										$sidebar_inner
 											.data('locked', 1)
-											.css('position', 'fixed')
-											.css('top', -1 * x);
 
 								}
 
