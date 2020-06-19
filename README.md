@@ -55,6 +55,14 @@ This can be done with a single command, `git submodule update --init --recursive
 
 #### Running locally
 - `cd path-to-your-tl-dev-docs-folder/`
-- Run `bundle exec jekyll serve`
+- Run `yarn start`
 - Open http://127.0.0.1:4000/ in your favourite browser
   - If you're running into a 404 Not found error, try setting `baseurl: ""` in the `_config.yml` file and run serve again.
+
+#### Available scripts
+
+- After cloning the repo, run `yarn setup` once to initialize the submodules
+- Use `yarn start` to run the Dev Docs locally
+- Content can be updated using `yarn update`
+- Changes to `master` can be deployed with `yarn deploy`
+- If needed, html content can be built with `yarn build` 
