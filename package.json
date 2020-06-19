@@ -1,0 +1,16 @@
+{
+  "name": "tl-dev-docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "yarn clean && yarn submodule_copy && yarn build-html",
+    "start": "bundle exec jekyll serve",
+    "setup": "git submodule update --init && git pull --recurse-submodules && yarn submodule_copy",
+    "build-html": "bundle exec jekyll build",
+    "submodule_copy": "cp submodules/blockchain/README.md docs/blockchain/repo/tlbc.md && echo '---''\n''layout: blockchain''\n''title: Trustlines Blockchain''\n''---''\n' | cat - docs/blockchain/repo/tlbc.md > temp && mv temp docs/blockchain/repo/tlbc.md && cp submodules/clientlib/README.md docs/clientlib/repo/clientlib.md && echo '---''\n''layout: clientlib''\n''title: Client library introduction''\n''---''\n' | cat - docs/clientlib/repo/clientlib.md > temp && mv temp docs/clientlib/repo/clientlib.md && cp submodules/clientlib/docs/guides.md docs/clientlib/repo/clientlib-guides.md && echo '---''\n''layout: clientlib''\n''title: Client library guides''\n''---''\n' | cat - docs/clientlib/repo/clientlib-guides.md > temp && mv temp docs/clientlib/repo/clientlib-guides.md && cp submodules/contracts/README.rst docs/contracts/repo/contracts_README.md && echo '---''\n''layout: contracts''\n''title: Trustlines Smart Contract Platform''\n''---''\n' | cat - docs/contracts/repo/contracts_README.md > temp && mv temp docs/contracts/repo/contracts_README.md && cp submodules/relay/README.rst docs/relay/repo/relay_server.md && echo '---''\n''layout: relay''\n''title: Trustlines relay server''\n''---''\n' | cat - docs/relay/repo/relay_server.md > temp && mv temp docs/relay/repo/relay_server.md && cp submodules/relay/docs/RelayAPI.md docs/relay/repo/relay-api.md && echo '---''\n''layout: relay''\n''title: Trustlines Relay API''\n''---''\n' | cat - docs/relay/repo/relay-api.md > temp && mv temp docs/relay/repo/relay-api.md && cp submodules/relay/docs/RelayServer.md docs/relay/repo/running_trustlines_system.md && echo '---''\n''layout: relay''\n''title: Running the Trustlines system''\n''---''\n' | cat - docs/relay/repo/running_trustlines_system.md > temp && mv temp docs/relay/repo/running_trustlines_system.md && cp submodules/relay/docker/trustlines/README.md docs/relay/repo/trustlines_docker.md && echo '---''\n''layout: relay''\n''title: Running Trustlines via docker-compose''\n''---''\n' | cat - docs/relay/repo/trustlines_docker.md > temp && mv temp docs/relay/repo/trustlines_docker.md",
+    "update": "git pull --recurse-submodules && yarn build",
+    "clean": "rm docs/blockchain/repo/*.md && rm docs/clientlib/repo/*.md && rm docs/contracts/repo/*.md && rm docs/relay/repo/*.md",
+    "deploy": "git checkout gh-pages && git merge master && git push && git checkout master"
+  },
+  "dependencies": {}
+}
