@@ -1,7 +1,7 @@
 ---
 layout: blockchain
 title: Trustlines Blockchain
-image: assets/images/tlbc.jpg
+# image: assets/images/tlbc.jpg
 ---
 
 -   [The Trustlines Blockchain Infrastructure](#the-trustlines-blockchain-infrastructure)

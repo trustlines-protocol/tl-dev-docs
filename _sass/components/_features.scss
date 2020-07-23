@@ -15,7 +15,7 @@
 		width: calc(100% + #{$gutter});
 
 		article {
-			@include vendor('align-items', 'center');
+			@include vendor('align-items', 'flex-start');
 			@include vendor('display', 'flex');
 			margin: 0 0 $gutter $gutter;
 			position: relative;
@@ -40,29 +40,15 @@
 				display: block;
 				height: 10em;
 				line-height: 10em;
-				margin: 0 _size(element-margin) 0 0;
+				margin: 0 1.5em 0 0;
 				text-align: center;
-				width: 10em;
+				width: 6em;
 
 				&:before {
 					color: _palette(accent);
-					font-size: 2.75rem;
+					font-size: 3.85rem;
 					position: relative;
 					top: 0.05em;
-				}
-
-				&:after {
-					@include vendor('transform', 'rotate(45deg)');
-					border-radius: 0.25rem;
-					border: solid 2px _palette(border);
-					content: '';
-					display: block;
-					height: 7em;
-					left: 50%;
-					margin: -3.5em 0 0 -3.5em;
-					position: absolute;
-					top: 50%;
-					width: 7em;
 				}
 			}
 
@@ -126,20 +112,7 @@
 				@include vendor('align-items', 'flex-start');
 
 				.icon {
-					height: 6em;
-					line-height: 6em;
-					margin: 0 0 (_size(element-margin) * 0.75) 0;
-					width: 6em;
-
-					&:before {
-						font-size: 1.5rem;
-					}
-
-					&:after {
-						height: 4em;
-						margin: -2em 0 0 -2em;
-						width: 4em;
-					}
+					display: none;
 				}
 			}
 		}

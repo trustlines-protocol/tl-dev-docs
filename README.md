@@ -1,42 +1,24 @@
-# Trustlines Developer Docs
+# Trustlines Docs
 
-![Trustlines Developer Docs](assets/images/readme_header.png "Trustlines Developer Docs")
+![Trustlines Docs](assets/images/readme_header.png "Trustlines Docs")
 
 ___
 
-Trustlines Developer Docs will contain all the technical documentation related to [Trustlines Protocol](https://trustlines.foundation/protocol.html).
+## Work In Progress
 
-Here you can find all kind of technical details about Trustlines as well as code related documentation.
+___
 
-This site is a work in progress and the documentation currently resides in their respective repositories of the [trustlines-protocol GitHub organization](https://github.com/trustlines-protocol/).
+Trustlines Docs will contain all the non-technical documentation related to [Trustlines](https://trustlines.network/).
+
+Here you can find all kind of non-technical details about Trustlines.
+
+This site is a work in progress and the documentation.
 
 ### Content
 
-- **Blockchain**
+- **Guides**
 
-> The Trustlines Blockchain is a minimal viable Proof-of-Stake (mPoS) Ethereum sidechain.
-
-- **Client library**
-
-> The clientlib is a JS-library which makes it easy to build applications on top of the Trustlines Protocol. It provides a high level API to enable applications to interact with the smart contract system on the blockchain via the relay servers.
-
-- **Relay Servers**
-
-> The Relay Servers are an optional bridge between client apps and the Trustlines blockchain. They offer services which are not feasible to be implemented on-chain or within the client apps. Importantly, Relay servers calculate optimal paths and relay transactions.
-
-- **Smart Contract System**
-
-> The smart contract system is a collection of solidity contracts deployed on the Trustlines Blockchain. Transfers within the Trustlines Network are executed by the smart contracts. All trustlines (i.e. credit lines and balances between users) are notarized on the Trustlines Blockchain. Furthermore, the smart contracts enforce the rules determining how trustlines can be created, used and updated.
-
-### Cloning the repository
-
-If you are cloning the repo for the first time, you should run `git clone --recurse-submodules https://github.com/trustlines-protocol/tl-dev-docs.git`.
-
-If you have already cloned the repo prior or forgot to add `--recurse-submodules` when cloning, you will want to `init` and `update` the submodules.
-
-This can be done with a single command, `git submodule update --init --recursive` or individually with `git submodule init` and `git submodule update`.
-
-**_Important note:_** The submodules do not update automatically with new commits made in the repos. You will need to run `git submodule update --remote` or simply do `git fetch` in the right submodule folder.
+- **Legal**
 
 ### Requirements and steps for running the site locally
 
@@ -54,7 +36,7 @@ This can be done with a single command, `git submodule update --init --recursive
 - [Install Jekyll](https://jekyllrb.com/docs/installation/)
 
 #### Running locally
-- `cd path-to-your-tl-dev-docs-folder/`
+- `cd path-to-your-tl-docs-folder/`
 - Run `bundle exec jekyll serve`
 - Open http://127.0.0.1:4000/ in your favourite browser
   - If you're running into a 404 Not found error, try setting `baseurl: ""` in the `_config.yml` file and run serve again.

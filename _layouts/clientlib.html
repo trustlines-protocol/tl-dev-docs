@@ -17,23 +17,25 @@
         <div id="main">
             <div class="inner">
 
-                {% include header.html %}
+              {% include header.html %}
 
-                <div id="component_page">
-                  <span><a href="https://github.com/trustlines-protocol/clientlib" class="icon fa-github page_layout" target="_blank"><span class="label"></span></a></span><span class="component_page_text"><a href="https://github.com/trustlines-protocol/clientlib">Code for clientlib in GitHub</a></span>
-                </div>
+              <br>
 
-                <!-- Content -->
-                <section>
-                	<header class="main">
-                		<h1>{{ page.title }}</h1>
-                	</header>
+              <div id="component_page">
+                <span><a href="https://github.com/trustlines-protocol/clientlib" class="icon fa-github page_layout" target="_blank"><span class="label"></span></a></span><span class="component_page_text"><a href="https://github.com/trustlines-protocol/clientlib"> Code for clientlib in GitHub</a></span>
+              </div>
 
-                  {% if page.image %}
-                	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
-                  {% endif %}
+              <!-- Content -->
+              <section>
+                <header class="main">
+                  <h1>{{ page.title }}</h1>
+                </header>
 
-                {{ content }}
+                {% if page.image %}
+                <span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
+                {% endif %}
+
+              {{ content }}
 
               </div>
           </div>

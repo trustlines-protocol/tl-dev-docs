@@ -1,8 +1,8 @@
 # Site settings
 title: Trustlines
-subtitle: Developer Docs
+subtitle: Dev Docs
 email: contact@trustlines.foundation
-description: Developer Documentation for Trustlines
+description: Technical documentation for Trustlines Network
 baseurl: "" # the subpath of your site, e.g. /blog
 author: Trustlines Foundation
 street_address: Städtle 38
@@ -13,7 +13,6 @@ tagline: Trustlines Dev Docs
 url: https://dev.trustlines.network
 twitter:
   username: TrustlinesFound
-logo: /assets/images/brand/network/png/gradient/TN-Logo-Gradient_1_14.png
 
 # Social settings
 500px_url:
@@ -28,7 +27,7 @@ social:
     - https://trustlines.network/
     - https://blog.trustlines.network/
     - https://forum.trustlines.network/
-    - https://docs.trustlines.network/
+    - https://dev.trustlines.network/
 
 # Build settings
 markdown: kramdown
@@ -42,3 +41,9 @@ kramdown:
  syntax_highlighter: rouge
 
 highlighter: rouge
+
+# Sass
+sass:
+  sass_dir: _sass
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

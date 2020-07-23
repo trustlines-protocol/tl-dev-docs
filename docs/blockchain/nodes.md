@@ -1,7 +1,7 @@
 ---
 layout: blockchain
 title: Trustlines Blockchain Nodes
-image: assets/images/tlbc.jpg
+# image: assets/images/tlbc.jpg
 ---
 
 ## Public Nodes

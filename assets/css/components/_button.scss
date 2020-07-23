@@ -1,0 +1,33 @@
+///
+/// Editorial by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Button */
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+	color: _palette(accent) !important;
+	cursor: pointer;
+	display: inline-block;
+	font-family: _font(family-heading);
+	font-size: 1.3em;
+	font-weight: _font(weight-heading);
+	height: 3.5em;
+	letter-spacing: _font(kerning-heading);
+	line-height: 3.5em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	}
+
+	&.disabled,
+	&:disabled {
+		@include vendor('pointer-events', 'none');
+		opacity: 0.25;
+	}
+}

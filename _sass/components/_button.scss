@@ -12,35 +12,25 @@
 	button,
 	.button {
 		@include vendor('appearance', 'none');
-		@include vendor('transition', (
-			'background-color #{_duration(transition)} ease-in-out',
-			'color #{_duration(transition)} ease-in-out'
-		));
-		background-color: transparent;
-		border-radius: _size(border-radius);
-		border: 0;
-		box-shadow: inset 0 0 0 2px _palette(accent);
+		@include vendor('transition', 'border-bottom #{_duration(transition)} ease-in-out');
 		color: _palette(accent) !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: _font(family-heading);
-		font-size: 0.8em;
+		font-size: 1em;
 		font-weight: _font(weight-heading);
-		height: 3.5em;
+		height: 2.5em;
 		letter-spacing: _font(kerning-heading);
 		line-height: 3.5em;
-		padding: 0 2.25em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		white-space: nowrap;
 
 		&:hover {
-			background-color: transparentize(_palette(accent), 0.95);
+			border-bottom: 2px solid _palette(accent);
 		}
 
 		&:active {
-			background-color: transparentize(_palette(accent), 0.85);
+			border-bottom: 2px solid _palette(accent);
 		}
 
 		&.icon {

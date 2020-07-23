@@ -9,14 +9,12 @@
 	#menu {
 		ul {
 			@include vendor('user-select', 'none');
-			color: _palette(fg-bold);
-			font-family: _font(family-heading);
+			color: _palette(fg);
 			font-family: _font(weight-heading-alt);
 			letter-spacing: _font(kerning-heading);
 			list-style: none;
 			margin-bottom: 0;
 			padding: 0;
-			text-transform: uppercase;
 
 			a, span {
 				border-bottom: 0;
@@ -24,7 +22,6 @@
 				cursor: pointer;
 				display: block;
 				font-size: 0.9em;
-				padding: 0.625em 0;
 
 				&:hover {
 					color: _palette(accent);
@@ -95,4 +92,12 @@
 				}
 			}
 		}
+	}
+
+	.open ul li {
+		color: #9C99B1;
+	}
+
+	.external_menu {
+		padding-top: 0.8em;
 	}

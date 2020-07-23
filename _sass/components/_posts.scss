@@ -11,6 +11,7 @@
 
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
+		@include vendor('justify-content', 'space-between');
 		margin: 0 0 _size(element-margin) ($gutter * -1);
 		width: calc(100% + #{$gutter});
 
@@ -19,21 +20,18 @@
 			@include vendor('flex-shrink', '1');
 			margin: 0 0 $gutter $gutter;
 			position: relative;
-			width: calc(#{(100% / 3)} - #{$gutter});
+			width: 39%;
 
 			&:before {
-				background: _palette(border);
 				content: '';
 				display: block;
 				height: calc(100% + #{$gutter});
-				left: ($gutter * -0.5);
 				position: absolute;
 				top: 0;
 				width: 1px;
 			}
 
 			&:after {
-				background: _palette(border);
 				bottom: ($gutter * -0.5);
 				content: '';
 				display: block;
@@ -55,6 +53,14 @@
 					display: block;
 					width: 100%;
 				}
+			}
+
+			h3 {
+				margin-top: 0.5em;
+			}
+
+			p {
+				color: #9C99B1;
 			}
 		}
 
