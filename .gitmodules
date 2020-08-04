@@ -10,6 +10,3 @@
 [submodule "submodules/contracts"]
 	path = submodules/contracts
 	url = https://github.com/trustlines-protocol/contracts.git
-[submodule "clientlib-docs"]
-	path = clientlib-docs
-	url = https://github.com/trustlines-protocol/clientlib-docs.git
