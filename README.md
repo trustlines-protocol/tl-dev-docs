@@ -2,10 +2,6 @@
 
 ## Work In Progress
 
-![Trustlines Developer Docs](assets/images/readme_header.png "Trustlines Developer Docs")
-
-___
-
 Trustlines Developer Docs will contain all the technical documentation related to [Trustlines Protocol](https://trustlines.foundation/protocol.html).
 
 Here you can find all kind of technical details about Trustlines as well as code related documentation.
