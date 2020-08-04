@@ -1,6 +1,5 @@
 ---
 layout: relay
-title: Running the Trustlines system
 ---
 
 # Running the trustlines system

@@ -1,6 +1,5 @@
 ---
 layout: relay
-title: Trustlines Relay API
 ---
 
 # trustlines network REST API

@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js submodule_copy_blockchain01
+
+PATH: 
+  C:\Users\Smoky\.rbenv\shims;C:\Users\Smoky\.rbenv\bin;C:\Users\Smoky\bin;C:\Users\Smoky\AppData\Local\Programs\Git\mingw64\bin;C:\Users\Smoky\AppData\Local\Programs\Git\usr\local\bin;C:\Users\Smoky\AppData\Local\Programs\Git\usr\bin;C:\Users\Smoky\AppData\Local\Programs\Git\usr\bin;C:\Users\Smoky\AppData\Local\Programs\Git\mingw64\bin;C:\Users\Smoky\AppData\Local\Programs\Git\usr\bin;C:\Users\Smoky\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Python;C:\Program Files\Python\Scripts;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Common Files\Seagate\SnapAPI;C:\Program Files\Geth;C:\Program Files (x86)\Windows Live\Shared;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Golem;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\PuTTY;C:\Program Files (x86)\Yarn\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\Smoky\AppData\Local\Programs\Git\cmd;C:\Ruby26-x64\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\OpenVPN\bin;C:\Users\Smoky\adb;C:\Users\Smoky\AppData\Local\atom\bin;C:\Users\Smoky\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\Smoky\AppData\Roaming\npm;C:\Users\Smoky\AppData\Local\Yarn\bin;C:\Users\Smoky\AppData\Local\Keybase;C:\Users\Smoky\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\Smoky\AppData\Local\Programs\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: V:\wrk\git\tl-dev-docs\package.json: Unexpected number in JSON at position 1124
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "tl-dev-docs",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "build": "yarn clean && yarn submodule_copy && yarn build-html",
+      "start": "bundle exec jekyll serve",
+      "setup": "git submodule update --init && git pull --recurse-submodules && yarn submodule_copy",
+      "build-html": "bundle exec jekyll build",
+      "submodule_copy": "yarn submodule_copy_blockchain01 && yarn submodule_copy_blockchain02 && yarn submodule_copy_blockchain03 && yarn submodule_copy_clientlib01 && yarn submodule_copy_clientlib02 && yarn submodule_copy_contracts01 && yarn submodule_copy_contracts02 && yarn submodule_copy_relay01 && yarn submodule_copy_relay02 && yarn submodule_copy_relay03 && yarn submodule_copy_relay04 && yarn submodule_copy_clientlib-docs01 && yarn submodule_copy_clientlib-docs02 && yarn submodule_copy_clientlib-docs03 && yarn submodule_copy_clientlib-docs04 && yarn submodule_copy_clientlib-docs05 && yarn submodule_copy_clientlib-docs06 && yarn submodule_copy_clientlib-docs07",
+      "submodule_copy_blockchain01": "cp submodules/blockchain/README.md docs/blockchain/repo/tlbc.md && printf "---\n" 'layout: blockchain' 'title: Trustlines Blockchain' '---' '' | cat - docs/blockchain/repo/tlbc.md > temp && mv temp docs/blockchain/repo/tlbc.md",
+      "submodule_copy_blockchain02": "cp submodules/blockchain/docs/BlockchainInfrastructure.md docs/blockchain/repo/BlockchainInfrastructure.md && printf '---layout: blockchaintitle: The Trustlines Blockchain Infrastructure---' | cat - docs/blockchain/repo/BlockchainInfrastructure.md > temp && mv temp docs/blockchain/repo/BlockchainInfrastructure.md",
+      "submodule_copy_blockchain03": "cp submodules/blockchain/docs/DockerSetup.md docs/blockchain/repo/DockerSetup.md && printf '---layout: blockchaintitle: TLBC Setup With Docker---' | cat - docs/blockchain/repo/DockerSetup.md > temp && mv temp docs/blockchain/repo/DockerSetup.md",
+      "submodule_copy_clientlib01": "cp submodules/clientlib/README.md docs/clientlib/repo/clientlib.md && printf '---layout: clientlibtitle: Client library introduction---' | cat - docs/clientlib/repo/clientlib.md > temp && mv temp docs/clientlib/repo/clientlib.md",
+      "submodule_copy_clientlib02": "cp submodules/clientlib/docs/guides.md docs/clientlib/repo/guides.md && printf '---layout: clientlibtitle: Client library guides---' | cat - docs/clientlib/repo/guides.md > temp && mv temp docs/clientlib/repo/guides.md",
+      "submodule_copy_contracts01": "cp submodules/contracts/README.rst docs/contracts/repo/contracts_README.md && printf '---layout: contractstitle: Trustlines Smart Contract Platform---' | cat - docs/contracts/repo/contracts_README.md > temp && mv temp docs/contracts/repo/contracts_README.md",
+      "submodule_copy_contracts02": "cp submodules/contracts/docs/deploy.md docs/contracts/repo/contracts_README.md && printf '---layout: contractstitle: Trustlines deploy---' | cat - docs/contracts/repo/deploy.md > temp && mv temp docs/contracts/repo/deploy.md",
+      "submodule_copy_relay01": "cp submodules/relay/README.rst docs/relay/repo/relay_server.md && printf '---layout: relaytitle: Trustlines relay server---' | cat - docs/relay/repo/relay_server.md > temp && mv temp docs/relay/repo/relay_server.md",
+      "submodule_copy_relay02": "cp submodules/relay/docs/RelayAPI.md docs/relay/repo/relay-api.md && printf '---layout: relaytitle: Trustlines Relay API---' | cat - docs/relay/repo/relay-api.md > temp && mv temp docs/relay/repo/relay-api.md",
+      "submodule_copy_relay03": "cp submodules/relay/docs/RelayServer.md docs/relay/repo/running_trustlines_system.md && printf '---layout: relaytitle: Running the Trustlines system---' | cat - docs/relay/repo/running_trustlines_system.md > temp && mv temp docs/relay/repo/running_trustlines_system.md",
+      "submodule_copy_relay04": "cp submodules/relay/docker/trustlines/README.md docs/relay/repo/trustlines_docker.md && printf '---layout: relaytitle: Running Trustlines via docker-compose---' | cat - docs/relay/repo/trustlines_docker.md > temp && mv temp docs/relay/repo/trustlines_docker.md",
+      "submodule_copy_clientlib-docs01": "cp submodules/clientlib-docs/md/async.md docs/clientlib-docs/repo/async.md && printf '---layout: clientlibtitle: Clientlib async---' | cat - docs/clientlib-docs/repo/async.md > temp && mv temp docs/clientlib-docs/repo/async.md",
+      "submodule_copy_clientlib-docs02": "cp submodules/clientlib-docs/md/deploy.md docs/clientlib-docs/repo/deploy.md && printf '---layout: clientlibtitle: Clientlib deploy---' | cat - docs/clientlib-docs/repo/deploy.md > temp && mv temp docs/clientlib-docs/repo/deploy.md",
+      "submodule_copy_clientlib-docs03": "cp submodules/clientlib-docs/md/deploymenttools.md docs/clientlib-docs/repo/deploymenttools.md && printf '---layout: clientlibtitle: Clientlib deploymenttools---' | cat - docs/clientlib-docs/repo/deploymenttools.md > temp && mv temp docs/clientlib-docs/repo/deploymenttools.md",
+      "submodule_copy_clientlib-docs04": "cp submodules/clientlib-docs/md/development.md docs/clientlib-docs/repo/development.md && printf '---layout: clientlibtitle: Clientlib development---' | cat - docs/clientlib-docs/repo/development.md > temp && mv temp docs/clientlib-docs/repo/development.md",
+      "submodule_copy_clientlib-docs05": "cp submodules/clientlib-docs/md/installation.md docs/clientlib-docs/repo/installation.md && printf '---layout: clientlibtitle: Clientlib installation---' | cat - docs/clientlib-docs/repo/installation.md > temp && mv temp docs/clientlib-docs/repo/installation.md",
+      "submodule_copy_clientlib-docs06": "cp submodules/clientlib-docs/md/introduction.md docs/clientlib-docs/repo/introduction.md && printf '---layout: clientlibtitle: Clientlib introduction---' | cat - docs/clientlib-docs/repo/introduction.md > temp && mv temp docs/clientlib-docs/repo/introduction.md",
+      "submodule_copy_clientlib-docs07": "cp submodules/clientlib-docs/md/notes.md docs/clientlib-docs/repo/notes.md && printf '---layout: clientlibtitle: Clientlib notes---' | cat - docs/clientlib-docs/repo/notes.md > temp && mv temp docs/clientlib-docs/repo/notes.md",
+      "update": "git pull --recurse-submodules && yarn build",
+      "clean": "rm docs/blockchain/repo/*.md && rm docs/clientlib/repo/*.md && rm docs/contracts/repo/*.md && rm docs/relay/repo/*.md && rm docs/clientlib-docs/repo/*.md",
+      "deploy": "git checkout gh-pages && git merge master && git push && git checkout master"
+    },
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

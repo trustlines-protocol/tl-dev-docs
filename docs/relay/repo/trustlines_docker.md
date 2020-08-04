@@ -1,6 +1,5 @@
 ---
 layout: relay
-title: Running Trustlines via docker-compose
 ---
 
 # trustlines running via docker-compose
