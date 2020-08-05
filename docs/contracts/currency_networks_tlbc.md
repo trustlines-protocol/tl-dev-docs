@@ -66,4 +66,4 @@ Solomon Islands Dollar: `0x0FbD56e384826246dC795C1A1951c781184F8faa`
 
 **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0x02c3ca67cf3310295195173cb654cfd61f4c849d/transactions)**
 
-[Currency Networks Registry contracts.json](currency_networks_contracts_json)
+[Currency Networks Registry contracts.json](json/currency_networks_contracts_json)
