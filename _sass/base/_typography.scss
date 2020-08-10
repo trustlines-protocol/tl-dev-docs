@@ -28,11 +28,16 @@ body, input, select, textarea {
 
 a {
 	@include vendor('transition', (
-		'color #{_duration(transition)} ease-in-out',
-		'border-bottom-color #{_duration(transition)} ease-in-out'
+		'all #{_duration(transition)} ease-in-out',
 	));
 	color: _palette(tl-green);
 	text-decoration: none;
+
+	h3 {
+		&:hover {
+			color: _palette(fg);
+		}
+	}
 
 	&:hover {
 		border-bottom-color: _palette(accent);
