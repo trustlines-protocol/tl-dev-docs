@@ -13,7 +13,7 @@
 	.button {
 		@include vendor('appearance', 'none');
 		@include vendor('transition', 'border-bottom #{_duration(transition)} ease-in-out');
-		color: _palette(accent) !important;
+		color: _palette(fg-bold);
 		cursor: pointer;
 		display: inline-block;
 		font-size: 1em;
@@ -26,11 +26,11 @@
 		white-space: nowrap;
 
 		&:hover {
-			border-bottom: 2px solid _palette(accent);
+			color: _palette(fg);
 		}
 
 		&:active {
-			border-bottom: 2px solid _palette(accent);
+			color: _palette(fg);
 		}
 
 		&.icon {

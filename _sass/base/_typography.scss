@@ -30,7 +30,7 @@ a {
 	@include vendor('transition', (
 		'all #{_duration(transition)} ease-in-out',
 	));
-	color: _palette(tl-green);
+	color: _palette(tl-orange);
 	text-decoration: none;
 
 	h3 {
@@ -40,8 +40,8 @@ a {
 	}
 
 	&:hover {
-		border-bottom-color: _palette(accent);
-		color: _palette(accent) !important;
+		border-bottom-color: _palette(fg-bold);
+		color: _palette(fg-bold);
 
 		strong {
 			color: inherit;
