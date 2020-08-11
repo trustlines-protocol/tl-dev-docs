@@ -2,24 +2,40 @@
 permalink: /404.html
 <!-- layout: 404 -->
 ---
-
+<link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
 <style type="text/css" media="screen">
+
+body {
+  background-color: #fff;
+  background-image: url(/assets/images/404BG.svg);
+  background-size: cover;
+  background-position-y: center;
+  font-family: 'Inter', sans-serif;
+}
+
   .container {
-    margin: 10px auto;
+    margin: auto auto;
     max-width: 600px;
     text-align: center;
+    position: relative;
+    top: 25%;
   }
+
   h1 {
-    margin: 30px 0;
-    font-size: 4em;
+    color: #12121F;
+    margin: 40px 0;
+    font-size: 12em;
     line-height: 1;
     letter-spacing: -1px;
+  }
+
+  p {
+    color: #12121F;
+    font-size: 2.5em;
   }
 </style>
 
 <div class="container">
   <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p>The page you are looking<br>for does not exist</p>
 </div>
