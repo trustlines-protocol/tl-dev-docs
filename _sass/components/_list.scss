@@ -3,12 +3,10 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-
 /* List */
-
 ol {
 	list-style: decimal;
-	margin: 0 0 _size(element-margin) 0;
+	margin: 0 0 _size(element-margin);
 	padding-left: 1.25em;
 
 	li {
@@ -18,7 +16,7 @@ ol {
 
 ul {
 	list-style: circle;
-	margin: 0 0 _size(element-margin) 0;
+	margin: 0 0 _size(element-margin);
 	padding-left: 1.8em;
 
 	li {
@@ -27,7 +25,7 @@ ul {
 		a {
 			color: _palette(fg-bold);
 		}
-		
+
 		&:before {
 			color: _palette(fg-bold);
 		}
@@ -78,7 +76,7 @@ ul {
 		li {
 			@include icon;
 			border-top: solid 1px _palette(border);
-			margin: 1.5em 0 0 0;
+			margin: 1.5em 0 0;
 			padding: 1.5em 0 0 3em;
 			position: relative;
 
@@ -195,10 +193,7 @@ ul {
 			vertical-align: middle;
 
 			> .page {
-				@include vendor('transition', (
-					'background-color #{_duration(transition)} ease-in-out',
-					'color #{_duration(transition)} ease-in-out'
-				));
+				@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
 				border-bottom: 0;
 				border-radius: _size(border-radius);
 				display: inline-block;
@@ -233,7 +228,6 @@ ul {
 				padding-left: 0.75em;
 			}
 		}
-
 		@include breakpoint(xsmall) {
 			li {
 				&:nth-child(n+2):nth-last-child(n+2) {
@@ -249,7 +243,7 @@ ul {
 }
 
 dl {
-	margin: 0 0 _size(element-margin) 0;
+	margin: 0 0 _size(element-margin);
 
 	dt {
 		display: block;

@@ -1,46 +1,42 @@
 // Misc.
-	$misc: (
-		z-index-base:		10000
-	);
-
+$misc: (
+	z-index-base: 10000
+);
 // Duration.
-	$duration: (
-		nav:				0.5s,
-		transition:			0.2s
-	);
-
+$duration: (
+	nav: 0.5s,
+	transition: 0.2s
+);
 // Size.
-	$size: (
-		border-radius:		0.375em,
-		element-height:		2.75em,
-		element-margin:		2em,
-		sidebar-width:		26em,
-		sidebar-width-alt:	24em,
-		gutter:				3em,
-		radius:             8px
-	);
-
+$size: (
+	border-radius: 0.375em,
+	element-height: 2.75em,
+	element-margin: 2em,
+	sidebar-width: 26em,
+	sidebar-width-alt: 24em,
+	gutter: 3em,
+	radius: 8px
+);
 // Font.
-	$font: (
-		family:				('Inter'),
-		weight:				400,
-		weight-bold:		600,
-		weight-heading:		600,
-		weight-heading-alt:	400,
-		kerning-heading:	0.03em
-	);
-
+$font: (
+	family: ('Inter'),
+	weight: 400,
+	weight-bold: 600,
+	weight-heading: 600,
+	weight-heading-alt: 400,
+	kerning-heading: 0.03em
+);
 // Palette.
-	$palette: (
-		bg:					#0A0A2A,
-		bg-alt:				#121250,
-		fg:					#EDEDED,
-		fg-bold:			#c0b0ff,
-		fg-light:			#7657ED,
-		border:				#7657ED,
-		border-bg:			#7657ED,
-		accent:				#7657ED,
-		tl-green:           #09E0A3,
-		tl-grey:            #9C99B1,
-		tl-orange:          #FF7C4E,
-	);
+$palette: (
+	bg: #0A0A2A,
+	bg-alt: #121250,
+	fg: #EDEDED,
+	fg-bold: #c0b0ff,
+	fg-light: #7657ED,
+	border: #7657ED,
+	border-bg: #7657ED,
+	accent: #7657ED,
+	tl-green: #09E0A3,
+	tl-grey: #9C99B1,
+	tl-orange: #FF7C4E,
+);

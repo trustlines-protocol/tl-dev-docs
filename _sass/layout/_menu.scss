@@ -3,101 +3,98 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-
 /* Menu */
+#menu {
+	ul {
+		@include vendor('user-select', 'none');
+		color: _palette(fg);
+		font-family: _font(weight-heading-alt);
+		letter-spacing: _font(kerning-heading);
+		list-style: none;
+		margin-bottom: 0;
+		padding: 0;
 
-	#menu {
-		ul {
-			@include vendor('user-select', 'none');
-			color: _palette(fg);
-			font-family: _font(weight-heading-alt);
-			letter-spacing: _font(kerning-heading);
-			list-style: none;
-			margin-bottom: 0;
-			padding: 0;
+		a,
+		span {
+			border-bottom: 0;
+			color: inherit;
+			cursor: pointer;
+			display: block;
+			font-size: 0.9em;
 
-			a, span {
-				border-bottom: 0;
-				color: inherit;
-				cursor: pointer;
-				display: block;
-				font-size: 0.9em;
+			&:hover {
+				color: _palette(accent);
+			}
+
+			&.opener {
+				@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
+				@include icon;
+				-webkit-tap-highlight-color: rgba(255,255,255,0);
+				position: relative;
+
+				&:before {
+					@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'transform #{_duration(transition)} ease-in-out'));
+					color: _palette(fg-light);
+					content: '\f078';
+					position: absolute;
+					right: 0;
+				}
 
 				&:hover {
-					color: _palette(accent);
+					&:before {
+						color: _palette(accent);
+					}
 				}
 
-				&.opener {
-					@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
-					@include icon;
-					-webkit-tap-highlight-color: rgba(255,255,255,0);
-					position: relative;
+				&.active {
+					& + ul {
+						display: block;
+					}
 
 					&:before {
-						@include vendor('transition', (
-							'color #{_duration(transition)} ease-in-out',
-							'transform #{_duration(transition)} ease-in-out'
-						));
-						color: _palette(fg-light);
-						content: '\f078';
-						position: absolute;
-						right: 0;
-					}
-
-					&:hover {
-						&:before {
-							color: _palette(accent);
-						}
-					}
-
-					&.active {
-						& + ul {
-							display: block;
-						}
-
-						&:before {
-							@include vendor('transform', 'rotate(-180deg)');
-						}
+						@include vendor('transform', 'rotate(-180deg)');
 					}
 				}
 			}
 		}
+	}
 
-		> ul {
-			> li {
-				border-top: solid 1px _palette(border);
-				margin: 0.5em 0 0 0;
-				padding: 0.5em 0 0 0;
+	> ul {
+		> li {
+			border-top: solid 1px _palette(border);
+			margin: 0.5em 0 0;
+			padding: 0.5em 0 0;
 
-				> ul {
-					color: _palette(fg-light);
-					display: none;
-					margin: 0.5em 0 1.5em 0;
-					padding-left: 1em;
+			> ul {
+				color: _palette(fg-light);
+				display: none;
+				margin: 0.5em 0 1.5em;
+				padding-left: 1em;
 
-					a, span {
-						font-size: 0.8em;
-					}
-
-					> li {
-						margin: 0.125em 0 0 0;
-						padding: 0.125em 0 0 0;
-					}
+				a,
+				span {
+					font-size: 0.8em;
 				}
 
-				&:first-child {
-					border-top: 0;
-					margin-top: 0;
-					padding-top: 0;
+				> li {
+					margin: 0.125em 0 0;
+					padding: 0.125em 0 0;
 				}
+			}
+
+			&:first-child {
+				border-top: 0;
+				margin-top: 0;
+				padding-top: 0;
 			}
 		}
 	}
+}
 
-	.open ul li {
-		color: _palette(tl-grey);
-	}
+.open ul li {
+	color: _palette(tl-grey);
+}
 
-	.external_menu {
-		padding-top: 0.8em;
-	}
+.external_menu {
+	padding-top: 0.8em;
+}

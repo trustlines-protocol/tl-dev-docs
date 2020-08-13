@@ -1,6 +1,8 @@
 # Trustlines Developer Docs
 
-## Work In Progress
+![Trustlines Developer Docs](assets/images/readme_header.png "Trustlines Developer Docs")
+
+___
 
 Trustlines Developer Docs will contain all the technical documentation related to [Trustlines Protocol](https://trustlines.foundation/protocol.html).
 
@@ -28,13 +30,13 @@ This site is a work in progress and the documentation currently resides in their
 
 ### Cloning the repository
 
-If you are cloning the repo for the first time, you should run `git clone --recurse-submodules https://github.com/trustlines-protocol/tl-dev-docs.git`.	
+If you are cloning the repo for the first time, you should run `git clone --recurse-submodules https://github.com/trustlines-protocol/tl-dev-docs.git`.
 
-If you have already cloned the repo prior or forgot to add `--recurse-submodules` when cloning, you will want to `init` and `update` the submodules.	
+If you have already cloned the repo prior or forgot to add `--recurse-submodules` when cloning, you will want to `init` and `update` the submodules.
 
-This can be done with a single command, `git submodule update --init --recursive` or individually with `git submodule init` and `git submodule update`.	
+This can be done with a single command, `git submodule update --init --recursive` or individually with `git submodule init` and `git submodule update`.
 
-**_Important note:_** The submodules do not update automatically with new commits made in the repos. You will need to run `git submodule update --remote` or simply do `git fetch` in the right submodule folder.	
+**_Important note:_** The submodules do not update automatically with new commits made in the repos. You will need to run `git submodule update --remote` or simply do `git fetch` in the right submodule folder.
 
 ### Requirements and steps for running the site locally
 

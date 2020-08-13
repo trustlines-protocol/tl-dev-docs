@@ -3,9 +3,7 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-
 /* Main */
-
 #main {
 	@include vendor('flex-grow', '1');
 	@include vendor('flex-shrink', '1');
@@ -25,7 +23,6 @@
 			}
 		}
 	}
-
 	@include breakpoint(xlarge) {
 		> .inner {
 			@include padding(0, 5em);
@@ -35,7 +32,6 @@
 			}
 		}
 	}
-
 	@include breakpoint(large) {
 		> .inner {
 			@include padding(0, 4em);
@@ -45,7 +41,6 @@
 			}
 		}
 	}
-
 	@include breakpoint(small) {
 		> .inner {
 			@include padding(0, 2em);
