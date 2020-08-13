@@ -26,6 +26,9 @@ ul {
 
 		a {
 			color: _palette(fg-bold);
+			&:hover {
+				color: _palette(fg);
+			}
 		}
 		
 		&:before {
