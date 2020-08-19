@@ -5,7 +5,7 @@
   "scripts": {
     "build": "yarn clean && yarn submodule_copy && yarn build-html",
     "start": "bundle exec jekyll serve",
-    "setup": "bundle install && git submodule update --init && git pull --recurse-submodules && yarn submodule_copy",
+    "setup": "gem install bundle jekyll && bundle install && git submodule update --init && git pull --recurse-submodules && yarn submodule_copy",
     "build-html": "bundle exec jekyll build",
     "submodule_copy": "yarn submodule_copy_blockchain01 && yarn submodule_copy_blockchain02 && yarn submodule_copy_blockchain03 && yarn submodule_copy_clientlib01 && yarn submodule_copy_clientlib02 && yarn submodule_copy_contracts01 && yarn submodule_copy_contracts02 && yarn submodule_copy_relay01 && yarn submodule_copy_relay02 && yarn submodule_copy_relay03 && yarn submodule_copy_relay04 && yarn submodule_copy_clientlib-docs01 && yarn submodule_copy_clientlib-docs02 && yarn submodule_copy_clientlib-docs03 && yarn submodule_copy_clientlib-docs04 && yarn submodule_copy_clientlib-docs05 && yarn submodule_copy_clientlib-docs06 && yarn submodule_copy_clientlib-docs07",
     "submodule_copy_blockchain01": "cp submodules/blockchain/README.md docs/blockchain/repo/tlbc.md && printf '%b\\n' '---' 'layout: blockchain' '---' '' | cat - docs/blockchain/repo/tlbc.md > temp && mv temp docs/blockchain/repo/tlbc.md",
