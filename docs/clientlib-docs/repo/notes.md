@@ -1,5 +1,6 @@
 ---
 layout: clientlib
+title: The Relay Server
 ---
 
 ## Note on numbers and fees

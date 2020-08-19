@@ -1,5 +1,6 @@
 ---
 layout: contracts
+title: The Smart Contracts
 ---
 
 # Trustlines deploy

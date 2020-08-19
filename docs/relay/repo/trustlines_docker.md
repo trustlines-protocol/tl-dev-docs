@@ -1,5 +1,6 @@
 ---
 layout: relay
+title: The Relay Server
 ---
 
 # trustlines running via docker-compose

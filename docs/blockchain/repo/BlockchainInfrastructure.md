@@ -1,5 +1,6 @@
 ---
 layout: blockchain
+title: The Trustlines Blockchain
 ---
 
 ## The Trustlines Blockchain Infrastructure

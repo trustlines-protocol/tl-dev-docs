@@ -1,5 +1,6 @@
 ---
 layout: clientlib
+title: The Relay Server
 ---
 
 ## Deployment tools
