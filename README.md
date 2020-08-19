@@ -42,10 +42,10 @@ This can be done with a single command, `git submodule update --init --recursive
 
 #### Requirements
 
-- [Ruby](https://www.ruby-lang.org/en/downloads/) version 2.4.0 or above, including all development headers (ruby version can be checked by running `ruby -v`)
+- [Ruby](https://www.ruby-lang.org/en/downloads/) version 2.5.0 or above, including all development headers (ruby version can be checked by running `ruby -v`)
 - [RubyGems](https://rubygems.org/pages/download) (which you can check by running `gem -v`)
 - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/) (in case your system doesn’t have them installed, which you can check by running `gcc -v`, `g++ -v` and `make -v` in your system’s command line interface)
-- [Jekyll](https://jekyllrb.com/) (currently using v4.0.0)
+- [Jekyll](https://jekyllrb.com/) (currently using v3.9.0)
 
 #### Steps to install locally
 
