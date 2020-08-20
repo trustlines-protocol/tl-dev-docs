@@ -60,6 +60,10 @@
 	}
 
 	> ul {
+		> .nav {
+			border-top: solid 1px _palette(border);
+		}
+
 		> li {
 			border-top: solid 1px _palette(border);
 			margin: 0.5em 0 0;

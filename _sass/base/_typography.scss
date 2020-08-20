@@ -37,7 +37,7 @@ a {
 
 	&:hover {
 		border-bottom-color: _palette(fg-bold);
-		color: _palette(fg-bold);
+		color: _palette(accent);
 
 		strong {
 			color: inherit;
@@ -61,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: _palette(fg-bold);
+	color: _palette(accent);
 	font-family: _font(family-heading);
 	font-weight: _font(weight-heading);
 	line-height: 1.2;
@@ -69,7 +69,7 @@ h6 {
 	letter-spacing: -1px;
 
 	a {
-		color: inherit;
+		color: _palette(tl-orange);
 		text-decoration: none;
 	}
 }
@@ -195,6 +195,7 @@ hr {
 
 #component_page a {
 	color: _palette(fg-bold);
+
 	&:hover {
 		color: _palette(fg);
 	}

@@ -1,3 +1,7 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -9,10 +13,11 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-  border: solid 2px #f56a6a;
+	border: solid 2px _palette(accent);
 }
-
 /* Posts */
-.posts article {
-  width: 40%;
+.posts {
+	article {
+		width: 40%;
+	}
 }

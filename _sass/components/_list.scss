@@ -23,7 +23,8 @@ ul {
 		padding-left: 0.5em;
 
 		a {
-			color: _palette(fg-bold);
+			color: _palette(accent);
+
 			&:hover {
 				color: _palette(fg);
 			}

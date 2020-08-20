@@ -42,6 +42,16 @@
 	position: relative;
 	width: _size(sidebar-width);
 
+	ul.contact {
+		> li a {
+			color: inherit;
+
+			&:hover {
+				color: _palette(accent);
+			}
+		}
+	}
+
 	h2 {
 		font-size: (1.25em / 0.9);
 	}
@@ -93,6 +103,10 @@
 		top: 0;
 		width: 6em;
 		z-index: _misc(z-index-base);
+
+		&:hover {
+			color: _palette(fg);
+		}
 
 		&:before {
 			content: '\f0c9';
