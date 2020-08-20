@@ -7,14 +7,12 @@
 #menu {
 	ul {
 		@include vendor('user-select', 'none');
-		color: _palette(fg-bold);
-		font-family: _font(family-heading);
+		color: _palette(fg);
 		font-family: _font(weight-heading-alt);
 		letter-spacing: _font(kerning-heading);
 		list-style: none;
 		margin-bottom: 0;
 		padding: 0;
-		text-transform: uppercase;
 
 		a,
 		span {
@@ -23,7 +21,6 @@
 			cursor: pointer;
 			display: block;
 			font-size: 0.9em;
-			padding: 0.625em 0;
 
 			&:hover {
 				color: _palette(accent);
@@ -63,6 +60,10 @@
 	}
 
 	> ul {
+		> .nav {
+			border-top: solid 1px _palette(border);
+		}
+
 		> li {
 			border-top: solid 1px _palette(border);
 			margin: 0.5em 0 0;
@@ -92,4 +93,12 @@
 			}
 		}
 	}
+}
+
+.open ul li {
+	color: _palette(tl-grey);
+}
+
+.external_menu {
+	padding-top: 0.8em;
 }

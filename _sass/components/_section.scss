@@ -11,6 +11,21 @@ section {
 	}
 }
 
+section {
+	h2 {
+		margin-top: 2em;
+	}
+}
+
+	h3 {
+		margin-top: 2.2em;
+	}
+
+	h4 {
+		margin-top: 2.2em;
+	}
+}
+
 header {
 	p {
 		font-family: _font(family-heading);
@@ -23,7 +38,6 @@ header {
 
 	&.major {
 		> :last-child {
-			border-bottom: solid 3px _palette(accent);
 			display: inline-block;
 			margin: 0 0 _size(element-margin);
 			padding: 0 0.75em 0.5em 0;

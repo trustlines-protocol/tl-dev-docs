@@ -15,12 +15,24 @@ ol {
 }
 
 ul {
-	list-style: disc;
+	list-style: circle;
 	margin: 0 0 _size(element-margin);
-	padding-left: 1em;
+	padding-left: 1.8em;
 
 	li {
 		padding-left: 0.5em;
+
+		a {
+			color: _palette(accent);
+
+			&:hover {
+				color: _palette(fg);
+			}
+		}
+
+		&:before {
+			color: _palette(fg-bold);
+		}
 	}
 
 	&.alt {
@@ -246,4 +258,10 @@ dl {
 	dd {
 		margin-left: _size(element-margin);
 	}
+}
+
+section > h4 + ul li {
+	color: _palette(accent);
+	padding: 0;
+	list-style-type: none;
 }

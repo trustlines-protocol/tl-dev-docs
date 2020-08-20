@@ -42,6 +42,31 @@
 	position: relative;
 	width: _size(sidebar-width);
 
+	ul.contact {
+		> li a {
+			color: inherit;
+
+			&:hover {
+				color: _palette(accent);
+			}
+		}
+	}
+}
+
+#sidebar {
+	$pad: 2em / 0.9;
+	@include vendor('flex-grow', '0');
+	@include vendor('flex-shrink', '0');
+	@include vendor('transition', ('margin-left 0.5s ease', 'box-shadow 0.5s ease'));
+	background-color: _palette(bg-alt);
+	font-size: 0.9em;
+	position: relative;
+	width: _size(sidebar-width);
+
+	h2 {
+		font-size: (1.25em / 0.9);
+	}
+
 	h2 {
 		font-size: (1.25em / 0.9);
 	}
@@ -52,7 +77,6 @@
 		width: _size(sidebar-width);
 
 		> * {
-			border-bottom: solid 2px _palette(border);
 			margin: 0 0 (_size(element-margin) * 1.75) 0;
 			padding: 0 0 (_size(element-margin) * 1.75) 0;
 
@@ -66,6 +90,14 @@
 				padding-bottom: 0;
 			}
 		}
+	}
+
+	&.inactive {
+		margin-left: (_size(sidebar-width) * -1);
+	}
+	@include breakpoint(xlarge) {
+		$pad: 1.5em / 0.9;
+		width: _size(sidebar-width-alt);
 
 		> .alt {
 			background-color: darken(_palette(bg-alt), 2);
@@ -80,6 +112,7 @@
 		@include icon;
 		@include vendor('transition', 'left 0.5s ease');
 		-webkit-tap-highlight-color: rgba(255,255,255,0);
+		color: _palette(fg-light);
 		border: 0;
 		display: block;
 		height: 7.5em;
@@ -93,6 +126,10 @@
 		top: 0;
 		width: 6em;
 		z-index: _misc(z-index-base);
+
+		&:hover {
+			color: _palette(fg);
+		}
 
 		&:before {
 			content: '\f0c9';
@@ -195,17 +232,6 @@
 				margin-top: (-0.5em / 2);
 				font-size: 1.1rem;
 				z-index: 1;
-			}
-
-			&:after {
-				background: transparentize(lighten(_palette(fg), 35), 0.25);
-				border-radius: _size(border-radius);
-				content: '';
-				height: 3.5em;
-				left: 1em;
-				position: absolute;
-				top: 1em;
-				width: 5em;
 			}
 		}
 	}
