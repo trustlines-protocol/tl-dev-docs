@@ -195,4 +195,7 @@ hr {
 
 #component_page a {
 	color: _palette(fg-bold);
+	&:hover {
+		color: _palette(fg);
+	}
 }
