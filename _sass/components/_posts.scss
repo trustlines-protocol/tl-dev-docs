@@ -54,10 +54,11 @@
 
 		h3 {
 			margin-top: 0.5em;
+			color: #000;
 		}
 
 		p {
-			color: #9C99B1;
+			color: #000;
 		}
 	}
 	@include breakpoint(xlarge-to-max) {
