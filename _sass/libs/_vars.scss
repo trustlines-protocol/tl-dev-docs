@@ -1,38 +1,40 @@
 // Misc.
 $misc: (
 	z-index-base: 10000
-); // Duration.
+);
+// Duration.
 $duration: (
 	nav: 0.5s,
 	transition: 0.2s
-); // Size.
+);
+// Size.
 $size: (
 	border-radius: 0.375em,
 	element-height: 2.75em,
 	element-margin: 2em,
 	sidebar-width: 26em,
 	sidebar-width-alt: 24em,
-	gutter: 3em,
-	radius: 8px
-); // Font.
+	gutter: 3em
+);
+// Font.
 $font: (
-	family: ('Inter'),
+	family: ('Work Sans'),
+	family-heading: ('Work Sans'),
+	family-fixed: ('Work Sans'),
 	weight: 400,
 	weight-bold: 600,
-	weight-heading: 600,
+	weight-heading: 700,
 	weight-heading-alt: 400,
-	kerning-heading: 0.03em
-); // Palette.
+	kerning-heading: 0.075em
+);
+// Palette.
 $palette: (
-	bg: #0A0A2A,
-	bg-alt: #121250,
-	fg: #EDEDED,
-	fg-bold: #FF7C4E,
-	fg-light: #7657ED,
-	border: #474796,
-	border-bg: #474796,
-	accent: #c0b0ff,
-	tl-green: #09E0A3,
-	tl-grey: #9C99B1,
-	tl-orange: #FF7C4E,
+	bg: #ffffff,
+	bg-alt: #f5f6f7,
+	fg: #7f888f,
+	fg-bold: #3d4449,
+	fg-light: #9fa3a6,
+	border: rgba(210,215,217,0.75),
+	border-bg: transparentize(#e6ebed, 0.75),
+	accent: #f56a6a
 );

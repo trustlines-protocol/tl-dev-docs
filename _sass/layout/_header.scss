@@ -5,19 +5,8 @@
 ///
 /* Header */
 #header {
-	ul.icons {
-		> li {
-			> .icon {
-				color: _palette(fg) !important;
-
-				&:hover {
-					color: _palette(accent) !important;
-				}
-			}
-		}
-	}
 	@include vendor('display', 'flex');
-	border-bottom: solid 5px _palette(border);
+	border-bottom: solid 5px _palette(accent);
 	padding: 6em 0 1em;
 	position: relative;
 
@@ -28,16 +17,9 @@
 
 	.logo {
 		border-bottom: 0;
-		color: _palette(accent) !important;
+		color: inherit;
+		font-family: _font(family-heading);
 		font-size: 1.125em;
-
-		&:hover {
-			color: _palette(fg) !important;
-		}
-
-		> strong {
-			color: _palette(fg);
-		}
 	}
 
 	.icons {
@@ -60,28 +42,6 @@
 			position: absolute;
 			right: (-0.625em / 1.25);
 			top: 0;
-		}
-	}
-}
-
-#component_page {
-	> span {
-		> .icon {
-			color: _palette(fg) !important;
-
-			&:hover {
-				color: _palette(accent) !important;
-			}
-		}
-	}
-
-	.component_page_text {
-		> a {
-			color: _palette(fg) !important;
-
-			&:hover {
-				color: _palette(accent) !important;
-			}
 		}
 	}
 }
