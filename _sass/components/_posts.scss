@@ -54,11 +54,18 @@
 
 		h3 {
 			margin-top: 0.5em;
-			color: #000;
 		}
 
 		p {
-			color: #000;
+			color: _palette(tl-grey);
+		}
+
+		.button {
+			color: _palette(accent) !important;
+
+			&:hover {
+				color: _palette(fg) !important;
+			}
 		}
 	}
 	@include breakpoint(xlarge-to-max) {
