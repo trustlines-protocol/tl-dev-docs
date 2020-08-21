@@ -1,1 +1,17 @@
-<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="comp_x5F_92-discourse"><g><path d="    M257.865,36.001c-120.409,0-221.863,96.74-221.863,216.17c0,3.829,0.098,223.828,0.098,223.828l221.766-0.197    c120.509,0,218.133-100.47,218.133-219.898S378.374,36.001,257.865,36.001z M256.001,381.715c-19.054,0-37.224-4.226-53.43-11.884    l-79.65,19.741l22.489-73.662c-9.624-17.776-15.123-38.205-15.123-59.91c0-69.437,56.276-125.713,125.714-125.713    S381.714,186.563,381.714,256C381.714,325.439,325.438,381.715,256.001,381.715z" style="fill:#F05A55;stroke:#none;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"/></g></g><g id="Layer_1"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g id="comp_x5F_92-discourse">
+	<g>
+		<path class="st0" d="M257.9,36C137.5,36,36,132.7,36,252.2C36,256,36.1,476,36.1,476l221.8-0.2c120.5,0,218.1-100.5,218.1-219.9
+			S378.4,36,257.9,36z M256,381.7c-19.1,0-37.2-4.2-53.4-11.9l-79.7,19.7l22.5-73.7c-9.6-17.8-15.1-38.2-15.1-59.9
+			c0-69.4,56.3-125.7,125.7-125.7S381.7,186.6,381.7,256C381.7,325.4,325.4,381.7,256,381.7z"/>
+	</g>
+</g>
+<g id="Layer_1_1_">
+</g>
+</svg>
