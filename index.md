@@ -50,44 +50,44 @@ layout: default
 		<article>
 			<ul>
 				{% for post in site.posts limit:1 %}
-						<a href="{{ post.url | absolute_url | absolute_url }}" class="image"><img src="{{ post.image }}"/></a>
+<!-- 						<a href="{{ post.url | absolute_url | absolute_url }}" class="image"><img src="{{ post.image }}"/></a> -->
 						{{ post.date | date: '%B %d, %Y'}}
-						<h3>{{ post.title }}</h3>
+						<a href="{{ post.url | absolute_url }}"><h3>{{ post.title }}</h3></a>
 						{{ post.excerpt }}
-							<a href="{{ post.url | absolute_url }}" class="button">More</a>
+							<a href="{{ post.url | absolute_url }}" class="button">Read more ⟶</a>
 				{% endfor %}
 			</ul>
 		</article>
 		<article>
 			<ul>
 				{% for post in site.posts limit:1 offset:1 %}
-						<a href="{{ post.url | absolute_url }}" class="image"><img src="{{ post.image }}"/></a>
+						<!-- <a href="{{ post.url | absolute_url }}" class="image"><img src="{{ post.image }}"/></a> -->
 						{{ post.date | date: '%B %d, %Y'}}
-						<h3>{{ post.title }}</h3>
+						<a href="{{ post.url | absolute_url }}"><h3>{{ post.title }}</h3></a>
 						{{ post.excerpt }}
-							<a href="{{ post.url | absolute_url }}" class="button">More</a>
+							<a href="{{ post.url | absolute_url }}" class="button">Read more ⟶</a>
 				{% endfor %}
 			</ul>
 		</article>
 		<article>
 			<ul>
 				{% for post in site.posts limit:1 offset:2 %}
-						<a href="{{ post.url | absolute_url }}" class="image"><img src="{{ post.image }}"/></a>
+						<!-- <a href="{{ post.url | absolute_url }}" class="image"><img src="{{ post.image }}"/></a> -->
 						{{ post.date | date: '%B %d, %Y'}}
-						<h3>{{ post.title }}</h3>
+						<a href="{{ post.url | absolute_url }}"><h3>{{ post.title }}</h3></a>
 						{{ post.excerpt }}
-							<a href="{{ post.url | absolute_url }}" class="button">More</a>
+							<a href="{{ post.url | absolute_url }}" class="button">Read more ⟶</a>
 				{% endfor %}
 			</ul>
 		</article>
 		<article>
 			<ul>
 				{% for post in site.posts limit:1 offset:3 %}
-						<a href="{{ post.url | absolute_url }}" class="image"><img src="{{ post.image }}"/></a>
+						<!-- <a href="{{ post.url | absolute_url }}" class="image"><img src="{{ post.image }}"/></a> -->
 						{{ post.date | date: '%B %d, %Y'}}
-						<h3>{{ post.title }}</h3>
+						<a href="{{ post.url | absolute_url }}"><h3>{{ post.title }}</h3></a>
 						{{ post.excerpt }}
-							<a href="{{ post.url | absolute_url }}" class="button">More</a>
+							<a href="{{ post.url | absolute_url }}" class="button">Read more ⟶</a>
 				{% endfor %}
 			</ul>
 		</article>

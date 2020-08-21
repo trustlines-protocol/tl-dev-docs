@@ -6,11 +6,15 @@
 /* Footer */
 #footer {
 	.copyright {
-		color: _palette(fg-light);
+		color: _palette(fg) !important;
 		font-size: 0.9em;
 
 		a {
-			color: inherit;
+			color: _palette(tl-grey) !important;
+
+			&:hover {
+				color: _palette(fg) !important;
+			}
 		}
 	}
 }
