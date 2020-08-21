@@ -15,7 +15,6 @@ section {
 	h2 {
 		margin-top: 2em;
 	}
-}
 
 	h3 {
 		margin-top: 2.2em;
@@ -49,4 +48,8 @@ header {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 		}
 	}
+}
+
+iframe {
+	margin: 2em auto;
 }

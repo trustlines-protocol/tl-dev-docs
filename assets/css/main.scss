@@ -1,4 +1,6 @@
---- ---
+---
+---
+
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -2976,4 +2978,25 @@ ul.icons li .icon:hover {
 #menu ul a:hover,
 #menu ul span:hover {
 	color: _palette(accent);
+}
+
+#back-to-top {
+  bottom: 2vh;
+  right: 1.5vw;
+  font-size: 48px;
+  position: fixed;
+  z-index: 999;
+  border: none;
+  background-color: transparent;
+}
+#back-to-top:focus {
+  outline: none;
+}
+#back-to-top img {
+  width: 40px;
+  height: 40px;
+}
+
+em, i {
+	font-style: italic;
 }

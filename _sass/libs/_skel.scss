@@ -3,16 +3,14 @@
 /// Breakpoints.
 /// @var {list}
 $breakpoints: ()
-!global;
-/// Vendor prefixes.
+!global; /// Vendor prefixes.
 /// @var {list}
 $vendor-prefixes: (
 	'-moz-',
 	'-webkit-',
 	'-ms-',
 	''
-);
-/// Properties that should be vendorized.
+); /// Properties that should be vendorized.
 /// @var {list}
 $vendor-properties: (
 	'align-content',
@@ -51,8 +49,7 @@ $vendor-properties: (
 	'transition-property',
 	'transition-timing-function',
 	'user-select'
-);
-/// Values that should be vendorized.
+); /// Values that should be vendorized.
 /// @var {list}
 $vendor-values: (
 	'filter',
@@ -60,8 +57,7 @@ $vendor-values: (
 	'linear-gradient',
 	'radial-gradient',
 	'transform'
-);
-// Functions.
+); // Functions.
 /// Removes a specific item from a list.
 /// @author Hugo Giraudel
 /// @param {list} $list List.

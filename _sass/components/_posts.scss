@@ -57,7 +57,15 @@
 		}
 
 		p {
-			color: #9C99B1;
+			color: _palette(tl-grey);
+		}
+
+		.button {
+			color: _palette(accent) !important;
+
+			&:hover {
+				color: _palette(fg) !important;
+			}
 		}
 	}
 	@include breakpoint(xlarge-to-max) {
