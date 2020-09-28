@@ -10,8 +10,6 @@
 		ul {
 			@include vendor('user-select', 'none');
 			color: _palette(fg);
-			font-family: _font(weight);
-			letter-spacing: _font(kerning-heading);
 			list-style: none;
 			margin-bottom: 0;
 			padding: 0;
