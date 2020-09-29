@@ -1,34 +1,46 @@
 # Site settings
-title: Trustlines
-subtitle: Developer Docs
+
+title: Trustlines Developer Docs
+subtitle:
 email: contact@trustlines.foundation
-description: Developer Documentation for Trustlines
+description: Technical documentation for the Trustlines Network
 baseurl: "" # the subpath of your site, e.g. /blog
 author: Trustlines Foundation
 street_address: Städtle 38
 city: Vaduz
 zip_code: 9490
 country: Liechtenstein
-tagline: Trustlines Dev Docs
+tagline: Trustlines Dev Docs | Technical documentation for the Trustlines Network
 url: https://dev.trustlines.network
 twitter:
   username: TrustlinesFound
-logo: /assets/images/brand/network/png/gradient/TN-Logo-Gradient_1_14.png
+  card: summary
+  creator: TrustlinesFound
+logo: /assets/images/trustlines-mark-logo-blue.png
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/trustlines-mark-logo-blue.png
 
 # Social settings
-500px_url:
+
 github_url: https://github.com/trustlines-protocol
 twitter_url: https://twitter.com/TrustlinesFound
 reddit_url: https://reddit.com/r/Trustlines
 social:
   links:
     - https://twitter.com/TrustlinesFound
+    - https://twitter.com/trustlines_app
     - https://reddit.com/r/Trustlines
     - https://github.com/trustlines-protocol
     - https://trustlines.network/
     - https://blog.trustlines.network/
     - https://forum.trustlines.network/
     - https://docs.trustlines.network/
+    - https://t.me/trustlines_network
+    - https://gitter.im/trustlines/community
 
 # Build settings
 markdown: kramdown
