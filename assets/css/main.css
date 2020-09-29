@@ -4103,3 +4103,7 @@ blockquote p {
  a.icon.fa-github.page_layout {
   color: #000;
 }
+
+.image.main img {
+  display: none;
+}
