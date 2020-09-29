@@ -8,6 +8,16 @@
   <!--[if lte IE 9]><link rel="stylesheet" href="{{ 'assets/css/ie9.css' | relative_url }}" /><![endif]-->
   <!--[if lte IE 8]><link rel="stylesheet" href="{{ 'assets/css/ie8.css' | relative_url }}" /><![endif]-->
   <link rel="stylesheet" href="{{ '/assets/css/jquery.navgoco.css' | relative_url }}" type="text/css" media="screen" />
+  <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}" />
+  {% if page.image %}
+  <meta property="og:image" content="{{page.image}}" />
+  <meta name="twitter:image" content="{{page.image}}" />
+  {% else %}
+  <meta property="og:image" content="{{ 'assets/images/trustlines-mark-logo-blue.png' | relative_url }}" />
+  <meta name="twitter:image" content="{{ 'assets/images/trustlines-mark-logo-blue.png' | relative_url }}" />
+  <meta property="og:image:height" content="425" />
+  <meta property="og:image:width" content="400" />
+  {% endif %}
   {% seo %}
   <script type="text/javascript">
     var _paq = window._paq || [];
@@ -15,11 +25,17 @@
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
-      var u="https://stats.trustlines.network/";
-      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      var u = "https://stats.trustlines.network/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
       _paq.push(['setSiteId', '4']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      var d = document,
+        g = d.createElement('script'),
+        s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript';
+      g.async = true;
+      g.defer = true;
+      g.src = u + 'matomo.js';
+      s.parentNode.insertBefore(g, s);
     })();
   </script>
 </head>
