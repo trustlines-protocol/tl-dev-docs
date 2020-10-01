@@ -20,20 +20,14 @@ section {
 		margin-top: 2.2em;
 	}
 
-	h4 {
-		margin-top: 2.2em;
-	}
-}
-
-header {
-	p {
-		font-family: _font(family-heading);
-		font-size: 1em;
-		font-weight: _font(weight-heading-alt);
-		letter-spacing: _font(kerning-heading);
-		margin-top: -0.5em;
-		text-transform: uppercase;
-	}
+	header {
+		p {
+			font-family: _font(family-heading);
+			font-size: 1em;
+			font-weight: _font(weight);
+			margin-top: -0.5em;
+			text-transform: uppercase;
+		}
 
 	&.major {
 		> :last-child {
