@@ -22,6 +22,11 @@ module.exports = {
           position: "left",
         },
         {
+          to: "docs/relay/relay_server",
+          label: "Relay",
+          position: "left",
+        },
+        {
           to: "clientlib/clientlib/",
           label: "Clientlib",
           position: "left",
