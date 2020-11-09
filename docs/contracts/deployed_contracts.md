@@ -14,6 +14,7 @@ The following contracts have been deployed on the Ethereum mainnet.
 > **Commit**: [trustlines-protocol/blockchain@60ece35](https://github.com/trustlines-protocol/blockchain/commit/60ece35a232b326f45e29cc8065d9942046852f5)
 >
 > #### Address
+>
 > `0x679131F591B4f369acB8cd8c51E68596806c3916`
 >
 > **[View on Etherscan](https://etherscan.io/address/0x679131F591B4f369acB8cd8c51E68596806c3916)**
@@ -25,6 +26,7 @@ The following contracts have been deployed on the Ethereum mainnet.
 > **Commit**: [trustlines-protocol/blockchain@60ece35](https://github.com/trustlines-protocol/blockchain/commit/60ece35a232b326f45e29cc8065d9942046852f5)
 >
 > #### Address
+>
 > `0x18BDC736b23Ff7294BED9fa988a1443357C7B0ed`
 >
 > **[View on Etherscan](https://etherscan.io/address/0x18BDC736b23Ff7294BED9fa988a1443357C7B0ed)**
@@ -36,6 +38,7 @@ The following contracts have been deployed on the Ethereum mainnet.
 > **Commit**: [trustlines-protocol/merkle-drop@d804006](https://github.com/trustlines-protocol/merkle-drop/commit/d804006939f75c8d05a81d3ef083b7f74147bd81)
 >
 > #### Address
+>
 > `0x0A6f0C541Be542c098B7Ee03C9C634f20BCf8422`
 >
 > **[View on Etherscan](https://etherscan.io/address/0x0a6f0c541be542c098b7ee03c9c634f20bcf8422)**
@@ -47,6 +50,7 @@ The following contracts have been deployed on the Ethereum mainnet.
 > **Commit**: [trustlines-protocol/blockchain@064dee4](https://github.com/trustlines-protocol/blockchain/commit/064dee4ec37f5b5f5cf4bc0ed6ac128aeb01e885)
 >
 > #### Address
+>
 > `0xED0FA720D4150F7b1572b68d1f8C708ddf9da5B7`
 >
 > **[View on Etherscan](https://etherscan.io/address/0xed0fa720d4150f7b1572b68d1f8c708ddf9da5b7)**
@@ -58,6 +62,7 @@ The following contracts have been deployed on the Ethereum mainnet.
 > **Commit**: [trustlines-protocol/blockchain@064dee4](https://github.com/trustlines-protocol/blockchain/commit/064dee4ec37f5b5f5cf4bc0ed6ac128aeb01e885)
 >
 > #### Address
+>
 > `0x3f52Cb880B534D57F3C925F2bbB6b2750E2f415A`
 >
 > **[View on Etherscan](https://etherscan.io/address/0x3f52cb880b534d57f3c925f2bbb6b2750e2f415a)**
@@ -69,6 +74,7 @@ The following contracts have been deployed on the Ethereum mainnet.
 > **Commit**: [trustlines-protocol/blockchain@064dee4](https://github.com/trustlines-protocol/blockchain/commit/064dee4ec37f5b5f5cf4bc0ed6ac128aeb01e885)
 >
 > #### Address
+>
 > `0x6649eBd4D52bdCaD3496909E0DFA837B898B0a03`
 >
 > **[View on Etherscan](https://etherscan.io/address/0x6649ebd4d52bdcad3496909e0dfa837b898b0a03)**
@@ -84,6 +90,7 @@ The following contracts have been deployed on the Trustlines Blockchain.
 > **Commit**: [trustlines-protocol/blockchain@eb1cbd2](https://github.com/trustlines-protocol/blockchain/commit/eb1cbd2871b35b1c2ff97ce4da85b567b3c664c5)
 >
 > #### Address
+>
 > `0xf129765e99ec542bc49c81a9ef6c5fff10529322`
 >
 > **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0xf129765e99ec542bc49c81a9ef6c5fff10529322/transactions)**
@@ -95,6 +102,7 @@ The following contracts have been deployed on the Trustlines Blockchain.
 > **Commit**: [trustlines-protocol/blockchain@2e972c8](https://github.com/trustlines-protocol/blockchain/commit/2e972c83ce1e8f82191f2dca6b95e08534d4e292)
 >
 > #### Address
+>
 > `0x0000000000000000000000000000000000000401`
 >
 > **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0x0000000000000000000000000000000000000401/transactions)**
@@ -106,6 +114,7 @@ The following contracts have been deployed on the Trustlines Blockchain.
 > **Commit**: [trustlines-protocol/blockchain@1233ac9](https://github.com/trustlines-protocol/blockchain/commit/1233ac93de0abcfacf52e013a70aae2dece68fd1)
 >
 > #### Address
+>
 > `0x0000000000000000000000000000000000000402`
 >
 > **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0x0000000000000000000000000000000000000402/transactions)**
@@ -117,6 +126,7 @@ The following contracts have been deployed on the Trustlines Blockchain.
 > **Commit**: [trustlines-protocol/contracts@baebb30](https://github.com/trustlines-protocol/contracts/commit/baebb308d9ef868408c3449250aa9d963cc61d71)
 >
 > #### Address
+>
 > `0x02c3cA67cF3310295195173cb654cfd61f4c849D`
 >
 > **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0x02c3ca67cf3310295195173cb654cfd61f4c849d/transactions)**

@@ -5,7 +5,6 @@ title: Currency Networks on Trustlines Blockchain
 
 **Commit**: [trustlines-protocol/contracts@baebb30](https://github.com/trustlines-protocol/contracts/commit/baebb308d9ef868408c3449250aa9d963cc61d71)
 
-
 ## Addresses
 
 US Dollar: `0x12657128d7fa4291647eC3b0147E5fA6EebD388A`  
@@ -53,7 +52,7 @@ Colombian Peso: `0x6212C2783B2acCA8468b1befb19a4aAccb3c4970`
 Argentine Peso: `0x4B1Ce992B04539786DF19dDC416490cd6595DB01`  
 Polish Zloty: `0x8588173E0322089Efe851b14d041aC15AC991C07`  
 Tanzanian Shilling: `0xcb02a08a72Cb459fE41E987065fE1E2D7438E64E`  
-Solomon Islands Dollar: `0x0FbD56e384826246dC795C1A1951c781184F8faa`  
+Solomon Islands Dollar: `0x0FbD56e384826246dC795C1A1951c781184F8faa`
 
 [Currency Networks contracts.json](currency_networks_contracts_json)
 
@@ -62,6 +61,7 @@ Solomon Islands Dollar: `0x0FbD56e384826246dC795C1A1951c781184F8faa`
 **Commit**: [trustlines-protocol/contracts@baebb30](https://github.com/trustlines-protocol/contracts/commit/baebb308d9ef868408c3449250aa9d963cc61d71)
 
 #### Address
+
 `0x02c3cA67cF3310295195173cb654cfd61f4c849D`
 
 **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0x02c3ca67cf3310295195173cb654cfd61f4c849d/transactions)**

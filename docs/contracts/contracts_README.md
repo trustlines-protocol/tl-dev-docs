@@ -10,11 +10,12 @@ The current documentation is written for an Ubuntu Linux system.
 
 ## Prerequisites
 
--   Python 3.6 or up and dev dependencies
--   [pip](https://pip.pypa.io/en/stable/)
--   git
+- Python 3.6 or up and dev dependencies
+- [pip](https://pip.pypa.io/en/stable/)
+- git
 
 Run
+
 ```bash
 apt install build-essential python3-dev python3-virtualenv virtualenv pkg-config libssl-dev automake autoconf libtool git make
 ```

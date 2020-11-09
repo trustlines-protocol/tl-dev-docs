@@ -20,10 +20,9 @@ Prerequisites
 An installation of the relay server requires at least the following
 components:
 
--   PostgreSQL header files
--   Python 3.6 or up
--   pip
-
+- PostgreSQL header files
+- Python 3.6 or up
+- pip
 
 ##### Installation on Ubuntu
 

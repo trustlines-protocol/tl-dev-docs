@@ -1,3 +1,3 @@
 module.exports = {
-  Blockchain: ['blockchain/tlbc', 'blockchain/nodes'],
-};
+  Blockchain: ["blockchain/tlbc", "blockchain/nodes"],
+}

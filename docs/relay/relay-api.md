@@ -15,10 +15,10 @@ You can use the following base endpoint to talk to the currently deployed KOVAN 
 
 ## Response
 
--   All endpoints return JSON
--   All number values are returned in their smallest unit
--   All ethereum addresses are returned as ERC55 checksum addresses
--   In case of an error, the response of the relay API will have the following format:
+- All endpoints return JSON
+- All number values are returned in their smallest unit
+- All ethereum addresses are returned as ERC55 checksum addresses
+- In case of an error, the response of the relay API will have the following format:
 
 ```json
 {
@@ -30,39 +30,39 @@ You can use the following base endpoint to talk to the currently deployed KOVAN 
 
 ### Network context
 
--   [Currency networks list](#currency-networks-list)
--   [Currency network details](#currency-network-details)
--   [Users list in currency network](#users-list-in-currency-network)
--   [User details in currency network](#user-details-in-currency-network)
--   [Trustlines of user in currency network](#trustlines-of-user-in-currency-network)
--   [Trustline between users in currency network](#trustline-between-users-in-currency-network)
--   [Spendable amount and path to any user in currency network](#spendable-amount-and-path-to-any-user-in-currency-network)
--   [Transfer path in currency network](#transfer-path-in-currency-network)
--   [Closing trustline path in currency network](#closing-trustline-path-in-currency-network)
--   [All events in currency network](#all-events-in-currency-network)
--   [Events of a user in currency network](#events-of-a-user-in-currency-network)
--   [Accrued interests of user](#accrued-interests-of-user)
--   [Accrued interests of trustline](#accrued-interests-of-trustline)
+- [Currency networks list](#currency-networks-list)
+- [Currency network details](#currency-network-details)
+- [Users list in currency network](#users-list-in-currency-network)
+- [User details in currency network](#user-details-in-currency-network)
+- [Trustlines of user in currency network](#trustlines-of-user-in-currency-network)
+- [Trustline between users in currency network](#trustline-between-users-in-currency-network)
+- [Spendable amount and path to any user in currency network](#spendable-amount-and-path-to-any-user-in-currency-network)
+- [Transfer path in currency network](#transfer-path-in-currency-network)
+- [Closing trustline path in currency network](#closing-trustline-path-in-currency-network)
+- [All events in currency network](#all-events-in-currency-network)
+- [Events of a user in currency network](#events-of-a-user-in-currency-network)
+- [Accrued interests of user](#accrued-interests-of-user)
+- [Accrued interests of trustline](#accrued-interests-of-trustline)
 
 ### User context
 
--   [Events of user in all currency networks](#events-of-user-in-all-currency-networks)
--   [Transaction infos for user](#transaction-infos-for-user)
--   [Balance of user](#balance-of-user)
--   [All trustlines](#all-trustlines-of-user-in-all-currency-networks)
+- [Events of user in all currency networks](#events-of-user-in-all-currency-networks)
+- [Transaction infos for user](#transaction-infos-for-user)
+- [Balance of user](#balance-of-user)
+- [All trustlines](#all-trustlines-of-user-in-all-currency-networks)
 
 ### Other
 
--   [Latest block number](#latest-block-number)
--   [Relay transaction](#relay-transaction)
--   [Relay meta transaction](#relay-meta-transaction)
--   [Fees for meta transaction](#fees-for-meta-transaction)
--   [Deploy identity contract](#deploy-identity-contract)
--   [Get authorized identity factories](#get-authorized-identity-factories)
--   [Get identity information](#get-identity-information)
--   [Get relay version](#get-relay-version)
+- [Latest block number](#latest-block-number)
+- [Relay transaction](#relay-transaction)
+- [Relay meta transaction](#relay-meta-transaction)
+- [Fees for meta transaction](#fees-for-meta-transaction)
+- [Deploy identity contract](#deploy-identity-contract)
+- [Get authorized identity factories](#get-authorized-identity-factories)
+- [Get identity information](#get-identity-information)
+- [Get relay version](#get-relay-version)
 
-* * *
+---
 
 ### Currency networks list
 
@@ -101,7 +101,7 @@ Returns all registered currency networks with high-level information.
 ]
 ```
 
-* * *
+---
 
 ### Currency network details
 
@@ -153,7 +153,7 @@ Returns detailed information of currency network.
 }
 ```
 
-* * *
+---
 
 ### Users list in currency network
 
@@ -187,7 +187,7 @@ Returns a list of user addresses in a currency network.
 ]
 ```
 
-* * *
+---
 
 ### User details in currency network
 
@@ -232,7 +232,7 @@ Returns detailed information of a user in a currency network.
 }
 ```
 
-* * *
+---
 
 ### Trustlines of user in currency network
 
@@ -291,7 +291,7 @@ Returns a list of trustlines a user has in a currency network.
 ]
 ```
 
-* * *
+---
 
 ### Trustline between users in currency network
 
@@ -333,21 +333,21 @@ Returns a trustline between users A and B in a currency network.
 
 ```json
 {
-    "id": "0xe4332c0bc15bf97933ce54c93af772bb13fad2c4c44e2516eb62d4f6c041e9ab",
-    "leftReceived": "19848",
-    "counterParty": "0xB5A3ad8d5A23e5DDD8b8917F709b01396e4d55e4",
-    "balance": "-152",
-    "given": "10000",
-    "leftGiven": "10152",
-    "received": "20000",
-    "interestRateGiven": "1000",
-    "interestRateReceived": "2000",
-    "isFrozen": false,
-    "user": "0x04f9b217b334507c42Ad3b74BFf024c724aBB166"
+  "id": "0xe4332c0bc15bf97933ce54c93af772bb13fad2c4c44e2516eb62d4f6c041e9ab",
+  "leftReceived": "19848",
+  "counterParty": "0xB5A3ad8d5A23e5DDD8b8917F709b01396e4d55e4",
+  "balance": "-152",
+  "given": "10000",
+  "leftGiven": "10152",
+  "received": "20000",
+  "interestRateGiven": "1000",
+  "interestRateReceived": "2000",
+  "isFrozen": false,
+  "user": "0x04f9b217b334507c42Ad3b74BFf024c724aBB166"
 }
 ```
 
-* * *
+---
 
 ### Spendable amount and path to any user in currency network
 
@@ -391,8 +391,8 @@ curl --header "Content-Type: application/json" \
 
 ```json
 {
-    "capacity": "18",
-	"path": [
+  "capacity": "18",
+  "path": [
     "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
     "0xc257274276a4e539741ca11b590b9447b26a8051",
     "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b"
@@ -400,7 +400,7 @@ curl --header "Content-Type: application/json" \
 }
 ```
 
-* * *
+---
 
 ### Transfer path in currency network
 
@@ -449,7 +449,7 @@ curl --header "Content-Type: application/json" \
 
 ```json
 {
-	"path": [
+  "path": [
     "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
     "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b"
   ],
@@ -459,7 +459,7 @@ curl --header "Content-Type: application/json" \
 }
 ```
 
-* * *
+---
 
 ### Closing trustline path in currency network
 
@@ -509,19 +509,19 @@ https://relay0.testnet.trustlines.network/api/v1/networks/0xc5F45B680e81759E3FBc
 
 ```json
 {
-    "fees": "6",
-    "path": [
-        "0x186ec4A5E2c9Ed2B392599843375383D40C94F57",
-        "0x37605B30874452551F959811C5F8662329E51EB2",
-        "0xaE8446e5ea18F6d7647b28eEf01e568BE672AF6c",
-        "0x186ec4A5E2c9Ed2B392599843375383D40C94F57"
-    ],
-    "value": "410",
-    "feePayer": "sender"
+  "fees": "6",
+  "path": [
+    "0x186ec4A5E2c9Ed2B392599843375383D40C94F57",
+    "0x37605B30874452551F959811C5F8662329E51EB2",
+    "0xaE8446e5ea18F6d7647b28eEf01e568BE672AF6c",
+    "0x186ec4A5E2c9Ed2B392599843375383D40C94F57"
+  ],
+  "value": "410",
+  "feePayer": "sender"
 }
 ```
 
-* * *
+---
 
 ### All events in currency network
 
@@ -578,62 +578,62 @@ Following additional attributes for `Transfer` events:
 
 ```json
 [
-	{
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 6997877,
-		"timestamp": 1524655432,
-		"type": "TrustlineUpdateRequest",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-		"status": "confirmed",
-		"transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-		"given": "20000",
-		"received": "20000",
-		"interestRateGiven": "1000",
-		"interestRateReceived": "1000",
-        "isFrozen": false
-	},
-    {
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 6997877,
-		"timestamp": 1524655432,
-		"type": "TrustlineUpdateCancel",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-		"status": "confirmed",
-		"transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd"
-	},
-	{
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 6997899,
-		"timestamp": 1524655600,
-		"type": "TrustlineUpdate",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-		"status": "confirmed",
-		"transactionId": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-		"given": "10000",
-		"received": "10000",
-		"interestRateGiven": "1000",
-		"interestRateReceived": "1000",
-        "isFrozen": false
-	},
-	{
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 7011809,
-		"timestamp": 1524755036,
-		"type": "Transfer",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-		"status": "confirmed",
-		"transactionId": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-		"amount": "100",
-		"extraData": "0x1234"
-	}
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 6997877,
+    "timestamp": 1524655432,
+    "type": "TrustlineUpdateRequest",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
+    "status": "confirmed",
+    "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
+    "given": "20000",
+    "received": "20000",
+    "interestRateGiven": "1000",
+    "interestRateReceived": "1000",
+    "isFrozen": false
+  },
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 6997877,
+    "timestamp": 1524655432,
+    "type": "TrustlineUpdateCancel",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
+    "status": "confirmed",
+    "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd"
+  },
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 6997899,
+    "timestamp": 1524655600,
+    "type": "TrustlineUpdate",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
+    "status": "confirmed",
+    "transactionId": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
+    "given": "10000",
+    "received": "10000",
+    "interestRateGiven": "1000",
+    "interestRateReceived": "1000",
+    "isFrozen": false
+  },
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 7011809,
+    "timestamp": 1524755036,
+    "type": "Transfer",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
+    "status": "confirmed",
+    "transactionId": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
+    "amount": "100",
+    "extraData": "0x1234"
+  }
 ]
 ```
 
-* * *
+---
 
 ### Events of a user in currency network
 
@@ -690,62 +690,62 @@ Following additional attributes for `Transfer` events:
 
 ```json
 [
-	{
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 6997877,
-		"timestamp": 1524655432,
-		"type": "TrustlineUpdateRequest",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-		"status": "confirmed",
-		"transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-		"given": "20000",
-		"received": "20000",
-		"interestRateGiven": "1000",
-		"interestRateReceived": "1000",
-        "isFrozen": false
-	},
-    {
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 6997877,
-		"timestamp": 1524655432,
-		"type": "TrustlineUpdateCancel",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-		"status": "confirmed",
-		"transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd"
-	},
-	{
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 6997899,
-		"timestamp": 1524655600,
-		"type": "TrustlineUpdate",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-		"status": "confirmed",
-		"transactionId": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-		"given": "10000",
-		"received": "10000",
-		"interestRateGiven": "1000",
-		"interestRateReceived": "1000",
-        "isFrozen": false
-	},
-	{
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 7011809,
-		"timestamp": 1524755036,
-		"type": "Transfer",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-		"status": "confirmed",
-		"transactionId": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-		"amount": "100",
-		"extraData": "0x1234"
-	}
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 6997877,
+    "timestamp": 1524655432,
+    "type": "TrustlineUpdateRequest",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
+    "status": "confirmed",
+    "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
+    "given": "20000",
+    "received": "20000",
+    "interestRateGiven": "1000",
+    "interestRateReceived": "1000",
+    "isFrozen": false
+  },
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 6997877,
+    "timestamp": 1524655432,
+    "type": "TrustlineUpdateCancel",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
+    "status": "confirmed",
+    "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd"
+  },
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 6997899,
+    "timestamp": 1524655600,
+    "type": "TrustlineUpdate",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
+    "status": "confirmed",
+    "transactionId": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
+    "given": "10000",
+    "received": "10000",
+    "interestRateGiven": "1000",
+    "interestRateReceived": "1000",
+    "isFrozen": false
+  },
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 7011809,
+    "timestamp": 1524755036,
+    "type": "Transfer",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
+    "status": "confirmed",
+    "transactionId": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
+    "amount": "100",
+    "extraData": "0x1234"
+  }
 ]
 ```
 
-* * *
+---
 
 ### Accrued interests of user
 
@@ -791,19 +791,25 @@ The `accuredInterests` is a list with the following elements:
 ```json
 [
   {
-    "accruedInterests": [{"value": 123, "interestRate":  1000, "timestamp": 1579000000}, {"value": 456, "interestRate":  2000, "timestamp": 1579001000}],
+    "accruedInterests": [
+      { "value": 123, "interestRate": 1000, "timestamp": 1579000000 },
+      { "value": 456, "interestRate": 2000, "timestamp": 1579001000 }
+    ],
     "user": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
     "counterparty": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320"
   },
   {
-    "accruedInterests": [{"value": 123, "interestRate":  1000, "timestamp": 1579000000}, {"value": 456, "interestRate":  2000, "timestamp": 1579001000}],
+    "accruedInterests": [
+      { "value": 123, "interestRate": 1000, "timestamp": 1579000000 },
+      { "value": 456, "interestRate": 2000, "timestamp": 1579001000 }
+    ],
     "user": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
     "counterparty": "0xC0B33D88C704455075a0724AA167a286da778DDE"
   }
 ]
 ```
 
-* * *
+---
 
 ### Accrued interests of trustline
 
@@ -849,13 +855,16 @@ The `accuredInterests` is a list with the following elements:
 
 ```json
 {
-    "accruedInterests": [{"value": 123, "interestRate":  1000, "timestamp": 1579000000}, {"value": 456, "interestRate":  2000, "timestamp": 1579001000}],
-    "user": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-    "counterparty": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320"
+  "accruedInterests": [
+    { "value": 123, "interestRate": 1000, "timestamp": 1579000000 },
+    { "value": 456, "interestRate": 2000, "timestamp": 1579001000 }
+  ],
+  "user": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+  "counterparty": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320"
 }
 ```
 
-* * *
+---
 
 ### Events of user in all currency networks
 
@@ -911,62 +920,62 @@ Following additional attributes for `Transfer` events:
 
 ```json
 [
-	{
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 6997877,
-		"timestamp": 1524655432,
-		"type": "TrustlineUpdateRequest",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-		"status": "confirmed",
-		"transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-		"given": "20000",
-		"received": "20000",
-		"interestRateGiven": "1000",
-		"interestRateReceived": "1000",
-        "isFrozen": false
-	},
-    {
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 6997877,
-		"timestamp": 1524655432,
-		"type": "TrustlineUpdateCancel",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-		"status": "confirmed",
-		"transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd"
-	},
-	{
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 6997899,
-		"timestamp": 1524655600,
-		"type": "TrustlineUpdate",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-		"status": "confirmed",
-		"transactionId": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-		"given": "10000",
-		"received": "10000",
-		"interestRateGiven": "1000",
-		"interestRateReceived": "1000",
-        "isFrozen": false
-	},
-	{
-		"networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-		"blockNumber": 7011809,
-		"timestamp": 1524755036,
-		"type": "Transfer",
-		"from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-		"to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-		"status": "confirmed",
-		"transactionId": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-		"amount": "100",
-		"extraData": "0x1234"
-	}
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 6997877,
+    "timestamp": 1524655432,
+    "type": "TrustlineUpdateRequest",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
+    "status": "confirmed",
+    "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
+    "given": "20000",
+    "received": "20000",
+    "interestRateGiven": "1000",
+    "interestRateReceived": "1000",
+    "isFrozen": false
+  },
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 6997877,
+    "timestamp": 1524655432,
+    "type": "TrustlineUpdateCancel",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
+    "status": "confirmed",
+    "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd"
+  },
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 6997899,
+    "timestamp": 1524655600,
+    "type": "TrustlineUpdate",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
+    "status": "confirmed",
+    "transactionId": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
+    "given": "10000",
+    "received": "10000",
+    "interestRateGiven": "1000",
+    "interestRateReceived": "1000",
+    "isFrozen": false
+  },
+  {
+    "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+    "blockNumber": 7011809,
+    "timestamp": 1524755036,
+    "type": "Transfer",
+    "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
+    "status": "confirmed",
+    "transactionId": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
+    "amount": "100",
+    "extraData": "0x1234"
+  }
 ]
 ```
 
-* * *
+---
 
 ### Balance of user
 
@@ -1000,7 +1009,7 @@ Returns the balance in ether of the given address.
 }
 ```
 
-* * *
+---
 
 ### Transaction infos for user
 
@@ -1038,7 +1047,7 @@ Returns information that is needed to sign a transaction.
 }
 ```
 
-* * *
+---
 
 ### All Trustlines of user in all currency networks
 
@@ -1079,40 +1088,40 @@ Returns a list of trustlines a user has in any currency network.
 
 ```json
 [
-    {
-        "address": "0xc773E89134957DD5d8eefA1700D147B3eAEEEFC5",
-        "balance": "0",
-        "counterParty": "0xc773E89134957DD5d8eefA1700D147B3eAEEEFC5",
-        "currencyNetwork": "0xC637Db818131Ea67d19Ea1C9c28559e08b536f6E",
-        "given": "0",
-        "id": "0x1d4e46b52805a7440fd41653d7923cbe7c813f3f36776c26df6023bfae94fa4c",
-        "interestRateGiven": "0",
-        "interestRateReceived": "0",
-        "isFrozen": false,
-        "leftGiven": "0",
-        "leftReceived": "0",
-        "received": "0",
-        "user": "0xE56d3f8096c765f29A88f54873a3D177a6c632D0"
-    },
-    {
-        "address": "0x851c66B2fa4641a7411C6F62e5e905096512772C",
-        "balance": "0",
-        "counterParty": "0x851c66B2fa4641a7411C6F62e5e905096512772C",
-        "currencyNetwork": "0x03cADF60A8f0eB5B17c5452fe0941Fb8FCc2F984",
-        "given": "20",
-        "id": "0x8194d0f524ed5b2056a1f2f432f6445a3c24c03e3a9c9191137c2b2109bb4a2b",
-        "interestRateGiven": "0",
-        "interestRateReceived": "0",
-        "isFrozen": false,
-        "leftGiven": "20",
-        "leftReceived": "20",
-        "received": "20",
-        "user": "0xE56d3f8096c765f29A88f54873a3D177a6c632D0"
-    }
+  {
+    "address": "0xc773E89134957DD5d8eefA1700D147B3eAEEEFC5",
+    "balance": "0",
+    "counterParty": "0xc773E89134957DD5d8eefA1700D147B3eAEEEFC5",
+    "currencyNetwork": "0xC637Db818131Ea67d19Ea1C9c28559e08b536f6E",
+    "given": "0",
+    "id": "0x1d4e46b52805a7440fd41653d7923cbe7c813f3f36776c26df6023bfae94fa4c",
+    "interestRateGiven": "0",
+    "interestRateReceived": "0",
+    "isFrozen": false,
+    "leftGiven": "0",
+    "leftReceived": "0",
+    "received": "0",
+    "user": "0xE56d3f8096c765f29A88f54873a3D177a6c632D0"
+  },
+  {
+    "address": "0x851c66B2fa4641a7411C6F62e5e905096512772C",
+    "balance": "0",
+    "counterParty": "0x851c66B2fa4641a7411C6F62e5e905096512772C",
+    "currencyNetwork": "0x03cADF60A8f0eB5B17c5452fe0941Fb8FCc2F984",
+    "given": "20",
+    "id": "0x8194d0f524ed5b2056a1f2f432f6445a3c24c03e3a9c9191137c2b2109bb4a2b",
+    "interestRateGiven": "0",
+    "interestRateReceived": "0",
+    "isFrozen": false,
+    "leftGiven": "20",
+    "leftReceived": "20",
+    "received": "20",
+    "user": "0xE56d3f8096c765f29A88f54873a3D177a6c632D0"
+  }
 ]
 ```
 
-* * *
+---
 
 ### Latest block number
 
@@ -1136,7 +1145,7 @@ Returns the latest block number.
 7426584
 ```
 
-* * *
+---
 
 ### Relay transaction
 
@@ -1171,7 +1180,7 @@ curl --header "Content-Type: application/json" \
 "<tx hash>"
 ```
 
-* * *
+---
 
 ### Fees for meta transaction
 
@@ -1218,18 +1227,18 @@ curl --header "Content-Type: application/json" \
 
 ```json
 [
-    {
-      "delegationFees": "1",
-      "currencyNetworkOfFees": "0x51a240271AB8AB9f9a21C82d9a85396b704E164d"
-    },
-    {
-      "delegationFees": "23",
-      "currencyNetworkOfFees": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce"
-    }
+  {
+    "delegationFees": "1",
+    "currencyNetworkOfFees": "0x51a240271AB8AB9f9a21C82d9a85396b704E164d"
+  },
+  {
+    "delegationFees": "23",
+    "currencyNetworkOfFees": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce"
+  }
 ]
 ```
 
-* * *
+---
 
 ### Relay meta transaction
 
@@ -1274,7 +1283,7 @@ curl --header "Content-Type: application/json" \
 "<tx hash>"
 ```
 
-* * *
+---
 
 ### Deploy identity contract
 
@@ -1312,7 +1321,11 @@ The endpoint returns an object with the following fields:
 #### Example Response
 
 ```json
-{"identity": "0x43950642C8685ED8e3Fb89a5C5aeCb12862A87fd", "nextNonce": 0, "balance": "0"}
+{
+  "identity": "0x43950642C8685ED8e3Fb89a5C5aeCb12862A87fd",
+  "nextNonce": 0,
+  "balance": "0"
+}
 ```
 
 ### Get authorized identity factories
@@ -1366,7 +1379,11 @@ The endpoint returns an object with the following fields:
 #### Example Response
 
 ```json
-{"identity": "0x2AbCc1389258Dc187DB787E33FD2B99d53695DE3", "nextNonce": 0, "balance": "0"}
+{
+  "identity": "0x2AbCc1389258Dc187DB787E33FD2B99d53695DE3",
+  "nextNonce": 0,
+  "balance": "0"
+}
 ```
 
 ### Get relay version

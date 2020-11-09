@@ -4,30 +4,30 @@ title: Trustlines Blockchain
 image: assets/images/tlbc.jpg
 ---
 
--   [The Trustlines Blockchain Infrastructure](#the-trustlines-blockchain-infrastructure)
-    -   [TLBC and Laika](#tlbc-and-laika)
-    -   [System Requirements](#system-requirements)
-    -   [Security](#security)
-    -   [Setup With the Quickstart Script](#setup-with-the-quickstart-script)
-    -   [Setup With Docker](#setup-with-docker)
-        -   [Blockchain Node](#blockchain-node)
-        -   [Netstats Client](#netstats-client)
-        -   [Monitor](#monitor)
-        -   [Bridge](#bridge)
-    -   [Setup Without Docker](#setup-without-docker)
--   [Development](#development)
-    -   [Build Own Image](#build-own-image)
-    -   [Upload Image](#upload-image)
-    -   [Running Tests on Contracts](#running-tests-on-contracts)
+- [The Trustlines Blockchain Infrastructure](#the-trustlines-blockchain-infrastructure)
+  - [TLBC and Laika](#tlbc-and-laika)
+  - [System Requirements](#system-requirements)
+  - [Security](#security)
+  - [Setup With the Quickstart Script](#setup-with-the-quickstart-script)
+  - [Setup With Docker](#setup-with-docker)
+    - [Blockchain Node](#blockchain-node)
+    - [Netstats Client](#netstats-client)
+    - [Monitor](#monitor)
+    - [Bridge](#bridge)
+  - [Setup Without Docker](#setup-without-docker)
+- [Development](#development)
+  - [Build Own Image](#build-own-image)
+  - [Upload Image](#upload-image)
+  - [Running Tests on Contracts](#running-tests-on-contracts)
 
 ## The Trustlines Blockchain Infrastructure
 
 Nodes of the Trustlines Blockchain run various applications:
 
--   The node of the blockchain itself
--   The monitor that checks if validators act honestly (optional)
--   The bridge between Ethereum and the Trustlines Blockchain (only run by validators)
--   The netstats client to report the node state to `https://netstats.tlbc.trustlines.foundation` (optional)
+- The node of the blockchain itself
+- The monitor that checks if validators act honestly (optional)
+- The bridge between Ethereum and the Trustlines Blockchain (only run by validators)
+- The netstats client to report the node state to `https://netstats.tlbc.trustlines.foundation` (optional)
 
 There are multiple ways to set each of these up. The most straightforward one by far is via our interactive quickstart
 script. Finer control can be achieved by starting the components individually as Docker containers. Finally, it is also
@@ -67,8 +67,8 @@ access root permissions to run containers.
 
 For validators it is crucial to safely back up their private key. If they lose their key, they will not be able to
 
--   create any blocks or earn block rewards or
--   withdraw their stake on the main chain once it is unlocked.
+- create any blocks or earn block rewards or
+- withdraw their stake on the main chain once it is unlocked.
 
 Furthermore, it is advisable to keep the amount of funds stored in the validator account small by regularly sending the
 newly earned income to a different account (e.g., a cold wallet stored on a different machine).
@@ -274,10 +274,10 @@ $ docker run -d --name bridge-client --network network-tlbc --network network-et
 
 We refer to the documentation of the individual components:
 
--   [Parity](https://wiki.parity.io/Parity-Ethereum)
--   [Netstats](https://github.com/trustlines-protocol/ethstats-client)
--   [Monitor](https://github.com/trustlines-protocol/tlbc-monitor)
--   [Bridge](https://github.com/trustlines-protocol/blockchain/tree/master/tools/bridge)
+- [Parity](https://wiki.parity.io/Parity-Ethereum)
+- [Netstats](https://github.com/trustlines-protocol/ethstats-client)
+- [Monitor](https://github.com/trustlines-protocol/tlbc-monitor)
+- [Bridge](https://github.com/trustlines-protocol/blockchain/tree/master/tools/bridge)
 
 For the Trustlines Blockchain node, make sure it uses the correct chain
 specification file (`./chain/tlbc/tlbc-spec.json`), that the right TCP and UDP

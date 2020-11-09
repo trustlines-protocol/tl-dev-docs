@@ -24,7 +24,9 @@ files directly into the user's home directory. Else, adapt the paths to your nee
 You need to run our modified parity node, which provides the JSONRPC API to the relay
 server and the indexer. The documentation on how to run it can be found on the
 [Blockchain Overview page](../blockchain/tlbc)
+
 ### Contracts
+
 The [trustlines-contracts
 repository](https://github.com/trustlines-protocol/contracts) contains the
 solidity contracts to be deployed on the blockchain and a commandline tool to deploy the contracts. The [how to deploy the
@@ -44,8 +46,7 @@ For the already deployed contracts on the trustlines blockchain use this file:
 
 ```json
 {
-  "networks":
-  [
+  "networks": [
     "0x9750bdB86B32DCaeFEAea4f29857D52C8d848860",
     "0xe4D3cEB3d59B6Fa4a39C8D9525c84C79057C1e29",
     "0xd75C9C8a79D6a85d4923b7C16BAb144cC9BB48e4"
@@ -57,15 +58,18 @@ We assume from now on that the contracts have already been deployed
 and that the `addresses.json` file has been copied to the user's home directory.
 
 ### PostgreSQL
+
 The trustlines system uses a PostgreSQL database to store some user data and to
 keep a synchronized view on the relevant state from the blockchain.
 
 Install PostgreSQL with:
+
 ```bash
 sudo apt install postgresql
 ```
 
 After this, a database user must be created. Please use a real password:
+
 ```bash
 sudo -u postgres psql <<EOF
 CREATE USER trustlines WITH PASSWORD 'choose-a-password-here';
@@ -75,6 +79,7 @@ EOF
 
 Next, the postgres environment should be configured for the account running
 the relay server:
+
 ```bash
 echo >>~/.pgpass 'localhost:5432:*:trustlines:choose-a-password-here'; chmod 0600 ~/.pgpass
 cat >>~/.bashrc <<EOF
@@ -93,11 +98,12 @@ createdb trustlinesdb
 
 The rest of this tutorial assumes that the user running the relay and
 py-eth-index related commands has a working postgresql environment configured.
-All programs consider the PG* environment variables and will read ~/.pgpass for
+All programs consider the PG\* environment variables and will read ~/.pgpass for
 information about passwords. The [py-eth-index section](#py-eth-index) describes
 how to create the trustlines specific tables.
 
 ### Py-eth-index
+
 The [py-eth-index repository](https://github.com/trustlines-protocol/py-eth-index)
 contains a helper program that synchronizes the relevant information from the
 blockchain into a postgresql database.
@@ -105,27 +111,36 @@ blockchain into a postgresql database.
 #### Installation of py-eth-index
 
 Clone the git repository:
+
 ```bash
 cd ~
 git clone https://github.com/trustlines-protocol/py-eth-index
 ```
+
 Let’s create a virtualenv for this repository:
+
 ```bash
 python3 -m venv ~/opt/py-eth-index; ~/opt/py-eth-index/bin/pip install -U pip
 ```
+
 and install py-eth-index
+
 ```bash
 cd ~/py-eth-index
 ~/opt/py-eth-index/bin/pip install -c constraints.txt -r requirements.txt
 ~/opt/py-eth-index/bin/pip install -c constraints.txt .
 ```
+
 #### Initializing the database
+
 After the database has been created, it must be initialized. This can be done with the following command:
 
 ```
 ~/opt/py-eth-index/bin/ethindex createtables
 ```
+
 #### Importing the ABIs
+
 We need to import the ABIs from the trustline-contracts. Trustlines-contracts is
 installed as a dependency of the relay server. Please run the following only
 after you have installed the relay server.
@@ -136,20 +151,22 @@ cp ~/opt/relay/trustlines-contracts/build/contracts.json ~
 ```
 
 #### Importing events
+
 The following command will start importing all relevant events into the postgres
 database:
 
 ```
 ~/opt/py-eth-index/bin/ethindex runsync
 ```
+
 This program will run forever.
 
-
 ### Relay server
+
 #### Prerequisites for the installation
 
--  Python 3.6 or up
--  pip
+- Python 3.6 or up
+- pip
 
 Installation on Ubuntu
 
@@ -161,6 +178,7 @@ sudo apt install build-essential python3-dev libsecp256k1-dev python3-virtualenv
 
 Clone the git repository, create a virtualenv and install into
 that.
+
 ```bash
 cd ~
 git clone https://github.com/trustlines-protocol/relay

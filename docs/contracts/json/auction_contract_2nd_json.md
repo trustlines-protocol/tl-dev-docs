@@ -1073,4 +1073,4 @@ title: Auction Contract (Second).json
             "methods": {}
         }
     }
-  ```
+```

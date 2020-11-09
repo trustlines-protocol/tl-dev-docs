@@ -6,6 +6,7 @@ title: Running Trustlines via docker-compose
 [This directory](https://github.com/trustlines-protocol/relay/tree/master/docker/trustlines) contains the files needed to start a trustlines system via
 docker-compose. Following these setup instructions will give you a
 system, where you can:
+
 - connect to a trustlines laika node via JSONRPC on port 8545
 - use the trustlines laika node as a metamask backend
 - connect to a relay server on port 5000 and interact with currency
@@ -15,6 +16,7 @@ Please be aware that you additionally might have to firewall the
 installed system if you don't want to expose those services.
 
 ## Services
+
 The docker-compose file contains service definitions for the following services:
 
 - db: A service running a postgres server. The postgres files will be
@@ -30,6 +32,7 @@ The docker-compose file contains service definitions for the following services:
 - relay: The relay server itself.
 
 ## Setup
+
 We need to do some initial setup and configuration for the system to work. You
 need to provide the `addresses.json` file, which should be put in the directory
 alongside the `docker-compose.yml` file.
@@ -38,9 +41,8 @@ This directory contains working example files for contracts already
 deployed on the laika blockchain. If you deploy your own contracts,
 please adapt `addresses.json` accordingly.
 
-
-
 ### Fetch docker image
+
 Let's first build and fetch all of the images that we will need
 without starting any services with the following command:
 
@@ -75,6 +77,7 @@ contains the compiled currency network contracts. We will need
 this file for the index service.
 
 Please copy them to the current directory with:
+
 ```bash
 docker-compose run --rm --no-deps -v $(pwd):/here --entrypoint /bin/bash relay -c "cp /opt/relay/trustlines-contracts/build/contracts.json /here"
 ```
@@ -102,6 +105,7 @@ to connect to the local node via metamask to do that.
 ### Test the installation
 
 Please try to run the following command:
+
 ```bash
 curl http://localhost:5000/api/v1/networks
 ```
