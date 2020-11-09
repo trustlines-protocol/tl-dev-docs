@@ -92,6 +92,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Trustlines.`,
     },
+    prism: {
+      additionalLanguages: ["typescript", "bash", "toml"],
+    },
   },
   plugins: [
     [
