@@ -1,15 +1,15 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Trustlines Developer Docs',
+  tagline: 'Leveraging trust to achieve financial & economic inclusion of all people.',
+  url: 'https://trustlines.network',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'trustlines-protocol', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Trustlines Dev Docs',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -21,9 +21,8 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/trustlines-protocol/tl-dev-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -33,15 +32,19 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Websites',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Trustlines Blog',
+              href: 'https://blog.trustlines.network',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Trustlines Foundation',
+              href: 'https://trustlines.foundation/',
+            },
+            {
+              label: 'Trustlines User Docs',
+              href: 'https://docs.trustlines.network//',
             },
           ],
         },
@@ -49,16 +52,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Trustlines Forum',
+              href: 'https://forum.trustlines.network/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Trustlines Newsletter',
+              href: 'http://eepurl.com/gHqYyX',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Trustlines Network in Telegram',
+              href: 'https://t.me/trustlines_network',
             },
           ],
         },
@@ -66,17 +69,17 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Trustlines on github',
+              href: 'https://github.com/trustlines-protocol',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Trustlines Technical Chat',
+              href: 'https://gitter.im/trustlines/community',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Trustlines.`,
     },
   },
   presets: [
@@ -87,13 +90,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/trustlines-protocol/tl-dev-docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
