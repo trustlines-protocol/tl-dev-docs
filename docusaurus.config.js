@@ -36,11 +36,6 @@ module.exports = {
           label: "Clientlib",
           position: "left",
         },
-        {
-          href: "https://github.com/trustlines-protocol/tl-dev-docs",
-          label: "GitHub",
-          position: "right",
-        },
       ],
     },
     footer: {
@@ -124,4 +119,13 @@ module.exports = {
       },
     ],
   ],
+  customFields: {
+    githubBadge: {
+      default: "https://github.com/trustlines-protocol/",
+      "clientlib": "https://github.com/trustlines-protocol/clientlib",
+      "docs/blockchain": "https://github.com/trustlines-protocol/blockchain/",
+      "docs/contracts": "https://github.com/trustlines-protocol/contracts/",
+      "docs/relay": "https://github.com/trustlines-protocol/relay",
+    },
+  },
 }
