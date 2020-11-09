@@ -1,5 +1,3 @@
 module.exports = {
-  someSidebar: {
-
-  },
+  Blockchain: ['blockchain/tlbc', 'blockchain/nodes'],
 };

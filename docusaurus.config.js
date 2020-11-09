@@ -16,14 +16,13 @@ module.exports = {
       },
       items: [
         {
-          to: 'clientlib/clientlib/',
-          label: 'Clientlib',
+          to: 'docs/blockchain/nodes',
+          label: 'Blockchain',
           position: 'left',
         },
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'clientlib/clientlib/',
+          label: 'Clientlib',
           position: 'left',
         },
         {
