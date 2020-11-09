@@ -34,6 +34,7 @@ module.exports = {
         {
           to: "clientlib/clientlib/",
           label: "Clientlib",
+          activeBasePath: "clientlib",
           position: "left",
         },
       ],
