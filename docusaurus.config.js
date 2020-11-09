@@ -22,6 +22,11 @@ module.exports = {
           position: "left",
         },
         {
+          to: "docs/contracts/contracts_README",
+          label: "Contracts",
+          position: "left",
+        },
+        {
           to: "docs/relay/relay_server",
           label: "Relay",
           position: "left",
