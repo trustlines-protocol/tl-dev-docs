@@ -85,7 +85,7 @@ try {
 }
 ```
 
-### Read our [documentation](<>) for more
+### Read our documentation for more
 
 ## Run Tests
 
