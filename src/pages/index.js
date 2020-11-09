@@ -8,32 +8,36 @@ import styles from "./styles.module.css"
 
 const features = [
   {
-    title: "Easy to Use",
+    title: "Trustlines Blockchain",
     imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The Trustlines Blockchain is a minimal viable Proof-of-Stake (mPoS)
+        Ethereum sidechain.
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Client library",
     imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The clientlib is a JS-library which makes it easy to build applications
+        on top of the Trustlines Protocol. It provides a high level API to
+        enable applications to interact with the smart contract system on the
+        blockchain via the relay servers.
       </>
     ),
   },
   {
-    title: "Powered by React",
+    title: "Relay Servers",
     imageUrl: "img/undraw_docusaurus_react.svg",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The Relay Servers are an optional bridge between client apps and the
+        Trustlines blockchain. They offer services which are not feasible to be
+        implemented on-chain or within the client apps. Importantly, Relay
+        servers calculate optimal paths and relay transactions.
       </>
     ),
   },
@@ -59,8 +63,8 @@ function Home() {
   const { siteConfig = {} } = context
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title}`}
+      description="Here you can find all kind of technical documentation about Trustlines as well as code related documentation."
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
