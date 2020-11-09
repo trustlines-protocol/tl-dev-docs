@@ -16,6 +16,11 @@ module.exports = {
       },
       items: [
         {
+          to: 'clientlib/clientlib/',
+          label: 'Clientlib',
+          position: 'left',
+        },
+        {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
@@ -82,6 +87,20 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Trustlines.`,
     },
   },
+  plugins:
+      [
+        [
+          '@docusaurus/plugin-content-docs',
+          {
+            id: "clientlib",
+            path: 'clientlib',
+            editUrl: 'https://github.com/trustlines-protocol/tl-dev-docs',
+            routeBasePath: 'clientlib',
+            sidebarPath: require.resolve('./sidebars_clientlib.js'),
+
+          },
+        ],
+      ],
   presets: [
     [
       '@docusaurus/preset-classic',
