@@ -4,15 +4,15 @@ module.exports = {
   url: 'https://trustlines.network',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/tl-favicon.png',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'trustlines-protocol', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Trustlines Dev Docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Trustlines logo',
+        src: 'img/tl-favicon.png',
       },
       items: [
         {
