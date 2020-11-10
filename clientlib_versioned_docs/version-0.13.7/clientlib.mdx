@@ -2,6 +2,8 @@
 layout: clientlib
 title: Client library introduction
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 > A TypeScript/JavaScript library for interacting with the [Trustlines Protocol](https://trustlines.foundation/protocol).
 
@@ -11,17 +13,30 @@ title: Client library introduction
 
 We publish the trustlines-clientlib to npm as a ES6 module.
 
-#### Using npm
+To install run the following command:
+
+<Tabs
+  groupId="packager"
+  defaultValue="npm"
+  values={[
+    {label: 'npm', value: 'npm'},
+    {label: 'yarn', value: 'yarn'},
+  ]}>
+<TabItem value="npm">
 
 ```bash
 $ npm i trustlines-clientlib
 ```
 
-#### Using yarn
+</TabItem>
+<TabItem value="yarn">
 
 ```bash
 $ yarn add trustlines-clientlib
 ```
+
+</TabItem>
+</Tabs>
 
 ### Build from source
 
