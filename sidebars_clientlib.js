@@ -11,5 +11,11 @@ module.exports = {
         "guides/transfer",
       ],
     },
+    {
+      API: [
+        'notes_on_api',
+        ...require("./sidebars_clientlib_api_typedoc.js"),
+      ],
+    },
   ],
 }

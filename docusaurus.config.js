@@ -120,6 +120,28 @@ module.exports = {
         sidebarPath: require.resolve("./sidebars_contracts.js"),
       },
     ],
+    [
+      "docusaurus-plugin-typedoc",
+      {
+        inputFiles: ["./submodules/clientlib/src/"],
+        mode: "modules",
+        docsRoot: "clientlib",
+        out: "api",
+        excludePrivate: true,
+        excludeNotExported: true,
+        module: "commonjs",
+        target: "ES6",
+        hideSources: false,
+        hideBreadcrumbs: true,
+        readme: "none",
+        sidebar: {
+          sidebarFile: 'sidebars_clientlib_api_typedoc.js',
+          readmeLabel: 'README',
+          globalsLabel: 'Globals',
+          fullNames: false,
+        },
+      },
+    ],
   ],
   presets: [
     [
@@ -139,7 +161,7 @@ module.exports = {
   customFields: {
     githubBadge: {
       default: "https://github.com/trustlines-protocol/",
-      "clientlib": "https://github.com/trustlines-protocol/clientlib",
+      clientlib: "https://github.com/trustlines-protocol/clientlib",
       "docs/blockchain": "https://github.com/trustlines-protocol/blockchain/",
       "docs/contracts": "https://github.com/trustlines-protocol/contracts/",
       "docs/relay": "https://github.com/trustlines-protocol/relay",
