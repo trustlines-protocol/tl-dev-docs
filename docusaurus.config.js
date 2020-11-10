@@ -22,7 +22,7 @@ module.exports = {
           position: "left",
         },
         {
-          to: "docs/contracts/contracts_README",
+          to: "contracts/contracts_README",
           label: "Contracts",
           position: "left",
         },
@@ -105,6 +105,16 @@ module.exports = {
         editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
         routeBasePath: "clientlib",
         sidebarPath: require.resolve("./sidebars_clientlib.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "contracts",
+        path: "contracts",
+        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+        routeBasePath: "contracts",
+        sidebarPath: require.resolve("./sidebars_contracts.js"),
       },
     ],
   ],
