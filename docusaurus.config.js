@@ -24,11 +24,13 @@ module.exports = {
         },
         {
           to: "contracts/contracts_README",
+          activeBasePath: "contracts",
           label: "Contracts",
           position: "left",
         },
         {
           to: "docs/relay/relay_server",
+          activeBasePath: "docs/relay",
           label: "Relay",
           position: "left",
         },
