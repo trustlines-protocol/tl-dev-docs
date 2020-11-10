@@ -17,7 +17,8 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/blockchain/nodes",
+          to: "docs/blockchain/tlbc",
+          activeBasePath: "docs/blockchain",
           label: "Blockchain",
           position: "left",
         },
