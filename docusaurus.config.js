@@ -37,8 +37,8 @@ module.exports = {
           position: "left",
         },
         {
-          to: "docs/relay/relay_server",
-          activeBasePath: "docs/relay",
+          to: "relay/relay_server",
+          activeBasePath: "relay",
           label: "Relay",
           position: "left",
         },
@@ -126,6 +126,16 @@ module.exports = {
         editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
         routeBasePath: "contracts",
         sidebarPath: require.resolve("./sidebars_contracts.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "relay",
+        path: "relay",
+        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+        routeBasePath: "relay",
+        sidebarPath: require.resolve("./sidebars_relay.js"),
       },
     ],
     [
