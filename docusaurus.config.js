@@ -17,6 +17,14 @@ module.exports = {
       },
       items: [
         {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          docsPluginId: "clientlib",
+
+          // Do not add the link active class when browsing docs.
+          dropdownActiveClassDisabled: true,
+        },
+        {
           to: "docs/blockchain/tlbc",
           activeBasePath: "docs/blockchain",
           label: "Blockchain",
@@ -166,5 +174,10 @@ module.exports = {
       "docs/contracts": "https://github.com/trustlines-protocol/contracts/",
       "docs/relay": "https://github.com/trustlines-protocol/relay",
     },
+    customNavbarConfig: {
+      clientlib: {
+        displayOnlyWhenPathIncludes: "clientlib",
+      }
+    }
   },
 }
