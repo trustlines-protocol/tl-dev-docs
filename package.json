@@ -10,7 +10,7 @@
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
     "format": "prettier --write .",
-    "postinstall": "./scripts/postInstall.sh"
+    "postinstall": "./scripts/postinstall.sh"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.69",
