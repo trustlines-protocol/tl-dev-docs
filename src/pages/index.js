@@ -9,7 +9,6 @@ import styles from "./styles.module.css"
 const features = [
   {
     title: "Trustlines Blockchain",
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
         The Trustlines Blockchain is a minimal viable Proof-of-Stake (mPoS)
@@ -19,7 +18,6 @@ const features = [
   },
   {
     title: "Client library",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <>
         The clientlib is a JS-library which makes it easy to build applications
@@ -31,7 +29,6 @@ const features = [
   },
   {
     title: "Relay Servers",
-    imageUrl: "img/undraw_docusaurus_react.svg",
     description: (
       <>
         The Relay Servers are an optional bridge between client apps and the
@@ -44,14 +41,8 @@ const features = [
 ]
 
 function Feature({ imageUrl, title, description }) {
-  const imgUrl = useBaseUrl(imageUrl)
   return (
     <div className={clsx("col col--4", styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
       <h3>{title}</h3>
       <p>{description}</p>
     </div>
