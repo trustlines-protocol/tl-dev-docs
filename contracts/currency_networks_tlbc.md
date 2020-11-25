@@ -54,7 +54,7 @@ Polish Zloty: `0x8588173E0322089Efe851b14d041aC15AC991C07`
 Tanzanian Shilling: `0xcb02a08a72Cb459fE41E987065fE1E2D7438E64E`  
 Solomon Islands Dollar: `0x0FbD56e384826246dC795C1A1951c781184F8faa`
 
-[Currency Networks contracts.json](currency_networks_contracts_json)
+[Currency Networks contracts.json](json/currency_networks_contracts_json)
 
 ### Currency Network Registry
 
@@ -66,4 +66,4 @@ Solomon Islands Dollar: `0x0FbD56e384826246dC795C1A1951c781184F8faa`
 
 **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0x02c3ca67cf3310295195173cb654cfd61f4c849d/transactions)**
 
-[Currency Networks Registry contracts.json](json/currency_networks_contracts_json)
+[Currency Networks Registry contracts.json](json/currency_networks_registry_contracts_json)

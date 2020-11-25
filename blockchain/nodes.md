@@ -24,4 +24,4 @@ Anyone can use these public RPC endpoints to connect to the Trustlines Blockchai
 
 ## Running a node locally
 
-See the recommended [Setup With the Quickstart Script](tlbc.html#setup-with-the-quickstart-script) or [Setup With Docker](tlbc.html#setup-with-docker) sections of the [Blockchain Overview](tlbc.html) for more information about running a node locally.
+See the recommended [Setup With the Quickstart Script](tlbc#setup-with-the-quickstart-script) or [Setup With Docker](tlbc#setup-with-docker) sections of the [Blockchain Overview](tlbc) for more information about running a node locally.
