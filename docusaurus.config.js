@@ -2,12 +2,12 @@ module.exports = {
   title: "Trustlines Developer Docs",
   tagline:
     "Leveraging trust to achieve financial & economic inclusion of all people.",
-  url: "https://trustlines.network",
+  url: "https://dev.trustlines.network",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/tl-favicon.png",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "trustlines-protocol", // Usually your repo name.
+  organizationName: "trustlines-protocol",
+  projectName: "tl-dev-docs",
   themeConfig: {
     navbar: {
       title: "Trustlines Dev Docs",
