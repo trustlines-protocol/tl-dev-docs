@@ -25,8 +25,8 @@ module.exports = {
           dropdownActiveClassDisabled: true,
         },
         {
-          to: "docs/blockchain/tlbc",
-          activeBasePath: "docs/blockchain",
+          to: "blockchain/tlbc",
+          activeBasePath: "blockchain",
           label: "Blockchain",
           position: "left",
         },
@@ -108,6 +108,16 @@ module.exports = {
     },
   },
   plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "blockchain",
+        path: "blockchain",
+        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+        routeBasePath: "blockchain",
+        sidebarPath: require.resolve("./sidebars_blockchain.js"),
+      },
+    ],
     [
       "@docusaurus/plugin-content-docs",
       {
