@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Setup tmate session
-          uses: mxschmitt/action-tmate@v3
+        uses: mxschmitt/action-tmate@v3
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
