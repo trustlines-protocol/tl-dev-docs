@@ -92,7 +92,7 @@ EOF
 After logging in again, in order to have the environment variables set, the user
 should be able to create the database:
 
-```
+```sql
 createdb trustlinesdb
 ```
 
@@ -135,7 +135,7 @@ cd ~/py-eth-index
 
 After the database has been created, it must be initialized. This can be done with the following command:
 
-```
+```bash
 ~/opt/py-eth-index/bin/ethindex createtables
 ```
 
@@ -155,7 +155,7 @@ cp ~/opt/relay/trustlines-contracts/build/contracts.json ~
 The following command will start importing all relevant events into the postgres
 database:
 
-```
+```bash
 ~/opt/py-eth-index/bin/ethindex runsync
 ```
 

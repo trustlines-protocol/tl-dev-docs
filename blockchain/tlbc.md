@@ -82,13 +82,13 @@ become available (e.g. for bug fixes or network forks).
 
 To fetch and run the most recent version of the quickstart script for the Trustlines Blockchain, execute the following command on your machine:
 
-```sh
+```bash
 bash <(curl -L quickstart.tlbc.trustlines.foundation)
 ```
 
 If you want a quickstart setup for the Laika testnet, use the following command instead:
 
-```sh
+```bash
 bash <(curl -L quickstart.laika.trustlines.foundation)
 ```
 
@@ -120,7 +120,7 @@ following ones.
 The blockchain image is a standard Parity client with a custom configuration for the Trustlines Blockchain. It also
 accepts a few additional command line options as described in the help message:
 
-```sh
+```bash
 $ docker run --rm trustlines/tlbc-node:release --help
 
 
@@ -135,7 +135,7 @@ $ docker run --rm trustlines/tlbc-node:release --help
 
 Before starting the node, create a Docker network to conveniently allow other containers to easily connect to it:
 
-```sh
+```bash
 $ docker network create network-tlbc
 ```
 
@@ -143,7 +143,7 @@ When running the node, you typically want to forward necessary ports to the host
 peers. Additionally, you might want to mount some volumes to persist configuration and chain data. For instance, to run
 a non-validator node:
 
-```sh
+```bash
 $ mkdir -p tlbc/databases/tlbc tlbc/config tlbc/enode tlbc/shared
 $ docker run -d --name tlbc-node --network network-tlbc \
     -v $(pwd)/tlbc/databases/tlbc:/data \
@@ -157,7 +157,7 @@ $ docker run -d --name tlbc-node --network network-tlbc \
 If you are a validator, this sequence of commands will supply Parity with your keystore file, password, and address so
 that it can produce blocks:
 
-```sh
+```bash
 $ mkdir -p tlbc/databases/tlbc tlbc/config/keys/tlbc tlbc/enode tlbc/shared
 $ cp /path/to/your/keystore/file.json tlbc/config/keys/tlbc/account.json
 $ echo "<passphrase_for_keystore_file>" > tlbc/config/pass.pwd
@@ -181,7 +181,7 @@ To participate, you first need to request credentials managed by the Trustlines 
 
 Once you have your credentials, create a file `tlbc/netstats-env` with the following contents:
 
-```sh
+```bash
 WS_USER=username-as-provided-by-the-foundation
 WS_PASSWORD=password-as-provided-by-the-foundation
 INSTANCE_NAME=please-choose-a-nice-name-here
@@ -189,13 +189,13 @@ INSTANCE_NAME=please-choose-a-nice-name-here
 
 If you want to be publicly displayed as a validator, add the following line at the end:
 
-```sh
+```bash
 HIDE_VALIDATOR_STATUS=false
 ```
 
 Now, the netstats client can be started with
 
-```sh
+```bash
 $ docker run -d --name netstats-client --network network-tlbc \
     --env-file tlbc/netstats-env \
     -e RPC_HOST=tlbc-node \
@@ -210,7 +210,7 @@ network should run it and users should regularly check for reports of misbehavin
 
 Assuming the blockchain node was configured as described above, this command will start the monitor:
 
-```sh
+```bash
 $ mkdir -p tlbc/monitor/reports tlbc/monitor/state
 $ docker run -d --name tlbc-monitor --network network-tlbc \
     -v $(pwd)/tlbc/shared:/config \
@@ -228,7 +228,7 @@ tokens on the Trustlines Blockchain. Non-validators should not run a bridge node
 
 The bridge requires an Ethereum mainnet node which can be a light client. To start one, execute
 
-```sh
+```bash
 $ docker network create network-ethereum
 $ mkdir -p tlbc/databases/mainnet
 $ docker run -d --name mainnet-node --network network-ethereum \
@@ -262,7 +262,7 @@ Note that the keystore path is not an actual path on the host machine, but rathe
 The container will have to connect to both of the Docker networks and access the config directory.
 Therefore, the command looks like this:
 
-```sh
+```bash
 $ docker run -d --name bridge-client --network network-tlbc --network network-ethereum \
     -v $(pwd)/tlbc/config:/config \
     -v $(pwd)/tlbc/bridge-config.toml:/config/bridge-config.toml \
@@ -291,7 +291,7 @@ enabled.
 To build the _Docker_ image, checkout this repository and run `docker build` with your preferred tag name. As the context of
 the build must be the project root, the path to the `Dockerfile` has to be specified manually.
 
-```sh
+```bash
 $ git clone https://github.com/trustlines-protocol/blockchain
 $ docker build -f ./chain/laika/Dockerfile -t MY_TAGNAME ./chain
 $ docker run ... MY_TAGNAME ...
