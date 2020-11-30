@@ -1,0 +1,144 @@
+---
+title: Getting started
+---
+
+Since the Trustlines App is build with React-Native a pre-requisite is that you have set up your machine for React-native
+development. Make sure that you've followed the official React-Native Guide for building with the
+[React-Native CLI](https://reactnative.dev/docs/environment-setup).
+
+Another pre-requisite is that you have a [Firebase](https://firebase.google.com/) project set(used for tracking analytics
+and sending push notifications) and [Notifee](https://notifee.app/) account (a library used for displaying push notifications).
+
+:::warning React-Native CLI!
+Make sure that you've set up your environment for development with the React-Native CLI. The Trustlines app is not an Expo
+app and you won't be able to run it unless you configure your environment properly.
+:::
+
+## Before you begin
+
+Keep the following things in mind
+
+:::warning Package name
+By default the iOS Bundle ID of the App is `app.trustlines` and the Android package name is `network.trustlines.mobileapp`.
+If you keep those names you won't be able to publish the app in the App Store or Android Play Store as those are taken by
+us. So if you want to publish your own version of the Trustlines App you'll have to modify the Bundle ID & Android package
+name. Throughout this documentation we will use the default Bundle ID and Android package name, but you should make sure
+that you use the correct Bundle ID and Android Package name for your app.
+:::
+
+:::warning Config flavors
+The Trustlines App can be run in 3 modes - debug, staging and production. We do this by providing config files for
+each of those modes. Additionally, every mode sets a different Bundle ID and Android Package name. If you don't want
+to set up all of those modes, just copy your default config for every mode.
+:::
+
+
+## Cloning the repository
+
+```bash
+git clone https://github.com/trustlines-network/mobileapp.git
+cd mobileapp
+```
+
+## Firebase config
+Head up to your Firebase project and download the `GoogleServices.plist`(iOS) and `google-services.json`(android) config
+files.
+
+Place the `GoogleServices.plist` file in `/firebase/ios/**` and the `google-services.json` file in `/firebase/android/**`.
+Later when your run `yarn` those files will be copied to `ios/firebase_environements` (at xCode build time the correct
+`.plist` file will be copied to the ios bundle) and to `/android/app/src/**`
+
+## Notifee config
+The app comes with `notifee.config.json.dist` file. Rename this file to `notifee.config.json` and place the correct
+Notifee API keys.
+
+More information about Notifee can be found here:
+https://notifee.app/
+
+:::note
+When running the app in debug mode you don't need valid Notifee keys.
+:::
+
+## Crowdin
+:::note
+This is optional and applies only if you want to use crowdin for your translation efforts.
+:::
+
+Rename the `crowdin.yml.dist` file to `crowdin.yml` and specify your API keys in it.
+
+## .env files
+Rename the `.env.dist` to `.env.e2e`, `.env.develop`, `env.staging` and `env.production`.
+The values in `.env.dist` would by default connect you with the trustlines staging relay server, which is connected to
+the laika chain. The staging relay server is configured to pay for your transactions made on the laika chain, so it can
+be used to quickly test the app.
+
+:::warning
+The staging relay server is configured to use our firebase config for sending push notifications. Since the app that you
+build will use your own firebase project the push notification token that you generate will be incompatible with the
+push notification tokens that the staging server expects, and your app won't be able to send/receive push notifications.
+
+Because of that you are recommended to run your own relay server instance and configure the app to connect to it.
+:::
+
+
+## Yarn setup
+After you've spent some time setting up all pre-requisites it's time to get to the fun and install the required dependencies.
+
+```bash
+$ yarn
+```
+
+To run the app in Debug mode first start the [React-Native Metro server](https://facebook.github.io/metro/) by running:
+
+```
+$ yarn run start
+```
+
+To compile the App in debug mode run
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+  defaultValue="ios"
+  values={[
+    { label: 'iOS', value: 'ios', },
+    { label: 'Android', value: 'android', }
+  ]
+}>
+<TabItem value="ios">
+
+Your first need to install the cocoapods dependencies. First move to the `ios` folder and execute `pod install`
+
+```bash
+$ cd ios && pod install && cd ..
+```
+
+Now run
+
+```bash
+$ yarn run start:ios
+```
+</TabItem>
+<TabItem value="android">
+
+```bash
+$ yarn run start:android
+```
+</TabItem>
+</Tabs>
+
+
+## Hot-reloading
+Hot-reloading is available and can be enabled via the dev menu
+
+Android & iOS: shake you device, really, not a joke. Shake it and the DEV menu will appear.
+While using the simulator hit `cmd + d` on iOS or `cmd + m` on Android to open the DEV menu
+
+
+## Common issues
+
+```bash
+"Unable to resolve module `stream` ...
+```
+run ```yarn run hack```

@@ -1,7 +1,7 @@
 module.exports = {
   mobileapp: {
     "The Basics": [
-      "introduction"
+      "introduction", 'getting_started'
     ]
   },
 }
