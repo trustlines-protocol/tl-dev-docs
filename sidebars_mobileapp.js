@@ -17,6 +17,10 @@ module.exports = {
       collapsed: false,
       label: "Known issues",
       items: ["known_issues/javascript", "known_issues/android", "known_issues/ios"]
+    },
+    {
+      type: "doc",
+      id: "e2e_testing"
     }
   ]
 }
