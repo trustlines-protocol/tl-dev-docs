@@ -37,6 +37,10 @@ module.exports = {
     },
     {
       type: "doc",
+      id: "localizations",
+    },
+    {
+      type: "doc",
       id: "deploy",
     },
   ],
