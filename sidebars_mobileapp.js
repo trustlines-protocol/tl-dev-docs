@@ -16,7 +16,7 @@ module.exports = {
       type: "category",
       collapsed: false,
       label: "Known issues",
-      items: ["known_issues/javascript"]
+      items: ["known_issues/javascript", "known_issues/android"]
     }
   ]
 }
