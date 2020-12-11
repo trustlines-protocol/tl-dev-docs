@@ -10,7 +10,7 @@ module.exports = {
       type: "category",
       label: "Customizations",
       collapsed: false,
-      items: ["custom_icons", "clientlib", "state"]
+      items: ["customizations/custom_icons", "customizations/clientlib", "customizations/state"]
     },
     {
       type: "category",
