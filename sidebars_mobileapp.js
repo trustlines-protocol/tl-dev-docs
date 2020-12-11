@@ -16,7 +16,7 @@ module.exports = {
         "customizations/clientlib",
         "customizations/state",
         "customizations/storybook",
-        "customizations/styling"
+        "customizations/styling",
       ],
     },
     {
@@ -30,12 +30,14 @@ module.exports = {
       ],
     },
     {
-      type: "doc",
-      id: "e2e_testing",
+      type: "category",
+      label: "Testing",
+      collapsed: false,
+      items: [{ type: "doc", id: "testing/e2e" }, { type: "doc", id: "testing/unit" }],
     },
     {
       type: "doc",
-      id: "deploy"
-    }
+      id: "deploy",
+    },
   ],
 }
