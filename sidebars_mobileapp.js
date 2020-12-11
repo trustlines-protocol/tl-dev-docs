@@ -11,6 +11,7 @@ module.exports = {
       label: "Customizations",
       collapsed: false,
       items: [
+        "customizations/structure",
         "customizations/custom_icons",
         "customizations/clientlib",
         "customizations/state",
