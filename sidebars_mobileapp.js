@@ -5,6 +5,9 @@ module.exports = {
     ],
     "Customizations": [
       'custom_icons'
+    ],
+    "Known issues": [
+      "known_issues/javascript"
     ]
   },
 }
