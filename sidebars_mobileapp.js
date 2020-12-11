@@ -33,5 +33,9 @@ module.exports = {
       type: "doc",
       id: "e2e_testing",
     },
+    {
+      type: "doc",
+      id: "deploy"
+    }
   ],
 }
