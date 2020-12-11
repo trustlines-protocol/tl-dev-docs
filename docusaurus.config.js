@@ -50,7 +50,7 @@ module.exports = {
         },
         {
           to: "mobileapp/introduction",
-          label: "Mobile App",
+          label: "Trustlines App",
           activeBasePath: "mobileapp",
           position: "left",
         },
