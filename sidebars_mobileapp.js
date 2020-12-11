@@ -15,7 +15,8 @@ module.exports = {
         "customizations/custom_icons",
         "customizations/clientlib",
         "customizations/state",
-        "customizations/storybook"
+        "customizations/storybook",
+        "customizations/styling"
       ],
     },
     {
