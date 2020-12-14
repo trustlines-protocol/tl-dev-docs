@@ -1,60 +1,72 @@
-# Trustlines Developer Docs
+# Trustlines Developer docs
 
-![Trustlines Developer Docs](assets/images/readme_header.png "Trustlines Developer Docs")
+This repository holds the sources for the [trustlines developer docs website](https://dev.trustlines.network). 
+The docs here aim to be the ultimate source of truth for the whole trustlines project. 
+We are using [docusaurus](https://v2.docusaurus.io/) to build the website of the docs, but you don't need to
+understand how docusaurus works in order to update the docs. Just find the .md file that needs modification/improvements, modify it and submit a PR request. If approved our automatic publishing process will kick-in and will build a new version of this website and deploy it. 
 
-___
+## Docs structure
+Currently, this repository is structured to allow versioning of all docs, although currently this is only done for the clientlib docs. 
 
-Trustlines Developer Docs will contain all the technical documentation related to [Trustlines Protocol](https://trustlines.foundation/protocol.html).
+The docs for every trustline project(blockchain, clientlib etc.) are organized in folders with the respective names of the projects. When we later in this docs mention `DOC_PLUGIN_ID` we refer to the id specified in the plugins section of `docusaurus.config.js` for the `@docusaurus/plugin-content-docs` plugin. 
 
-Here you can find all kind of technical details about Trustlines as well as code related documentation.
 
-This site is a work in progress and the documentation currently resides in their respective repositories of the [trustlines-protocol GitHub organization](https://github.com/trustlines-protocol/).
+## Working with docusaurus
+### Installation
 
-### Content
+```console
+yarn install
+```
 
-- **Blockchain**
+### Local Development
 
-> The Trustlines Blockchain is a minimal viable Proof-of-Stake (mPoS) Ethereum sidechain.
+```console
+yarn start
+```
 
-- **Client library**
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
-> The clientlib is a JS-library which makes it easy to build applications on top of the Trustlines Protocol. It provides a high level API to enable applications to interact with the smart contract system on the blockchain via the relay servers.
+### Build
 
-- **Relay Servers**
+```console
+yarn build
+```
 
-> The Relay Servers are an optional bridge between client apps and the Trustlines blockchain. They offer services which are not feasible to be implemented on-chain or within the client apps. Importantly, Relay servers calculate optimal paths and relay transactions.
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-- **Smart Contract System**
+### Versioning docs
+If the content is ready to be frozen as a version run:
+```
+yarn run docusaurus docs:version:DOC_PLUGIN_ID <version>
+```
 
-> The smart contract system is a collection of solidity contracts deployed on the Trustlines Blockchain. Transfers within the Trustlines Network are executed by the smart contracts. All trustlines (i.e. credit lines and balances between users) are notarized on the Trustlines Blockchain. Furthermore, the smart contracts enforce the rules determining how trustlines can be created, used and updated.
+The currently available values for DOC_PLUGIN_ID can be found in the docusaurus.config.js file.
 
-### Cloning the repository
+Running this command will generate a DOC_PLUGIN_ID_versioned_docs/version folder and will copy the docs from the DOC_PLUGIN_ID folder to it. If you need to make modifications to the docs of that version you now need to make the modifications in the  DOC_PLUGIN_ID_versioned_docs/version folder. 
 
-If you are cloning the repo for the first time, you should run `git clone --recurse-submodules https://github.com/trustlines-protocol/tl-dev-docs.git`.
+**Note on versions**
 
-If you have already cloned the repo prior or forgot to add `--recurse-submodules` when cloning, you will want to `init` and `update` the submodules.
+Keep the number of versions small. The more versions we have the longer the build times. The latest version + the last 2 major versions is a good rule of thumb.
 
-This can be done with a single command, `git submodule update --init --recursive` or individually with `git submodule init` and `git submodule update`.
+#### Delete an existing version
+1. Remove the version from the `DOC_PLUGIN_ID_versions.json` file.
+2. Delete the versioned docs directory. Example: `DOC_PLUGIN_ID_versioned_docs/version-1.8.0`
+3. Delete the versioned sidebar file. Example `DOC_PLUGIN_ID_versioned_sidebars/version-1.8.0-sidebars.json`
 
-**_Important note:_** The submodules do not update automatically with new commits made in the repos. You will need to run `git submodule update --remote` or simply do `git fetch` in the right submodule folder.
+### Deployment
 
-### Requirements and steps for running the site locally
+```console
+GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
 
-#### Requirements
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-- [Ruby](https://www.ruby-lang.org/en/downloads/) version 2.5.0 or above, including all development headers (ruby version can be checked by running `ruby -v`)
-- [RubyGems](https://rubygems.org/pages/download) (which you can check by running `gem -v`)
-- [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/) (in case your system doesn’t have them installed, which you can check by running `gcc -v`, `g++ -v` and `make -v` in your system’s command line interface)
-- [Jekyll](https://jekyllrb.com/) (currently using v3.9.0)
+## Notes on clientlib/api
+**Never modify the clientlib/api docs directly!**
 
-#### Steps to install locally
+The clientlib/api folder is created automatically by the `docusaurus-plugin-typedoc` plugin. For that plugin to work the [clientlib repo](https://github.com/trustlines-protocol/clientlib/) is included as a git submodule. Docs are then generated when you run `yarn start` or `yarn build`. If you need to make modifications to the clientlib/api docs - fix the corresponding file in the clientlib repo. Once the change
+there gets approved you need to pull the latest changes from the clientlib repo in the submodule and rebuild
+the docs.
 
-- [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-- [Install Gem](https://rubygems.org/pages/download)
-- [Install Jekyll](https://jekyllrb.com/docs/installation/)
-
-#### Running locally
-- `cd path-to-your-tl-dev-docs-folder/`
-- Run `bundle exec jekyll serve`
-- Open http://127.0.0.1:4000/ in your favourite browser
-  - If you're running into a 404 Not found error, try setting `baseurl: ""` in the `_config.yml` file and run serve again.
+## Markdown
+For a full list of supported markdown syntax refer to the [docusaurus docs](https://v2.docusaurus.io/docs/2.0.0-alpha.69/markdown-features)

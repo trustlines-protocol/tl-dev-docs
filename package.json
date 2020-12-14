@@ -1,0 +1,42 @@
+{
+  "name": "tl-dev-docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "USE_SIMPLE_CSS_MINIFIER=true docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "USE_SIMPLE_CSS_MINIFIER=true docusaurus deploy",
+    "serve": "USE_SIMPLE_CSS_MINIFIER=true docusaurus serve",
+    "format": "prettier --write .",
+    "postinstall": "./scripts/postinstall.sh"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.69",
+    "@docusaurus/preset-classic": "2.0.0-alpha.69",
+    "@mdx-js/react": "^1.5.8",
+    "clsx": "^1.1.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "docusaurus-plugin-typedoc": "^0.4.0",
+    "prettier": "2.1.2",
+    "typedoc": "^0.19.2",
+    "typedoc-plugin-markdown": "^3.0.11",
+    "typescript": "^4.0.5"
+  }
+}
