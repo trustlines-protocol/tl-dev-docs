@@ -119,7 +119,7 @@ module.exports = {
       {
         id: "blockchain",
         path: "blockchain",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "blockchain",
         sidebarPath: require.resolve("./sidebars_blockchain.js"),
       },
@@ -139,7 +139,7 @@ module.exports = {
       {
         id: "clientlib",
         path: "clientlib",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "clientlib",
         sidebarPath: require.resolve("./sidebars_clientlib.js"),
       },
@@ -149,7 +149,7 @@ module.exports = {
       {
         id: "contracts",
         path: "contracts",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "contracts",
         sidebarPath: require.resolve("./sidebars_contracts.js"),
       },
@@ -159,7 +159,7 @@ module.exports = {
       {
         id: "relay",
         path: "relay",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "relay",
         sidebarPath: require.resolve("./sidebars_relay.js"),
       },
@@ -194,7 +194,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+          editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
