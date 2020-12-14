@@ -5,7 +5,9 @@ title: Localizations
 :::note
 This doc is for maintainers or for people who want to setup a similar translation process with a copy of the trustlines app.
 :::
-The Trustlines mobile app uses the localization framework [FBT](https://facebookincubator.github.io/fbt/) and the translation platform [Crowdin](https://crowdin.com/) for supporting different languages. The utility scripts in `mobileapp/translation/scripts` are used for enabling a smooth integration of the mentioned tools. The scripts `crowdinToFbt.js`, `fbtToCrowdin.js` and `splitTranslation.js` are copied from the [Origin Protocol mobile app repository](https://github.com/OriginProtocol/origin/tree/master/mobile) and modified to our needs. The respective license can be found in [`mobileapp/translation/LICENSE`](./LICENSE).
+
+
+The Trustlines mobile app uses the localization framework [FBT](https://facebookincubator.github.io/fbt/) and the translation platform [Crowdin](https://crowdin.com/) for supporting different languages. The utility scripts in `mobileapp/translation/scripts` are used for enabling a smooth integration of the mentioned tools. The scripts `crowdinToFbt.js`, `fbtToCrowdin.js` and `splitTranslation.js` are copied from the [Origin Protocol mobile app repository](https://github.com/OriginProtocol/origin/tree/master/mobile) and modified to our needs. The respective license can be found in `<root>/translation/LICENSE`
 
 ## Prerequisites
 
