@@ -37,7 +37,7 @@ module.exports = {
           position: "left",
         },
         {
-          to: "relay/relay_server",
+          to: "relay/introduction",
           activeBasePath: "relay",
           label: "Relay",
           position: "left",
