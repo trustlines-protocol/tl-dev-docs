@@ -206,9 +206,9 @@ module.exports = {
     githubBadge: {
       default: "https://github.com/trustlines-protocol/",
       clientlib: "https://github.com/trustlines-protocol/clientlib",
-      "docs/blockchain": "https://github.com/trustlines-protocol/blockchain/",
-      "docs/contracts": "https://github.com/trustlines-protocol/contracts/",
-      "docs/relay": "https://github.com/trustlines-protocol/relay",
+      "blockchain": "https://github.com/trustlines-protocol/blockchain/",
+      "contracts": "https://github.com/trustlines-protocol/contracts/",
+      "relay": "https://github.com/trustlines-protocol/relay",
     },
     customNavbarConfig: {
       clientlib: {
