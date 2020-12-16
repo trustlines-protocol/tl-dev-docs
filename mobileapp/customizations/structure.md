@@ -9,16 +9,19 @@ in flux. A pattern used at one particular point of time proves to be hard to use
 
 This doc is a snapshot of the things learned over the past couple of years. 
 
-# Folder structure
+## Folder structure
 
-All file directly relevant to the app are located in `/src`. So far everything is shared so all files are located in `/src/shared`.
+All files directly relevant to the app are located in `/src`. So far everything is shared so all files are located in `/src/shared`.
 
-A babel plugin to rewrite module paths is used (`babel-plugin-module-resolver`) to enable non-relative file imports
+A babel plugin to rewrite module paths is used (`babel-plugin-module-resolver`) to enable non-relative file imports.
+We currently set the root to `/src/shared` in `babel.config.js`, so that we can import as follows
 
 ```js
-import { method } from 'my/path/module' 
+// in `/src/shared/some-folder/some-file.js`
+
+import { MyComponent } from 'components/MyComponent'  // absolute path `/src/shared/components/MyComponent`
 // instead of 
-import { method } from '../my/path/module' 
+import { MyComponent } from '../../components/MyComponent'
 ```
 
 *see `babel.config.js` for details*
@@ -34,9 +37,9 @@ This react-native app uses `redux` and `redux-sagas` to hold and manipulate it's
 
 ## Screens & Navigation
 
-The app uses `react-navigation` v4 to structure its content and make it accessible. All navigators (base for the structure of screens) and screens are located in `/navigation`. However, not all code for navigation is currently here, even though it should be.
+The app uses `react-navigation` v4 to structure its content and make it accessible. All navigators (base for the structure of screens) and screens are located in `/src/shared/navigation`. However, not all code for navigation is currently here, even though it should be.
 
-A js file in `/screens` represents a single page / view / screen in the app and is used as a `redux container` getting and in the past was decided to prepare all data needed for the view. This design that all data needs to be fetched here from the store does not make sense together with `react-redux` so we will try to move away from that, and have more `redux containers` further down the component hierarchy. 
+A js file in `/src/shared/screens` represents a single page / view / screen in the app and is used as a `redux container`. In the past, it was decided to prepare all data needed for the view in this component. This design that all data needs to be fetched here from the store does not make sense together with `react-redux` so we will try to move away from that, and have more `redux containers` further down the component hierarchy. 
 
 ### Navigators
 

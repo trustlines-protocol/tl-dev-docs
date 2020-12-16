@@ -7,7 +7,7 @@ package.
 All calls to functions of that page are proxied in the `src/shared/lib/client.js` file.
 
 
-The Clientlib takes basically care of all blockchain/relay server related functionalities
+The Clientlib takes basically care of all blockchain/relay server related functionalities, such as
 
 * all communication to a relay server
 * creating links

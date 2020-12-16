@@ -10,7 +10,7 @@ Every state entity has ist own directory in 'state' that usually containing thes
 E.g. 'state/contacts'
 ````
 ./actions.js    // redux actions
-./flowtypes.js  // flow types for redux-state and entities
+./types.js  // flow types for redux-state and entities
 ./reducers.js   // redux reducers
 ./sagas.js      // redux sagas. Pretty much all of the state calculation happens in here
 ./schema.js     // schema for normalizr (normalization / denormalization of state data)

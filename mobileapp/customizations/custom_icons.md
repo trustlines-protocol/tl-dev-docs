@@ -15,14 +15,14 @@ Currently, the only way to browse available icons is to visit the website of [ic
 
 1. Go to https://icomoon.io/app.
 2. Click on the button **Import Icons**.
-3. Select the `ico-moon-config.json` under `<PROJECT_ROOT>/src/shared/components/common/icons/ico-moon-config.json`.
+3. Select the `ico-moon-config.json` under `/src/shared/components/common/icons/ico-moon-config.json`.
 
 ## How to update the icon font
 
 1. Follow the previous steps on how to browse available icons.
 2. Add, edit or remove icons and generate the new icon font.
 3. Put the generated `icomoon.ttf` into `<PROJECT_ROOT>/assets/fonts`.
-4. Rename the generated `selection.json` to `ico-moon-config.json` and put the file into `<PROJECT_ROOT>/src/shared/components/common/icons`.
+4. Rename the generated `selection.json` to `ico-moon-config.json` and put the file into `/src/shared/components/common/icons`.
 5. Run `yarn icons` and rebuild the app. This will do two things:
 
 - First, it runs `yarn icons:link`, which will copy the updated `icomoon.ttf` into the android and ios folders.

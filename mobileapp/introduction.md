@@ -14,7 +14,7 @@ and [Android](https://play.google.com/store/apps/details?id=network.trustlines.m
 
 You can download the Trustlines binaries by following the links on the [trustlines.app](https://trustlines.app) website.
 
-As you might know the Trustlines Protocol is an Open-Source stack of software. In the spirit of it we plan to open-source 
+As you might know, the Trustlines Protocol is an Open-Source stack of software. In the spirit of it, we plan to open-source 
 the Trustlines app. Until we do this if you want to build on top of the Trustlines app you may request early access to the 
 source-code by sending us an [e-mail request](mailto:contact@trustlines.app?subject=Early-Access). 
 

@@ -12,7 +12,7 @@ you have to open the app in Android Studio. While opening the project Android St
 
 ## Build
 
-As the ios project, we have 3 different targets to build:
+As with the ios project, we have 3 different targets to build:
 
 * develop
 * staging

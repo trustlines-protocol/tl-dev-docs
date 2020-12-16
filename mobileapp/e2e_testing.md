@@ -2,7 +2,7 @@
 title: E2E Testing
 ---
 
-We use the Detox library for end-to-end testing. 
+We use the [Detox library](https://github.com/wix/Detox) for end-to-end testing. 
 The tests are located in the e2e directory and additionally to this we mock some app files. The mocked files
 have the `.e2e.js` extension and the metro builder loads them in tests when started with:
 ```
@@ -26,7 +26,7 @@ You need to run the relay server and chain with the following command:
 ./run-e2e.sh -b
 ```
 
-our developConfig in src/shared/config/index.e2e.js specifies the relay host with localhost. This works fine on the
+Our developConfig in `/src/shared/config/index.e2e.js` specifies the relay host with localhost. This works fine on the
 iOS simulator, but on the Android Emulator you'll have to do port forwarding in order for your emulator to see your host.
 You can do:
 
@@ -38,7 +38,7 @@ For more detox options refer to the detox-cli docs: https://github.com/wix/Detox
 
 # CircleCI
 
-CircleCI is configured to run our end to end tests on every commit. 
+[CircleCI](https://circleci.com/) is configured to run our end-to-end tests on every commit. 
 
 If you want to configure your own CircleCI instance you need to provide the following environment variables:
 ```
@@ -73,9 +73,9 @@ Our CircleCI config generates the keystore files out of the base64 environment v
 $ base64 -i path_to_keystore_file -o path_to_outhput_file
 ```
 
-Prefer the base64 command over openssl as for some reason openssl ads a newline in the output and then decoding
+Prefer the base64 command over openssl as for some reason openssl adds a newline in the output and then decoding
 the base64 text on CircleCI doesn't work.
 
 ## Artifacts
-We record logs, screenshots on before and after test as well as videos on failing tests. Those can be found in the
+We record logs, screenshots, and videos on failing tests. Those can be found in the
 artifacts directory.
