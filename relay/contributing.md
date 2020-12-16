@@ -49,7 +49,7 @@ Please include a description of what you would like to see implemented and an ex
   together with an end2end test to the
     [clientlib](https://github.com/trustlines-protocol/clientlib) if necessary.
   - Add or update related documentation if necessary.
-- Add an entry to the unreleased section of the [changelog](CHANGELOG.rst).
+- Add an entry to the unreleased section of the [changelog](https://github.com/trustlines-protocol/relay/blob/master/CHANGELOG.rst).
 - Format your code changes with black. If you setup pre-commit, this will happen automatically on commit
   `black setup.py tests src`
 - Check your code with `flake8` and `mypy`. If you setup pre-commit, this will happen automatically on commit.
