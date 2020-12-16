@@ -1,19 +1,21 @@
 ---
-layout: relay
-title: Running Trustlines via docker-compose
+title: Run relay via docker-compose
+sidebar_label: Via docker-compose
 ---
 
-[This directory](https://github.com/trustlines-protocol/relay/tree/master/docker/trustlines) contains the files needed to start a trustlines system via
+The [docker/trustlines](https://github.com/trustlines-protocol/relay/tree/master/docker/trustlines) directory in the relay 
+repository contains the files needed to start a trustlines system via
 docker-compose. Following these setup instructions will give you a
 system, where you can:
-
 - connect to a trustlines laika node via JSONRPC on port 8545
 - use the trustlines laika node as a metamask backend
 - connect to a relay server on port 5000 and interact with currency
-  networks running on chain
+  networks running on the chain
 
+:::caution
 Please be aware that you additionally might have to firewall the
 installed system if you don't want to expose those services.
+:::
 
 ## Services
 
@@ -22,12 +24,12 @@ The docker-compose file contains service definitions for the following services:
 - db: A service running a postgres server. The postgres files will be
   stored in the `postgres-data` docker volume.
 
-- tlbc: A service running a modified parity node for the trustlines
+- tlbc: A service running a modified OpenEthereum node for the trustlines
   blockchain. The blockchain data will be stored in the
   `blockchain-data` docker volume.
 
 - index: A service running py-eth-index, which synchronizes certain
-  information from parity into the postgres database.
+  information from OpenEthereum into the postgres database.
 
 - relay: The relay server itself.
 
@@ -37,9 +39,18 @@ We need to do some initial setup and configuration for the system to work. You
 need to provide the `addresses.json` file, which should be put in the directory
 alongside the `docker-compose.yml` file.
 
-This directory contains working example files for contracts already
-deployed on the laika blockchain. If you deploy your own contracts,
-please adapt `addresses.json` accordingly.
+You can find some prepared files for each network in the `config/` directory at
+the root of the relay repository. E.g. if you want to connect to the Trustlines
+Blockchain and index all the currency networks registered by the Trustlines
+foundation, you can copy it like that:
+
+```bash
+cp ../../config/addresses_tlbc.json ./addresses.json
+```
+
+This also includes the references to the identity related contracts. If you
+deploy your own currency networks, please adapt `addresses.json` accordingly.
+
 
 ### Fetch docker image
 
@@ -52,7 +63,7 @@ docker-compose up --no-start
 
 ### Generate keys
 
-The relay server either needs a parity node with an unlocked account
+The relay server either needs a OpenEthereum node with an unlocked account
 or it needs a key to sign transactions itself. We will use the latter
 method.
 
@@ -64,7 +75,7 @@ docker run --rm -it -v $(pwd):/here --entrypoint /opt/relay/bin/deploy-tools tru
 ```
 
 We also need to store the password in clear text. Please create a file
-'keystore-password.txt' containing only the password on the first
+`keystore-password.txt` containing only the password on the first
 line.
 
 Of course you can also use an existing keyfile, but please do not
@@ -72,15 +83,18 @@ reuse a keyfile from a validator node.
 
 ### Copy compiled contracts
 
-The relay server image containts the file 'contracts.json', which
-contains the compiled currency network contracts. We will need
-this file for the index service.
+The relay server image includes the `contracts.json` file, which contains the
+compiled currency network contracts. We will need this file for the index
+service.
 
 Please copy them to the current directory with:
 
 ```bash
 docker-compose run --rm --no-deps -v $(pwd):/here --entrypoint /bin/bash relay -c "cp /opt/relay/trustlines-contracts/build/contracts.json /here"
 ```
+
+Checkout [this documentation](/relay/tutorials/trustlines_system#get-contract-abis) to see
+alternative approaches how to retrieve the compiled contracts file.
 
 ### Setup initial database
 

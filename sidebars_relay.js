@@ -1,8 +1,33 @@
 module.exports = {
   Relay: [
-    "relay_server",
-    "relay-api",
-    "running_trustlines_system",
-    "trustlines_docker",
+    {
+      type: "category",
+      label: "Relay",
+      collapsed: false,
+      items: ["introduction", "contributing"]
+    },
+    {
+      type: "category",
+      label: "Getting started",
+      collapsed: false,
+      items: ["getting_started/docker", "getting_started/manual", "getting_started/configuration"]
+    },
+    {
+      type: "category",
+      label: "Tutorials",
+      collapsed: false,
+      items: ["tutorials/trustlines_system"]
+    },
+    {
+      type: "category",
+      label: "REST API",
+      collapsed: false,
+      items: ["api/introduction", {
+        type: "category",
+        label: "Endpoints",
+        collapsed: false,
+        items: ['api/network', 'api/user', 'api/miscellaneous']
+      }]
+    }
   ],
 }
