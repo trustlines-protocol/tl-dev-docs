@@ -28,6 +28,11 @@ module.exports = {
         collapsed: false,
         items: ['api/network', 'api/user', 'api/miscellaneous']
       }]
+    },
+    {
+      type: "link",
+      label: "Release Notes",
+      href: "https://github.com/trustlines-protocol/relay/blob/master/CHANGELOG.rst"
     }
   ],
 }

@@ -77,7 +77,3 @@ to get a Trustlines Blockchain node running.
 
 The relay also uses a [py-eth-index](https://github.com/trustlines-protocol/py-eth-index)
 instance that index events that the relay will be able to process and serve to its users.
-
-### Changelog
-
-See [CHANGELOG](https://github.com/trustlines-protocol/relay/blob/master/CHANGELOG.rst)
