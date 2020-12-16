@@ -9,6 +9,9 @@ module.exports = {
   organizationName: "trustlines-protocol",
   projectName: "tl-dev-docs",
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: "Trustlines Dev Docs",
       logo: {
@@ -57,7 +60,6 @@ module.exports = {
       ],
     },
     footer: {
-      style: "dark",
       links: [
         {
           title: "Websites",
