@@ -16,7 +16,7 @@ sidebar_label: "MetaTransactionFees"
 
 •  **baseFee**: string
 
-*Defined in [src/typings.ts:328](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L328)*
+*Defined in [src/typings.ts:330](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L330)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **currencyNetworkOfFees**: string
 
-*Defined in [src/typings.ts:331](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L331)*
+*Defined in [src/typings.ts:333](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L333)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **feeRecipient**: string
 
-*Defined in [src/typings.ts:330](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L330)*
+*Defined in [src/typings.ts:332](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L332)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 •  **gasPrice**: string
 
-*Defined in [src/typings.ts:329](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L329)*
+*Defined in [src/typings.ts:331](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L331)*

@@ -16,7 +16,7 @@ sidebar_label: "DelegationFeesInternal"
 
 •  **baseFee**: [AmountInternal](_typings_.amountinternal.md)
 
-*Defined in [src/typings.ts:418](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L418)*
+*Defined in [src/typings.ts:420](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L420)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **currencyNetworkOfFees**: string
 
-*Defined in [src/typings.ts:420](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L420)*
+*Defined in [src/typings.ts:422](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L422)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **gasPrice**: [AmountInternal](_typings_.amountinternal.md)
 
-*Defined in [src/typings.ts:419](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L419)*
+*Defined in [src/typings.ts:421](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L421)*

@@ -19,7 +19,7 @@ It contains all of the library's functionality and all calls to the library shou
 
 \+ **new TLNetwork**(`config?`: [TLNetworkConfig](../interfaces/_typings_.tlnetworkconfig.md)): [TLNetwork](_tlnetwork_.tlnetwork.md)
 
-*Defined in [src/TLNetwork.ts:130](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/TLNetwork.ts#L130)*
+*Defined in [src/TLNetwork.ts:130](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/TLNetwork.ts#L130)*
 
 Initiates a new TLNetwork instance that provides the public interface to trustlines-clientlib.
 
@@ -37,7 +37,7 @@ Name | Type | Default value | Description |
 
 •  **currencyNetwork**: [CurrencyNetwork](_currencynetwork_.currencynetwork.md)
 
-*Defined in [src/TLNetwork.ts:83](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/TLNetwork.ts#L83)*
+*Defined in [src/TLNetwork.ts:83](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/TLNetwork.ts#L83)*
 
 CurrencyNetwork instance containing all methods for retrieving currency network
 related information.
@@ -48,7 +48,7 @@ ___
 
 •  **event**: [Event](_event_.event.md)
 
-*Defined in [src/TLNetwork.ts:87](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/TLNetwork.ts#L87)*
+*Defined in [src/TLNetwork.ts:87](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/TLNetwork.ts#L87)*
 
 Event instance for retrieving and formatting event logs.
 
@@ -58,7 +58,7 @@ ___
 
 •  **payment**: [Payment](_payment_.payment.md)
 
-*Defined in [src/TLNetwork.ts:74](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/TLNetwork.ts#L74)*
+*Defined in [src/TLNetwork.ts:74](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/TLNetwork.ts#L74)*
 
 Payment instance containing all methods for creating trustline transfers
 and TLC transfers.
@@ -69,7 +69,7 @@ ___
 
 •  **trustline**: [Trustline](_trustline_.trustline.md)
 
-*Defined in [src/TLNetwork.ts:78](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/TLNetwork.ts#L78)*
+*Defined in [src/TLNetwork.ts:78](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/TLNetwork.ts#L78)*
 
 Trustline instance containing all methods for managing trustlines.
 
@@ -79,6 +79,6 @@ ___
 
 •  **user**: [User](_user_.user.md)
 
-*Defined in [src/TLNetwork.ts:69](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/TLNetwork.ts#L69)*
+*Defined in [src/TLNetwork.ts:69](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/TLNetwork.ts#L69)*
 
 User instance containing all user/keystore related methods.

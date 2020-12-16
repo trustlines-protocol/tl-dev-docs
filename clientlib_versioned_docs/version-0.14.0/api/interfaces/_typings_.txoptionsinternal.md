@@ -18,7 +18,7 @@ For internal use of `prepareContractTransaction` and `prepareValueTransaction`.
 
 • `Optional` **baseFee**: number \| string \| BigNumber
 
-*Defined in [src/typings.ts:66](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L66)*
+*Defined in [src/typings.ts:66](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L66)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • `Optional` **currencyNetworkOfFees**: string
 
-*Defined in [src/typings.ts:69](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L69)*
+*Defined in [src/typings.ts:69](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L69)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • `Optional` **gasLimit**: BigNumber
 
-*Defined in [src/typings.ts:68](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L68)*
+*Defined in [src/typings.ts:68](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L68)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • `Optional` **gasPrice**: number \| string \| BigNumber
 
-*Defined in [src/typings.ts:67](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L67)*
+*Defined in [src/typings.ts:67](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L67)*
 
 ___
 
@@ -50,4 +50,4 @@ ___
 
 • `Optional` **value**: BigNumber
 
-*Defined in [src/typings.ts:65](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L65)*
+*Defined in [src/typings.ts:65](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L65)*

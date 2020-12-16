@@ -16,7 +16,7 @@ sidebar_label: "TxFeesAmounts"
 
 • `Optional` **baseFee**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:405](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L405)*
+*Defined in [src/typings.ts:407](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L407)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **currencyNetworkOfFees**: string
 
-*Defined in [src/typings.ts:408](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L408)*
+*Defined in [src/typings.ts:410](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L410)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • `Optional` **feeRecipient**: string
 
-*Defined in [src/typings.ts:407](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L407)*
+*Defined in [src/typings.ts:409](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L409)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • `Optional` **gasLimit**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:404](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L404)*
+*Defined in [src/typings.ts:406](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L406)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • `Optional` **gasPrice**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:403](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L403)*
+*Defined in [src/typings.ts:405](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L405)*
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 •  **totalFee**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:406](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L406)*
+*Defined in [src/typings.ts:408](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L408)*

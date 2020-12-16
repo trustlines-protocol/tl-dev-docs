@@ -16,7 +16,7 @@ sidebar_label: "UserOverviewRaw"
 
 •  **balance**: string
 
-*Defined in [src/typings.ts:528](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L528)*
+*Defined in [src/typings.ts:530](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L530)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **frozenBalance**: string
 
-*Defined in [src/typings.ts:529](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L529)*
+*Defined in [src/typings.ts:531](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L531)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **given**: string
 
-*Defined in [src/typings.ts:530](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L530)*
+*Defined in [src/typings.ts:532](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L532)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **leftGiven**: string
 
-*Defined in [src/typings.ts:532](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L532)*
+*Defined in [src/typings.ts:534](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L534)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **leftReceived**: string
 
-*Defined in [src/typings.ts:527](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L527)*
+*Defined in [src/typings.ts:529](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L529)*
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 •  **received**: string
 
-*Defined in [src/typings.ts:531](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L531)*
+*Defined in [src/typings.ts:533](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L533)*

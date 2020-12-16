@@ -16,7 +16,7 @@ sidebar_label: "TxInfos"
 
 •  **balance**: BigNumber
 
-*Defined in [src/typings.ts:386](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L386)*
+*Defined in [src/typings.ts:388](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L388)*
 
 Balance of given user address in ETH
 
@@ -26,7 +26,7 @@ ___
 
 •  **gasPrice**: BigNumber
 
-*Defined in [src/typings.ts:382](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L382)*
+*Defined in [src/typings.ts:384](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L384)*
 
 Amount of ETH in gwei for every unit of gas user is willing to pay
 
@@ -36,6 +36,6 @@ ___
 
 •  **nonce**: number
 
-*Defined in [src/typings.ts:390](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L390)*
+*Defined in [src/typings.ts:392](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L392)*
 
 Transaction count of given user address

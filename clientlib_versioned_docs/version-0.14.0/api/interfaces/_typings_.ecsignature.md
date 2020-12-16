@@ -16,7 +16,7 @@ sidebar_label: "ECSignature"
 
 •  **r**: string
 
-*Defined in [src/typings.ts:815](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L815)*
+*Defined in [src/typings.ts:818](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L818)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **s**: string
 
-*Defined in [src/typings.ts:816](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L816)*
+*Defined in [src/typings.ts:819](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L819)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **v**: number
 
-*Defined in [src/typings.ts:814](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L814)*
+*Defined in [src/typings.ts:817](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L817)*

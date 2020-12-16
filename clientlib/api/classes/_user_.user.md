@@ -27,7 +27,7 @@ tlNetwork.user.create().then(
 
 • get **address**(): string
 
-*Defined in [src/User.ts:44](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L44)*
+*Defined in [src/User.ts:44](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L44)*
 
 Checksummed Ethereum address of currently loaded wallet.
 
@@ -39,7 +39,7 @@ Checksummed Ethereum address of currently loaded wallet.
 
 ▸ **create**(): Promise&#60;[TLWalletData](../interfaces/_typings_.tlwalletdata.md)>
 
-*Defined in [src/User.ts:59](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L59)*
+*Defined in [src/User.ts:59](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L59)*
 
 Creates a new random wallet based on the configured [WalletType](../modules/_typings_.md#wallettype).
 
@@ -53,7 +53,7 @@ ___
 
 ▸ **createLink**(`options`: { [key:string]: string; customBase?: string ; name?: string  }): Promise&#60;string>
 
-*Defined in [src/User.ts:208](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L208)*
+*Defined in [src/User.ts:208](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L208)*
 
 Returns a shareable link which can be send to other users.
 Contains username and address.
@@ -72,7 +72,7 @@ ___
 
 ▸ **deployIdentity**(): Promise&#60;string>
 
-*Defined in [src/User.ts:81](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L81)*
+*Defined in [src/User.ts:81](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L81)*
 
 Deploys a new identity on the chain if the configured [WalletType](../modules/_typings_.md#wallettype) is [WalletTypeIdentity](../modules/_typings_.md#wallettypeidentity) and returns the transaction hash.
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **encryptToSerializedKeystore**(`tlWalletData`: [TLWalletData](../interfaces/_typings_.tlwalletdata.md), `password?`: string \| (progress: number) => void, `progressCallback?`: (progress: number) => void): Promise&#60;string>
 
-*Defined in [src/User.ts:134](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L134)*
+*Defined in [src/User.ts:134](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L134)*
 
 Encrypts and serializes the given wallet data.
 
@@ -104,7 +104,7 @@ ___
 
 ▸ **exportPrivateKey**(): Promise&#60;string>
 
-*Defined in [src/User.ts:156](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L156)*
+*Defined in [src/User.ts:156](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L156)*
 
 Returns the private key of loaded user.
 
@@ -116,7 +116,7 @@ ___
 
 ▸ **getAddress**(): Promise&#60;string>
 
-*Defined in [src/User.ts:51](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L51)*
+*Defined in [src/User.ts:51](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L51)*
 
 Async `address` getter for loaded user.
 
@@ -128,7 +128,7 @@ ___
 
 ▸ **getBalance**(): Promise&#60;[Amount](../interfaces/_typings_.amount.md)>
 
-*Defined in [src/User.ts:103](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L103)*
+*Defined in [src/User.ts:103](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L103)*
 
 Returns ETH balance of loaded user.
 
@@ -140,7 +140,7 @@ ___
 
 ▸ **getWalletData**(): Promise&#60;[TLWalletData](../interfaces/_typings_.tlwalletdata.md)>
 
-*Defined in [src/User.ts:74](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L74)*
+*Defined in [src/User.ts:74](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L74)*
 
 Returns the wallet data. Can be used with `loadFrom`
 
@@ -152,7 +152,7 @@ ___
 
 ▸ **isIdentityDeployed**(): Promise&#60;boolean>
 
-*Defined in [src/User.ts:88](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L88)*
+*Defined in [src/User.ts:88](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L88)*
 
 Returns a boolean if a new identity already has been deployed for the loaded user.
 
@@ -164,7 +164,7 @@ ___
 
 ▸ **loadFrom**(`tlWalletData`: [TLWalletData](../interfaces/_typings_.tlwalletdata.md)): Promise&#60;void>
 
-*Defined in [src/User.ts:67](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L67)*
+*Defined in [src/User.ts:67](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L67)*
 
 Loads the given wallet data into the library
 
@@ -182,7 +182,7 @@ ___
 
 ▸ **recoverFromEncryptedKeystore**(`serializedEncryptedKeystore`: string, `password`: string, `progressCallback?`: (progress: number) => any): Promise&#60;[TLWalletData](../interfaces/_typings_.tlwalletdata.md)>
 
-*Defined in [src/User.ts:168](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L168)*
+*Defined in [src/User.ts:168](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L168)*
 
 Recovers wallet data from a serialized encrypted JSON keystore string
 (e.g. as returned by `encryptToSerializedKeystore`).
@@ -205,7 +205,7 @@ ___
 
 ▸ **recoverFromPrivateKey**(`privateKey`: string): Promise&#60;[TLWalletData](../interfaces/_typings_.tlwalletdata.md)>
 
-*Defined in [src/User.ts:194](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L194)*
+*Defined in [src/User.ts:194](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L194)*
 
 Recovers wallet data from private key.
 
@@ -225,7 +225,7 @@ ___
 
 ▸ **recoverFromSeed**(`seed`: string): Promise&#60;[TLWalletData](../interfaces/_typings_.tlwalletdata.md)>
 
-*Defined in [src/User.ts:185](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L185)*
+*Defined in [src/User.ts:185](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L185)*
 
 Recovers wallet data from 12 word seed phrase.
 
@@ -245,7 +245,7 @@ ___
 
 ▸ **showSeed**(): Promise&#60;string>
 
-*Defined in [src/User.ts:149](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L149)*
+*Defined in [src/User.ts:149](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L149)*
 
 Returns the 12 word seed of loaded user.
 
@@ -257,7 +257,7 @@ ___
 
 ▸ **signMsgHash**(`msgHash`: string): Promise&#60;[Signature](../interfaces/_typings_.signature.md)>
 
-*Defined in [src/User.ts:96](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/User.ts#L96)*
+*Defined in [src/User.ts:96](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/User.ts#L96)*
 
 Digitally signs a message hash with the currently loaded user/wallet.
 

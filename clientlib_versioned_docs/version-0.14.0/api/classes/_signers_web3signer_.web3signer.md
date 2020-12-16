@@ -22,7 +22,7 @@ The Web3Signer class contains functions for signing transactions with a web3 pro
 
 \+ **new Web3Signer**(`web3Provider`: Web3Provider): [Web3Signer](_signers_web3signer_.web3signer.md)
 
-*Defined in [src/signers/Web3Signer.ts:23](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L23)*
+*Defined in [src/signers/Web3Signer.ts:23](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L23)*
 
 #### Parameters:
 
@@ -40,7 +40,7 @@ Name | Type |
 
 *Implementation of [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)*
 
-*Defined in [src/signers/Web3Signer.ts:59](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L59)*
+*Defined in [src/signers/Web3Signer.ts:59](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L59)*
 
 Signs a transaction and returns `Promise` with transaction hash.
 
@@ -60,7 +60,7 @@ ___
 
 *Implementation of [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)*
 
-*Defined in [src/signers/Web3Signer.ts:33](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L33)*
+*Defined in [src/signers/Web3Signer.ts:33](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L33)*
 
 Returns `Promise` with address of signer.
 
@@ -74,7 +74,7 @@ ___
 
 *Implementation of [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)*
 
-*Defined in [src/signers/Web3Signer.ts:43](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L43)*
+*Defined in [src/signers/Web3Signer.ts:43](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L43)*
 
 Returns `Promise` with balance of signer.
 
@@ -88,7 +88,7 @@ ___
 
 *Implementation of [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)*
 
-*Defined in [src/signers/Web3Signer.ts:172](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L172)*
+*Defined in [src/signers/Web3Signer.ts:172](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L172)*
 
 #### Parameters:
 
@@ -104,7 +104,7 @@ ___
 
 ▸ **getTxInfos**(`userAddress`: string): Promise&#60;[TxInfos](../interfaces/_typings_.txinfos.md)>
 
-*Defined in [src/signers/Web3Signer.ts:125](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L125)*
+*Defined in [src/signers/Web3Signer.ts:125](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L125)*
 
 #### Parameters:
 
@@ -122,7 +122,7 @@ ___
 
 *Implementation of [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)*
 
-*Defined in [src/signers/Web3Signer.ts:166](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L166)*
+*Defined in [src/signers/Web3Signer.ts:166](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L166)*
 
 #### Parameters:
 
@@ -140,7 +140,7 @@ ___
 
 *Implementation of [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)*
 
-*Defined in [src/signers/Web3Signer.ts:121](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L121)*
+*Defined in [src/signers/Web3Signer.ts:121](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L121)*
 
 Returns the hash of the signed transaction for given rawTx with loaded user
 
@@ -160,7 +160,7 @@ ___
 
 *Implementation of [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)*
 
-*Defined in [src/signers/Web3Signer.ts:144](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L144)*
+*Defined in [src/signers/Web3Signer.ts:144](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L144)*
 
 #### Parameters:
 
@@ -178,7 +178,7 @@ ___
 
 *Implementation of [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)*
 
-*Defined in [src/signers/Web3Signer.ts:88](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L88)*
+*Defined in [src/signers/Web3Signer.ts:88](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L88)*
 
 Signs the given message and returns `Promise` with signature.
 
@@ -198,7 +198,7 @@ ___
 
 *Implementation of [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)*
 
-*Defined in [src/signers/Web3Signer.ts:106](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/Web3Signer.ts#L106)*
+*Defined in [src/signers/Web3Signer.ts:106](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/Web3Signer.ts#L106)*
 
 Signs the given message hash and return `Promise` with signature.
 

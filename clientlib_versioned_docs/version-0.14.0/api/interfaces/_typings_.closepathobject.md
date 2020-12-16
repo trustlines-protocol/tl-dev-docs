@@ -19,7 +19,7 @@ Contains all relevant information for closing a trustline.
 
 •  **feePayer**: [FeePayer](../enums/_typings_.feepayer.md)
 
-*Defined in [src/typings.ts:640](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L640)*
+*Defined in [src/typings.ts:642](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L642)*
 
 Payer of thee for the closing transaction
 
@@ -29,7 +29,7 @@ ___
 
 •  **maxFees**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:644](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L644)*
+*Defined in [src/typings.ts:646](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L646)*
 
 Maximal fees that can occur for closing
 
@@ -39,7 +39,7 @@ ___
 
 •  **path**: string[]
 
-*Defined in [src/typings.ts:636](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L636)*
+*Defined in [src/typings.ts:638](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L638)*
 
 Close path for triangulation
 
@@ -49,6 +49,6 @@ ___
 
 •  **value**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:648](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L648)*
+*Defined in [src/typings.ts:650](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L650)*
 
 Estimated value to be transferred for closing

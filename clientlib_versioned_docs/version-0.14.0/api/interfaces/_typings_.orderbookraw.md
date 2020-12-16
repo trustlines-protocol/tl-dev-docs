@@ -16,7 +16,7 @@ sidebar_label: "OrderbookRaw"
 
 •  **asks**: [SignedOrderRaw](_typings_.signedorderraw.md)[]
 
-*Defined in [src/typings.ts:801](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L801)*
+*Defined in [src/typings.ts:804](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L804)*
 
 ___
 
@@ -24,4 +24,4 @@ ___
 
 •  **bids**: [SignedOrderRaw](_typings_.signedorderraw.md)[]
 
-*Defined in [src/typings.ts:802](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L802)*
+*Defined in [src/typings.ts:805](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L805)*

@@ -12,7 +12,7 @@ sidebar_label: "NonceMechanism"
 
 •  **Counting**:  = "counting"
 
-*Defined in [src/typings.ts:594](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L594)*
+*Defined in [src/typings.ts:596](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L596)*
 
 ___
 
@@ -20,4 +20,4 @@ ___
 
 •  **Random**:  = "random"
 
-*Defined in [src/typings.ts:593](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L593)*
+*Defined in [src/typings.ts:595](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L595)*

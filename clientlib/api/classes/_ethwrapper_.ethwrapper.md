@@ -18,7 +18,7 @@ The class EthWrapper contains all methods for depositing, withdrawing and transf
 
 \+ **new EthWrapper**(`params`: { provider: [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md) ; transaction: [Transaction](_transaction_.transaction.md) ; user: [User](_user_.user.md)  }): [EthWrapper](_ethwrapper_.ethwrapper.md)
 
-*Defined in [src/EthWrapper.ts:27](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/EthWrapper.ts#L27)*
+*Defined in [src/EthWrapper.ts:27](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/EthWrapper.ts#L27)*
 
 #### Parameters:
 
@@ -34,7 +34,7 @@ Name | Type |
 
 ▸ **confirm**(`rawTx`: [RawTxObject](../interfaces/_typings_.rawtxobject.md)): Promise&#60;string>
 
-*Defined in [src/EthWrapper.ts:161](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/EthWrapper.ts#L161)*
+*Defined in [src/EthWrapper.ts:161](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/EthWrapper.ts#L161)*
 
 Signs a raw transaction object as returned by `prepTransfer`, `prepDeposit` or `prepWithdraw`
 and sends the signed transaction.
@@ -53,7 +53,7 @@ ___
 
 ▸ **getAddresses**(): Promise&#60;string[]>
 
-*Defined in [src/EthWrapper.ts:42](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/EthWrapper.ts#L42)*
+*Defined in [src/EthWrapper.ts:42](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/EthWrapper.ts#L42)*
 
 Returns all known ETH wrapper contract addresses from the relay server.
 
@@ -65,7 +65,7 @@ ___
 
 ▸ **getBalance**(`ethWrapperAddress`: string): Promise&#60;[Amount](../interfaces/_typings_.amount.md)>
 
-*Defined in [src/EthWrapper.ts:50](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/EthWrapper.ts#L50)*
+*Defined in [src/EthWrapper.ts:50](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/EthWrapper.ts#L50)*
 
 Returns the amount of already wrapped ETH on the given ETH wrapper contract.
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **getLogs**(`ethWrapperAddress`: string, `filter?`: [EventFilterOptions](../interfaces/_typings_.eventfilteroptions.md)): Promise&#60;[AnyTokenEvent](../modules/_typings_.md#anytokenevent)[]>
 
-*Defined in [src/EthWrapper.ts:172](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/EthWrapper.ts#L172)*
+*Defined in [src/EthWrapper.ts:172](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/EthWrapper.ts#L172)*
 
 Returns event logs of the ETH wrapper contract for the loaded user.
 
@@ -102,7 +102,7 @@ ___
 
 ▸ **prepDeposit**(`ethWrapperAddress`: string, `value`: number \| string, `options?`: [TxOptions](../interfaces/_typings_.txoptions.md)): Promise&#60;[TxObject](../interfaces/_typings_.txobject.md)>
 
-*Defined in [src/EthWrapper.ts:101](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/EthWrapper.ts#L101)*
+*Defined in [src/EthWrapper.ts:101](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/EthWrapper.ts#L101)*
 
 Prepares an ethereum transaction object for depositing/wrapping ETH.
 
@@ -122,7 +122,7 @@ ___
 
 ▸ **prepTransfer**(`ethWrapperAddress`: string, `receiverAddress`: string, `value`: number \| string, `options?`: [TxOptions](../interfaces/_typings_.txoptions.md)): Promise&#60;[TxObject](../interfaces/_typings_.txobject.md)>
 
-*Defined in [src/EthWrapper.ts:66](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/EthWrapper.ts#L66)*
+*Defined in [src/EthWrapper.ts:66](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/EthWrapper.ts#L66)*
 
 Prepares an ethereum transaction object for transferring wrapped ETH where the
 loaded user is the sender.
@@ -144,7 +144,7 @@ ___
 
 ▸ **prepWithdraw**(`ethWrapperAddress`: string, `value`: number \| string, `options?`: [TxOptions](../interfaces/_typings_.txoptions.md)): Promise&#60;[TxObject](../interfaces/_typings_.txobject.md)>
 
-*Defined in [src/EthWrapper.ts:133](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/EthWrapper.ts#L133)*
+*Defined in [src/EthWrapper.ts:133](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/EthWrapper.ts#L133)*
 
 Prepares an ethereum transaction object for withdrawing/unwrapping ETH.
 

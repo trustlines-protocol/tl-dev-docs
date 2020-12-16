@@ -16,7 +16,7 @@ sidebar_label: "ClosePathRaw"
 
 •  **feePayer**: string
 
-*Defined in [src/typings.ts:653](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L653)*
+*Defined in [src/typings.ts:655](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L655)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **fees**: string
 
-*Defined in [src/typings.ts:654](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L654)*
+*Defined in [src/typings.ts:656](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L656)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **path**: string[]
 
-*Defined in [src/typings.ts:652](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L652)*
+*Defined in [src/typings.ts:654](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L654)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 •  **value**: string
 
-*Defined in [src/typings.ts:655](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L655)*
+*Defined in [src/typings.ts:657](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L657)*

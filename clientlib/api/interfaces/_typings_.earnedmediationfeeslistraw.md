@@ -16,7 +16,7 @@ sidebar_label: "EarnedMediationFeesListRaw"
 
 •  **mediationFees**: [MediationFeeRaw](_typings_.mediationfeeraw.md)[]
 
-*Defined in [src/typings.ts:711](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L711)*
+*Defined in [src/typings.ts:713](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L713)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **network**: string
 
-*Defined in [src/typings.ts:710](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L710)*
+*Defined in [src/typings.ts:712](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L712)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **user**: string
 
-*Defined in [src/typings.ts:709](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L709)*
+*Defined in [src/typings.ts:711](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L711)*

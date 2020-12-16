@@ -16,7 +16,7 @@ sidebar_label: "AccruedInterestsObject"
 
 •  **interestRate**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:673](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L673)*
+*Defined in [src/typings.ts:675](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L675)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **timestamp**: number
 
-*Defined in [src/typings.ts:674](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L674)*
+*Defined in [src/typings.ts:676](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L676)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **value**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:672](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L672)*
+*Defined in [src/typings.ts:674](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L674)*

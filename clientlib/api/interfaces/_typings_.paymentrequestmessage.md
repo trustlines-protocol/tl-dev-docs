@@ -18,7 +18,7 @@ sidebar_label: "PaymentRequestMessage"
 
 •  **amount**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:219](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L219)*
+*Defined in [src/typings.ts:221](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L221)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 •  **counterParty**: string
 
-*Defined in [src/typings.ts:220](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L220)*
+*Defined in [src/typings.ts:222](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L222)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 *Inherited from [PaymentRequestMessage](_typings_.paymentrequestmessage.md).[direction](_typings_.paymentrequestmessage.md#direction)*
 
-*Defined in [src/typings.ts:212](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L212)*
+*Defined in [src/typings.ts:214](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L214)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 *Inherited from [PaymentRequestMessage](_typings_.paymentrequestmessage.md).[from](_typings_.paymentrequestmessage.md#from)*
 
-*Defined in [src/typings.ts:210](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L210)*
+*Defined in [src/typings.ts:212](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L212)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 •  **id**: string
 
-*Defined in [src/typings.ts:218](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L218)*
+*Defined in [src/typings.ts:220](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L220)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 •  **networkAddress**: string
 
-*Defined in [src/typings.ts:216](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L216)*
+*Defined in [src/typings.ts:218](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L218)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • `Optional` **subject**: string
 
-*Defined in [src/typings.ts:217](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L217)*
+*Defined in [src/typings.ts:219](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L219)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 *Inherited from [PaymentRequestMessage](_typings_.paymentrequestmessage.md).[to](_typings_.paymentrequestmessage.md#to)*
 
-*Defined in [src/typings.ts:211](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L211)*
+*Defined in [src/typings.ts:213](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L213)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 *Inherited from [PaymentRequestMessage](_typings_.paymentrequestmessage.md).[type](_typings_.paymentrequestmessage.md#type)*
 
-*Defined in [src/typings.ts:209](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L209)*
+*Defined in [src/typings.ts:211](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L211)*
 
 ___
 
@@ -98,4 +98,4 @@ ___
 
 •  **user**: string
 
-*Defined in [src/typings.ts:221](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L221)*
+*Defined in [src/typings.ts:223](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L223)*

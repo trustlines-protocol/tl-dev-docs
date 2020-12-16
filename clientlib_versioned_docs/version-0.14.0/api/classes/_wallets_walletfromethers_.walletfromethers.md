@@ -23,7 +23,7 @@ This is a wrapper class for `ethers.Wallet`. It allows us to customize some of t
 
 *Overrides void*
 
-*Defined in [src/wallets/WalletFromEthers.ts:46](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/WalletFromEthers.ts#L46)*
+*Defined in [src/wallets/WalletFromEthers.ts:46](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/WalletFromEthers.ts#L46)*
 
 #### Parameters:
 
@@ -240,7 +240,7 @@ ___
 
 ▸ **toEthersWalletData**(): [EthersWalletData](../interfaces/_typings_.etherswalletdata.md)
 
-*Defined in [src/wallets/WalletFromEthers.ts:57](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/WalletFromEthers.ts#L57)*
+*Defined in [src/wallets/WalletFromEthers.ts:57](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/WalletFromEthers.ts#L57)*
 
 **Returns:** [EthersWalletData](../interfaces/_typings_.etherswalletdata.md)
 
@@ -250,7 +250,7 @@ ___
 
 ▸ **toIdentityWalletData**(`identityAddress`: string): [IdentityWalletData](../interfaces/_typings_.identitywalletdata.md)
 
-*Defined in [src/wallets/WalletFromEthers.ts:71](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/WalletFromEthers.ts#L71)*
+*Defined in [src/wallets/WalletFromEthers.ts:71](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/WalletFromEthers.ts#L71)*
 
 #### Parameters:
 
@@ -268,7 +268,7 @@ ___
 
 *Overrides void*
 
-*Defined in [src/wallets/WalletFromEthers.ts:25](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/WalletFromEthers.ts#L25)*
+*Defined in [src/wallets/WalletFromEthers.ts:25](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/WalletFromEthers.ts#L25)*
 
 **Returns:** [WalletFromEthers](_wallets_walletfromethers_.walletfromethers.md)
 
@@ -280,7 +280,7 @@ ___
 
 *Overrides void*
 
-*Defined in [src/wallets/WalletFromEthers.ts:30](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/WalletFromEthers.ts#L30)*
+*Defined in [src/wallets/WalletFromEthers.ts:30](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/WalletFromEthers.ts#L30)*
 
 #### Parameters:
 
@@ -300,7 +300,7 @@ ___
 
 *Overrides void*
 
-*Defined in [src/wallets/WalletFromEthers.ts:43](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/WalletFromEthers.ts#L43)*
+*Defined in [src/wallets/WalletFromEthers.ts:43](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/WalletFromEthers.ts#L43)*
 
 #### Parameters:
 
@@ -316,7 +316,7 @@ ___
 
 ▸ `Static`**fromWalletData**(`walletData`: [EthersWalletData](../interfaces/_typings_.etherswalletdata.md) \| [IdentityWalletData](../interfaces/_typings_.identitywalletdata.md)): [WalletFromEthers](_wallets_walletfromethers_.walletfromethers.md)
 
-*Defined in [src/wallets/WalletFromEthers.ts:17](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/WalletFromEthers.ts#L17)*
+*Defined in [src/wallets/WalletFromEthers.ts:17](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/WalletFromEthers.ts#L17)*
 
 #### Parameters:
 

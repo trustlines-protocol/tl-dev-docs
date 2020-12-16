@@ -31,7 +31,7 @@ tlNetwork.event.get(
 
 ▸ **getAll**(`filter?`: [EventFilterOptions](../interfaces/_typings_.eventfilteroptions.md)): Promise&#60;[AnyEvent](../modules/_typings_.md#anyevent)[]>
 
-*Defined in [src/Event.ts:101](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Event.ts#L101)*
+*Defined in [src/Event.ts:101](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Event.ts#L101)*
 
 Returns event logs of loaded user in all currency networks / EthWrappers / Exchanges.
 

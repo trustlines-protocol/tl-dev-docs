@@ -16,7 +16,7 @@ sidebar_label: "TransferDetailsRaw"
 
 •  **currencyNetwork**: string
 
-*Defined in [src/typings.ts:722](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L722)*
+*Defined in [src/typings.ts:724](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L724)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **extraData**: string
 
-*Defined in [src/typings.ts:727](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L727)*
+*Defined in [src/typings.ts:729](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L729)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **feePayer**: string
 
-*Defined in [src/typings.ts:724](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L724)*
+*Defined in [src/typings.ts:726](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L726)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **feesPaid**: string[]
 
-*Defined in [src/typings.ts:726](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L726)*
+*Defined in [src/typings.ts:728](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L728)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **path**: string[]
 
-*Defined in [src/typings.ts:721](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L721)*
+*Defined in [src/typings.ts:723](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L723)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **totalFees**: string
 
-*Defined in [src/typings.ts:725](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L725)*
+*Defined in [src/typings.ts:727](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L727)*
 
 ___
 
@@ -64,4 +64,4 @@ ___
 
 •  **value**: string
 
-*Defined in [src/typings.ts:723](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L723)*
+*Defined in [src/typings.ts:725](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L725)*

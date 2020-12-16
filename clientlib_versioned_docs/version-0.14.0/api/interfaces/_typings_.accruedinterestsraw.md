@@ -16,7 +16,7 @@ sidebar_label: "AccruedInterestsRaw"
 
 •  **interestRate**: string
 
-*Defined in [src/typings.ts:667](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L667)*
+*Defined in [src/typings.ts:669](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L669)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **timestamp**: number
 
-*Defined in [src/typings.ts:668](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L668)*
+*Defined in [src/typings.ts:670](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L670)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **value**: string
 
-*Defined in [src/typings.ts:666](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L666)*
+*Defined in [src/typings.ts:668](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L668)*

@@ -25,7 +25,7 @@ Interface for different wallet strategies.
 
 •  **address**: string
 
-*Defined in [src/wallets/TLWallet.ts:8](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L8)*
+*Defined in [src/wallets/TLWallet.ts:8](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L8)*
 
 ## Methods
 
@@ -35,7 +35,7 @@ Interface for different wallet strategies.
 
 *Inherited from [TLSigner](_signers_tlsigner_.tlsigner.md).[confirm](_signers_tlsigner_.tlsigner.md#confirm)*
 
-*Defined in [src/signers/TLSigner.ts:19](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/TLSigner.ts#L19)*
+*Defined in [src/signers/TLSigner.ts:19](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/TLSigner.ts#L19)*
 
 #### Parameters:
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **create**(): Promise&#60;[TLWalletData](_typings_.tlwalletdata.md)>
 
-*Defined in [src/wallets/TLWallet.ts:11](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L11)*
+*Defined in [src/wallets/TLWallet.ts:11](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L11)*
 
 **Returns:** Promise&#60;[TLWalletData](_typings_.tlwalletdata.md)>
 
@@ -61,7 +61,7 @@ ___
 
 ▸ **decrypt**(`encMsg`: any, `theirPubKey`: string): Promise&#60;any>
 
-*Defined in [src/wallets/TLWallet.ts:29](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L29)*
+*Defined in [src/wallets/TLWallet.ts:29](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L29)*
 
 #### Parameters:
 
@@ -78,7 +78,7 @@ ___
 
 ▸ **deployIdentity**(): Promise&#60;string>
 
-*Defined in [src/wallets/TLWallet.ts:12](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L12)*
+*Defined in [src/wallets/TLWallet.ts:12](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L12)*
 
 **Returns:** Promise&#60;string>
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **encrypt**(`msg`: string, `theirPubKey`: string): Promise&#60;any>
 
-*Defined in [src/wallets/TLWallet.ts:28](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L28)*
+*Defined in [src/wallets/TLWallet.ts:28](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L28)*
 
 #### Parameters:
 
@@ -105,7 +105,7 @@ ___
 
 ▸ **encryptToSerializedKeystore**(`tlWalletData`: [TLWalletData](_typings_.tlwalletdata.md), `password`: string, `progressCallback?`: (progress: number) => any): Promise&#60;string>
 
-*Defined in [src/wallets/TLWallet.ts:23](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L23)*
+*Defined in [src/wallets/TLWallet.ts:23](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L23)*
 
 #### Parameters:
 
@@ -123,7 +123,7 @@ ___
 
 ▸ **exportPrivateKey**(): Promise&#60;string>
 
-*Defined in [src/wallets/TLWallet.ts:10](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L10)*
+*Defined in [src/wallets/TLWallet.ts:10](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L10)*
 
 **Returns:** Promise&#60;string>
 
@@ -135,7 +135,7 @@ ___
 
 *Inherited from [TLSigner](_signers_tlsigner_.tlsigner.md).[getAddress](_signers_tlsigner_.tlsigner.md#getaddress)*
 
-*Defined in [src/signers/TLSigner.ts:14](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/TLSigner.ts#L14)*
+*Defined in [src/signers/TLSigner.ts:14](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/TLSigner.ts#L14)*
 
 **Returns:** Promise&#60;string>
 
@@ -147,7 +147,7 @@ ___
 
 *Inherited from [TLSigner](_signers_tlsigner_.tlsigner.md).[getBalance](_signers_tlsigner_.tlsigner.md#getbalance)*
 
-*Defined in [src/signers/TLSigner.ts:15](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/TLSigner.ts#L15)*
+*Defined in [src/signers/TLSigner.ts:15](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/TLSigner.ts#L15)*
 
 **Returns:** Promise&#60;[Amount](_typings_.amount.md)>
 
@@ -159,7 +159,7 @@ ___
 
 *Inherited from [TLSigner](_signers_tlsigner_.tlsigner.md).[getMetaTxFees](_signers_tlsigner_.tlsigner.md#getmetatxfees)*
 
-*Defined in [src/signers/TLSigner.ts:22](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/TLSigner.ts#L22)*
+*Defined in [src/signers/TLSigner.ts:22](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/TLSigner.ts#L22)*
 
 #### Parameters:
 
@@ -177,7 +177,7 @@ ___
 
 *Inherited from [TLSigner](_signers_tlsigner_.tlsigner.md).[getTxStatus](_signers_tlsigner_.tlsigner.md#gettxstatus)*
 
-*Defined in [src/signers/TLSigner.ts:21](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/TLSigner.ts#L21)*
+*Defined in [src/signers/TLSigner.ts:21](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/TLSigner.ts#L21)*
 
 #### Parameters:
 
@@ -193,7 +193,7 @@ ___
 
 ▸ **getWalletData**(): Promise&#60;[TLWalletData](_typings_.tlwalletdata.md)>
 
-*Defined in [src/wallets/TLWallet.ts:15](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L15)*
+*Defined in [src/wallets/TLWallet.ts:15](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L15)*
 
 **Returns:** Promise&#60;[TLWalletData](_typings_.tlwalletdata.md)>
 
@@ -205,7 +205,7 @@ ___
 
 *Inherited from [TLSigner](_signers_tlsigner_.tlsigner.md).[hashTx](_signers_tlsigner_.tlsigner.md#hashtx)*
 
-*Defined in [src/signers/TLSigner.ts:18](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/TLSigner.ts#L18)*
+*Defined in [src/signers/TLSigner.ts:18](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/TLSigner.ts#L18)*
 
 #### Parameters:
 
@@ -221,7 +221,7 @@ ___
 
 ▸ **isIdentityDeployed**(): Promise&#60;boolean>
 
-*Defined in [src/wallets/TLWallet.ts:13](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L13)*
+*Defined in [src/wallets/TLWallet.ts:13](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L13)*
 
 **Returns:** Promise&#60;boolean>
 
@@ -231,7 +231,7 @@ ___
 
 ▸ **loadFrom**(`tlWalletData`: [TLWalletData](_typings_.tlwalletdata.md)): Promise&#60;void>
 
-*Defined in [src/wallets/TLWallet.ts:14](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L14)*
+*Defined in [src/wallets/TLWallet.ts:14](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L14)*
 
 #### Parameters:
 
@@ -249,7 +249,7 @@ ___
 
 *Inherited from [TLSigner](_signers_tlsigner_.tlsigner.md).[prepareTransaction](_signers_tlsigner_.tlsigner.md#preparetransaction)*
 
-*Defined in [src/signers/TLSigner.ts:20](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/TLSigner.ts#L20)*
+*Defined in [src/signers/TLSigner.ts:20](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/TLSigner.ts#L20)*
 
 #### Parameters:
 
@@ -265,7 +265,7 @@ ___
 
 ▸ **recoverFromEncryptedKeystore**(`serializedEncryptedKeystore`: string, `password`: string, `progressCallback?`: (progress: number) => any): Promise&#60;[TLWalletData](_typings_.tlwalletdata.md)>
 
-*Defined in [src/wallets/TLWallet.ts:17](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L17)*
+*Defined in [src/wallets/TLWallet.ts:17](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L17)*
 
 #### Parameters:
 
@@ -283,7 +283,7 @@ ___
 
 ▸ **recoverFromPrivateKey**(`privateKey`: string): Promise&#60;[TLWalletData](_typings_.tlwalletdata.md)>
 
-*Defined in [src/wallets/TLWallet.ts:22](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L22)*
+*Defined in [src/wallets/TLWallet.ts:22](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L22)*
 
 #### Parameters:
 
@@ -299,7 +299,7 @@ ___
 
 ▸ **recoverFromSeed**(`seed`: string): Promise&#60;[TLWalletData](_typings_.tlwalletdata.md)>
 
-*Defined in [src/wallets/TLWallet.ts:16](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L16)*
+*Defined in [src/wallets/TLWallet.ts:16](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L16)*
 
 #### Parameters:
 
@@ -315,7 +315,7 @@ ___
 
 ▸ **showSeed**(): Promise&#60;string>
 
-*Defined in [src/wallets/TLWallet.ts:9](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/wallets/TLWallet.ts#L9)*
+*Defined in [src/wallets/TLWallet.ts:9](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L9)*
 
 **Returns:** Promise&#60;string>
 
@@ -327,7 +327,7 @@ ___
 
 *Inherited from [TLSigner](_signers_tlsigner_.tlsigner.md).[signMessage](_signers_tlsigner_.tlsigner.md#signmessage)*
 
-*Defined in [src/signers/TLSigner.ts:17](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/TLSigner.ts#L17)*
+*Defined in [src/signers/TLSigner.ts:17](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/TLSigner.ts#L17)*
 
 #### Parameters:
 
@@ -345,7 +345,7 @@ ___
 
 *Inherited from [TLSigner](_signers_tlsigner_.tlsigner.md).[signMsgHash](_signers_tlsigner_.tlsigner.md#signmsghash)*
 
-*Defined in [src/signers/TLSigner.ts:16](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/signers/TLSigner.ts#L16)*
+*Defined in [src/signers/TLSigner.ts:16](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/signers/TLSigner.ts#L16)*
 
 #### Parameters:
 

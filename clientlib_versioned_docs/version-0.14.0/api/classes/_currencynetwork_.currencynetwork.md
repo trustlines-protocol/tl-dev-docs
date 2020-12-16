@@ -27,7 +27,7 @@ tlNetwork.currencyNetwork.getAll().then(
 
 ▸ **getAll**(): Promise&#60;[NetworkDetails](../interfaces/_typings_.networkdetails.md)[]>
 
-*Defined in [src/CurrencyNetwork.ts:52](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/CurrencyNetwork.ts#L52)*
+*Defined in [src/CurrencyNetwork.ts:52](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/CurrencyNetwork.ts#L52)*
 
 Returns all registered currency networks.
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **getInfo**(`networkAddress`: string): Promise&#60;[NetworkDetails](../interfaces/_typings_.networkdetails.md)>
 
-*Defined in [src/CurrencyNetwork.ts:70](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/CurrencyNetwork.ts#L70)*
+*Defined in [src/CurrencyNetwork.ts:70](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/CurrencyNetwork.ts#L70)*
 
 Returns detailed information of specific currency network.
 
@@ -59,7 +59,7 @@ ___
 
 ▸ **getUserOverview**(`networkAddress`: string, `userAddress`: string, `options?`: { decimalsOptions?: [DecimalsOptions](../interfaces/_typings_.decimalsoptions.md)  }): Promise&#60;[UserOverview](../interfaces/_typings_.useroverview.md)>
 
-*Defined in [src/CurrencyNetwork.ts:100](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/CurrencyNetwork.ts#L100)*
+*Defined in [src/CurrencyNetwork.ts:100](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/CurrencyNetwork.ts#L100)*
 
 Returns overview of a user in a specific currency network.
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **getUsers**(`networkAddress`: string): Promise&#60;string[]>
 
-*Defined in [src/CurrencyNetwork.ts:88](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/CurrencyNetwork.ts#L88)*
+*Defined in [src/CurrencyNetwork.ts:88](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/CurrencyNetwork.ts#L88)*
 
 Returns all addresses of users in a currency network.
 

@@ -16,7 +16,7 @@ sidebar_label: "TxObjectRaw"
 
 •  **rawTx**: [RawTxObject](_typings_.rawtxobject.md)
 
-*Defined in [src/typings.ts:291](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L291)*
+*Defined in [src/typings.ts:293](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L293)*
 
 ___
 
@@ -24,4 +24,4 @@ ___
 
 •  **txFees**: [TxFeesRaw](_typings_.txfeesraw.md)
 
-*Defined in [src/typings.ts:292](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L292)*
+*Defined in [src/typings.ts:294](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L294)*

@@ -16,7 +16,7 @@ sidebar_label: "TxOptions"
 
 • `Optional` **gasLimit**: string
 
-*Defined in [src/typings.ts:75](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L75)*
+*Defined in [src/typings.ts:75](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L75)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **gasPrice**: string
 
-*Defined in [src/typings.ts:74](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L74)*
+*Defined in [src/typings.ts:74](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L74)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • `Optional` **value**: string
 
-*Defined in [src/typings.ts:73](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L73)*
+*Defined in [src/typings.ts:73](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L73)*

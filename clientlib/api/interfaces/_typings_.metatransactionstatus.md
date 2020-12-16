@@ -16,4 +16,4 @@ sidebar_label: "MetaTransactionStatus"
 
 •  **status**: [TransactionStatus](../enums/_typings_.transactionstatus.md)
 
-*Defined in [src/typings.ts:458](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L458)*
+*Defined in [src/typings.ts:460](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L460)*

@@ -16,7 +16,7 @@ sidebar_label: "TrustlineAccruedInterestsRaw"
 
 •  **accruedInterests**: [AccruedInterestsRaw](_typings_.accruedinterestsraw.md)[]
 
-*Defined in [src/typings.ts:678](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L678)*
+*Defined in [src/typings.ts:680](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L680)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **counterparty**: string
 
-*Defined in [src/typings.ts:680](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L680)*
+*Defined in [src/typings.ts:682](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L682)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **user**: string
 
-*Defined in [src/typings.ts:679](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L679)*
+*Defined in [src/typings.ts:681](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L681)*

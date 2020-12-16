@@ -16,7 +16,7 @@ sidebar_label: "TransferIdentifier"
 
 • `Optional` **blockHash**: string
 
-*Defined in [src/typings.ts:743](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L743)*
+*Defined in [src/typings.ts:746](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L746)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **logIndex**: number
 
-*Defined in [src/typings.ts:744](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L744)*
+*Defined in [src/typings.ts:747](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L747)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • `Optional` **txHash**: string
 
-*Defined in [src/typings.ts:745](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L745)*
+*Defined in [src/typings.ts:748](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L748)*

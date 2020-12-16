@@ -16,7 +16,7 @@ sidebar_label: "PathRaw"
 
 •  **estimatedGas**: number
 
-*Defined in [src/typings.ts:487](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L487)*
+*Defined in [src/typings.ts:489](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L489)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **feePayer**: string
 
-*Defined in [src/typings.ts:485](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L485)*
+*Defined in [src/typings.ts:487](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L487)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **fees**: string
 
-*Defined in [src/typings.ts:486](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L486)*
+*Defined in [src/typings.ts:488](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L488)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 •  **path**: string[]
 
-*Defined in [src/typings.ts:484](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L484)*
+*Defined in [src/typings.ts:486](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L486)*

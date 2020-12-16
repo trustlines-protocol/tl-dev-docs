@@ -18,7 +18,7 @@ sidebar_label: "ExchangeTx"
 
 •  **makerMaxFees**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:853](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L853)*
+*Defined in [src/typings.ts:856](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L856)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 •  **makerPath**: string[]
 
-*Defined in [src/typings.ts:854](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L854)*
+*Defined in [src/typings.ts:857](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L857)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 *Inherited from [TxObject](_typings_.txobject.md).[rawTx](_typings_.txobject.md#rawtx)*
 
-*Defined in [src/typings.ts:281](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L281)*
+*Defined in [src/typings.ts:283](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L283)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 •  **takerMaxFees**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:855](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L855)*
+*Defined in [src/typings.ts:858](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L858)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 •  **takerPath**: string[]
 
-*Defined in [src/typings.ts:856](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L856)*
+*Defined in [src/typings.ts:859](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L859)*
 
 ___
 
@@ -62,4 +62,4 @@ ___
 
 *Inherited from [TxObject](_typings_.txobject.md).[txFees](_typings_.txobject.md#txfees)*
 
-*Defined in [src/typings.ts:282](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L282)*
+*Defined in [src/typings.ts:284](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L284)*

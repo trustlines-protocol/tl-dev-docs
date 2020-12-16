@@ -31,7 +31,7 @@ tlNetwork.trustline.getAll(
 
 ▸ **buildTrustlineRequestInviteLink**(`networkAddress`: string, `amounts`: { creditlineGiven: string \| number ; creditlineReceived: string \| number ; interestRateGiven?: string \| number ; interestRateReceived?: string \| number  }, `options?`: { [key:string]: string; customBase?: string  }): Promise&#60;string>
 
-*Defined in [src/Trustline.ts:617](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L617)*
+*Defined in [src/Trustline.ts:617](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L617)*
 
 Builds an invite link for a trustline request in the format
 ```
@@ -54,7 +54,7 @@ ___
 
 ▸ **confirm**(`rawTx`: [RawTxObject](../interfaces/_typings_.rawtxobject.md)): Promise&#60;any>
 
-*Defined in [src/Trustline.ts:295](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L295)*
+*Defined in [src/Trustline.ts:295](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L295)*
 
 Signs a raw transaction object as returned by `prepareAccept` or `prepareUpdate`
 and sends the signed transaction.
@@ -73,7 +73,7 @@ ___
 
 ▸ **get**(`networkAddress`: string, `counterpartyAddress`: string, `options?`: { decimalsOptions?: [DecimalsOptions](../interfaces/_typings_.decimalsoptions.md)  }): Promise&#60;[TrustlineObject](../interfaces/_typings_.trustlineobject.md)>
 
-*Defined in [src/Trustline.ts:354](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L354)*
+*Defined in [src/Trustline.ts:354](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L354)*
 
 Returns a trustline to a counterparty address in a specified currency network.
 
@@ -93,7 +93,7 @@ ___
 
 ▸ **getAll**(`networkAddress`: string, `options?`: { decimalsOptions?: [DecimalsOptions](../interfaces/_typings_.decimalsoptions.md)  }): Promise&#60;[TrustlineObject](../interfaces/_typings_.trustlineobject.md)[]>
 
-*Defined in [src/Trustline.ts:327](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L327)*
+*Defined in [src/Trustline.ts:327](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L327)*
 
 Returns all trustlines of a loaded user in a currency network.
 
@@ -112,7 +112,7 @@ ___
 
 ▸ **getAllOfUser**(): Promise&#60;[TrustlineObject](../interfaces/_typings_.trustlineobject.md)[]>
 
-*Defined in [src/Trustline.ts:302](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L302)*
+*Defined in [src/Trustline.ts:302](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L302)*
 
 Returns all trustlines of a loaded user in all currency networks.
 
@@ -124,7 +124,7 @@ ___
 
 ▸ **getClosePath**(`networkAddress`: string, `senderAddress`: string, `counterpartyAddress`: string, `options?`: [PaymentOptions](../interfaces/_typings_.paymentoptions.md)): Promise&#60;[ClosePathObject](../interfaces/_typings_.closepathobject.md)>
 
-*Defined in [src/Trustline.ts:562](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L562)*
+*Defined in [src/Trustline.ts:562](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L562)*
 
 Returns a path for closing a trustline between sender and counterparty.
 
@@ -147,7 +147,7 @@ ___
 
 ▸ **getEvents**(`networkAddress`: string, `counterPartyAddress`: string, `filter?`: [EventFilterOptions](../interfaces/_typings_.eventfilteroptions.md)): Promise&#60;[AnyNetworkTrustlineEvent](../modules/_typings_.md#anynetworktrustlineevent)[]>
 
-*Defined in [src/Trustline.ts:450](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L450)*
+*Defined in [src/Trustline.ts:450](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L450)*
 
 Returns all events of a specific trustline in a currency network. These are BalanceUpdate, TrustlineUpdate,
 TrustlineUpdateRequest and TrustlineUpdateCancel
@@ -168,7 +168,7 @@ ___
 
 ▸ **getRequests**(`networkAddress`: string, `filter?`: [EventFilterOptions](../interfaces/_typings_.eventfilteroptions.md)): Promise&#60;[NetworkTrustlineUpdateEvent](../interfaces/_typings_.networktrustlineupdateevent.md)[]>
 
-*Defined in [src/Trustline.ts:384](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L384)*
+*Defined in [src/Trustline.ts:384](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L384)*
 
 Returns trustline update requests of loaded user in a currency network.
 
@@ -187,7 +187,7 @@ ___
 
 ▸ **getTrustlineBalanceUpdates**(`networkAddress`: string, `counterPartyAddress`: string, `filter?`: [EventFilterOptions](../interfaces/_typings_.eventfilteroptions.md)): Promise&#60;[NetworkTrustlineBalanceUpdate](../interfaces/_typings_.networktrustlinebalanceupdate.md)[]>
 
-*Defined in [src/Trustline.ts:432](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L432)*
+*Defined in [src/Trustline.ts:432](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L432)*
 
 Returns trustline balance updates of a specific trustline in a currency network. A balance update
 happens, because of interests or because of received, sent or mediated transfers.
@@ -208,7 +208,7 @@ ___
 
 ▸ **getTrustlineUpdateCancels**(`networkAddress`: string, `filter?`: [EventFilterOptions](../interfaces/_typings_.eventfilteroptions.md)): Promise&#60;[NetworkTrustlineCancelEvent](../modules/_typings_.md#networktrustlinecancelevent)[]>
 
-*Defined in [src/Trustline.ts:399](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L399)*
+*Defined in [src/Trustline.ts:399](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L399)*
 
 Returns trustline update cancels of loaded user in a currency network.
 
@@ -227,7 +227,7 @@ ___
 
 ▸ **getUpdates**(`networkAddress`: string, `filter?`: [EventFilterOptions](../interfaces/_typings_.eventfilteroptions.md)): Promise&#60;[NetworkTrustlineUpdateEvent](../interfaces/_typings_.networktrustlineupdateevent.md)[]>
 
-*Defined in [src/Trustline.ts:415](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L415)*
+*Defined in [src/Trustline.ts:415](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L415)*
 
 Returns trustline updates of loaded user in a currency network. An update
 happens when a user accepts a trustline update request.
@@ -247,7 +247,7 @@ ___
 
 ▸ **prepareAccept**(`networkAddress`: string, `initiatorAddress`: string, `creditlineGiven`: number \| string, `creditlineReceived`: number \| string, `options?`: [TrustlineUpdateOptions](../interfaces/_typings_.trustlineupdateoptions.md)): Promise&#60;[TxObject](../interfaces/_typings_.txobject.md)>
 
-*Defined in [src/Trustline.ts:235](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L235)*
+*Defined in [src/Trustline.ts:235](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L235)*
 
 Prepares a transaction object for accepting a trustline update request. Called
 by receiver of initial update request.
@@ -270,7 +270,7 @@ ___
 
 ▸ **prepareCancelTrustlineUpdate**(`networkAddress`: string, `counterpartyAddress`: string, `options?`: [TxOptions](../interfaces/_typings_.txoptions.md)): Promise&#60;[TxObject](../interfaces/_typings_.txobject.md)>
 
-*Defined in [src/Trustline.ts:261](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L261)*
+*Defined in [src/Trustline.ts:261](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L261)*
 
 Prepares a transaction object for canceling / rejecting a trustline update request.
 Called by initiator of cancel.
@@ -291,7 +291,7 @@ ___
 
 ▸ **prepareClose**(`networkAddress`: string, `counterpartyAddress`: string, `options?`: [PaymentOptions](../interfaces/_typings_.paymentoptions.md)): Promise&#60;[CloseTxObject](../interfaces/_typings_.closetxobject.md)>
 
-*Defined in [src/Trustline.ts:484](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L484)*
+*Defined in [src/Trustline.ts:484](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L484)*
 
 Prepares an ethereum transaction object for closing a trustline.
 
@@ -313,7 +313,7 @@ ___
 
 ▸ **prepareUpdate**(`networkAddress`: string, `counterpartyAddress`: string, `creditlineGiven`: number \| string, `creditlineReceived`: number \| string, `options?`: [TrustlineUpdateOptions](../interfaces/_typings_.trustlineupdateoptions.md)): Promise&#60;[TxObject](../interfaces/_typings_.txobject.md)>
 
-*Defined in [src/Trustline.ts:119](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Trustline.ts#L119)*
+*Defined in [src/Trustline.ts:119](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Trustline.ts#L119)*
 
 Prepares a transaction object for creating a trustline update request.
 Called by initiator of update request.

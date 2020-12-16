@@ -16,7 +16,7 @@ sidebar_label: "Web3TxReceipt"
 
 •  **blockHash**: string
 
-*Defined in [src/typings.ts:336](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L336)*
+*Defined in [src/typings.ts:338](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L338)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **blockNumber**: number
 
-*Defined in [src/typings.ts:337](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L337)*
+*Defined in [src/typings.ts:339](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L339)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **contractAddress**: string
 
-*Defined in [src/typings.ts:342](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L342)*
+*Defined in [src/typings.ts:344](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L344)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **cumulativeGasUsed**: number
 
-*Defined in [src/typings.ts:343](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L343)*
+*Defined in [src/typings.ts:345](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L345)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **from**: string
 
-*Defined in [src/typings.ts:340](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L340)*
+*Defined in [src/typings.ts:342](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L342)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **gasUsed**: number
 
-*Defined in [src/typings.ts:344](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L344)*
+*Defined in [src/typings.ts:346](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L346)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **logs**: [Web3Log](_typings_.web3log.md)[]
 
-*Defined in [src/typings.ts:345](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L345)*
+*Defined in [src/typings.ts:347](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L347)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **status**: boolean
 
-*Defined in [src/typings.ts:335](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L335)*
+*Defined in [src/typings.ts:337](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L337)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **to**: string
 
-*Defined in [src/typings.ts:341](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L341)*
+*Defined in [src/typings.ts:343](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L343)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **transactionHash**: string
 
-*Defined in [src/typings.ts:338](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L338)*
+*Defined in [src/typings.ts:340](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L340)*
 
 ___
 
@@ -96,4 +96,4 @@ ___
 
 •  **transactionIndex**: number
 
-*Defined in [src/typings.ts:339](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L339)*
+*Defined in [src/typings.ts:341](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L341)*

@@ -18,7 +18,7 @@ sidebar_label: "PaymentTxObject"
 
 •  **feePayer**: [FeePayer](../enums/_typings_.feepayer.md)
 
-*Defined in [src/typings.ts:440](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L440)*
+*Defined in [src/typings.ts:442](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L442)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 •  **maxFees**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:441](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L441)*
+*Defined in [src/typings.ts:443](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L443)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 •  **path**: string[]
 
-*Defined in [src/typings.ts:438](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L438)*
+*Defined in [src/typings.ts:440](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L440)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 *Inherited from [TxObject](_typings_.txobject.md).[rawTx](_typings_.txobject.md#rawtx)*
 
-*Defined in [src/typings.ts:281](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L281)*
+*Defined in [src/typings.ts:283](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L283)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 •  **receiverAddress**: string
 
-*Defined in [src/typings.ts:439](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L439)*
+*Defined in [src/typings.ts:441](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L441)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • `Optional` **transferId**: string
 
-*Defined in [src/typings.ts:442](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L442)*
+*Defined in [src/typings.ts:444](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L444)*
 
 ___
 
@@ -70,4 +70,4 @@ ___
 
 *Inherited from [TxObject](_typings_.txobject.md).[txFees](_typings_.txobject.md#txfees)*
 
-*Defined in [src/typings.ts:282](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L282)*
+*Defined in [src/typings.ts:284](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L284)*

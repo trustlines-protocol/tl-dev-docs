@@ -16,7 +16,7 @@ sidebar_label: "Contact"
 
 \+ **new Contact**(`params`: { provider: [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md) ; user: [User](_user_.user.md)  }): [Contact](_contact_.contact.md)
 
-*Defined in [src/Contact.ts:8](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Contact.ts#L8)*
+*Defined in [src/Contact.ts:8](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Contact.ts#L8)*
 
 #### Parameters:
 
@@ -32,7 +32,7 @@ Name | Type |
 
 ▸ **createLink**(`address`: string, `options?`: { [key:string]: string; customBase?: string ; name?: string ; subject?: string  }): string
 
-*Defined in [src/Contact.ts:29](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Contact.ts#L29)*
+*Defined in [src/Contact.ts:29](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Contact.ts#L29)*
 
 Creates sharable contact link.
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **getAll**(`networkAddress`: string): Promise&#60;string[]>
 
-*Defined in [src/Contact.ts:15](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Contact.ts#L15)*
+*Defined in [src/Contact.ts:15](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Contact.ts#L15)*
 
 #### Parameters:
 

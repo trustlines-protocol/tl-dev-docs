@@ -16,7 +16,7 @@ sidebar_label: "DecimalsObject"
 
 •  **interestRateDecimals**: number
 
-*Defined in [src/typings.ts:542](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L542)*
+*Defined in [src/typings.ts:544](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L544)*
 
 ___
 
@@ -24,4 +24,4 @@ ___
 
 •  **networkDecimals**: number
 
-*Defined in [src/typings.ts:541](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L541)*
+*Defined in [src/typings.ts:543](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L543)*

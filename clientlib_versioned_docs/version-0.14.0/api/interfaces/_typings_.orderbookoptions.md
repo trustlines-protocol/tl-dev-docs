@@ -16,7 +16,7 @@ sidebar_label: "OrderbookOptions"
 
 • `Optional` **baseTokenDecimals**: number
 
-*Defined in [src/typings.ts:848](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L848)*
+*Defined in [src/typings.ts:851](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L851)*
 
 ___
 
@@ -24,4 +24,4 @@ ___
 
 • `Optional` **quoteTokenDecimals**: number
 
-*Defined in [src/typings.ts:849](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L849)*
+*Defined in [src/typings.ts:852](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L852)*

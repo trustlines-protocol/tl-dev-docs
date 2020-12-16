@@ -16,7 +16,7 @@ sidebar_label: "FeesResponse"
 
 •  **feeRecipient**: string
 
-*Defined in [src/typings.ts:834](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L834)*
+*Defined in [src/typings.ts:837](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L837)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **makerFee**: BigNumber
 
-*Defined in [src/typings.ts:835](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L835)*
+*Defined in [src/typings.ts:838](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L838)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **takerFee**: BigNumber
 
-*Defined in [src/typings.ts:836](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L836)*
+*Defined in [src/typings.ts:839](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L839)*

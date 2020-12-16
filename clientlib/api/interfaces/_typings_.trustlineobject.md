@@ -16,7 +16,7 @@ sidebar_label: "TrustlineObject"
 
 •  **balance**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:602](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L602)*
+*Defined in [src/typings.ts:604](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L604)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **counterParty**: string
 
-*Defined in [src/typings.ts:601](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L601)*
+*Defined in [src/typings.ts:603](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L603)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **currencyNetwork**: string
 
-*Defined in [src/typings.ts:610](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L610)*
+*Defined in [src/typings.ts:612](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L612)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **given**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:603](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L603)*
+*Defined in [src/typings.ts:605](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L605)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **id**: string
 
-*Defined in [src/typings.ts:599](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L599)*
+*Defined in [src/typings.ts:601](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L601)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **interestRateGiven**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:607](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L607)*
+*Defined in [src/typings.ts:609](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L609)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **interestRateReceived**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:608](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L608)*
+*Defined in [src/typings.ts:610](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L610)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **isFrozen**: boolean
 
-*Defined in [src/typings.ts:609](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L609)*
+*Defined in [src/typings.ts:611](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L611)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **leftGiven**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:605](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L605)*
+*Defined in [src/typings.ts:607](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L607)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **leftReceived**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:606](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L606)*
+*Defined in [src/typings.ts:608](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L608)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 •  **received**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:604](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L604)*
+*Defined in [src/typings.ts:606](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L606)*
 
 ___
 
@@ -104,4 +104,4 @@ ___
 
 •  **user**: string
 
-*Defined in [src/typings.ts:600](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L600)*
+*Defined in [src/typings.ts:602](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L602)*

@@ -147,7 +147,7 @@ sidebar_label: "typings"
 
 Ƭ  **AmountEventRaw**: [NetworkTransferEventRaw](../interfaces/_typings_.networktransfereventraw.md) \| [TokenAmountEventRaw](../interfaces/_typings_.tokenamounteventraw.md)
 
-*Defined in [src/typings.ts:277](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L277)*
+*Defined in [src/typings.ts:279](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L279)*
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 Ƭ  **AnyEvent**: [AnyNetworkEvent](_typings_.md#anynetworkevent) \| [AnyTokenEvent](_typings_.md#anytokenevent) \| [AnyExchangeEvent](_typings_.md#anyexchangeevent)
 
-*Defined in [src/typings.ts:272](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L272)*
+*Defined in [src/typings.ts:274](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L274)*
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 Ƭ  **AnyEventRaw**: [AnyNetworkEventRaw](_typings_.md#anynetworkeventraw) \| [AnyTokenEventRaw](_typings_.md#anytokeneventraw) \| [AnyExchangeEventRaw](_typings_.md#anyexchangeeventraw)
 
-*Defined in [src/typings.ts:273](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L273)*
+*Defined in [src/typings.ts:275](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L275)*
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 Ƭ  **AnyExchangeEvent**: [ExchangeFillEvent](../interfaces/_typings_.exchangefillevent.md) \| [ExchangeCancelEvent](../interfaces/_typings_.exchangecancelevent.md)
 
-*Defined in [src/typings.ts:269](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L269)*
+*Defined in [src/typings.ts:271](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L271)*
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 Ƭ  **AnyExchangeEventRaw**: [ExchangeFillEventRaw](../interfaces/_typings_.exchangefilleventraw.md) \| [ExchangeCancelEventRaw](../interfaces/_typings_.exchangecanceleventraw.md)
 
-*Defined in [src/typings.ts:270](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L270)*
+*Defined in [src/typings.ts:272](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L272)*
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 Ƭ  **AnyNetworkEvent**: [NetworkTransferEvent](../interfaces/_typings_.networktransferevent.md) \| [NetworkTrustlineUpdateEvent](../interfaces/_typings_.networktrustlineupdateevent.md) \| [NetworkTrustlineCancelEvent](_typings_.md#networktrustlinecancelevent)
 
-*Defined in [src/typings.ts:174](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L174)*
+*Defined in [src/typings.ts:176](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L176)*
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 Ƭ  **AnyNetworkEventRaw**: [NetworkTransferEventRaw](../interfaces/_typings_.networktransfereventraw.md) \| [NetworkTrustlineUpdateEventRaw](../interfaces/_typings_.networktrustlineupdateeventraw.md) \| [NetworkTrustlineCancelEventRaw](_typings_.md#networktrustlinecanceleventraw)
 
-*Defined in [src/typings.ts:178](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L178)*
+*Defined in [src/typings.ts:180](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L180)*
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 Ƭ  **AnyNetworkTrustlineEvent**: [NetworkTrustlineUpdateEvent](../interfaces/_typings_.networktrustlineupdateevent.md) \| [NetworkTrustlineCancelEvent](_typings_.md#networktrustlinecancelevent) \| [NetworkTrustlineBalanceUpdate](../interfaces/_typings_.networktrustlinebalanceupdate.md)
 
-*Defined in [src/typings.ts:188](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L188)*
+*Defined in [src/typings.ts:190](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L190)*
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 Ƭ  **AnyNetworkTrustlineEventRaw**: [NetworkTrustlineUpdateEventRaw](../interfaces/_typings_.networktrustlineupdateeventraw.md) \| [NetworkTrustlineCancelEventRaw](_typings_.md#networktrustlinecanceleventraw) \| [NetworkTrustlineBalanceUpdateRaw](../interfaces/_typings_.networktrustlinebalanceupdateraw.md)
 
-*Defined in [src/typings.ts:183](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L183)*
+*Defined in [src/typings.ts:185](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L185)*
 
 ___
 
@@ -219,7 +219,7 @@ ___
 
 Ƭ  **AnyOrder**: [Order](../interfaces/_typings_.order.md) \| [OrderRaw](../interfaces/_typings_.orderraw.md) \| [SignedOrder](../interfaces/_typings_.signedorder.md) \| [SignedOrderRaw](../interfaces/_typings_.signedorderraw.md)
 
-*Defined in [src/typings.ts:819](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L819)*
+*Defined in [src/typings.ts:822](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L822)*
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 Ƭ  **AnyTokenEvent**: [TokenAmountEvent](../interfaces/_typings_.tokenamountevent.md)
 
-*Defined in [src/typings.ts:205](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L205)*
+*Defined in [src/typings.ts:207](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L207)*
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 Ƭ  **AnyTokenEventRaw**: [TokenAmountEventRaw](../interfaces/_typings_.tokenamounteventraw.md)
 
-*Defined in [src/typings.ts:206](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L206)*
+*Defined in [src/typings.ts:208](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L208)*
 
 ___
 
@@ -243,7 +243,7 @@ ___
 
 Ƭ  **Direction**: &#34;sent&#34; \| &#34;received&#34;
 
-*Defined in [src/typings.ts:240](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L240)*
+*Defined in [src/typings.ts:242](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L242)*
 
 ___
 
@@ -251,7 +251,7 @@ ___
 
 Ƭ  **ExchangeTxOptions**: [TxOptions](../interfaces/_typings_.txoptions.md) & [ExchangeOptions](../interfaces/_typings_.exchangeoptions.md)
 
-*Defined in [src/typings.ts:845](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L845)*
+*Defined in [src/typings.ts:848](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L848)*
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 Ƭ  **NetworkTrustlineCancelEvent**: [NetworkEvent](../interfaces/_typings_.networkevent.md)
 
-*Defined in [src/typings.ts:165](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L165)*
+*Defined in [src/typings.ts:167](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L167)*
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 Ƭ  **NetworkTrustlineCancelEventRaw**: [NetworkEvent](../interfaces/_typings_.networkevent.md)
 
-*Defined in [src/typings.ts:164](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L164)*
+*Defined in [src/typings.ts:166](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L166)*
 
 ___
 
@@ -275,7 +275,7 @@ ___
 
 Ƭ  **ReconnectingWSOptions**: ReconnectingOptions & { reconnectOnError?: boolean  }
 
-*Defined in [src/typings.ts:875](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L875)*
+*Defined in [src/typings.ts:878](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L878)*
 
 ___
 
@@ -283,7 +283,7 @@ ___
 
 Ƭ  **TLOptions**: [TxOptions](../interfaces/_typings_.txoptions.md) & [DecimalsOptions](../interfaces/_typings_.decimalsoptions.md)
 
-*Defined in [src/typings.ts:78](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L78)*
+*Defined in [src/typings.ts:78](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L78)*
 
 ___
 
@@ -291,7 +291,7 @@ ___
 
 Ƭ  **UserAccruedInterestsObject**: [TrustlineAccruedInterestsObject](../interfaces/_typings_.trustlineaccruedinterestsobject.md)[]
 
-*Defined in [src/typings.ts:690](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L690)*
+*Defined in [src/typings.ts:692](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L692)*
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 Ƭ  **UserAccruedInterestsRaw**: [TrustlineAccruedInterestsRaw](../interfaces/_typings_.trustlineaccruedinterestsraw.md)[]
 
-*Defined in [src/typings.ts:689](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L689)*
+*Defined in [src/typings.ts:691](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L691)*
 
 ___
 
@@ -307,7 +307,7 @@ ___
 
 Ƭ  **WalletType**: [WalletTypeEthers](_typings_.md#wallettypeethers) \| [WalletTypeIdentity](_typings_.md#wallettypeidentity)
 
-*Defined in [src/typings.ts:564](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L564)*
+*Defined in [src/typings.ts:566](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L566)*
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 Ƭ  **WalletTypeEthers**: &#34;ethers&#34;
 
-*Defined in [src/typings.ts:562](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L562)*
+*Defined in [src/typings.ts:564](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L564)*
 
 ___
 
@@ -323,7 +323,7 @@ ___
 
 Ƭ  **WalletTypeIdentity**: &#34;identity&#34;
 
-*Defined in [src/typings.ts:563](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L563)*
+*Defined in [src/typings.ts:565](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L565)*
 
 ## Functions
 
@@ -331,7 +331,7 @@ ___
 
 ▸ **isFeePayerValue**(`feePayer`: string): boolean
 
-*Defined in [src/typings.ts:465](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L465)*
+*Defined in [src/typings.ts:467](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L467)*
 
 #### Parameters:
 

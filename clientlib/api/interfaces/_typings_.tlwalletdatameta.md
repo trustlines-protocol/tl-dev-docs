@@ -16,4 +16,4 @@ sidebar_label: "TLWalletDataMeta"
 
 •  **signingKey**: [SigningKey](_typings_.signingkey.md)
 
-*Defined in [src/typings.ts:579](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L579)*
+*Defined in [src/typings.ts:581](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L581)*

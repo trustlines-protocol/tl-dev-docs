@@ -16,7 +16,7 @@ sidebar_label: "Orderbook"
 
 •  **asks**: [SignedOrder](_typings_.signedorder.md)[]
 
-*Defined in [src/typings.ts:796](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L796)*
+*Defined in [src/typings.ts:799](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L799)*
 
 ___
 
@@ -24,4 +24,4 @@ ___
 
 •  **bids**: [SignedOrder](_typings_.signedorder.md)[]
 
-*Defined in [src/typings.ts:797](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L797)*
+*Defined in [src/typings.ts:800](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L800)*

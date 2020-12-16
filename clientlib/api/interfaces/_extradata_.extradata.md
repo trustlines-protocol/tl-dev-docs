@@ -16,7 +16,15 @@ sidebar_label: "ExtraData"
 
 • `Optional` **paymentRequestId**: string
 
-*Defined in [src/extraData.ts:6](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/extraData.ts#L6)*
+*Defined in [src/extraData.ts:6](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/extraData.ts#L6)*
+
+___
+
+### remainingData
+
+• `Optional` **remainingData**: string
+
+*Defined in [src/extraData.ts:8](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/extraData.ts#L8)*
 
 ___
 
@@ -24,4 +32,4 @@ ___
 
 • `Optional` **transferId**: string
 
-*Defined in [src/extraData.ts:7](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/extraData.ts#L7)*
+*Defined in [src/extraData.ts:7](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/extraData.ts#L7)*

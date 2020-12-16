@@ -18,7 +18,7 @@ The Transaction class contains functions that are needed for Ethereum transactio
 
 \+ **new Transaction**(`params`: { currencyNetwork: [CurrencyNetwork](_currencynetwork_.currencynetwork.md) ; provider: [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md) ; signer: [TLSigner](../interfaces/_signers_tlsigner_.tlsigner.md)  }): [Transaction](_transaction_.transaction.md)
 
-*Defined in [src/Transaction.ts:38](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Transaction.ts#L38)*
+*Defined in [src/Transaction.ts:38](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L38)*
 
 #### Parameters:
 
@@ -34,7 +34,7 @@ Name | Type |
 
 ▸ **confirm**(`rawTx`: [RawTxObject](../interfaces/_typings_.rawtxobject.md)): Promise&#60;string>
 
-*Defined in [src/Transaction.ts:133](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Transaction.ts#L133)*
+*Defined in [src/Transaction.ts:133](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L133)*
 
 Signs and sends the given transaction object.
 
@@ -52,7 +52,7 @@ ___
 
 ▸ **getAppliedDelegationFees**(`txHash`: string): Promise&#60;[TxFeesAmounts](../interfaces/_typings_.txfeesamounts.md)[]>
 
-*Defined in [src/Transaction.ts:152](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Transaction.ts#L152)*
+*Defined in [src/Transaction.ts:152](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L152)*
 
 Get the effective delegation fees via enveloping transaction hash
 
@@ -72,7 +72,7 @@ ___
 
 ▸ **getTxStatus**(`tx`: string \| [RawTxObject](../interfaces/_typings_.rawtxobject.md)): Promise&#60;[TransactionStatusObject](../interfaces/_typings_.transactionstatusobject.md)>
 
-*Defined in [src/Transaction.ts:141](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Transaction.ts#L141)*
+*Defined in [src/Transaction.ts:141](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L141)*
 
 Get the status of a sent tx either via txHash or via rawTx for a meta-tx
 
@@ -90,7 +90,7 @@ ___
 
 ▸ **prepareContractTransaction**(`userAddress`: string, `contractAddress`: string, `contractName`: string, `functionName`: string, `args`: any[], `options?`: [TxOptionsInternal](../interfaces/_typings_.txoptionsinternal.md)): Promise&#60;[TxObjectInternal](../interfaces/_typings_.txobjectinternal.md)>
 
-*Defined in [src/Transaction.ts:64](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Transaction.ts#L64)*
+*Defined in [src/Transaction.ts:64](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L64)*
 
 Returns transaction fees and the raw transaction object for calling a contract function.
 
@@ -115,7 +115,7 @@ ___
 
 ▸ **prepareValueTransaction**(`senderAddress`: string, `receiverAddress`: string, `rawValue`: BigNumber, `options?`: [TxOptionsInternal](../interfaces/_typings_.txoptionsinternal.md)): Promise&#60;[TxObjectInternal](../interfaces/_typings_.txobjectinternal.md)>
 
-*Defined in [src/Transaction.ts:105](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Transaction.ts#L105)*
+*Defined in [src/Transaction.ts:105](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L105)*
 
 Returns transaction fees and raw transaction object for transferring ETH.
 

@@ -16,7 +16,7 @@ sidebar_label: "DelegationFeesRaw"
 
 • `Optional` **baseFee**: number \| string \| BigNumber
 
-*Defined in [src/typings.ts:424](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L424)*
+*Defined in [src/typings.ts:426](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L426)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **currencyNetworkOfFees**: string
 
-*Defined in [src/typings.ts:426](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L426)*
+*Defined in [src/typings.ts:428](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L428)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • `Optional` **gasPrice**: number \| string \| BigNumber
 
-*Defined in [src/typings.ts:425](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L425)*
+*Defined in [src/typings.ts:427](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L427)*

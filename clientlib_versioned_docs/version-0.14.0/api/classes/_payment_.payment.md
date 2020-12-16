@@ -31,7 +31,7 @@ tlNetwork.payment.get(
 
 ▸ **calculateTransferGasLimit**(`pathLength`: number): BigNumber
 
-*Defined in [src/Payment.ts:376](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L376)*
+*Defined in [src/Payment.ts:380](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L380)*
 
 #### Parameters:
 
@@ -47,7 +47,7 @@ ___
 
 ▸ **confirm**(`rawTx`: [RawTxObject](../interfaces/_typings_.rawtxobject.md)): Promise&#60;any>
 
-*Defined in [src/Payment.ts:286](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L286)*
+*Defined in [src/Payment.ts:290](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L290)*
 
 Signs a raw transaction object as returned by `prepare`
 and sends the signed transaction.
@@ -68,7 +68,7 @@ ___
 
 ▸ **confirmPayment**(`__namedParameters`: { rawTx: [RawTxObject](../interfaces/_typings_.rawtxobject.md) ; receiverAddress: string ; transferId: string  }, `message?`: string): Promise&#60;string>
 
-*Defined in [src/Payment.ts:299](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L299)*
+*Defined in [src/Payment.ts:303](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L303)*
 
 Signs the rawTx provided as returned by `prepare`
 and sends the signed transaction as well as the message with transferId
@@ -89,7 +89,7 @@ ___
 
 ▸ **createRequest**(`networkAddress`: string, `options?`: { [key:string]: string; amount?: string ; customBase?: string  }): Promise&#60;string>
 
-*Defined in [src/Payment.ts:326](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L326)*
+*Defined in [src/Payment.ts:330](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L330)*
 
 Creates a payment request link.
 
@@ -108,7 +108,7 @@ ___
 
 ▸ **get**(`networkAddress`: string, `filter?`: [EventFilterOptions](../interfaces/_typings_.eventfilteroptions.md)): Promise&#60;[NetworkTransferEvent](../interfaces/_typings_.networktransferevent.md)[]>
 
-*Defined in [src/Payment.ts:270](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L270)*
+*Defined in [src/Payment.ts:274](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L274)*
 
 Returns transfer event logs of loaded user in a specified currency network.
 
@@ -127,7 +127,7 @@ ___
 
 ▸ **getMaxAmountAndPathInNetwork**(`networkAddress`: string, `receiverAddress`: string): Promise&#60;any>
 
-*Defined in [src/Payment.ts:353](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L353)*
+*Defined in [src/Payment.ts:357](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L357)*
 
 Retrieve the maximum spendable amount and path to user in a network
 
@@ -148,7 +148,7 @@ ___
 
 ▸ **getTransferDetails**(`transferIdentifier`: [TransferIdentifier](../interfaces/_typings_.transferidentifier.md), `options?`: { decimalsOptions?: [DecimalsOptions](../interfaces/_typings_.decimalsoptions.md)  }): Promise&#60;[TransferDetails](../interfaces/_typings_.transferdetails.md)>
 
-*Defined in [src/Payment.ts:393](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L393)*
+*Defined in [src/Payment.ts:397](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L397)*
 
 Get the transfer details list for given transfer identifier
 
@@ -167,7 +167,7 @@ ___
 
 ▸ **getTransferDetailsList**(`transferIdentifier`: [TransferIdentifier](../interfaces/_typings_.transferidentifier.md), `options?`: { decimalsOptions?: [DecimalsOptions](../interfaces/_typings_.decimalsoptions.md)  }): Promise&#60;[TransferDetails](../interfaces/_typings_.transferdetails.md)[]>
 
-*Defined in [src/Payment.ts:421](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L421)*
+*Defined in [src/Payment.ts:425](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L425)*
 
 Get the transfer details list for given transfer identifier
 
@@ -186,7 +186,7 @@ ___
 
 ▸ **getTransferPathInfo**(`networkAddress`: string, `senderAddress`: string, `receiverAddress`: string, `value`: number \| string, `options?`: [PaymentOptions](../interfaces/_typings_.paymentoptions.md)): Promise&#60;[PathObject](../interfaces/_typings_.pathobject.md)>
 
-*Defined in [src/Payment.ts:223](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L223)*
+*Defined in [src/Payment.ts:227](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L227)*
 
 Returns a path for a trustlines transfer, along with estimated fees and gas costs.
 
@@ -208,7 +208,7 @@ ___
 
 ▸ **prepare**(`networkAddress`: string, `receiverAddress`: string, `value`: number \| string, `options?`: [PaymentOptions](../interfaces/_typings_.paymentoptions.md)): Promise&#60;[PaymentTxObject](../interfaces/_typings_.paymenttxobject.md)>
 
-*Defined in [src/Payment.ts:102](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L102)*
+*Defined in [src/Payment.ts:104](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L104)*
 
 Prepares ethereum transaction object for a trustlines transfer, where loaded user is sender.
 
@@ -229,7 +229,7 @@ ___
 
 ▸ **prepareEth**(`receiverAddress`: string, `value`: number \| string, `options?`: [PaymentOptions](../interfaces/_typings_.paymentoptions.md)): Promise&#60;[TxObject](../interfaces/_typings_.txobject.md)>
 
-*Defined in [src/Payment.ts:188](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/Payment.ts#L188)*
+*Defined in [src/Payment.ts:192](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Payment.ts#L192)*
 
 Prepares a ethereum transaction object for a ETH transfer, where loaded user is the sender.
 

@@ -20,7 +20,7 @@ sidebar_label: "TLWalletData"
 
 •  **address**: string
 
-*Defined in [src/typings.ts:569](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L569)*
+*Defined in [src/typings.ts:571](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L571)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • `Optional` **meta**: any
 
-*Defined in [src/typings.ts:570](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L570)*
+*Defined in [src/typings.ts:572](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L572)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 •  **type**: [WalletType](../modules/_typings_.md#wallettype)
 
-*Defined in [src/typings.ts:568](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L568)*
+*Defined in [src/typings.ts:570](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L570)*
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 •  **version**: number
 
-*Defined in [src/typings.ts:567](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L567)*
+*Defined in [src/typings.ts:569](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L569)*

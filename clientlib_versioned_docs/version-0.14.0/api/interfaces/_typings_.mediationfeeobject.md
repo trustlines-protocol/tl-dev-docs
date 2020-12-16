@@ -16,7 +16,7 @@ sidebar_label: "MediationFeeObject"
 
 •  **from**: string
 
-*Defined in [src/typings.ts:702](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L702)*
+*Defined in [src/typings.ts:704](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L704)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **timestamp**: number
 
-*Defined in [src/typings.ts:705](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L705)*
+*Defined in [src/typings.ts:707](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L707)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **to**: string
 
-*Defined in [src/typings.ts:703](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L703)*
+*Defined in [src/typings.ts:705](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L705)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **transactionHash**: string
 
-*Defined in [src/typings.ts:704](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L704)*
+*Defined in [src/typings.ts:706](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L706)*
 
 ___
 
@@ -48,4 +48,4 @@ ___
 
 •  **value**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:701](https://github.com/trustlines-protocol/clientlib/blob/a897659/src/typings.ts#L701)*
+*Defined in [src/typings.ts:703](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L703)*
