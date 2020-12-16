@@ -4,35 +4,54 @@ module.exports = {
       type: "category",
       label: "Relay",
       collapsed: false,
-      items: ["introduction", "contributing"]
+      items: ["introduction", "contributing"],
     },
     {
       type: "category",
       label: "Getting started",
       collapsed: false,
-      items: ["getting_started/docker", "getting_started/manual", "getting_started/configuration"]
+      items: [
+        "getting_started/docker",
+        "getting_started/manual",
+      ],
+    },
+    {
+      type: "category",
+      label: "Developing",
+      collapsed: false,
+      items: [
+        "develop/develop",
+        "develop/configuration",
+        "develop/pre_commit_hooks",
+        "develop/dependencies",
+        "develop/release",
+      ],
     },
     {
       type: "category",
       label: "Tutorials",
       collapsed: false,
-      items: ["tutorials/trustlines_system"]
+      items: ["tutorials/trustlines_system"],
     },
     {
       type: "category",
       label: "REST API",
       collapsed: false,
-      items: ["api/introduction", {
-        type: "category",
-        label: "Endpoints",
-        collapsed: false,
-        items: ['api/network', 'api/user', 'api/miscellaneous']
-      }]
+      items: [
+        "api/introduction",
+        {
+          type: "category",
+          label: "Endpoints",
+          collapsed: false,
+          items: ["api/network", "api/user", "api/miscellaneous"],
+        },
+      ],
     },
     {
       type: "link",
       label: "Release Notes",
-      href: "https://github.com/trustlines-protocol/relay/blob/master/CHANGELOG.rst"
-    }
+      href:
+        "https://github.com/trustlines-protocol/relay/blob/master/CHANGELOG.rst",
+    },
   ],
 }
