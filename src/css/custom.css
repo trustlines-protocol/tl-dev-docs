@@ -103,3 +103,9 @@ html[data-theme="dark"] .header-github-link::before {
 .header-github-link:hover {
   opacity: 0.6;
 }
+
+div[role="tabpanel"] {
+  padding: 10px 10px;
+  background-color: #3E3E48;
+  border-radius: 5px;
+}

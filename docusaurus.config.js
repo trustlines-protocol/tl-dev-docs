@@ -48,6 +48,12 @@ module.exports = {
           activeBasePath: "clientlib",
           position: "left",
         },
+        {
+          to: "mobileapp/introduction",
+          label: "Trustlines App",
+          activeBasePath: "mobileapp",
+          position: "left",
+        },
       ],
     },
     footer: {
@@ -116,6 +122,16 @@ module.exports = {
         editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "blockchain",
         sidebarPath: require.resolve("./sidebars_blockchain.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "mobileapp",
+        path: "mobileapp",
+        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+        routeBasePath: "mobileapp",
+        sidebarPath: require.resolve("./sidebars_mobileapp.js"),
       },
     ],
     [
