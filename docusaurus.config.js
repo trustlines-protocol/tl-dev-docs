@@ -43,7 +43,7 @@ module.exports = {
           position: "left",
         },
         {
-          to: "clientlib/clientlib/",
+          to: "clientlib/introduction",
           label: "Clientlib",
           activeBasePath: "clientlib",
           position: "left",
@@ -52,6 +52,12 @@ module.exports = {
           to: "mobileapp/introduction",
           label: "Trustlines App",
           activeBasePath: "mobileapp",
+          position: "left",
+        },
+        {
+          to: "docs/contributing",
+          label: "Contributing",
+          activeBasePath: "contributing",
           position: "left",
         },
       ],
