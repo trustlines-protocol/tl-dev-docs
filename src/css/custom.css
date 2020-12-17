@@ -48,7 +48,19 @@
   --ifm-color-primary-lightest: #beaff6;
   --ifm-code-font-size: 95%;
 
+  --ifm-color-info: #89b7fa;
+  --ifm-alert-color: #000000;
+  --ifm-color-warning: #EABD00;
+  --ifm-color-success: #09E0A3;
+  --ifm-color-danger: #fd5e5e;
+
+  --ifm-button-border-width: 2px;
+
+  --ra-admonition-icon-color: #000000;
+  --ra-admonition-color: #000000;
   --ifm-font-family-base: "Inter";
+  --ifm-hero-text-color: #FFF;
+  --ifm-font-color-base-inverse: #FFF;
 }
 
 html[data-theme="light"]:root {
@@ -62,6 +74,10 @@ html[data-theme="light"]:root {
   --ifm-code-font-size: 95%;
 
   --ifm-font-family-base: "Inter";
+}
+
+html[data-theme="light"]:root .button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  --ifm-font-color-base: #FFF;
 }
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -90,4 +106,8 @@ div[role="tabpanel"] {
   padding: 10px 10px;
   background-color: #3E3E48;
   border-radius: 5px;
+}
+
+a {
+  font-weight: 600;
 }
