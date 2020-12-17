@@ -9,6 +9,9 @@ module.exports = {
   organizationName: "trustlines-protocol",
   projectName: "tl-dev-docs",
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: "Trustlines Dev Docs",
       logo: {
@@ -37,7 +40,7 @@ module.exports = {
           position: "left",
         },
         {
-          to: "relay/relay_server",
+          to: "relay/introduction",
           activeBasePath: "relay",
           label: "Relay",
           position: "left",
@@ -63,7 +66,6 @@ module.exports = {
       ],
     },
     footer: {
-      style: "dark",
       links: [
         {
           title: "Websites",
@@ -212,9 +214,9 @@ module.exports = {
     githubBadge: {
       default: "https://github.com/trustlines-protocol/",
       clientlib: "https://github.com/trustlines-protocol/clientlib",
-      "docs/blockchain": "https://github.com/trustlines-protocol/blockchain/",
-      "docs/contracts": "https://github.com/trustlines-protocol/contracts/",
-      "docs/relay": "https://github.com/trustlines-protocol/relay",
+      "blockchain": "https://github.com/trustlines-protocol/blockchain/",
+      "contracts": "https://github.com/trustlines-protocol/contracts/",
+      "relay": "https://github.com/trustlines-protocol/relay",
     },
     customNavbarConfig: {
       clientlib: {
