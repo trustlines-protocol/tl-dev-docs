@@ -137,7 +137,7 @@ module.exports = {
       {
         id: "mobileapp",
         path: "mobileapp",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs",
+        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "mobileapp",
         sidebarPath: require.resolve("./sidebars_mobileapp.js"),
       },
