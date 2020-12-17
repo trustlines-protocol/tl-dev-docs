@@ -63,6 +63,10 @@
   --ifm-font-color-base-inverse: #FFF;
 }
 
+.menu__list .menu__list {
+  margin-left:  2rem
+}
+
 html[data-theme="light"]:root {
   --ifm-color-primary: #ff7c4e;
   --ifm-color-primary-dark: #ff632d;
