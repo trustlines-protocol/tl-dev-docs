@@ -43,5 +43,11 @@ module.exports = {
       type: "doc",
       id: "deploy",
     },
+    {
+      type: "category",
+      label: "Tutorials",
+      collapsed: false,
+      items: [{ type: "doc", id: "tutorials/localhost_with_docker" }],
+    },
   ],
 }

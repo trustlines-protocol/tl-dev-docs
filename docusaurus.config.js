@@ -110,7 +110,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Trustlines.`,
     },
     prism: {
-      additionalLanguages: ["javascript", "typescript", "bash", "toml"],
+      additionalLanguages: ["javascript", "typescript", "bash", "toml", "ini"],
     },
   },
   plugins: [
