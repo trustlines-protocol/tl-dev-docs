@@ -6,52 +6,34 @@
  */
 @font-face {
   font-family: "Inter";
+  src: local("Inter"), url(/fonts/Inter-Regular.woff2) format("woff2"),
+  url(/fonts/Inter-Regular.woff) format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url("/fonts/Inter-ExtraLight.woff?v=3.13") format("woff");
 }
+
 @font-face {
   font-family: "Inter";
+  src: local("Inter"), url(/fonts/Inter-Bold.woff2) format("woff2"),
+  url(/fonts/Inter-Bold.woff) format("woff");
+  font-weight: bold;
   font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url("/fonts/Inter-Light.woff?v=3.13") format("woff");
 }
+
 @font-face {
   font-family: "Inter";
+  src: local("Inter"), url(/fonts/Inter-SemiBold.woff2) format("woff2"),
+  url(/fonts/Inter-SemiBold.woff) format("woff");
+  font-weight: 600;
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/Inter-Regular.woff?v=3.13") format("woff");
 }
+
 @font-face {
   font-family: "Inter";
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/Inter-Italic.woff?v=3.13") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
+  src: local("Inter"), url(/fonts/Inter-Medium.woff2) format("woff2"),
+  url(/fonts/Inter-Medium.woff) format("woff");
   font-weight: 500;
-  font-display: swap;
-  src: url("/fonts/Inter-Medium.woff?v=3.13") format("woff");
-}
-@font-face {
-  font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("/fonts/Inter-SemiBold.woff?v=3.13") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 600;
-  font-display: swap;
-  src: url("/fonts/Inter-SemiBoldItalic.woff?v=3.13") format("woff");
 }
 
 
@@ -66,7 +48,19 @@
   --ifm-color-primary-lightest: #beaff6;
   --ifm-code-font-size: 95%;
 
+  --ifm-color-info: #89b7fa;
+  --ifm-alert-color: #000000;
+  --ifm-color-warning: #EABD00;
+  --ifm-color-success: #09E0A3;
+  --ifm-color-danger: #fd5e5e;
+
+  --ifm-button-border-width: 2px;
+
+  --ra-admonition-icon-color: #000000;
+  --ra-admonition-color: #000000;
   --ifm-font-family-base: "Inter";
+  --ifm-hero-text-color: #FFF;
+  --ifm-font-color-base-inverse: #FFF;
 }
 
 html[data-theme="light"]:root {
@@ -80,6 +74,10 @@ html[data-theme="light"]:root {
   --ifm-code-font-size: 95%;
 
   --ifm-font-family-base: "Inter";
+}
+
+html[data-theme="light"]:root .button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  --ifm-font-color-base: #FFF;
 }
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -108,4 +106,8 @@ div[role="tabpanel"] {
   padding: 10px 10px;
   background-color: #3E3E48;
   border-radius: 5px;
+}
+
+a {
+  font-weight: 600;
 }
