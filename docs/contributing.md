@@ -15,30 +15,30 @@ Before making a change, please first discuss the change via opening an issue on 
 repository. If you just need some small question answered, you can also reach out to
 us via our [gitter chat](https://gitter.im/trustlines/community).
 
-## Open an issue
+## Open an Issue
 
 To request a feature or report a bug, please open an issue on the issue tracker in github.
 
-### Report a bug
+### Report a Bug
 
 Please include a short description of the problem, including what you expected to happen and what did happen instead.
 Please also include the version of the clientlib you were using, your operating system and the used configuration.
 
-### Request a feature
+### Request a Feature
 
 Please include a description of what you would like to see implemented and an explanation of why you believe this would
 be a good addition.
 
-## Open a pull request
+## Open a Pull Request
 
-### Before starting
+### Before Starting
 
 - Make sure that you've followed the getting started docs for the component you want to contribute to.
 - Ensure that you can run the tests and that they pass.
 - Ensure that you can run the end2end tests. You can find more information in the
   [end2end repo](https://github.com/trustlines-protocol/end2end)
 
-### To include
+### To Include
 
 - For a bug fix:
   - Add a test that makes the bug explicit, and make sure that the test fails.
@@ -64,7 +64,7 @@ All changes should be grouped by one of the following keywords:
   Please also add the marker `BREAKING` in case of a breaking change.
   For the non released changes we keep an unreleased section on top.
 
-## Commit messages
+## Commit Messages
 
 We loosely follow [How to write a git commit message](https://chris.beams.io/posts/git-commit/)
 Please fulfill at least these important criteria.
