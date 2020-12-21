@@ -915,3 +915,46 @@ curl https://relay0.testnet.trustlines.network/api/v1/transfers?blockHash=0x05c9
 ```
 
 ---
+
+### Total transferred sum in between users of currency networks
+Returns the total transferred sum from a user to another user in a currency network in a time window.
+
+#### Request
+```
+GET /networks/:network/users/:sender/transferredSums/:receiver?startTime=:timestamp&endTime=:timestamp
+```
+#### Example Request
+```
+curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455075a0724AA167a286da778DDE/users/0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce/transferredSums/0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320?startTime=1579000000&endTime=1579008836
+```
+#### URL Parameters
+| Name         | Type                      | Required | Description                                       |
+|--------------|---------------------------|----------|---------------------------------------------------|
+| network      | string prefixed with "0x" | YES      | Address of currency network                       |
+| sender       | string prefixed with "0x" | YES      | Address of sender of transfers                    |
+| receiver     | string prefixed with "0x" | YES      | Address of receiver of transfers                  |
+| startTime    | integer                   | NO       | Start of time window to get list for (default: 0) |
+| endTime      | integer                   | NO       | End of time window to get list for (default: now) |
+#### Response
+The response is a an objects with the following elements:
+
+| Attribute        | Type       | JSON Type | Description                             |
+| ---------------- | ---------- | --------- | --------------------------------------- |
+| sender           | address    | string    | Address of sender of transfers          |
+| receiver         | address    | string    | Address of user                         |
+| startTime        | timestamp  | number    | start of time window to fetch transfers |
+| endTime          | timestamp  | number    | end of time window to fetch transfers   |
+| value            | BigInteger | string    | Total value sent in between users       |
+
+#### Example Response
+```json
+{
+    "sender": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
+    "receiver": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
+    "startTime": 1579000000,
+    "endTime": 1579008836,
+    "value":  "123"
+}
+```
+
+---
