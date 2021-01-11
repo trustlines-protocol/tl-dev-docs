@@ -120,6 +120,18 @@ module.exports = {
     prism: {
       additionalLanguages: ["javascript", "typescript", "bash", "toml", "ini"],
     },
+    algolia: {
+      apiKey: '041cd85f0507f5d0386c4ddd7b78046f',
+      indexName: 'trustlines',
+
+      // !!! Currently doesn't work when set to true!
+      contextualSearch: false,
+
+      // Optional: Algolia search parameters
+      searchParameters: {
+        // 'facetFilters': ["type:content"]
+      },
+    },
   },
   plugins: [
     [
