@@ -17,6 +17,7 @@ module.exports = {
         "customizations/state",
         "customizations/storybook",
         "customizations/styling",
+        "customizations/cloud_backup",
       ],
     },
     {
@@ -33,7 +34,10 @@ module.exports = {
       type: "category",
       label: "Testing",
       collapsed: false,
-      items: [{ type: "doc", id: "testing/e2e" }, { type: "doc", id: "testing/unit" }],
+      items: [
+        { type: "doc", id: "testing/e2e" },
+        { type: "doc", id: "testing/unit" },
+      ],
     },
     {
       type: "doc",
