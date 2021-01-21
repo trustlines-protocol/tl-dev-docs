@@ -45,16 +45,15 @@ cd relay
 Then create and activate a fresh virtualenv::
 
 ```bash
-pip install -c constraints.txt -r requirements.txt
-pip install -c constraints.txt -e .
+virtualenv -p python3 venv
+source venv/bin/activate
 ```
 
 
 Finally, to install all needed dependencies to run the relay, use the following command
 
-```git
-pre-commit install
-pre-commit run -a
+```bash
+pip install -r requirements.txt -e .
 ```
 
 You can verify that the relay is correctly installed by running `tl-relay --help`
