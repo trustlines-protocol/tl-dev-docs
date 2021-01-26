@@ -7,10 +7,10 @@ Welcome and thank you for contributing to the Trustlines Project.
 
 ## Get Involved
 
-We appreciate all help! Depending on your knowledge you can help bye
+We appreciate all help! Depending on your knowledge you can help by
 spreading the word, helping with documentation, reporting issues or even contributing to the source code.
 
-Feel free to checkout the code, play around with it and run the tests.
+Feel free to checkout the code, play around with it, and run the tests.
 Before making a change, please first discuss the change via opening an issue on this
 repository. If you just need some small question answered, you can also reach out to
 us via our [gitter chat](https://gitter.im/trustlines/community).
@@ -32,7 +32,7 @@ Please include a description of what you would like to see implemented and an ex
 ### Before starting
 - Follow the Getting started guides to setup your development environment.
 - Ensure that you can run the tests and that they pass. The tests can be run from the root with
-`./pytest tests`
+`pytest tests`
 - Ensure that you can run the end2end tests. You can find them in the
 [end2end repo](https://github.com/trustlines-protocol/end2end):
   First build the docker image locally from the root of this repo with
