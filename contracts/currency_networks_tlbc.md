@@ -1,6 +1,7 @@
 ---
-layout: contracts
+
 title: Currency Networks on Trustlines Blockchain
+sidebar_label: Currency Networks
 ---
 
 **Commit**: [trustlines-protocol/contracts@baebb30](https://github.com/trustlines-protocol/contracts/commit/baebb308d9ef868408c3449250aa9d963cc61d71)
