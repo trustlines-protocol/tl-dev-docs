@@ -25,8 +25,8 @@ server and the indexer. The documentation on how to run it can be found [here](/
 ### Contracts
 The [trustlines-contracts
 repository](https://github.com/trustlines-protocol/contracts) contains the
-solidity contracts to be deployed on the blockchain and a commandline tool to deploy the contracts. The [how to deploy the
-contracts guide](/contracts/contracts_deployment) contains more information on how to deploy the contracts.
+solidity contracts to be deployed on the blockchain and a commandline tool to deploy the contracts. The
+[deploy tools section](/contracts/deploy_tools/introduction) in the contracts docs contains more information on how to deploy the contracts.
 The tool will return the addresses of the deployed contracts. You need to provide that information to the relay server with as json file `addresses.json` with the following format:
 
 ```
