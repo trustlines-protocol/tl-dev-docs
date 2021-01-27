@@ -4,7 +4,7 @@ title: Usage
 
 Use `tl-deploy --help` to find out about the relevant commands:
 
-```bash
+```
 Usage: tl-deploy [OPTIONS] COMMAND [ARGS]...
 
   Commandline tool to deploy the Trustlines contracts
