@@ -26,3 +26,14 @@ Finally, to install all needed dependencies and compiling the contracts use the 
 ```bash
 make install
 ```
+
+## Pre-commit hooks
+
+You should consider initializing the pre-commit hooks. The
+installed git pre-commit hooks run flake8 and black among other things
+when committing changes to the git repository
+
+```bash
+pre-commit install
+pre-commit run -a
+```
