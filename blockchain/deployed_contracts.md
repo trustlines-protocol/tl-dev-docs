@@ -1,5 +1,4 @@
 ---
-layout: contracts
 title: Deployed contracts
 ---
 

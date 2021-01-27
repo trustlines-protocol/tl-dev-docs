@@ -34,7 +34,7 @@ module.exports = {
           position: "left",
         },
         {
-          to: "contracts/contracts_README",
+          to: "contracts/introduction",
           activeBasePath: "contracts",
           label: "Contracts",
           position: "left",

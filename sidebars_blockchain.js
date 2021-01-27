@@ -1,3 +1,3 @@
 module.exports = {
-  Blockchain: ["tlbc", "nodes"],
+  Blockchain: ["tlbc", "nodes", "deployed_contracts"],
 }
