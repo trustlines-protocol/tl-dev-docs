@@ -22,6 +22,6 @@ You can then install the deployment tool with:
 pip install trustlines-contracts-deploy
 ```
 
-After that, you can run :code:`tl-deploy --help` to see the list of available
+After that, you can run `tl-deploy --help` to see the list of available
 commands for deploying Trustlines contracts or read
 further in the [deploy documentation](https://github.com/trustlines-protocol/contracts/blob/master/docs/deploy.md)
