@@ -8,7 +8,7 @@ The wallet manages your key pair and is used for cryptographically signing trans
 Depending on the initial configuration of the `TLNetwork` instance, you can create either a new instance of type `ethers` or type `identity`.
 The former type is based on the wallet object of the [ethers.js](https://docs.ethers.io/ethers.js/html/) library, whereas the second type uses an [identity contract](https://github.com/trustlines-protocol/contracts/blob/master/docs/deploy.md#deploy-identity-contracts) to enable meta-transactions.
 
-### Create instance of type `ethers`
+### Create Instance of type `ethers`
 
 Note that a user of type `ethers` can not use [meta-transactions](https://github.com/trustlines-protocol/contracts/blob/master/docs/deploy.md#deploy-identity-contracts).
 The user therefore needs some coins ([TLC](https://explore.tlbc.trustlines.foundation/), [Test TLC](https://explore.laika.trustlines.foundation/), ... ), depending on the connected relay server and blockchain, before being able to execute a transaction.
@@ -26,7 +26,7 @@ const newEthersUser = await laika.user.create()
 await laika.user.loadFrom(newEthersUser)
 ```
 
-### Create instance of type `identity`
+### Create Instance of type `identity`
 
 A user of type `identity` makes use of meta-transactions.
 Therefore the addresses of the deployed [identity factory](https://github.com/trustlines-protocol/contracts/blob/master/contracts/identity/IdentityProxyFactory.sol) and [implementation](https://github.com/trustlines-protocol/contracts/blob/master/contracts/identity/Identity.sol) contracts have to be set.

@@ -2,7 +2,7 @@
 title: Android
 ---
 
-## General issues
+## General Issues
 
 * When trying to build the app via fastlane and this error occurs:
 `[...]/android_gradle_build.json (No such file or directory)`
@@ -33,7 +33,7 @@ Files in `staging` are included in
 
 and so on.
 
-## React Native modules
+## React Native Modules
 
 :::note
 The instructions here apply only to new modules. The modules/libraries already installed in the Trustlines app are correctly

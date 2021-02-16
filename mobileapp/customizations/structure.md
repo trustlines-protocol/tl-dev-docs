@@ -9,7 +9,7 @@ in flux. A pattern used at one particular point of time proves to be hard to use
 
 This doc is a snapshot of the things learned over the past couple of years. 
 
-## Folder structure
+## Folder Structure
 
 All files directly relevant to the app are located in `/src`. So far everything is shared so all files are located in `/src/shared`.
 
@@ -68,6 +68,6 @@ time we realized that this is hard to maintain and moved away from it. Currently
 components. The container components are responsible for dealing with the state and the presentational components for 
 displaying the data. 
 
-## Themes and styling
+## Themes and Styling
 
 The app utilizes and extends the UI framework [react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten) for styling components. See [styling](./styling) for more details.

@@ -6,11 +6,7 @@ module.exports = {
       collapsed: false,
       items: [
         "introduction",
-        {
-          type: "link",
-          label: "Contributing",
-          href: "https://dev.trustlines.network/docs/contributing",
-        }
+        "contributing",
       ],
     },
     {

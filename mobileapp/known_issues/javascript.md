@@ -2,7 +2,7 @@
 title: Javascript
 ---
 
-## Common issues
+## Common Issues
 
 * module `stream` can not be found: run `yarn` in root dir. The postInstall script was not triggered after a new node module was installed. This happens e.g. after running `yarn upgrade-interactive`
 

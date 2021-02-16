@@ -14,7 +14,7 @@ Make sure that you've set up your environment for development with the React-Nat
 app and you won't be able to run it unless you configure your environment properly.
 :::
 
-## Before you begin
+## Before you Begin
 
 Keep the following things in mind
 
@@ -33,14 +33,14 @@ to set up all of those modes, just copy your default config for every mode.
 :::
 
 
-## Cloning the repository
+## Cloning the Repository
 
 ```bash
 git clone https://github.com/trustlines-network/mobileapp.git
 cd mobileapp
 ```
 
-## Firebase config
+## Firebase Config
 Head up to your Firebase project and download the `GoogleServices.plist`(iOS) and `google-services.json`(android) config
 files.
 
@@ -48,7 +48,7 @@ Place the `GoogleServices.plist` file in `/firebase/ios/**` and the `google-serv
 Later when you run `yarn` those files will be copied to `/ios/firebase_environements` (at xCode build time the correct
 `.plist` file will be copied to the ios bundle) and to `/android/app/src/**`
 
-## Notifee config
+## Notifee Config
 The app comes with a `notifee.config.json.dist` file. Rename this file to `notifee.config.json` and place the correct
 Notifee API keys.
 
@@ -66,7 +66,7 @@ This is optional and applies only if you want to use crowdin for your translatio
 
 Rename the `crowdin.yml.dist` file to `crowdin.yml` and specify your API keys in it.
 
-## .env files
+## .env Files
 Rename the `.env.dist` to `.env.e2e`, `.env.develop`, `env.staging` and `env.production`.
 The values in `.env.dist` would by default connect you with the trustlines staging relay server, which is connected to
 the Laika chain. The staging relay server is configured to pay for your transactions made on the Laika chain, so it can
@@ -81,7 +81,7 @@ Because of that you are recommended to run your own relay server instance and co
 :::
 
 
-## Yarn setup
+## Yarn Setup
 After you've spent some time setting up all pre-requisites it's time to get to the fun and install the required dependencies.
 
 ```bash
@@ -129,14 +129,14 @@ $ yarn run start:android
 </Tabs>
 
 
-## Hot-reloading
+## Hot-Reloading
 Hot-reloading is available and can be enabled via the dev menu
 
 Android & iOS: shake you device, really, not a joke. Shake it and the DEV menu will appear.
 While using the simulator hit `cmd + d` on iOS or `cmd + m` on Android to open the DEV menu
 
 
-## Common issues
+## Common Issues
 
 ```bash
 "Unable to resolve module `stream` ...

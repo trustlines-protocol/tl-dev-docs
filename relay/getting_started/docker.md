@@ -52,7 +52,7 @@ This also includes the references to the identity related contracts. If you
 deploy your own currency networks, please adapt `addresses.json` accordingly.
 
 
-### Fetch docker image
+### Fetch Docker Image
 
 Let's first build and fetch all of the images that we will need
 without starting any services with the following command:
@@ -61,7 +61,7 @@ without starting any services with the following command:
 docker-compose up --no-start
 ```
 
-### Generate keys
+### Generate Keys
 
 The relay server either needs a OpenEthereum node with an unlocked account
 or it needs a key to sign transactions itself. We will use the latter
@@ -81,7 +81,7 @@ line.
 Of course you can also use an existing keyfile, but please do not
 reuse a keyfile from a validator node.
 
-### Copy compiled contracts
+### Copy Compiled Contracts
 
 The relay server image includes the `contracts.json` file, which contains the
 compiled currency network contracts. We will need this file for the index
@@ -96,7 +96,7 @@ docker-compose run --rm --no-deps -v $(pwd):/here --entrypoint /bin/bash relay -
 Checkout [this documentation](/relay/tutorials/trustlines_system#get-contract-abis) to see
 alternative approaches how to retrieve the compiled contracts file.
 
-### Setup initial database
+### Setup Initial Database
 
 We need to setup the database and import the ABIs for the index
 service by running the following commands:
@@ -116,7 +116,7 @@ The account you've setup at the beginning will have to pay for
 transactions. Please fund it with enough coins. You should now be able
 to connect to the local node via metamask to do that.
 
-### Test the installation
+### Test the Installation
 
 Please try to run the following command:
 

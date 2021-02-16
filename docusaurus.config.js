@@ -112,6 +112,10 @@ module.exports = {
               label: "Trustlines Technical Chat",
               href: "https://gitter.im/trustlines/community",
             },
+            {
+              label: "Contact channels",
+              href: "https://docs.trustlines.network/docs/resources/community_communications_guide.html#6-communication-and-trustlines-network-channels-1",
+            },
           ],
         },
       ],

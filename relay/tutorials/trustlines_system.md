@@ -86,7 +86,7 @@ configured.  All programs consider the `PG*` environment variables
 information about passwords. The [py-eth-index section](#py-eth-index)
 describes how to create the trustlines specific tables.
 
-### Creating a virtualenv
+### Creating a Virtualenv
 
 Run the following command to create a virtualenv:
 ```
@@ -122,7 +122,7 @@ cd ~/py-eth-index
 pip install -c constraints.txt .
 ```
 
-#### Initializing the database
+#### Initializing the Database
 After the database has been created, it must be initialized. This can be done with the following command:
 ```
 ethindex createtables
@@ -144,7 +144,7 @@ alternative approach (like via
 section](#get-contract-abis) about the different options to retrieve the
 `contracts.json` file.
 
-#### Importing events
+#### Importing Events
 The following command will start importing all relevant events into the postgres
 database:
 
@@ -155,8 +155,8 @@ ethindex runsync
 This program will run forever.
 
 
-### Relay server
-#### Installation of the relay server
+### Relay Server
+#### Installation of the Relay Server
 
 Clone the git repository and install it:
 ```
@@ -166,7 +166,7 @@ cd ~/relay
 pip install -r requirements.txt .
 ```
 
-#### Running the relay server
+#### Running the Relay Server
 
 The relay server needs the addresses of the deployed contracts. In case you've
 deployed your own contracts, please copy addresses.json to `~`.
