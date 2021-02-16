@@ -120,14 +120,6 @@ The following contracts have been deployed on the Trustlines Blockchain.
 >
 > [Validator Proxy contracts.json](json/validator_proxy_contracts_json)
 
-### Currency Network Registry
+### Currency Networks
 
-> **Commit**: [trustlines-protocol/contracts@baebb30](https://github.com/trustlines-protocol/contracts/commit/baebb308d9ef868408c3449250aa9d963cc61d71)
->
-> #### Address
->
-> `0x02c3cA67cF3310295195173cb654cfd61f4c849D`
->
-> **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0x02c3ca67cf3310295195173cb654cfd61f4c849d/transactions)**
->
-> [Currency Networks Registry contracts.json](json/currency_networks_contracts_json)
+For contracts related to currency networks deployed on tlbc, see the [contracts documenation](../contracts/currency_networks_tlbc)
