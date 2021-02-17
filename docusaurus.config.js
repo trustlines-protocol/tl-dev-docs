@@ -1,3 +1,5 @@
+const path = require("path")
+
 module.exports = {
   title: "Trustlines Developer Docs",
   tagline:
@@ -10,7 +12,7 @@ module.exports = {
   projectName: "tl-dev-docs",
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: "dark",
     },
     navbar: {
       title: "Trustlines Dev Docs",
@@ -20,24 +22,24 @@ module.exports = {
       },
       items: [
         {
-          type: 'docsVersionDropdown',
-          position: 'right',
+          type: "docsVersionDropdown",
+          position: "right",
           docsPluginId: "clientlib",
 
           // Do not add the link active class when browsing docs.
           dropdownActiveClassDisabled: true,
         },
         {
-          type: 'docsVersionDropdown',
-          position: 'right',
+          type: "docsVersionDropdown",
+          position: "right",
           docsPluginId: "relay",
 
           // Do not add the link active class when browsing docs.
           dropdownActiveClassDisabled: true,
         },
         {
-          type: 'docsVersionDropdown',
-          position: 'right',
+          type: "docsVersionDropdown",
+          position: "right",
           docsPluginId: "contracts",
 
           // Do not add the link active class when browsing docs.
@@ -137,8 +139,8 @@ module.exports = {
       additionalLanguages: ["javascript", "typescript", "bash", "toml", "ini"],
     },
     algolia: {
-      apiKey: '041cd85f0507f5d0386c4ddd7b78046f',
-      indexName: 'trustlines',
+      apiKey: "041cd85f0507f5d0386c4ddd7b78046f",
+      indexName: "trustlines",
 
       // !!! Currently doesn't work when set to true!
       contextualSearch: false,
@@ -155,7 +157,8 @@ module.exports = {
       {
         id: "blockchain",
         path: "blockchain",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
+        editUrl:
+          "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "blockchain",
         sidebarPath: require.resolve("./sidebars_blockchain.js"),
       },
@@ -165,7 +168,8 @@ module.exports = {
       {
         id: "mobileapp",
         path: "mobileapp",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
+        editUrl:
+          "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "mobileapp",
         sidebarPath: require.resolve("./sidebars_mobileapp.js"),
       },
@@ -175,7 +179,8 @@ module.exports = {
       {
         id: "clientlib",
         path: "clientlib",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
+        editUrl:
+          "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "clientlib",
         sidebarPath: require.resolve("./sidebars_clientlib.js"),
       },
@@ -185,7 +190,8 @@ module.exports = {
       {
         id: "contracts",
         path: "contracts",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
+        editUrl:
+          "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "contracts",
         sidebarPath: require.resolve("./sidebars_contracts.js"),
       },
@@ -195,7 +201,8 @@ module.exports = {
       {
         id: "relay",
         path: "relay",
-        editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
+        editUrl:
+          "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         routeBasePath: "relay",
         sidebarPath: require.resolve("./sidebars_relay.js"),
       },
@@ -215,11 +222,18 @@ module.exports = {
         hideBreadcrumbs: true,
         readme: "none",
         sidebar: {
-          sidebarFile: 'sidebars_clientlib_api_typedoc.js',
-          readmeLabel: 'README',
-          globalsLabel: 'Globals',
+          sidebarFile: "sidebars_clientlib_api_typedoc.js",
+          readmeLabel: "README",
+          globalsLabel: "Globals",
           fullNames: false,
         },
+      },
+    ],
+    [
+      path.resolve(__dirname, "docusaurus-plugin-matomo-tracking"),
+      {
+        matomoUrl: "https://stats.trustlines.network/",
+        siteId: "4",
       },
     ],
   ],
@@ -230,7 +244,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
+          editUrl:
+            "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -242,9 +257,9 @@ module.exports = {
     githubBadge: {
       default: "https://github.com/trustlines-protocol/",
       clientlib: "https://github.com/trustlines-protocol/clientlib",
-      "blockchain": "https://github.com/trustlines-protocol/blockchain/",
-      "contracts": "https://github.com/trustlines-protocol/contracts/",
-      "relay": "https://github.com/trustlines-protocol/relay",
+      blockchain: "https://github.com/trustlines-protocol/blockchain/",
+      contracts: "https://github.com/trustlines-protocol/contracts/",
+      relay: "https://github.com/trustlines-protocol/relay",
     },
     customNavbarConfig: {
       clientlib: {
@@ -255,7 +270,7 @@ module.exports = {
       },
       contracts: {
         displayOnlyWhenPathIncludes: "contracts",
-      }
-    }
+      },
+    },
   },
 }
