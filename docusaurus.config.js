@@ -28,6 +28,22 @@ module.exports = {
           dropdownActiveClassDisabled: true,
         },
         {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          docsPluginId: "relay",
+
+          // Do not add the link active class when browsing docs.
+          dropdownActiveClassDisabled: true,
+        },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          docsPluginId: "contracts",
+
+          // Do not add the link active class when browsing docs.
+          dropdownActiveClassDisabled: true,
+        },
+        {
           to: "blockchain/tlbc",
           activeBasePath: "blockchain",
           label: "Blockchain",
@@ -233,6 +249,12 @@ module.exports = {
     customNavbarConfig: {
       clientlib: {
         displayOnlyWhenPathIncludes: "clientlib",
+      },
+      relay: {
+        displayOnlyWhenPathIncludes: "relay",
+      },
+      contracts: {
+        displayOnlyWhenPathIncludes: "contracts",
       }
     }
   },
