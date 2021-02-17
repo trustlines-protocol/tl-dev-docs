@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-alpha.69">
+<link rel="search" type="application/opensearchdescription+xml" title="Trustlines Developer Docs" href="/opensearch.xml"><title data-react-helmet="true">Currency Networks on Trustlines Blockchain | Trustlines Developer Docs</title><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" name="docsearch:language" content="en"><meta data-react-helmet="true" name="docsearch:version" content="current"><meta data-react-helmet="true" name="docsearch:docusaurus_tag" content="docs-contracts-current"><meta data-react-helmet="true" property="og:title" content="Currency Networks on Trustlines Blockchain | Trustlines Developer Docs"><meta data-react-helmet="true" name="description" content="Currency Networks Version 1"><meta data-react-helmet="true" property="og:description" content="Currency Networks Version 1"><meta data-react-helmet="true" property="og:url" content="https://dev.trustlines.network/contracts/next/currency_networks_tlbc"><link data-react-helmet="true" rel="shortcut icon" href="/img/tl-favicon.png"><link data-react-helmet="true" rel="preconnect" href="https://BH4D9OD16A-dsn.algolia.net" crossorigin="anonymous"><link data-react-helmet="true" rel="canonical" href="https://dev.trustlines.network/contracts/next/currency_networks_tlbc"><link rel="stylesheet" href="/styles.6e41a71e.css">
+<link rel="preload" href="/styles.37fbbe9e.js" as="script">
+<link rel="preload" href="/runtime~main.e9bb8036.js" as="script">
+<link rel="preload" href="/main.e31e232a.js" as="script">
+<link rel="preload" href="/1.ac6a2aa3.js" as="script">
+<link rel="preload" href="/5be9315b.30c8448b.js" as="script">
+<link rel="preload" href="/585.0aba2562.js" as="script">
+<link rel="preload" href="/b67d3976.12c181d2.js" as="script">
+<link rel="preload" href="/584.6bee5fe3.js" as="script">
+<link rel="preload" href="/ed90f7ad.69134f8e.js" as="script">
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"dark")}()</script><div id="__docusaurus">
+<nav aria-label="Skip navigation links"><button type="button" tabindex="0" class="skipToContent_2AhQ">Skip to main content</button></nav><nav class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/tl-favicon.png" alt="Trustlines logo"><strong class="navbar__title">Trustlines Dev Docs</strong></a><a class="navbar__item navbar__link" href="/blockchain/tlbc">Blockchain</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/contracts/introduction">Contracts</a><a class="navbar__item navbar__link" href="/relay/introduction">Relay</a><a class="navbar__item navbar__link" href="/clientlib/introduction">Clientlib</a><a class="navbar__item navbar__link" href="/mobileapp/introduction">Trustlines App</a><a class="navbar__item navbar__link" href="/docs/contributing">Contributing</a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a class="navbar__item navbar__link" href="/contracts/next/introduction">Next</a><ul class="dropdown__menu"><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/contracts/next/currency_networks_tlbc">Next</a></li><li><a class="dropdown__link" href="/contracts/currency_networks_tlbc">1.3.0</a></li></ul></div><a href="https://github.com/trustlines-protocol/contracts/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_16CL"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_BsTx">🌜</span></div><div class="react-toggle-track-x"><span class="toggle_BsTx">🌞</span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20"><path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Search</span><span class="DocSearch-Button-Key">⌘</span><span class="DocSearch-Button-Key">K</span></button></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/tl-favicon.png" alt="Trustlines logo"><strong class="navbar__title">Trustlines Dev Docs</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a role="button" class="menu__link menu__link--sublist">Versions</a><ul class="menu__list"><li class="menu__list-item"><a aria-current="page" class="menu__link menu__link--active" href="/contracts/next/currency_networks_tlbc">Next</a></li><li class="menu__list-item"><a class="menu__link" href="/contracts/currency_networks_tlbc">1.3.0</a></li></ul></li><li class="menu__list-item"><a class="menu__link" href="/blockchain/tlbc">Blockchain</a></li><li class="menu__list-item"><a aria-current="page" class="menu__link navbar__link--active" href="/contracts/introduction">Contracts</a></li><li class="menu__list-item"><a class="menu__link" href="/relay/introduction">Relay</a></li><li class="menu__list-item"><a class="menu__link" href="/clientlib/introduction">Clientlib</a></li><li class="menu__list-item"><a class="menu__link" href="/mobileapp/introduction">Trustlines App</a></li><li class="menu__list-item"><a class="menu__link" href="/docs/contributing">Contributing</a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="docPage_2gpo"><div class="docSidebarContainer_3_JD" role="complementary"><div class="sidebar_2urC"><div class="menu menu--responsive thin-scrollbar menu_5FrY"><button aria-label="Open Menu" aria-haspopup="true" class="button button--secondary button--sm menu__button" type="button"><svg aria-label="Menu" class="sidebarMenuIcon_Dm3K" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 32 32" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><ul class="menu__list"><li class="menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#!">Contracts</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/introduction">Introduction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/types_of_contracts">Types of contracts</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/contributing">Contributing</a></li><li class="menu__list-item"><a aria-current="page" class="menu__link menu__link--active active" tabindex="0" href="/contracts/next/currency_networks_tlbc">Currency Networks</a></li></ul></li><li class="menu__list-item"><a class="menu__link menu__link--sublist" href="#!">Getting started</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/getting_started/installation">Installation</a></li></ul></li><li class="menu__list-item"><a class="menu__link menu__link--sublist" href="#!">Developing</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/develop/develop">Start Developing</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/develop/dependencies">Dependencies</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/develop/testing">Testing</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/develop/release">Release</a></li></ul></li><li class="menu__list-item"><a class="menu__link menu__link--sublist" href="#!">Deploy tools</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/deploy_tools/introduction">Introduction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/deploy_tools/installation">Installation</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/contracts/next/deploy_tools/usage">Usage</a></li></ul></li><li class="menu__list-item"><a href="https://github.com/trustlines-protocol/contracts/blob/master/CHANGELOG.rst" target="_blank" rel="noreferrer noopener" class="menu__link">Release Notes</a></li></ul></div></div></div><main class="docMainContainer_3EyW"><div class="container padding-vert--lg docItemWrapper_39qw"><div class="row"><div class="col docItemCol_2ASc"><div class="alert alert--warning margin-bottom--md" role="alert"><div>This is unreleased documentation for Trustlines Developer Docs <strong>Next</strong> version.</div><div class="margin-top--md">For up-to-date documentation, see the <strong><a href="/contracts/currency_networks_tlbc">latest version</a></strong> (1.3.0).</div></div><div class="docItemContainer_3QWW"><article><div><span class="badge badge--secondary">Version: Next</span></div><header><h1 class="docTitle_1Lrw">Currency Networks on Trustlines Blockchain</h1></header><div class="markdown"><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2cZh" id="currency-networks-version-1"></a>Currency Networks Version 1<a class="hash-link" href="#currency-networks-version-1" title="Direct link to heading">#</a></h2><p>The first verions of the currency networks were deployed as of commit:
+<a href="https://github.com/trustlines-protocol/contracts/commit/baebb308d9ef868408c3449250aa9d963cc61d71" target="_blank" rel="noopener noreferrer">trustlines-protocol/contracts@baebb30</a></p><p>US Dollar: <code>0x12657128d7fa4291647eC3b0147E5fA6EebD388A</code><br>
+Euro: <code>0xF2320a5371DA3CB967B9355597AA7adEc17E4220</code><br>
+Japanese Yen: <code>0x18BDC736b23Ff7294BED9fa988a1443357C7B0ed</code><br>
+Pound Sterling: <code>0x0A6f0C541Be542c098B7Ee03C9C634f20BCf8422</code><br>
+Australian Dollar: <code>0x01564a4b7C327c84763D7fCf629B02584AE72973</code><br>
+Canadian Dollar: <code>0x8B2c0e43F69a8a25c94510cC85138260bb24e381</code><br>
+Swiss Franc: <code>0x7A6049b3A96E7a6D68e6e6813a19594Ea336d080</code><br>
+Chinese Yuan Renminbi: <code>0xB57C960Ee760cDa8184C9C9d9b7D0FeBE4557616</code><br>
+Swedish Krona: <code>0x8306e229ea6Edf3aD2670681912CcC0C338f7963</code><br>
+Mexican Peso: <code>0x70d4db4eC56b398D7cbA3666835490cb0e39f008</code><br>
+New Zealand Dollar: <code>0x049D814ED22bEA4394aC2Ec48bace8A1e31BC376</code><br>
+Singapore Dollar: <code>0xc3790A6df080381ebf3eF9BeB35e6b70431bB420</code><br>
+Hong Kong Dollar: <code>0xa81DE4DA252E012a5e8b0Fe1FE91BB0a55Dc5f9d</code><br>
+Norwegian Krone: <code>0xB365694dB0961Fe81cA5e296c1250d24a4Ee627f</code><br>
+South Korean Won: <code>0x1A64Bd5e956DA93E912CB7eb9b00B8D2Bc9015F9</code><br>
+Turkish Lira: <code>0x714dabD79B7962dA47c8fEA446064523CE0456fE</code><br>
+Indian Rupee: <code>0xC0f1030d83AEEF1616deef060114E31B3A25De81</code><br>
+Russian Ruble: <code>0x15933718E2e3478e756C13d516f7f4f4F749b3D6</code><br>
+Brazilian Real: <code>0x77626459240b8105DeC70dC97D61441924f166Df</code><br>
+South African Rand: <code>0x264B1775Ce5d2831608575974CfB9EB9F8F659f5</code><br>
+Bitcoin: <code>0xb2B3A0E958e3eEb333b734ABF34ACA2dB5b94B8F</code><br>
+Ether: <code>0xA31fA3D8DaEBc1d7fb91a6F5F6805873dC958Ff2</code><br>
+Dai: <code>0x603f22B1D3854b985E0a61Ce4c0349534a0e5673</code><br>
+Hours: <code>0x5F74eD72158566c05328Eb815544461bD0b45116</code><br>
+Beer: <code>0x7Ac3fC1C428df99D81d9b644106FF67c44A155aA</code><br>
+Indonesian Rupiah: <code>0xef5bC01da9AC8B32F78dC847D84454E48510Ef72</code><br>
+Pakistani Rupee: <code>0x97668E07c122f7701b804A4eA6fd196F1e264423</code><br>
+Bangladeshi Taka: <code>0x57c4a2cCF2CC99f3dF7855465d1528C110Ff4F14</code><br>
+Nigerian Naira: <code>0xa809D5e740AA324FF94751836b1d7Aa6BA2de81E</code><br>
+West African CFA Franc: <code>0xF455c46823Cdb5A899217A0f085525874bA194A8</code><br>
+Central African CFA Franc: <code>0xc8a0a3aA3A98F27198De126379386D8aA7D01950</code><br>
+Vietnamese Dong: <code>0xCaa5B04e6E44EC3106EEBdAAd7D6C7bE9370Be32</code><br>
+Philippine Peso: <code>0x2421A2ea7B24b5D26177B78afcf8F4B40255324d</code><br>
+Ethiopian Birr: <code>0x2aB3f469D041aE68F45b3C255B7CB46370FfffF5</code><br>
+Egyptian Pound: <code>0x03FE2A6a589e33b7d3cD8208705092BE572A76d1</code><br>
+<del>Turkish Lira: <code>0x55997a8d56840508b1f78e9c0B2aA27d7D62430B</code></del><br>
+Iranian Rial: <code>0xFe54Cbb23414467CcC052dACA1ecc908745D71Eb</code><br>
+Thai Baht: <code>0x4D4dd71A818D4F7d3349F936382ea70979123F81</code><br>
+Congolese Franc: <code>0xCC6039e0681548002bcF39bf65d444beD65980B0</code><br>
+Burmese Kyat: <code>0x821b770a4b5D1228322B2A2Bb29354b5faabD29F</code><br>
+Ukrainian Hryvnia: <code>0x86D50E94e6Ba4B99C5c19439c13a07E5B7c231f9</code><br>
+Colombian Peso: <code>0x6212C2783B2acCA8468b1befb19a4aAccb3c4970</code><br>
+Argentine Peso: <code>0x4B1Ce992B04539786DF19dDC416490cd6595DB01</code><br>
+Polish Zloty: <code>0x8588173E0322089Efe851b14d041aC15AC991C07</code><br>
+Tanzanian Shilling: <code>0xcb02a08a72Cb459fE41E987065fE1E2D7438E64E</code><br>
+Solomon Islands Dollar: <code>0x0FbD56e384826246dC795C1A1951c781184F8faa</code></p><p><a href="/contracts/next/json/currency_networks_contracts_json">Currency Networks contracts.json</a></p><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2cZh" id="currency-networks-version-2"></a>Currency Networks Version 2<a class="hash-link" href="#currency-networks-version-2" title="Direct link to heading">#</a></h2><p>New currency networks are using a proxy pattern with a beacon.
+The beacon points to an implementation, the different proxies points to the beacon.
+Each contract has been deployed as of commit <a href="https://github.com/trustlines-protocol/contracts/tree/58b43d3f1771e120e21a93b73ba4f08e9f6fdc25" target="_blank" rel="noopener noreferrer">https://github.com/trustlines-protocol/contracts/tree/58b43d3f1771e120e21a93b73ba4f08e9f6fdc25</a> (contracts version 1.3.0).</p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2cZh" id="implementation"></a>Implementation<a class="hash-link" href="#implementation" title="Direct link to heading">#</a></h3><p><strong>Address</strong>: <code>0x3d494502d15E8eAE385fC86e116CD9Db6e4C38ec</code><br>
+<a href="/contracts/next/json/currency_network_implementation_json">Implementation.json</a></p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2cZh" id="beacon"></a>Beacon<a class="hash-link" href="#beacon" title="Direct link to heading">#</a></h3><p><strong>Address</strong>: <code>0xDEE27a84fB3Ef2be305b17b202D0b2E78B2e1252</code><br>
+<a href="/contracts/next/json/beacon_json">Beacon.json</a></p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2cZh" id="proxies"></a>Proxies<a class="hash-link" href="#proxies" title="Direct link to heading">#</a></h3><p><strong>Addresses</strong>:</p><p>US Dollar: <code>0xdCBcdbA450eBAE81d99E8FC6B165a948D4ae5012</code><br>
+Euro: <code>0x71Eb52d37fCB47a149Fb26232B67b9244A58FE6c</code><br>
+Japanese Yen: <code>0x7AF4AcE4bdAe5918825Dc0eB22Bc4F67c69c645b</code><br>
+Pound Sterling: <code>0x9aBd28551C551Ac329dB9A25C59e3fB639A343BB</code><br>
+Australian Dollar: <code>0xfbd90D5859Fad02b9Be55C706eBd052c52F8df21</code><br>
+Canadian Dollar: <code>0x9a7624dd0520F5F54a5B209cD93D7F7993c459ec</code><br>
+Swiss Franc: <code>0x865cbDF17Fd3205E25369A079d7171466dC6c8cc</code><br>
+Chinese Yuan Renminbi: <code>0x9b19Aa3a3938f3e9e24ded8a76c3fED2D2d5328c</code><br>
+Swedish Krona: <code>0xd73E3db84e0EE4aB15D0144eF60764A1894dBD7c</code><br>
+Mexican Peso: <code>0x66248105a7c96854eE9a0134Bb7657A4667cd8e9</code><br>
+New Zealand Dollar: <code>0x96AF9CA9881c88456cABd0800b919Bc55778bFC4</code><br>
+Singapore Dollar: <code>0xff1FD88079eabA0e6F05Db99A602f70242F25349</code><br>
+Hong Kong Dollar: <code>0xEDE296b57824F4b1c24842c8f5c2AaBb56d23d65</code><br>
+Norwegian Krone: <code>0x553253115D0efa1BaBefdEd2a65C9E53CA8f7df6</code><br>
+South Korean Won: <code>0xCDd5371f67F65cD6D5ECcd0aBb62F423bABFb15A</code><br>
+Turkish Lira: <code>0x7fFFa9096fCED0B26E6519B2037a9F045C21330d</code><br>
+Indian Rupee: <code>0x2E72DB771cb4f70288e015dE36b78e269b3a6397</code><br>
+Russian Ruble: <code>0x7E984f5B56B6272D1f41ad1372B129EAD550628C</code><br>
+Brazilian Real: <code>0xd33FD4A1a96cf7d13b8E44A8e81b1e76f3ce92Ed</code><br>
+South African Rand: <code>0x1Bf1e2bA541f36B6651ceFf2aCc53eCadf7c82E3</code><br>
+Bitcoin: <code>0xA6E914e1E7efB19D0c7894d6e561C26d96a45998</code><br>
+Ether: <code>0xB447d648da8a780Ae8C837f726e601c7A43D4FFF</code><br>
+Dai: <code>0x5Ff657c6aEf090ab7B761E2775EAd3e3fD3f96A1</code><br>
+Hours: <code>0xEcA5A9BC6502c564d3F421EA0E05252f2252649a</code><br>
+Beer: <code>0x35c2D7Ec13af15D6ED7a3eb1e5b911E419D9636d</code><br>
+Indonesian Rupiah: <code>0x56711Fd7e9D27490b356b217d7Fb589141b8f654</code><br>
+Pakistani Rupee: <code>0xFab1BfDA181b998298D206Bd6EfB9CE7cd919f5F</code><br>
+Bangladeshi Taka: <code>0xC0F2EEc3a550248dd8BC24961cf323055b41b8BF</code><br>
+Nigerian Naira: <code>0xc1671Be60dB024e0eA2393D03F7E3905cEF75de2</code><br>
+West African CFA Franc: <code>0x1e3aD4E7f8375baD6e1322E3801487B7bb692830</code><br>
+Central African CFA Franc: <code>0x59421C3664FaB317E26e8889a4a34ebA07384A9c</code><br>
+Vietnamese Dong: <code>0x946b88048887Af4259A1cD6545eBB514d7cFD05F</code><br>
+Philippine Peso: <code>0xBfA29944Fa6B7f06b084C2De943a5767159fc86e</code><br>
+Ethiopian Birr: <code>0x40AD287A86051010FC46cC68674048cD1f1AF892</code><br>
+Egyptian Pound: <code>0x364B777CEF8c2E67c6a10c33BFc57c1c56EC5FFC</code><br>
+Iranian Rial: <code>0x504be87de98C1E3A0494dF16B4327A74736126E5</code><br>
+Thai Baht: <code>0x0f7a5Edb2855C9208B260e7eF801dF9f5E79B8c3</code><br>
+Congolese Franc: <code>0x11933E474C632D8a0CB69e2a86a761E627F75dEd</code><br>
+Burmese Kyat: <code>0x61963C98ee147c65BA4E630E09730bf90DBbB003</code><br>
+Ukrainian Hryvnia: <code>0xC8De4Ad7Cd5D0C0BFdCB2cd4a36E819F7bC70734</code><br>
+Colombian Peso: <code>0xEcECf14185482071667ccCC5F823485CF18f5A83</code><br>
+Argentine Peso: <code>0x7D31aE4D8D7bE97550968897F24060503C25F76c</code><br>
+Polish Zloty: <code>0x9a24ff1377C785E82736285948a092c681ff6B45</code><br>
+Tanzanian Shilling: <code>0x7dAfA79fcfb8E23A96d564Ba762D7Efceff74Ebf</code><br>
+Solomon Islands Dollar: <code>0xf5BB5C1DBdd0822d0Fa9E93e82B0cD0D0A388f51</code>  </p><p><a href="/contracts/next/json/administrative_proxy_json">Administrative Proxy.json</a></p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2cZh" id="currency-network-registry"></a>Currency Network Registry<a class="hash-link" href="#currency-network-registry" title="Direct link to heading">#</a></h3><p><strong>Commit</strong>: <a href="https://github.com/trustlines-protocol/contracts/commit/baebb308d9ef868408c3449250aa9d963cc61d71" target="_blank" rel="noopener noreferrer">trustlines-protocol/contracts@baebb30</a>
+<strong>Address</strong>: <code>0x02c3cA67cF3310295195173cb654cfd61f4c849D</code></p><p><strong><a href="https://explore.tlbc.trustlines.foundation/address/0x02c3ca67cf3310295195173cb654cfd61f4c849d/transactions" target="_blank" rel="noopener noreferrer">View on TLBC Explorer</a></strong></p><p><a href="/contracts/next/json/currency_networks_registry_contracts_json">Currency Networks Registry contracts.json</a></p></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/trustlines-protocol/tl-dev-docs/edit/master/contracts/currency_networks_tlbc.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/contracts/next/contributing"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« Contributing</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/contracts/next/getting_started/installation"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Installation »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3SO_ thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#currency-networks-version-1" class="table-of-contents__link">Currency Networks Version 1</a></li><li><a href="#currency-networks-version-2" class="table-of-contents__link">Currency Networks Version 2</a><ul><li><a href="#implementation" class="table-of-contents__link">Implementation</a></li><li><a href="#beacon" class="table-of-contents__link">Beacon</a></li><li><a href="#proxies" class="table-of-contents__link">Proxies</a></li><li><a href="#currency-network-registry" class="table-of-contents__link">Currency Network Registry</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Websites</h4><ul class="footer__items"><li class="footer__item"><a href="https://blog.trustlines.network" target="_blank" rel="noopener noreferrer" class="footer__link-item">Trustlines Blog</a></li><li class="footer__item"><a href="https://trustlines.foundation/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Trustlines Foundation</a></li><li class="footer__item"><a href="https://docs.trustlines.network//" target="_blank" rel="noopener noreferrer" class="footer__link-item">Trustlines User Docs</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a href="https://forum.trustlines.network/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Trustlines Forum</a></li><li class="footer__item"><a href="http://eepurl.com/gHqYyX" target="_blank" rel="noopener noreferrer" class="footer__link-item">Trustlines Newsletter</a></li><li class="footer__item"><a href="https://t.me/trustlines_network" target="_blank" rel="noopener noreferrer" class="footer__link-item">Trustlines Network in Telegram</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a href="https://github.com/trustlines-protocol" target="_blank" rel="noopener noreferrer" class="footer__link-item">Trustlines on github</a></li><li class="footer__item"><a href="https://gitter.im/trustlines/community" target="_blank" rel="noopener noreferrer" class="footer__link-item">Trustlines Technical Chat</a></li></ul></div></div><div class="text--center"><div>Copyright © 2021 Trustlines.</div></div></div></footer></div>
+<script src="/styles.37fbbe9e.js"></script>
+<script src="/runtime~main.e9bb8036.js"></script>
+<script src="/main.e31e232a.js"></script>
+<script src="/1.ac6a2aa3.js"></script>
+<script src="/5be9315b.30c8448b.js"></script>
+<script src="/585.0aba2562.js"></script>
+<script src="/b67d3976.12c181d2.js"></script>
+<script src="/584.6bee5fe3.js"></script>
+<script src="/ed90f7ad.69134f8e.js"></script>
+</body>
+</html>
