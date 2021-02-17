@@ -74,7 +74,7 @@ Each contract has been deployed as of commit https://github.com/trustlines-proto
 **Address**: `0xDEE27a84fB3Ef2be305b17b202D0b2E78B2e1252`  
 [Beacon.json](./json/beacon_json)
 
-### Poxies
+### Proxies
 
 **Addresses**:
 
