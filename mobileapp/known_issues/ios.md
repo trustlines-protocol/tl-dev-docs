@@ -2,7 +2,7 @@
 title: iOS
 ---
 
-## System setup and preparation
+## System Setup and Preparation
 
 * Setup AppStore with your Apple ID
 * Install XCode & XCode Commandline Utilities
@@ -15,7 +15,7 @@ title: iOS
 * Install bundler `sudo gem install bundler`
 * Install pods in ios dir `cd ios; pod install`
 
-## For internal contributors
+## For Internal Contributors
 * Setup fastlane for ios distribution `bundle exec fastlane ios profiles` ( look at the 1password vault for passwords )
 * Setup fastlane for local development `bundle exec fastlane match development -a beercoin.io.mobileapp.staging` `bundle exec fastlane match development -a beercoin.io.mobileapp.staging`
 

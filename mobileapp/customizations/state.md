@@ -21,7 +21,7 @@ E.g. 'state/contacts'
 
 A state entity that has an external resource as source, e.g. 'contact' which is stored in an internal db, follows a pattern:
 
-#### state object
+#### State Object
 ```js
 {
     
@@ -35,11 +35,11 @@ A state entity that has an external resource as source, e.g. 'contact' which is 
 }
 ```  
 
-#### actions (actions.js)
+#### Actions (actions.js)
 Small functions creating actions to enable a streamlined code flow. 
 
 
-#### sagas (sagas.js)
+#### Sagas (sagas.js)
 Sagas take care of the data **retrieval management**, data **normalization** and enable side effects in redux.
 
 see [github.com/redux-saga/redux-saga](https://github.com/redux-saga/redux-saga) or [redux-saga.js.org](https://redux-saga.js.org/) to get a feeling of what redux-saga is capable of.
@@ -101,11 +101,11 @@ const getContacts = function * fetchContacts(action): * {
 
 ```
 
-#### normalization
+#### Normalization
 
 The states data is normalized with 'normalizr' https://github.com/paularmstrong/normalizr to reduce redundancy.
  
-#### reducer (reducer.js)
+#### Reducer (reducer.js)
 
 The reducer transfer new data into the state
 ```js title="state/contacts/actions.js"
@@ -121,7 +121,7 @@ export const reducer = handleActions({
 })
 ```
 
-#### select (select.js)
+#### Select (select.js)
 
 To get ( and denormalize ) data from state, use the methods from the corresponding *select.js*
 

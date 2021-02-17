@@ -2,7 +2,7 @@
 title: User
 ---
 
-### All events of user
+### All Events of User
 Returns a list of all event logs of a user for currency networks / exchanges / tokens / unweth.
 That means all events where the given user address is either `from` or `to`.
 You can filter what type of events you want with `contractType` to select the contract
@@ -143,7 +143,7 @@ Following additional attributes for `DebtUpdate` events:
 
 ---
 
-### Balance of user
+### Balance of User
 Returns the balance in wei of the given address.
 #### Request
 ```
@@ -170,7 +170,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/users/0xcbF1153F6e5AC01D36
 
 ---
 
-### Transaction infos for user
+### Transaction Infos for User
 Returns information that is needed to sign a transaction.
 #### Request
 ```

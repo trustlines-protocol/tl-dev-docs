@@ -34,7 +34,7 @@ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Versioning docs
+### Versioning Docs
 If the content is ready to be frozen as a version run:
 ```
 yarn run docusaurus docs:version:DOC_PLUGIN_ID <version>

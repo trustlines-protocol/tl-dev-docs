@@ -9,7 +9,7 @@ Therefore, we are setting a custom icon font as described [here](https://github.
 
 A rough description on how we achieved this was by following this [guide](https://www.reactnative.guide/12-svg-icons-using-react-native-vector-icons/12.1-creating-custom-iconset.html).
 
-## How to browse available icons
+## How to Browse Available Icons
 
 Currently, the only way to browse available icons is to visit the website of [icomoon](https://icomoon.io/app/) and import the `ico-moon-config.json`.
 
@@ -17,7 +17,7 @@ Currently, the only way to browse available icons is to visit the website of [ic
 2. Click on the button **Import Icons**.
 3. Select the `ico-moon-config.json` under `/src/shared/components/common/icons/ico-moon-config.json`.
 
-## How to update the icon font
+## How to Update the Icon Font
 
 1. Follow the previous steps on how to browse available icons.
 2. Add, edit or remove icons and generate the new icon font.

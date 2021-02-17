@@ -2,7 +2,7 @@
 title: Miscellaneous
 ---
 
-### Latest block number
+### Latest Block Number
 Returns the latest block number.
 #### Request
 ```
@@ -47,7 +47,7 @@ curl --header "Content-Type: application/json" \
 
 ---
 
-### Status of transaction
+### Status of Transaction
 Get the status of a transaction from a transaction hash.
 
 #### Request
@@ -74,7 +74,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/transactions/0x51a240271AB
 
 ---
 
-### Fees for meta transaction
+### Fees for Meta Transaction
 Get a list of the fees the delegate will accept for the given metaTransaction.
 #### Request
 ```
@@ -137,7 +137,7 @@ curl --header "Content-Type: application/json" \
 
 ---
 
-### Effective delegation fees of transaction
+### Effective Delegation Fees of Transaction
 
 Get the delegation fees that were applied with given transaction.
 

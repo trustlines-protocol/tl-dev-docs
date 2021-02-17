@@ -36,7 +36,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks
 
 ---
 
-### Currency network details
+### Currency Network Details
 Returns detailed information of currency network.
 #### Request
 ```
@@ -81,7 +81,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
 
 ---
 
-### Users list in currency network
+### Users List in Currency Network
 Returns a list of user addresses in a currency network.
 #### Request
 ```
@@ -108,7 +108,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
 
 ---
 
-### Trustlines list in currency network
+### Trustlines List in Currency Network
 Returns a list of all trustlines in a currency network.
 #### Request
 ```
@@ -161,7 +161,7 @@ A list of trustlines with the following attributes:
 
 ---
 
-### User details in currency network
+### User Details in Currency Network
 Returns detailed information of a user in a currency network.
 #### Request
 ```

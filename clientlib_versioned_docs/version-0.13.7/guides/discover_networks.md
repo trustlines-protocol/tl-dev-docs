@@ -17,7 +17,7 @@ const detailedInformation = await tlNetwork.currencyNetwork.getInfo("0x...")
 const userAddresses = await tlNetwork.currencyNetwork.getUsers("0x...")
 ```
 
-### User context
+### User Context
 
 ```js
 const networkAddress = "0x..."

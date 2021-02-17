@@ -15,7 +15,7 @@ Make sure to install the [Firebase CLI](https://firebase.google.com/docs/cli) an
 bundle install --path vendor/bundle
 ```
 
-## Android credentials
+## Android Credentials
 
 To deploy to the Google Play Store or Firebase App Distribution you need the respective credentials.
 

@@ -10,9 +10,8 @@
           "id": "version-0.14.0/introduction"
         },
         {
-          "type": "link",
-          "label": "Contributing",
-          "href": "https://dev.trustlines.network/docs/contributing"
+          "type": "doc",
+          "id": "version-0.14.0/contributing"
         }
       ]
     },
