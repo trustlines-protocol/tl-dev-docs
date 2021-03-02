@@ -44,6 +44,43 @@ The following contracts have been deployed on the Ethereum mainnet.
 >
 > [Merkle Drop contracts.json](json/merkledrop_contracts_json)
 
+### Validator Auction Contract (Third auction)
+
+> **Commit**: [trustlines-protocol/blockchain@3872946](https://github.com/trustlines-protocol/blockchain/tree/38729460933735ed1e189e184fa9a812b64d0a84)
+>
+> #### Address
+>
+> `0xCDB34843978684f8DD39B3eDE59e73Bf49d3FBf4`
+>
+> **[View on Etherscan](https://etherscan.io/address/0xCDB34843978684f8DD39B3eDE59e73Bf49d3FBf4)**
+>
+> [Auction Contract (Second).json](json/auction_contract_3rd_json)
+
+### Deposit Locker Contract (Third auction)
+
+> **Commit**: [trustlines-protocol/blockchain@3872946](https://github.com/trustlines-protocol/blockchain/tree/38729460933735ed1e189e184fa9a812b64d0a84)
+>
+> #### Address
+>
+> `0x1FBeB7273E32dCE3Cf1eCe3D02f393E21d90BB46`
+>
+> **[View on Etherscan](https://etherscan.io/address/0x1FBeB7273E32dCE3Cf1eCe3D02f393E21d90BB46)**
+>
+> [Deposit Locker Contract (Second).json](json/deposit_locker_contract_3rd_json)
+
+### Validator Slasher Contract (Third auction)
+
+> **Commit**: [trustlines-protocol/blockchain@3872946](https://github.com/trustlines-protocol/blockchain/tree/38729460933735ed1e189e184fa9a812b64d0a84)
+>
+> #### Address
+>
+> `0x40c822A8a7d8536d37a4a952F3e6b9a0cD53f8E9`
+>
+> **[View on Etherscan](https://etherscan.io/address/0x40c822A8a7d8536d37a4a952F3e6b9a0cD53f8E9)**
+>
+> [Validator Slasher Contract (Second).json](json/validator_slasher_contract_3rd_json)
+
+
 ### Validator Auction Contract (Second auction)
 
 > **Commit**: [trustlines-protocol/blockchain@064dee4](https://github.com/trustlines-protocol/blockchain/commit/064dee4ec37f5b5f5cf4bc0ed6ac128aeb01e885)
