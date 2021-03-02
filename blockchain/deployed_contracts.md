@@ -66,7 +66,7 @@ The following contracts have been deployed on the Ethereum mainnet.
 >
 > **[View on Etherscan](https://etherscan.io/address/0x1FBeB7273E32dCE3Cf1eCe3D02f393E21d90BB46)**
 >
-> [Deposit Locker Contract (Second).json](json/deposit_locker_contract_rdd_json)
+> [Deposit Locker Contract (Second).json](json/deposit_locker_contract_3rd_json)
 
 ### Validator Slasher Contract (Third auction)
 
@@ -74,9 +74,9 @@ The following contracts have been deployed on the Ethereum mainnet.
 >
 > #### Address
 >
-> `0x1FBeB7273E32dCE3Cf1eCe3D02f393E21d90BB46`
+> `0x40c822A8a7d8536d37a4a952F3e6b9a0cD53f8E9`
 >
-> **[View on Etherscan](https://etherscan.io/address/0x1FBeB7273E32dCE3Cf1eCe3D02f393E21d90BB46)**
+> **[View on Etherscan](https://etherscan.io/address/0x40c822A8a7d8536d37a4a952F3e6b9a0cD53f8E9)**
 >
 > [Validator Slasher Contract (Second).json](json/validator_slasher_contract_3rd_json)
 
