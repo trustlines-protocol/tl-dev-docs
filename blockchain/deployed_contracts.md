@@ -117,6 +117,18 @@ The following contracts have been deployed on the Ethereum mainnet.
 >
 > [Validator Slasher Contract (Second).json](json/validator_slasher_contract_2nd_json)
 
+### Withdraw Drop contract
+
+> **Commit**: [trustlines-protocol/blockchain](https://github.com/trustlines-protocol/blockchain/tree/057a3073bebc2b22a2c315de47c5b9e161c04ce7)
+>
+> #### Address
+>
+> `0x82577BadedB1cE4f0B804C69c9c46025e3BcAF57`
+>
+> **[View on Etherscan](https://etherscan.io/address/0x82577BadedB1cE4f0B804C69c9c46025e3BcAF57)**
+>
+> [WithdrawDrop.json](json/withdraw_drop_json)
+
 ## Trustlines Blockchain
 
 The following contracts have been deployed on the Trustlines Blockchain.
