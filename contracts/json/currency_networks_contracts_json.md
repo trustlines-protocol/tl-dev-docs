@@ -1,5 +1,4 @@
 ---
-layout: contracts
 title: Currency Networks contracts.json
 ---
 
