@@ -122,7 +122,8 @@ Colombian Peso: `0xEcECf14185482071667ccCC5F823485CF18f5A83`
 Argentine Peso: `0x7D31aE4D8D7bE97550968897F24060503C25F76c`  
 Polish Zloty: `0x9a24ff1377C785E82736285948a092c681ff6B45`  
 Tanzanian Shilling: `0x7dAfA79fcfb8E23A96d564Ba762D7Efceff74Ebf`  
-Solomon Islands Dollar: `0xf5BB5C1DBdd0822d0Fa9E93e82B0cD0D0A388f51`  
+Solomon Islands Dollar: `0xf5BB5C1DBdd0822d0Fa9E93e82B0cD0D0A388f51`
+Kenyan Shilling: `0x0A3CEae3EDc777Fe2D7a0Be48f90b572178A0749`
 
 [Administrative Proxy.json](./json/administrative_proxy_json)
 
