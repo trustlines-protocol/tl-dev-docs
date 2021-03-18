@@ -1,5 +1,4 @@
 ---
-layout: contracts
 title: Currency Network Implementation.json
 ---
 
