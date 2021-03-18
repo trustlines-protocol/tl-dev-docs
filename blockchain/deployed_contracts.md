@@ -145,6 +145,29 @@ The following contracts have been deployed on the Trustlines Blockchain.
 >
 > [First Validator Set contracts.json](json/validatorset1_contracts_json)
 
+### Second Validator Set
+
+> #### Address
+>
+> `0x0ae98a26Df482D5f98E0C600C1880B34D2A51132`
+>
+> **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0x0ae98a26Df482D5f98E0C600C1880B34D2A51132/transactions)**
+>
+> [Second Validator Set contracts.json](json/validatorset2_contracts_json)
+
+### Third Validator Set
+
+> **Commit** https://github.com/trustlines-protocol/blockchain/pull/673/commits/26481a3ed046102d5ad6c5e8f7067a9d96f27ab8
+> 
+> #### Address
+>
+> `0xeC09F68EfDb98D0e875e06e44155d18bF8D03051`
+>
+> **[View on TLBC Explorer](https://explore.tlbc.trustlines.foundation/address/0xeC09F68EfDb98D0e875e06e44155d18bF8D03051/transactions)**
+>
+> [Third Validator Set contracts.json](json/validatorset3_contracts_json)
+
+
 ### Home Bridge
 
 > **Commit**: [trustlines-protocol/blockchain@2e972c8](https://github.com/trustlines-protocol/blockchain/commit/2e972c83ce1e8f82191f2dca6b95e08534d4e292)
