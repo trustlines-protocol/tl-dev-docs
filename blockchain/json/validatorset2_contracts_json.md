@@ -1,5 +1,5 @@
 ---
-layout: contracts title: First Validator Set contracts.json
+title: First Validator Set contracts.json
 ---
 
 ```json
