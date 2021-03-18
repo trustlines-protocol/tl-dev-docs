@@ -1,24 +1,6 @@
 ---
-layout: blockchain
 title: Trustlines Blockchain
-image: assets/images/tlbc.jpg
 ---
-
-- [The Trustlines Blockchain Infrastructure](#the-trustlines-blockchain-infrastructure)
-  - [TLBC and Laika](#tlbc-and-laika)
-  - [System Requirements](#system-requirements)
-  - [Security](#security)
-  - [Setup With the Quickstart Script](#setup-with-the-quickstart-script)
-  - [Setup With Docker](#setup-with-docker)
-    - [Blockchain Node](#blockchain-node)
-    - [Netstats Client](#netstats-client)
-    - [Monitor](#monitor)
-    - [Bridge](#bridge)
-  - [Setup Without Docker](#setup-without-docker)
-- [Development](#development)
-  - [Build Own Image](#build-own-image)
-  - [Upload Image](#upload-image)
-  - [Running Tests on Contracts](#running-tests-on-contracts)
 
 ## The Trustlines Blockchain Infrastructure
 
@@ -117,7 +99,7 @@ following ones.
 
 #### Blockchain Node
 
-The blockchain image is a standard Parity client with a custom configuration for the Trustlines Blockchain. It also
+The blockchain image is a standard OpenEthereum client with a custom configuration for the Trustlines Blockchain. It also
 accepts a few additional command line options as described in the help message:
 
 ```bash
@@ -125,10 +107,10 @@ $ docker run --rm trustlines/tlbc-node:release --help
 
 
  NAME
-   Parity Wrapper
+   Client Wrapper
 
  SYNOPSIS
-   parity_wrapper.sh [-r] [role] [-a] [address] [-p] [arguments]
+   client_wrapper.sh [-r] [role] [-a] [address] [-p] [arguments]
 
  ...
 ```
@@ -139,7 +121,7 @@ Before starting the node, create a Docker network to conveniently allow other co
 $ docker network create network-tlbc
 ```
 
-When running the node, you typically want to forward necessary ports to the host so that Parity can find and connect to
+When running the node, you typically want to forward necessary ports to the host so that OpenEthereum can find and connect to
 peers. Additionally, you might want to mount some volumes to persist configuration and chain data. For instance, to run
 a non-validator node:
 
@@ -154,7 +136,7 @@ $ docker run -d --name tlbc-node --network network-tlbc \
     trustlines/tlbc-node:release
 ```
 
-If you are a validator, this sequence of commands will supply Parity with your keystore file, password, and address so
+If you are a validator, this sequence of commands will supply OpenEthereum with your keystore file, password, and address so
 that it can produce blocks:
 
 ```bash
@@ -274,7 +256,7 @@ $ docker run -d --name bridge-client --network network-tlbc --network network-et
 
 We refer to the documentation of the individual components:
 
-- [Parity](https://wiki.parity.io/Parity-Ethereum)
+- [OpenEthereum](https://openethereum.github.io/)
 - [Netstats](https://github.com/trustlines-protocol/ethstats-client)
 - [Monitor](https://github.com/trustlines-protocol/tlbc-monitor)
 - [Bridge](https://github.com/trustlines-protocol/blockchain/tree/master/tools/bridge)
