@@ -1,5 +1,5 @@
 ---
-title: First Validator Set contracts.json
+title: Second Validator Set contracts.json
 ---
 
 ```json
