@@ -1,7 +1,5 @@
 ---
-layout: blockchain
 title: Trustlines Blockchain Nodes
-image: assets/images/tlbc.jpg
 ---
 
 ## Public Nodes
@@ -14,6 +12,9 @@ Anyone can use these public RPC endpoints to connect to the Trustlines Blockchai
 
 - wss://ws.tlbc.rpc.anyblock.tools
 
+- ChainID: 4660
+- Block-explorer: https://explore.tlbc.trustlines.foundation/
+
 ### Laika testnet
 
 - https://laika.rpc.anyblock.tools
@@ -21,6 +22,10 @@ Anyone can use these public RPC endpoints to connect to the Trustlines Blockchai
 - wss://ws.laika.rpc.anyblock.tools
 
 - https://access.laika.trustlines.foundation
+
+- ChainID: 18548
+- Block-explorer: https://explore.laika.trustlines.foundation/
+
 
 ## Running a node locally
 
