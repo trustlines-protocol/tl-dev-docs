@@ -1,0 +1,107 @@
+{
+  "version-0.21.0/Relay": [
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Relay",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.21.0/introduction"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.21.0/contributing"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Getting started",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.21.0/getting_started/docker"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.21.0/getting_started/manual"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Developing",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.21.0/develop/develop"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.21.0/develop/configuration"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.21.0/develop/pre_commit_hooks"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.21.0/develop/dependencies"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.21.0/develop/release"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Tutorials",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.21.0/tutorials/trustlines_system"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "REST API",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.21.0/api/introduction"
+        },
+        {
+          "collapsed": false,
+          "type": "category",
+          "label": "Endpoints",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-0.21.0/api/network"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.21.0/api/user"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.21.0/api/miscellaneous"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "label": "Release Notes",
+      "href": "https://github.com/trustlines-protocol/relay/blob/master/CHANGELOG.rst"
+    }
+  ]
+}
