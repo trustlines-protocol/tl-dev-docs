@@ -1,0 +1,85 @@
+{
+  "version-2.0.0/Contracts": [
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Contracts",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-2.0.0/introduction"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0.0/types_of_contracts"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0.0/contributing"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0.0/currency_networks_tlbc"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Getting started",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-2.0.0/getting_started/installation"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Developing",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-2.0.0/develop/develop"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0.0/develop/dependencies"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0.0/develop/testing"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0.0/develop/release"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "Deploy tools",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-2.0.0/deploy_tools/introduction"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0.0/deploy_tools/installation"
+        },
+        {
+          "type": "doc",
+          "id": "version-2.0.0/deploy_tools/usage"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "label": "Release Notes",
+      "href": "https://github.com/trustlines-protocol/contracts/blob/master/CHANGELOG.rst"
+    }
+  ]
+}
