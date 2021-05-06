@@ -13,23 +13,47 @@ GET /networks
 curl https://relay0.testnet.trustlines.network/api/v1/networks
 ```
 #### Response
-| Attribute    | Type    | JSON Type                               | Description                          |
-|--------------|---------|-----------------------------------------|--------------------------------------|
-| name         | string  | string                                  | Full name of the currency network    |
-| abbreviation | string  | string                                  | Abbreviated name of currency network |
-| address      | address | string - hex-encoded prefixed with "0x" | Contract address of currency network |
+| Attribute                | Type       | JSON Type                               | Description                                             |
+|--------------------------|------------|-----------------------------------------|---------------------------------------------------------|
+| abbreviation             | string     | string                                  | Abbreviated name of currency network                    |
+| address                  | address    | string - hex-encoded prefixed with "0x" | Contract address of currency network                    |
+| decimals                 | int        | number                                  | Decimals specified in currency network                  |
+| name                     | string     | string                                  | Full name of the currency network                       |
+| numUsers                 | int        | number                                  | Total number of users in currency network               |
+| capacityImbalanceFeeDivisor | int     | number                                  | The divisor on value transferred for the mediator fees  |
+| defaultInterestRate      | BigInteger | string                                  | The default interest rate for every user in the network |
+| interestRateDecimals     | int        | number                                  | Decimals of the interest rate                           |
+| customInterests          | bool       | bool                                    | Whether custom interest rate can be set by users        |
+| preventMediatorInterests | bool       | bool                                    | Whether to prevent mediators from paying interest       |
+| isFrozen                 | bool       | bool                                    | Whether the currency network is frozen                  |
 #### Example Response
 ```json
 [
   {
-    "name": "Hours",
-    "abbreviation": "HOU",
-    "address": "0xC0B33D88C704455075a0724AA167a286da778DDE"
+      "abbreviation": "HOU",
+      "address": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+      "decimals": 2,
+      "name": "Hours",
+      "numUsers": 3,
+      "capacityImbalanceFeeDivisor": 100,
+      "defaultInterestRate": "100",
+      "interestRateDecimals": 2,
+      "customInterests": false,
+      "preventMediatorInterests": false,
+      "isFrozen": false
   },
   {
-    "name": "Fugger",
-    "abbreviation": "FUG",
-    "address": "0x55bdaAf9f941A5BB3EacC8D876eeFf90b90ddac9"
+      "abbreviation": "Fugger",
+      "address": "0x55bdaAf9f941A5BB3EacC8D876eeFf90b90ddac9",
+      "decimals": 2,
+      "name": "FUG",
+      "numUsers": 3,
+      "capacityImbalanceFeeDivisor": 100,
+      "defaultInterestRate": "100",
+      "interestRateDecimals": 2,
+      "customInterests": false,
+      "preventMediatorInterests": false,
+      "isFrozen": false
   }
 ]
 ```
@@ -58,6 +82,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
 | decimals                 | int        | number                                  | Decimals specified in currency network                  |
 | name                     | string     | string                                  | Full name of the currency network                       |
 | numUsers                 | int        | number                                  | Total number of users in currency network               |
+| capacityImbalanceFeeDivisor | int     | number                                  | The divisor on value transferred for the mediator fees  |
 | defaultInterestRate      | BigInteger | string                                  | The default interest rate for every user in the network |
 | interestRateDecimals     | int        | number                                  | Decimals of the interest rate                           |
 | customInterests          | bool       | bool                                    | Whether custom interest rate can be set by users        |
@@ -71,6 +96,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
   "decimals": 2,
   "name": "Hours",
   "numUsers": 3,
+  "capacityImbalanceFeeDivisor": 100,
   "defaultInterestRate": "100",
   "interestRateDecimals": 2,
   "customInterests": false,
