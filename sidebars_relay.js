@@ -31,7 +31,7 @@ module.exports = {
       type: "category",
       label: "Tutorials",
       collapsed: false,
-      items: ["tutorials/trustlines_system"],
+      items: ["tutorials/trustlines_system", "tutorials/trustlines_tlbc_system"],
     },
     {
       type: "category",
