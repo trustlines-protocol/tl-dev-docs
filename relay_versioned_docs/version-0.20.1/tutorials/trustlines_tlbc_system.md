@@ -3,6 +3,18 @@ title: Running the Relay with a TLBC-node (with docker)
 sidebar_label: Running the Relay with a TLBC-node (with docker)
 ---
 
+:::note About this tutorial
+All commands in this tutorial should be run from the `/docker/trustlines/tlbc` folder.
+
+The tutorial was tested on Ubuntu 20.04 with Docker 19.03. The steps should work on other Linux versions and Mac,
+but you'll most probably have to slightly modify some commands.
+:::
+
+:::warning
+You need a machine with at least **2GB(preferably 4GB)** of RAM. Running this on a machine with less than 2GB of RAM will
+fail.
+:::
+
 The [docker/trustlines/tlbc](https://github.com/trustlines-protocol/relay/tree/master/docker/trustlines/tlbc) directory in the relay
 repository contains the files needed to start components of the trustlines protocol (tlbc-node, relay, indexer) via
 docker-compose. Following these setup instructions will give you a:
@@ -66,16 +78,6 @@ cp ../../../config/addresses_tlbc.json ./addresses.json
 The `addresses.json` file also includes references to the identity related contracts.
 :::
 
-
-### Fetch Docker Image
-
-Let's first build and fetch all the images that we will need
-without starting any services with the following command:
-
-```bash
-docker-compose up --no-start
-```
-
 ### Generate Keys / Use existing key
 
 To run the relay you need an account with TLC to pay for the transactions.
@@ -103,12 +105,15 @@ Once complete generate the `keystore.json` file by running:
 deploy-tools generate-keystore
 ```
 
+:::note
+If the `deploy-tools` fails with `Command not found`. You'll have to modify your `PATH`.
+:::
 
 We also need to store the password in clear text. Please create a file
 `pass.pwd` containing only the password on the first line.
 
 ### TLBC-Node configuration
-Rename the `node-config.dist.toml` file to `node-config.toml` in the file
+Rename the `node-config.dist.toml` file to `node-config.toml`. Then
 change the unlock address to the address that is specified in your keystore.json.
 
 To view the address in the keystore.json file you could cat the file:
@@ -124,6 +129,26 @@ This will print something like this:
 ```
 
 Copy the address and add a `0x` to it and add it to the node-config.toml.
+
+### Relay configuration
+Rename the `config.dist.toml` to `config.toml`. Then if necessary you can modify parameters in the
+config.
+
+:::info
+If you are making modifications to any config files after you've started a docker image you'll have to
+stop the image, remove it and then start it again for the modifications to be applied.
+
+```bash
+docker stop CONTAINER_ID
+docker rm CONTAINER_ID
+
+docker-compose up SERVICE_NAME
+```
+
+`CONTAINER_ID` is the ID of the container when you run `docker ps`. The `SERVICE_NAME` is the name of the service you
+want to start as specified in the docker-compose.yaml file.
+:::
+
 
 ### Setup Initial Database
 
@@ -153,6 +178,39 @@ curl http://localhost:5000/api/v1/version
 ```
 
 It should print the relay version running on the server.
+
+### Useful commands
+
+A short list with helpful commands.
+
+#### Printing all running docker containers
+```
+docker ps
+```
+
+#### Stopping all running containers
+```
+docker stop $(docker ps -q)
+```
+
+`-q` prints only the running container ids in a list form.
+
+### Removing all containers
+```
+docker rm $(docker ps -qa)
+```
+
+The `a` flag stands for all containers, not just the running ones.
+
+
+#### Printing docker logs
+```
+docker logs -f --tail 500 CONTAINER_NAME/CONTAINER_ID
+```
+
+The `-f` flag stands for follow. Basically you won't just see the log, but the screen will update when new logs arrive.
+`--tail 500` specifies to just print the last 500 lines. If you don't provide the `tail` argument depending on how long
+the container has been running you can wait a lot of time till all the logs print on your screen.
 
 ## Next Steps
 
