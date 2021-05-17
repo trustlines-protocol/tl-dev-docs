@@ -65,6 +65,10 @@
         {
           "type": "doc",
           "id": "version-0.21.0/tutorials/trustlines_system"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.21.0/tutorials/trustlines_tlbc_system"
         }
       ]
     },
