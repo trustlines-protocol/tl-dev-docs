@@ -142,7 +142,7 @@ stop the image, remove it and then start it again for the modifications to be ap
 docker stop CONTAINER_ID
 docker rm CONTAINER_ID
 
-docker-compose up SERVICE_NAME
+docker-compose up --detach SERVICE_NAME
 ```
 
 `CONTAINER_ID` is the ID of the container when you run `docker ps`. The `SERVICE_NAME` is the name of the service you
