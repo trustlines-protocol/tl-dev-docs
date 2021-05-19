@@ -23,7 +23,7 @@ sidebar_label: "Transaction"
 
 • `Const` **GAS\_LIMIT\_DEFAULT\_CONTRACT\_TRANSACTION**: BigNumber = new BigNumber(600\_000)
 
-*Defined in [src/Transaction.ts:30](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L30)*
+*Defined in [src/Transaction.ts:34](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Transaction.ts#L34)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • `Const` **GAS\_LIMIT\_IDENTITY\_OVERHEAD**: BigNumber = new BigNumber(27\_000)
 
-*Defined in [src/Transaction.ts:26](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L26)*
+*Defined in [src/Transaction.ts:30](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Transaction.ts#L30)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • `Const` **GAS\_LIMIT\_MULTIPLIER**: 1.2 = 1.2
 
-*Defined in [src/Transaction.ts:24](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L24)*
+*Defined in [src/Transaction.ts:28](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Transaction.ts#L28)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • `Const` **GAS\_LIMIT\_VALUE\_TRANSACTION**: BigNumber = new BigNumber(21\_000) .plus(GAS\_LIMIT\_IDENTITY\_OVERHEAD.multipliedBy(GAS\_LIMIT\_MULTIPLIER)) .integerValue(BigNumber.ROUND\_DOWN)
 
-*Defined in [src/Transaction.ts:27](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Transaction.ts#L27)*
+*Defined in [src/Transaction.ts:31](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Transaction.ts#L31)*

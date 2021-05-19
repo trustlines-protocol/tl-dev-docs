@@ -24,7 +24,7 @@ sidebar_label: "RelayProvider"
 
 *Overrides [Provider](_providers_provider_.provider.md).[constructor](_providers_provider_.provider.md#constructor)*
 
-*Defined in [src/providers/RelayProvider.ts:20](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L20)*
+*Defined in [src/providers/RelayProvider.ts:20](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L20)*
 
 #### Parameters:
 
@@ -45,7 +45,7 @@ Name | Type |
 
 *Inherited from [Provider](_providers_provider_.provider.md).[ApiUrl](_providers_provider_.provider.md#apiurl)*
 
-*Defined in [src/providers/Provider.ts:8](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L8)*
+*Defined in [src/providers/Provider.ts:8](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L8)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 *Inherited from [Provider](_providers_provider_.provider.md).[WsApiUrl](_providers_provider_.provider.md#wsapiurl)*
 
-*Defined in [src/providers/Provider.ts:9](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L9)*
+*Defined in [src/providers/Provider.ts:9](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L9)*
 
 ## Methods
 
@@ -69,7 +69,7 @@ ___
 
 *Inherited from [Provider](_providers_provider_.provider.md).[createWebsocketStream](_providers_provider_.provider.md#createwebsocketstream)*
 
-*Defined in [src/providers/Provider.ts:45](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L45)*
+*Defined in [src/providers/Provider.ts:45](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L45)*
 
 Creates a websocket stream connection to the server.
 
@@ -94,7 +94,7 @@ ___
 
 *Inherited from [Provider](_providers_provider_.provider.md).[fetchEndpoint](_providers_provider_.provider.md#fetchendpoint)*
 
-*Defined in [src/providers/Provider.ts:21](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L21)*
+*Defined in [src/providers/Provider.ts:21](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L21)*
 
 Returns a JSON response from the REST API of the server.
 
@@ -121,7 +121,7 @@ ___
 
 *Implementation of [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)*
 
-*Defined in [src/providers/RelayProvider.ts:115](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L115)*
+*Defined in [src/providers/RelayProvider.ts:115](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L115)*
 
 Returns balance of given address.
 
@@ -141,7 +141,7 @@ ___
 
 *Implementation of [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)*
 
-*Defined in [src/providers/RelayProvider.ts:62](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L62)*
+*Defined in [src/providers/RelayProvider.ts:62](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L62)*
 
 Returns implementation address of identity with given address
 
@@ -163,7 +163,7 @@ ___
 
 *Implementation of [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)*
 
-*Defined in [src/providers/RelayProvider.ts:47](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L47)*
+*Defined in [src/providers/RelayProvider.ts:47](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L47)*
 
 Returns next nonce for identity with given address
 
@@ -185,7 +185,7 @@ ___
 
 *Implementation of [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)*
 
-*Defined in [src/providers/RelayProvider.ts:79](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L79)*
+*Defined in [src/providers/RelayProvider.ts:79](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L79)*
 
 Returns the fees the provider would be willing to pay for the transaction
 
@@ -207,7 +207,7 @@ ___
 
 *Implementation of [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)*
 
-*Defined in [src/providers/RelayProvider.ts:94](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L94)*
+*Defined in [src/providers/RelayProvider.ts:94](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L94)*
 
 #### Parameters:
 
@@ -226,7 +226,7 @@ ___
 
 *Implementation of [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)*
 
-*Defined in [src/providers/RelayProvider.ts:31](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L31)*
+*Defined in [src/providers/RelayProvider.ts:31](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L31)*
 
 Returns needed information for creating an ethereum transaction.
 
@@ -249,7 +249,7 @@ ___
 
 *Implementation of [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)*
 
-*Defined in [src/providers/RelayProvider.ts:103](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L103)*
+*Defined in [src/providers/RelayProvider.ts:103](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L103)*
 
 #### Parameters:
 
@@ -267,7 +267,7 @@ ___
 
 *Inherited from [Provider](_providers_provider_.provider.md).[getVersion](_providers_provider_.provider.md#getversion)*
 
-*Defined in [src/providers/Provider.ts:64](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L64)*
+*Defined in [src/providers/Provider.ts:64](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L64)*
 
 Returns the version of the currently configured provider server.
 
@@ -285,7 +285,7 @@ ___
 
 *Inherited from [Provider](_providers_provider_.provider.md).[postToEndpoint](_providers_provider_.provider.md#posttoendpoint)*
 
-*Defined in [src/providers/Provider.ts:29](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L29)*
+*Defined in [src/providers/Provider.ts:29](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L29)*
 
 #### Type parameters:
 
@@ -310,7 +310,7 @@ ___
 
 *Implementation of [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)*
 
-*Defined in [src/providers/RelayProvider.ts:145](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L145)*
+*Defined in [src/providers/RelayProvider.ts:145](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L145)*
 
 Send the given signed meta-transaction to a relay server to execute it on the
 blockchain and returns a `Promise` with the transaction hash.
@@ -333,7 +333,7 @@ ___
 
 *Implementation of [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)*
 
-*Defined in [src/providers/RelayProvider.ts:125](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/RelayProvider.ts#L125)*
+*Defined in [src/providers/RelayProvider.ts:125](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/RelayProvider.ts#L125)*
 
 Send the given _signedTransaction_ to a relay server to execute it on the
 blockchain and returns a `Promise` with the transaction hash.

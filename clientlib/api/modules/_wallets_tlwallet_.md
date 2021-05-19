@@ -28,7 +28,7 @@ sidebar_label: "wallets/TLWallet"
 
 • `Const` **DEFAULT\_DERIVATION\_PATH**: &#34;m/44'/60'/0'/0/0&#34; = \`m/44'/60'/0'/0/0\`
 
-*Defined in [src/wallets/TLWallet.ts:36](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L36)*
+*Defined in [src/wallets/TLWallet.ts:36](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/TLWallet.ts#L36)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • `Const` **EXPECTED\_VERSIONS**: number[] = [1]
 
-*Defined in [src/wallets/TLWallet.ts:35](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L35)*
+*Defined in [src/wallets/TLWallet.ts:35](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/TLWallet.ts#L35)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • `Const` **TL\_WALLET\_VERSION**: 1 = 1
 
-*Defined in [src/wallets/TLWallet.ts:32](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L32)*
+*Defined in [src/wallets/TLWallet.ts:32](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/TLWallet.ts#L32)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • `Const` **WALLET\_TYPE\_ETHERS**: &#34;ethers&#34; = "ethers"
 
-*Defined in [src/wallets/TLWallet.ts:33](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L33)*
+*Defined in [src/wallets/TLWallet.ts:33](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/TLWallet.ts#L33)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • `Const` **WALLET\_TYPE\_IDENTITY**: &#34;identity&#34; = "identity"
 
-*Defined in [src/wallets/TLWallet.ts:34](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L34)*
+*Defined in [src/wallets/TLWallet.ts:34](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/TLWallet.ts#L34)*
 
 ## Functions
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **verifyWalletData**(`walletData`: [TLWalletData](../interfaces/_typings_.tlwalletdata.md), `walletType`: string, `expectedVersions`: number[]): void
 
-*Defined in [src/wallets/TLWallet.ts:44](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/TLWallet.ts#L44)*
+*Defined in [src/wallets/TLWallet.ts:44](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/TLWallet.ts#L44)*
 
 Checks if type and version of given wallet data are supported.
 

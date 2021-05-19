@@ -16,7 +16,7 @@ sidebar_label: "EventFilterOptions"
 
 • `Optional` **contractType**: &#34;CurrencyNetwork&#34; \| &#34;Exchange&#34; \| &#34;UnwETH&#34; \| &#34;Token&#34;
 
-*Defined in [src/typings.ts:111](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L111)*
+*Defined in [src/typings.ts:112](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L112)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **fromBlock**: number
 
-*Defined in [src/typings.ts:112](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L112)*
+*Defined in [src/typings.ts:113](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L113)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • `Optional` **type**: string
 
-*Defined in [src/typings.ts:110](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L110)*
+*Defined in [src/typings.ts:111](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L111)*

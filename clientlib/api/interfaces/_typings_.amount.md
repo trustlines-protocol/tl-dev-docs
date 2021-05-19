@@ -16,7 +16,7 @@ sidebar_label: "Amount"
 
 •  **decimals**: number
 
-*Defined in [src/typings.ts:105](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L105)*
+*Defined in [src/typings.ts:106](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L106)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **raw**: string
 
-*Defined in [src/typings.ts:103](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L103)*
+*Defined in [src/typings.ts:104](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L104)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **value**: string
 
-*Defined in [src/typings.ts:104](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L104)*
+*Defined in [src/typings.ts:105](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L105)*
