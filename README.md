@@ -64,9 +64,14 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ## Notes on clientlib/api
 **Never modify the clientlib/api docs directly!**
 
-The clientlib/api folder is created automatically by the `docusaurus-plugin-typedoc` plugin. For that plugin to work the [clientlib repo](https://github.com/trustlines-protocol/clientlib/) is included as a git submodule. Docs are then generated when you run `yarn start` or `yarn build`. If you need to make modifications to the clientlib/api docs - fix the corresponding file in the clientlib repo. Once the change
-there gets approved you need to pull the latest changes from the clientlib repo in the submodule and rebuild
+The clientlib/api folder is created automatically by the `docusaurus-plugin-typedoc` plugin. 
+For that plugin to work the [clientlib repo](https://github.com/trustlines-protocol/clientlib/) is included as a git submodule.
+Docs are then generated when you run `yarn start` or `yarn build`. 
+If you need to make modifications to the clientlib/api docs - fix the corresponding file in the clientlib repo.
+Once the change there gets approved you need to pull the latest changes from the clientlib repo in the submodule and rebuild
 the docs.
+
+To do that, you can simply run `yarn` which will execute the script `scripts/postinstall.sh` and it will pull and install the clientlib submodule.
 
 ## Markdown
 For a full list of supported markdown syntax refer to the [docusaurus docs](https://v2.docusaurus.io/docs/2.0.0-alpha.69/markdown-features)
