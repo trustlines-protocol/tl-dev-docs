@@ -65,10 +65,15 @@ The beacon points to an implementation, the different proxies points to the beac
 Each contract has been deployed as of commit https://github.com/trustlines-protocol/contracts/tree/58b43d3f1771e120e21a93b73ba4f08e9f6fdc25 (contracts version 1.3.0),
 apart from the fake currency network which was deployed as of commit https://github.com/trustlines-protocol/contracts/tree/d94f8b395491a3bac9d76236fc8003688daa9ca4.
 
-### Implementation
+### Implementations
 
-**Address**: `0x3d494502d15E8eAE385fC86e116CD9Db6e4C38ec`  
+**Version 1 Address**: `0x3d494502d15E8eAE385fC86e116CD9Db6e4C38ec`  
 [Implementation.json](./json/currency_network_implementation_json)
+Deployed as of commit https://github.com/trustlines-protocol/contracts/tree/58b43d3f1771e120e21a93b73ba4f08e9f6fdc25 (contracts version 1.3.0)
+
+**Version 2 Address**: `0x74419Fde9Db0bD90918817a7486Ee5A0669276DC`  
+[ImplementationV2.json](./json/currency_network_implementation_v2_json)
+Deployed as of commit https://github.com/trustlines-protocol/contracts/tree/d94f8b395491a3bac9d76236fc8003688daa9ca4
 
 ### Beacon
 
