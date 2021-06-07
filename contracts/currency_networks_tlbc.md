@@ -62,12 +62,18 @@ Solomon Islands Dollar: `0x0FbD56e384826246dC795C1A1951c781184F8faa`
 
 New currency networks are using a proxy pattern with a beacon. 
 The beacon points to an implementation, the different proxies points to the beacon.
-Each contract has been deployed as of commit https://github.com/trustlines-protocol/contracts/tree/58b43d3f1771e120e21a93b73ba4f08e9f6fdc25 (contracts version 1.3.0).
+Each contract has been deployed as of commit https://github.com/trustlines-protocol/contracts/tree/58b43d3f1771e120e21a93b73ba4f08e9f6fdc25 (contracts version 1.3.0),
+apart from the fake currency network which was deployed as of commit https://github.com/trustlines-protocol/contracts/tree/d94f8b395491a3bac9d76236fc8003688daa9ca4.
 
-### Implementation
+### Implementations
 
-**Address**: `0x3d494502d15E8eAE385fC86e116CD9Db6e4C38ec`  
+**Version 1 Address**: `0x3d494502d15E8eAE385fC86e116CD9Db6e4C38ec`  
 [Implementation.json](./json/currency_network_implementation_json)
+Deployed as of commit https://github.com/trustlines-protocol/contracts/tree/58b43d3f1771e120e21a93b73ba4f08e9f6fdc25 (contracts version 1.3.0)
+
+**Version 2 Address**: `0x74419Fde9Db0bD90918817a7486Ee5A0669276DC`  
+[ImplementationV2.json](./json/currency_network_implementation_v2_json)
+Deployed as of commit https://github.com/trustlines-protocol/contracts/tree/d94f8b395491a3bac9d76236fc8003688daa9ca4
 
 ### Beacon
 
@@ -124,6 +130,7 @@ Polish Zloty: `0x9a24ff1377C785E82736285948a092c681ff6B45`
 Tanzanian Shilling: `0x7dAfA79fcfb8E23A96d564Ba762D7Efceff74Ebf`  
 Solomon Islands Dollar: `0xf5BB5C1DBdd0822d0Fa9E93e82B0cD0D0A388f51`  
 Kenyan Shilling: `0x70F42a5B8455cEA42de824bDf46b6b01BF805EeA`
+Fake Currency: `0x5cAB49127Cb1f19bCbd6494c1396F2f72b4bEC3A`
 
 [Administrative Proxy.json](./json/administrative_proxy_json)
 
