@@ -76,6 +76,12 @@ module.exports = {
           position: "left",
         },
         {
+          to: "endtoend/quickstart",
+          label: "End2end",
+          activeBasePath: "endtoend",
+          position: "left",
+        },
+        {
           to: "docs/contributing",
           label: "Contributing",
           activeBasePath: "contributing",
@@ -238,6 +244,17 @@ module.exports = {
       {
         matomoUrl: "https://stats.trustlines.network/",
         siteId: "4",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "endtoend",
+        path: "endtoend",
+        editUrl:
+          "https://github.com/trustlines-protocol/tl-dev-docs/edit/master/",
+        routeBasePath: "endtoend",
+        sidebarPath: require.resolve("./sidebars_end2end.js"),
       },
     ],
   ],
