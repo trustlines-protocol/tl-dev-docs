@@ -1,26 +1,18 @@
 ---
-id: "_typings_.networktrustlinebalanceupdateraw"
-title: "Interface: NetworkTrustlineBalanceUpdateRaw"
-sidebar_label: "NetworkTrustlineBalanceUpdateRaw"
+id: "_typings_.networktrustlineupdaterequesteventraw"
+title: "Interface: NetworkTrustlineUpdateRequestEventRaw"
+sidebar_label: "NetworkTrustlineUpdateRequestEventRaw"
 ---
 
-["typings"](../modules/_typings_.md).NetworkTrustlineBalanceUpdateRaw
+["typings"](../modules/_typings_.md).NetworkTrustlineUpdateRequestEventRaw
 
 ## Hierarchy
 
-* [NetworkEvent](_typings_.networkevent.md)
+* [NetworkTrustlineUpdateEventRaw](_typings_.networktrustlineupdateeventraw.md)
 
-  ↳ **NetworkTrustlineBalanceUpdateRaw**
+  ↳ **NetworkTrustlineUpdateRequestEventRaw**
 
 ## Properties
-
-### amount
-
-•  **amount**: string
-
-*Defined in [src/typings.ts:181](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L181)*
-
-___
 
 ### blockHash
 
@@ -72,6 +64,46 @@ ___
 
 ___
 
+### given
+
+•  **given**: string
+
+*Inherited from [NetworkTrustlineUpdateEventRaw](_typings_.networktrustlineupdateeventraw.md).[given](_typings_.networktrustlineupdateeventraw.md#given)*
+
+*Defined in [src/typings.ts:152](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L152)*
+
+___
+
+### interestRateGiven
+
+•  **interestRateGiven**: string
+
+*Inherited from [NetworkTrustlineUpdateEventRaw](_typings_.networktrustlineupdateeventraw.md).[interestRateGiven](_typings_.networktrustlineupdateeventraw.md#interestrategiven)*
+
+*Defined in [src/typings.ts:154](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L154)*
+
+___
+
+### interestRateReceived
+
+•  **interestRateReceived**: string
+
+*Inherited from [NetworkTrustlineUpdateEventRaw](_typings_.networktrustlineupdateeventraw.md).[interestRateReceived](_typings_.networktrustlineupdateeventraw.md#interestratereceived)*
+
+*Defined in [src/typings.ts:155](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L155)*
+
+___
+
+### isFrozen
+
+•  **isFrozen**: boolean
+
+*Inherited from [NetworkTrustlineUpdateEventRaw](_typings_.networktrustlineupdateeventraw.md).[isFrozen](_typings_.networktrustlineupdateeventraw.md#isfrozen)*
+
+*Defined in [src/typings.ts:156](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L156)*
+
+___
+
 ### logIndex
 
 •  **logIndex**: number
@@ -89,6 +121,16 @@ ___
 *Inherited from [NetworkEvent](_typings_.networkevent.md).[networkAddress](_typings_.networkevent.md#networkaddress)*
 
 *Defined in [src/typings.ts:135](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L135)*
+
+___
+
+### received
+
+•  **received**: string
+
+*Inherited from [NetworkTrustlineUpdateEventRaw](_typings_.networktrustlineupdateeventraw.md).[received](_typings_.networktrustlineupdateeventraw.md#received)*
+
+*Defined in [src/typings.ts:153](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L153)*
 
 ___
 
@@ -129,6 +171,14 @@ ___
 *Inherited from [BlockchainEvent](_typings_.blockchainevent.md).[transactionHash](_typings_.blockchainevent.md#transactionhash)*
 
 *Defined in [src/typings.ts:121](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L121)*
+
+___
+
+### transfer
+
+•  **transfer**: string
+
+*Defined in [src/typings.ts:161](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L161)*
 
 ___
 

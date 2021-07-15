@@ -18,7 +18,7 @@ sidebar_label: "PaymentOptions"
 
 • `Optional` **addTransferId**: boolean
 
-*Defined in [src/typings.ts:86](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L86)*
+*Defined in [src/typings.ts:86](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L86)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • `Optional` **extraData**: string
 
-*Defined in [src/typings.ts:84](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L84)*
+*Defined in [src/typings.ts:84](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L84)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • `Optional` **feePayer**: [FeePayer](../enums/_typings_.feepayer.md)
 
-*Defined in [src/typings.ts:83](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L83)*
+*Defined in [src/typings.ts:83](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L83)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 *Inherited from [TxOptions](_typings_.txoptions.md).[gasLimit](_typings_.txoptions.md#gaslimit)*
 
-*Defined in [src/typings.ts:75](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L75)*
+*Defined in [src/typings.ts:75](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L75)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 *Inherited from [TxOptions](_typings_.txoptions.md).[gasPrice](_typings_.txoptions.md#gasprice)*
 
-*Defined in [src/typings.ts:74](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L74)*
+*Defined in [src/typings.ts:74](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L74)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 *Inherited from [PaymentOptions](_typings_.paymentoptions.md).[interestRateDecimals](_typings_.paymentoptions.md#interestratedecimals)*
 
-*Defined in [src/typings.ts:539](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L539)*
+*Defined in [src/typings.ts:554](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L554)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 • `Optional` **maximumFees**: number
 
-*Defined in [src/typings.ts:82](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L82)*
+*Defined in [src/typings.ts:82](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L82)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 • `Optional` **maximumHops**: number
 
-*Defined in [src/typings.ts:81](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L81)*
+*Defined in [src/typings.ts:81](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L81)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 *Inherited from [PaymentOptions](_typings_.paymentoptions.md).[networkDecimals](_typings_.paymentoptions.md#networkdecimals)*
 
-*Defined in [src/typings.ts:538](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L538)*
+*Defined in [src/typings.ts:553](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L553)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 • `Optional` **paymentRequestId**: string
 
-*Defined in [src/typings.ts:85](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L85)*
+*Defined in [src/typings.ts:85](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L85)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 • `Optional` **remainingData**: string
 
-*Defined in [src/typings.ts:87](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L87)*
+*Defined in [src/typings.ts:87](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L87)*
 
 ___
 
@@ -116,4 +116,4 @@ ___
 
 *Inherited from [TxOptions](_typings_.txoptions.md).[value](_typings_.txoptions.md#value)*
 
-*Defined in [src/typings.ts:73](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L73)*
+*Defined in [src/typings.ts:73](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L73)*

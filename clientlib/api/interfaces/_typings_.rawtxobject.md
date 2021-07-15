@@ -16,7 +16,7 @@ sidebar_label: "RawTxObject"
 
 • `Optional` **baseFee**: number \| string \| BigNumber
 
-*Defined in [src/typings.ts:303](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L303)*
+*Defined in [src/typings.ts:318](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L318)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **currencyNetworkOfFees**: string
 
-*Defined in [src/typings.ts:308](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L308)*
+*Defined in [src/typings.ts:323](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L323)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • `Optional` **data**: string
 
-*Defined in [src/typings.ts:301](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L301)*
+*Defined in [src/typings.ts:316](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L316)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • `Optional` **feeRecipient**: string
 
-*Defined in [src/typings.ts:307](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L307)*
+*Defined in [src/typings.ts:322](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L322)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **from**: string
 
-*Defined in [src/typings.ts:298](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L298)*
+*Defined in [src/typings.ts:313](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L313)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • `Optional` **gasLimit**: number \| string \| BigNumber
 
-*Defined in [src/typings.ts:304](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L304)*
+*Defined in [src/typings.ts:319](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L319)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • `Optional` **gasPrice**: number \| string \| BigNumber
 
-*Defined in [src/typings.ts:305](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L305)*
+*Defined in [src/typings.ts:320](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L320)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 • `Optional` **nonce**: number \| string
 
-*Defined in [src/typings.ts:302](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L302)*
+*Defined in [src/typings.ts:317](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L317)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 • `Optional` **to**: string
 
-*Defined in [src/typings.ts:299](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L299)*
+*Defined in [src/typings.ts:314](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L314)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 • `Optional` **totalFee**: number \| string \| BigNumber
 
-*Defined in [src/typings.ts:306](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L306)*
+*Defined in [src/typings.ts:321](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L321)*
 
 ___
 
@@ -96,4 +96,4 @@ ___
 
 • `Optional` **value**: number \| string \| BigNumber
 
-*Defined in [src/typings.ts:300](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L300)*
+*Defined in [src/typings.ts:315](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L315)*

@@ -16,7 +16,7 @@ sidebar_label: "Messaging"
 
 \+ **new Messaging**(`params`: { currencyNetwork: [CurrencyNetwork](_currencynetwork_.currencynetwork.md) ; provider: [Provider](_providers_provider_.provider.md) ; user: [User](_user_.user.md)  }): [Messaging](_messaging_.messaging.md)
 
-*Defined in [src/Messaging.ts:22](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Messaging.ts#L22)*
+*Defined in [src/Messaging.ts:22](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Messaging.ts#L22)*
 
 #### Parameters:
 
@@ -32,7 +32,7 @@ Name | Type |
 
 ▸ **messageStream**(`reconnectingOptions?`: [ReconnectingWSOptions](../modules/_typings_.md#reconnectingwsoptions)): Observable&#60;any>
 
-*Defined in [src/Messaging.ts:153](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Messaging.ts#L153)*
+*Defined in [src/Messaging.ts:153](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Messaging.ts#L153)*
 
 Returns a websocket observable that can be subscribed to.
 
@@ -50,7 +50,7 @@ ___
 
 ▸ **paymentMessage**(`counterPartyAddress`: string, `transferId`: string, `subject`: string): Promise&#60;[PaymentMessage](../interfaces/_typings_.paymentmessage.md)>
 
-*Defined in [src/Messaging.ts:135](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Messaging.ts#L135)*
+*Defined in [src/Messaging.ts:135](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Messaging.ts#L135)*
 
 Sends a payment message to given `counterParty` and returns created message.
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **paymentRequest**(`networkAddress`: string, `counterPartyAddress`: string, `value`: number \| string, `subject?`: string, `options?`: { decimalsOptions?: [DecimalsOptions](../interfaces/_typings_.decimalsoptions.md)  }): Promise&#60;[PaymentRequestMessage](../interfaces/_typings_.paymentrequestmessage.md)>
 
-*Defined in [src/Messaging.ts:41](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Messaging.ts#L41)*
+*Defined in [src/Messaging.ts:41](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Messaging.ts#L41)*
 
 Sends a payment request to given `counterParty` and returns created payment request.
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **paymentRequestCancel**(`counterPartyAddress`: string, `id`: string, `subject?`: string): Promise&#60;[PaymentRequestDeclineMessage](../interfaces/_typings_.paymentrequestdeclinemessage.md)>
 
-*Defined in [src/Messaging.ts:114](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Messaging.ts#L114)*
+*Defined in [src/Messaging.ts:114](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Messaging.ts#L114)*
 
 Sends a payment request cancel message to given `counterParty` and returns created message.
 
@@ -112,7 +112,7 @@ ___
 
 ▸ **paymentRequestDecline**(`counterPartyAddress`: string, `id`: string, `subject?`: string): Promise&#60;[PaymentRequestDeclineMessage](../interfaces/_typings_.paymentrequestdeclinemessage.md)>
 
-*Defined in [src/Messaging.ts:92](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Messaging.ts#L92)*
+*Defined in [src/Messaging.ts:92](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Messaging.ts#L92)*
 
 Sends a payment request decline message to given `counterParty` and returns created message.
 
@@ -132,7 +132,7 @@ ___
 
 ▸ **sendUsernameToCounterparty**(`username`: string, `counterpartyAddress`: string): Promise&#60;[UsernameMessage](../interfaces/_typings_.usernamemessage.md)>
 
-*Defined in [src/Messaging.ts:184](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Messaging.ts#L184)*
+*Defined in [src/Messaging.ts:184](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Messaging.ts#L184)*
 
 Sends the given username to the specified counter party via messaging.
 

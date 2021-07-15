@@ -18,7 +18,7 @@ sidebar_label: "BlockchainEvent"
 
 •  **blockHash**: string
 
-*Defined in [src/typings.ts:121](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L121)*
+*Defined in [src/typings.ts:122](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L122)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 •  **blockNumber**: number
 
-*Defined in [src/typings.ts:118](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L118)*
+*Defined in [src/typings.ts:119](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L119)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 •  **logIndex**: number
 
-*Defined in [src/typings.ts:122](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L122)*
+*Defined in [src/typings.ts:123](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L123)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 •  **status**: string
 
-*Defined in [src/typings.ts:119](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L119)*
+*Defined in [src/typings.ts:120](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L120)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 •  **timestamp**: number
 
-*Defined in [src/typings.ts:117](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L117)*
+*Defined in [src/typings.ts:118](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L118)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 •  **transactionHash**: string
 
-*Defined in [src/typings.ts:120](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L120)*
+*Defined in [src/typings.ts:121](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L121)*
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 •  **type**: string
 
-*Defined in [src/typings.ts:116](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L116)*
+*Defined in [src/typings.ts:117](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L117)*

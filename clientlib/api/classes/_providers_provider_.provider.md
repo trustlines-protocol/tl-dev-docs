@@ -18,7 +18,7 @@ sidebar_label: "Provider"
 
 \+ **new Provider**(`ApiUrl`: string, `WsApiUrl`: string): [Provider](_providers_provider_.provider.md)
 
-*Defined in [src/providers/Provider.ts:9](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L9)*
+*Defined in [src/providers/Provider.ts:9](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L9)*
 
 #### Parameters:
 
@@ -35,7 +35,7 @@ Name | Type |
 
 •  **ApiUrl**: string
 
-*Defined in [src/providers/Provider.ts:8](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L8)*
+*Defined in [src/providers/Provider.ts:8](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L8)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 •  **WsApiUrl**: string
 
-*Defined in [src/providers/Provider.ts:9](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L9)*
+*Defined in [src/providers/Provider.ts:9](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L9)*
 
 ## Methods
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **createWebsocketStream**(`endpoint`: string, `functionName`: string, `args`: object, `reconnectingOptions?`: [ReconnectingWSOptions](../modules/_typings_.md#reconnectingwsoptions)): Observable&#60;any>
 
-*Defined in [src/providers/Provider.ts:45](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L45)*
+*Defined in [src/providers/Provider.ts:45](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L45)*
 
 Creates a websocket stream connection to the server.
 
@@ -72,7 +72,7 @@ ___
 
 ▸ **fetchEndpoint**&#60;T>(`endpoint`: string, `options?`: object): Promise&#60;T>
 
-*Defined in [src/providers/Provider.ts:21](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L21)*
+*Defined in [src/providers/Provider.ts:21](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L21)*
 
 Returns a JSON response from the REST API of the server.
 
@@ -97,7 +97,7 @@ ___
 
 ▸ **getVersion**(): Promise&#60;string>
 
-*Defined in [src/providers/Provider.ts:64](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L64)*
+*Defined in [src/providers/Provider.ts:64](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L64)*
 
 Returns the version of the currently configured provider server.
 
@@ -111,7 +111,7 @@ ___
 
 ▸ **postToEndpoint**&#60;T>(`endpoint`: string, `data`: any): Promise&#60;T>
 
-*Defined in [src/providers/Provider.ts:29](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/Provider.ts#L29)*
+*Defined in [src/providers/Provider.ts:29](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/Provider.ts#L29)*
 
 #### Type parameters:
 

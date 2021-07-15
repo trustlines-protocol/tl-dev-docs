@@ -16,7 +16,7 @@ sidebar_label: "Signature"
 
 •  **concatSig**: string
 
-*Defined in [src/typings.ts:560](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L560)*
+*Defined in [src/typings.ts:575](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L575)*
 
 ___
 
@@ -24,4 +24,4 @@ ___
 
 •  **ecSignature**: [ECSignature](_typings_.ecsignature.md)
 
-*Defined in [src/typings.ts:559](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L559)*
+*Defined in [src/typings.ts:574](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L574)*

@@ -16,7 +16,7 @@ sidebar_label: "TrustlineRaw"
 
 •  **balance**: string
 
-*Defined in [src/typings.ts:619](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L619)*
+*Defined in [src/typings.ts:634](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L634)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **counterParty**: string
 
-*Defined in [src/typings.ts:618](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L618)*
+*Defined in [src/typings.ts:633](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L633)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **currencyNetwork**: string
 
-*Defined in [src/typings.ts:627](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L627)*
+*Defined in [src/typings.ts:642](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L642)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **given**: string
 
-*Defined in [src/typings.ts:620](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L620)*
+*Defined in [src/typings.ts:635](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L635)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **id**: string
 
-*Defined in [src/typings.ts:616](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L616)*
+*Defined in [src/typings.ts:631](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L631)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **interestRateGiven**: string
 
-*Defined in [src/typings.ts:624](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L624)*
+*Defined in [src/typings.ts:639](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L639)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **interestRateReceived**: string
 
-*Defined in [src/typings.ts:625](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L625)*
+*Defined in [src/typings.ts:640](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L640)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **isFrozen**: boolean
 
-*Defined in [src/typings.ts:626](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L626)*
+*Defined in [src/typings.ts:641](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L641)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **leftGiven**: string
 
-*Defined in [src/typings.ts:622](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L622)*
+*Defined in [src/typings.ts:637](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L637)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **leftReceived**: string
 
-*Defined in [src/typings.ts:623](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L623)*
+*Defined in [src/typings.ts:638](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L638)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 •  **received**: string
 
-*Defined in [src/typings.ts:621](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L621)*
+*Defined in [src/typings.ts:636](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L636)*
 
 ___
 
@@ -104,4 +104,4 @@ ___
 
 •  **user**: string
 
-*Defined in [src/typings.ts:617](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L617)*
+*Defined in [src/typings.ts:632](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L632)*

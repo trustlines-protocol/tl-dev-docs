@@ -16,7 +16,7 @@ sidebar_label: "PaymentMessage"
 
 •  **subject**: string
 
-*Defined in [src/typings.ts:235](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L235)*
+*Defined in [src/typings.ts:250](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L250)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **transferId**: string
 
-*Defined in [src/typings.ts:234](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L234)*
+*Defined in [src/typings.ts:249](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L249)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **type**: string
 
-*Defined in [src/typings.ts:233](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L233)*
+*Defined in [src/typings.ts:248](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L248)*

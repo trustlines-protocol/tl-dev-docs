@@ -19,7 +19,7 @@ as returned by the relay server.
 
 •  **balance**: string
 
-*Defined in [src/typings.ts:373](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L373)*
+*Defined in [src/typings.ts:388](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L388)*
 
 Balance of given user address in ETH
 
@@ -29,7 +29,7 @@ ___
 
 •  **gasPrice**: string
 
-*Defined in [src/typings.ts:369](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L369)*
+*Defined in [src/typings.ts:384](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L384)*
 
 Amount of ETH in gwei for every unit of gas user is willing to pay
 
@@ -39,6 +39,6 @@ ___
 
 •  **nonce**: number
 
-*Defined in [src/typings.ts:377](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L377)*
+*Defined in [src/typings.ts:392](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L392)*
 
 Transaction count of given user address

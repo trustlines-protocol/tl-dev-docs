@@ -16,7 +16,7 @@ sidebar_label: "OrderOptions"
 
 • `Optional` **makerTokenDecimals**: number
 
-*Defined in [src/typings.ts:863](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L863)*
+*Defined in [src/typings.ts:894](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L894)*
 
 ___
 
@@ -24,4 +24,4 @@ ___
 
 • `Optional` **takerTokenDecimals**: number
 
-*Defined in [src/typings.ts:864](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L864)*
+*Defined in [src/typings.ts:895](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L895)*

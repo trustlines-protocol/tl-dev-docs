@@ -20,7 +20,7 @@ sidebar_label: "Network"
 
 •  **abbreviation**: string
 
-*Defined in [src/typings.ts:495](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L495)*
+*Defined in [src/typings.ts:510](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L510)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 •  **address**: string
 
-*Defined in [src/typings.ts:496](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L496)*
+*Defined in [src/typings.ts:511](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L511)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 •  **name**: string
 
-*Defined in [src/typings.ts:494](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L494)*
+*Defined in [src/typings.ts:509](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L509)*

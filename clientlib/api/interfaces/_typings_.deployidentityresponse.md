@@ -16,7 +16,7 @@ sidebar_label: "DeployIdentityResponse"
 
 •  **balance**: string
 
-*Defined in [src/typings.ts:555](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L555)*
+*Defined in [src/typings.ts:570](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L570)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **identity**: string
 
-*Defined in [src/typings.ts:553](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L553)*
+*Defined in [src/typings.ts:568](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L568)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **nextNonce**: number
 
-*Defined in [src/typings.ts:554](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L554)*
+*Defined in [src/typings.ts:569](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L569)*

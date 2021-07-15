@@ -12,7 +12,7 @@ sidebar_label: "TransactionStatus"
 
 •  **Failure**:  = "failure"
 
-*Defined in [src/typings.ts:454](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L454)*
+*Defined in [src/typings.ts:469](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L469)*
 
 ___
 
@@ -20,7 +20,7 @@ ___
 
 •  **NotFound**:  = "not found"
 
-*Defined in [src/typings.ts:456](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L456)*
+*Defined in [src/typings.ts:471](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L471)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 •  **Pending**:  = "pending"
 
-*Defined in [src/typings.ts:455](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L455)*
+*Defined in [src/typings.ts:470](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L470)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 •  **Success**:  = "success"
 
-*Defined in [src/typings.ts:453](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L453)*
+*Defined in [src/typings.ts:468](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L468)*

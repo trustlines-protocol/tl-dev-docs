@@ -21,7 +21,7 @@ sidebar_label: "wallets/IdentityWallet"
 
 ▸ **calculateIdentityAddress**(`factoryAddress`: string, `ownerAddress`: string): any
 
-*Defined in [src/wallets/IdentityWallet.ts:511](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L511)*
+*Defined in [src/wallets/IdentityWallet.ts:511](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L511)*
 
 #### Parameters:
 
@@ -38,7 +38,7 @@ ___
 
 ▸ **getRandomNonce**(): string
 
-*Defined in [src/wallets/IdentityWallet.ts:542](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L542)*
+*Defined in [src/wallets/IdentityWallet.ts:542](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L542)*
 
 Generates a random nonce to use for meta transactions.
 The nonce fits into the range of ]2^255, 2^256[.

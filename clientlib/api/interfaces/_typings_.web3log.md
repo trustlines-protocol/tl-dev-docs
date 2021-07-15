@@ -16,7 +16,7 @@ sidebar_label: "Web3Log"
 
 •  **address**: string
 
-*Defined in [src/typings.ts:351](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L351)*
+*Defined in [src/typings.ts:366](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L366)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **blockHash**: string
 
-*Defined in [src/typings.ts:357](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L357)*
+*Defined in [src/typings.ts:372](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L372)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **blockNumber**: number
 
-*Defined in [src/typings.ts:358](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L358)*
+*Defined in [src/typings.ts:373](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L373)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **data**: string
 
-*Defined in [src/typings.ts:352](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L352)*
+*Defined in [src/typings.ts:367](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L367)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **logIndex**: number
 
-*Defined in [src/typings.ts:354](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L354)*
+*Defined in [src/typings.ts:369](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L369)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **topics**: string[]
 
-*Defined in [src/typings.ts:353](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L353)*
+*Defined in [src/typings.ts:368](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L368)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **transactionHash**: string
 
-*Defined in [src/typings.ts:356](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L356)*
+*Defined in [src/typings.ts:371](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L371)*
 
 ___
 
@@ -72,4 +72,4 @@ ___
 
 •  **transactionIndex**: number
 
-*Defined in [src/typings.ts:355](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L355)*
+*Defined in [src/typings.ts:370](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L370)*

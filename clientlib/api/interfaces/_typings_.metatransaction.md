@@ -16,7 +16,7 @@ sidebar_label: "MetaTransaction"
 
 •  **baseFee**: string
 
-*Defined in [src/typings.ts:318](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L318)*
+*Defined in [src/typings.ts:333](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L333)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **chainId**: number
 
-*Defined in [src/typings.ts:313](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L313)*
+*Defined in [src/typings.ts:328](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L328)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **currencyNetworkOfFees**: string
 
-*Defined in [src/typings.ts:322](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L322)*
+*Defined in [src/typings.ts:337](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L337)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **data**: string
 
-*Defined in [src/typings.ts:317](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L317)*
+*Defined in [src/typings.ts:332](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L332)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **feeRecipient**: string
 
-*Defined in [src/typings.ts:321](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L321)*
+*Defined in [src/typings.ts:336](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L336)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **from**: string
 
-*Defined in [src/typings.ts:312](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L312)*
+*Defined in [src/typings.ts:327](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L327)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **gasLimit**: string
 
-*Defined in [src/typings.ts:320](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L320)*
+*Defined in [src/typings.ts:335](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L335)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **gasPrice**: string
 
-*Defined in [src/typings.ts:319](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L319)*
+*Defined in [src/typings.ts:334](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L334)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **nonce**: string
 
-*Defined in [src/typings.ts:323](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L323)*
+*Defined in [src/typings.ts:338](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L338)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **operationType**: number
 
-*Defined in [src/typings.ts:325](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L325)*
+*Defined in [src/typings.ts:340](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L340)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 • `Optional` **signature**: string
 
-*Defined in [src/typings.ts:326](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L326)*
+*Defined in [src/typings.ts:341](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L341)*
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 •  **timeLimit**: string
 
-*Defined in [src/typings.ts:324](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L324)*
+*Defined in [src/typings.ts:339](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L339)*
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 •  **to**: string
 
-*Defined in [src/typings.ts:315](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L315)*
+*Defined in [src/typings.ts:330](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L330)*
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 •  **value**: string
 
-*Defined in [src/typings.ts:316](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L316)*
+*Defined in [src/typings.ts:331](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L331)*
 
 ___
 
@@ -128,4 +128,4 @@ ___
 
 •  **version**: number
 
-*Defined in [src/typings.ts:314](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L314)*
+*Defined in [src/typings.ts:329](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L329)*

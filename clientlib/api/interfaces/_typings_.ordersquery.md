@@ -16,7 +16,7 @@ sidebar_label: "OrdersQuery"
 
 • `Optional` **exchangeContractAddress**: string
 
-*Defined in [src/typings.ts:868](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L868)*
+*Defined in [src/typings.ts:899](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L899)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **feeRecipient**: string
 
-*Defined in [src/typings.ts:875](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L875)*
+*Defined in [src/typings.ts:906](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L906)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • `Optional` **maker**: string
 
-*Defined in [src/typings.ts:873](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L873)*
+*Defined in [src/typings.ts:904](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L904)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • `Optional` **makerTokenAddress**: string
 
-*Defined in [src/typings.ts:870](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L870)*
+*Defined in [src/typings.ts:901](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L901)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • `Optional` **taker**: string
 
-*Defined in [src/typings.ts:874](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L874)*
+*Defined in [src/typings.ts:905](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L905)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • `Optional` **takerTokenAddress**: string
 
-*Defined in [src/typings.ts:871](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L871)*
+*Defined in [src/typings.ts:902](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L902)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • `Optional` **tokenAddress**: string
 
-*Defined in [src/typings.ts:869](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L869)*
+*Defined in [src/typings.ts:900](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L900)*
 
 ___
 
@@ -72,4 +72,4 @@ ___
 
 • `Optional` **trader**: string
 
-*Defined in [src/typings.ts:872](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L872)*
+*Defined in [src/typings.ts:903](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L903)*

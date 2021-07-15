@@ -20,7 +20,7 @@ sidebar_label: "IdentityWalletData"
 
 *Inherited from [TLWalletData](_typings_.tlwalletdata.md).[address](_typings_.tlwalletdata.md#address)*
 
-*Defined in [src/typings.ts:571](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L571)*
+*Defined in [src/typings.ts:586](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L586)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 *Overrides [TLWalletData](_typings_.tlwalletdata.md).[meta](_typings_.tlwalletdata.md#meta)*
 
-*Defined in [src/typings.ts:591](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L591)*
+*Defined in [src/typings.ts:606](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L606)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 *Overrides [TLWalletData](_typings_.tlwalletdata.md).[type](_typings_.tlwalletdata.md#type)*
 
-*Defined in [src/typings.ts:590](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L590)*
+*Defined in [src/typings.ts:605](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L605)*
 
 ___
 
@@ -50,4 +50,4 @@ ___
 
 *Inherited from [TLWalletData](_typings_.tlwalletdata.md).[version](_typings_.tlwalletdata.md#version)*
 
-*Defined in [src/typings.ts:569](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L569)*
+*Defined in [src/typings.ts:584](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L584)*

@@ -26,7 +26,7 @@ sidebar_label: "extraData"
 
 • `Const` **MSG\_PACK\_ID**: &#34;0x544c4d50&#34; = "0x544c4d50"
 
-*Defined in [src/extraData.ts:3](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/extraData.ts#L3)*
+*Defined in [src/extraData.ts:3](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/extraData.ts#L3)*
 
 ## Functions
 
@@ -34,7 +34,7 @@ sidebar_label: "extraData"
 
 ▸ **decode**(`encodedExtraData`: string): [ExtraData](../interfaces/_extradata_.extradata.md)
 
-*Defined in [src/extraData.ts:37](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/extraData.ts#L37)*
+*Defined in [src/extraData.ts:37](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/extraData.ts#L37)*
 
 #### Parameters:
 
@@ -50,7 +50,7 @@ ___
 
 ▸ **encode**(`extraData`: [ExtraData](../interfaces/_extradata_.extradata.md)): string
 
-*Defined in [src/extraData.ts:17](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/extraData.ts#L17)*
+*Defined in [src/extraData.ts:17](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/extraData.ts#L17)*
 
 #### Parameters:
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **processExtraData**(`object`: any): any
 
-*Defined in [src/extraData.ts:87](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/extraData.ts#L87)*
+*Defined in [src/extraData.ts:87](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/extraData.ts#L87)*
 
 Processes the content of extraData and attaches the content to the object.
 

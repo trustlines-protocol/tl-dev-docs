@@ -16,7 +16,7 @@ sidebar_label: "ExchangeOptions"
 
 • `Optional` **expirationUnixTimestampSec**: number
 
-*Defined in [src/typings.ts:845](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L845)*
+*Defined in [src/typings.ts:876](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L876)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **makerTokenDecimals**: number
 
-*Defined in [src/typings.ts:843](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L843)*
+*Defined in [src/typings.ts:874](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L874)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • `Optional` **takerTokenDecimals**: number
 
-*Defined in [src/typings.ts:844](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L844)*
+*Defined in [src/typings.ts:875](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L875)*

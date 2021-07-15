@@ -16,7 +16,7 @@ sidebar_label: "PathObject"
 
 •  **feePayer**: [FeePayer](../enums/_typings_.feepayer.md)
 
-*Defined in [src/typings.ts:480](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L480)*
+*Defined in [src/typings.ts:495](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L495)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **isNetwork**: boolean
 
-*Defined in [src/typings.ts:482](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L482)*
+*Defined in [src/typings.ts:497](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L497)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **maxFees**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:481](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L481)*
+*Defined in [src/typings.ts:496](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L496)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 •  **path**: string[]
 
-*Defined in [src/typings.ts:479](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L479)*
+*Defined in [src/typings.ts:494](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L494)*

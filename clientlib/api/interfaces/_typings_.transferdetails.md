@@ -16,7 +16,7 @@ sidebar_label: "TransferDetails"
 
 •  **currencyNetwork**: string
 
-*Defined in [src/typings.ts:734](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L734)*
+*Defined in [src/typings.ts:765](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L765)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **extraData**: string
 
-*Defined in [src/typings.ts:739](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L739)*
+*Defined in [src/typings.ts:770](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L770)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **feePayer**: [FeePayer](../enums/_typings_.feepayer.md)
 
-*Defined in [src/typings.ts:736](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L736)*
+*Defined in [src/typings.ts:767](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L767)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **feesPaid**: [Amount](_typings_.amount.md)[]
 
-*Defined in [src/typings.ts:738](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L738)*
+*Defined in [src/typings.ts:769](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L769)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **path**: string[]
 
-*Defined in [src/typings.ts:733](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L733)*
+*Defined in [src/typings.ts:764](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L764)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **paymentRequestId**: string
 
-*Defined in [src/typings.ts:740](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L740)*
+*Defined in [src/typings.ts:771](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L771)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **remainingData**: string
 
-*Defined in [src/typings.ts:742](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L742)*
+*Defined in [src/typings.ts:773](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L773)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **totalFees**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:737](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L737)*
+*Defined in [src/typings.ts:768](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L768)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **transferId**: string
 
-*Defined in [src/typings.ts:741](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L741)*
+*Defined in [src/typings.ts:772](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L772)*
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 •  **value**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:735](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L735)*
+*Defined in [src/typings.ts:766](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L766)*

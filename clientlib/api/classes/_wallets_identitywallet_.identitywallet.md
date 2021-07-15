@@ -20,7 +20,7 @@ sidebar_label: "IdentityWallet"
 
 \+ **new IdentityWallet**(`provider`: [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md), `chainId`: number, `identityFactoryAddress`: string, `identityImplementationAddress`: string, `nonceMechanism`: [NonceMechanism](../enums/_typings_.noncemechanism.md)): [IdentityWallet](_wallets_identitywallet_.identitywallet.md)
 
-*Defined in [src/wallets/IdentityWallet.ts:53](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L53)*
+*Defined in [src/wallets/IdentityWallet.ts:53](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L53)*
 
 #### Parameters:
 
@@ -40,7 +40,7 @@ Name | Type |
 
 •  **provider**: [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md)
 
-*Defined in [src/wallets/IdentityWallet.ts:45](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L45)*
+*Defined in [src/wallets/IdentityWallet.ts:45](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L45)*
 
 ## Accessors
 
@@ -48,7 +48,7 @@ Name | Type |
 
 • get **address**(): string
 
-*Defined in [src/wallets/IdentityWallet.ts:70](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L70)*
+*Defined in [src/wallets/IdentityWallet.ts:70](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L70)*
 
 **Returns:** string
 
@@ -58,7 +58,7 @@ Name | Type |
 
 ▸ **buildMetaTransaction**(`rawTx`: [RawTxObject](../interfaces/_typings_.rawtxobject.md)): [MetaTransaction](../interfaces/_typings_.metatransaction.md)
 
-*Defined in [src/wallets/IdentityWallet.ts:427](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L427)*
+*Defined in [src/wallets/IdentityWallet.ts:427](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L427)*
 
 #### Parameters:
 
@@ -76,7 +76,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:280](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L280)*
+*Defined in [src/wallets/IdentityWallet.ts:280](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L280)*
 
 Takes a raw transaction object, turns it into a meta-transaction signed by
 the loaded user and relays the transaction.
@@ -99,7 +99,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:101](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L101)*
+*Defined in [src/wallets/IdentityWallet.ts:101](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L101)*
 
 Creates wallet data of type `identity`.
 
@@ -113,7 +113,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:262](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L262)*
+*Defined in [src/wallets/IdentityWallet.ts:262](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L262)*
 
 #### Parameters:
 
@@ -132,7 +132,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:113](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L113)*
+*Defined in [src/wallets/IdentityWallet.ts:113](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L113)*
 
 Deploys a new identity contract on the chain
 
@@ -146,7 +146,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:258](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L258)*
+*Defined in [src/wallets/IdentityWallet.ts:258](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L258)*
 
 #### Parameters:
 
@@ -163,7 +163,7 @@ ___
 
 ▸ **encryptToSerializedKeystore**(`walletData`: [IdentityWalletData](../interfaces/_typings_.identitywalletdata.md), `password`: string, `progressCallback?`: (progress: number) => any): Promise&#60;string>
 
-*Defined in [src/wallets/IdentityWallet.ts:414](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L414)*
+*Defined in [src/wallets/IdentityWallet.ts:414](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L414)*
 
 Returns a serialized encrypted ethereum JSON keystore v3.
 
@@ -185,7 +185,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:251](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L251)*
+*Defined in [src/wallets/IdentityWallet.ts:251](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L251)*
 
 Returns a `Promise` with the private key of loaded user.
 
@@ -199,7 +199,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:77](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L77)*
+*Defined in [src/wallets/IdentityWallet.ts:77](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L77)*
 
 **Returns:** Promise&#60;string>
 
@@ -211,7 +211,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:91](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L91)*
+*Defined in [src/wallets/IdentityWallet.ts:91](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L91)*
 
 **Returns:** Promise&#60;[Amount](../interfaces/_typings_.amount.md)>
 
@@ -221,7 +221,7 @@ ___
 
 ▸ **getIdentityImplementationAddress**(): Promise&#60;string>
 
-*Defined in [src/wallets/IdentityWallet.ts:169](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L169)*
+*Defined in [src/wallets/IdentityWallet.ts:169](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L169)*
 
 **Returns:** Promise&#60;string>
 
@@ -233,7 +233,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:394](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L394)*
+*Defined in [src/wallets/IdentityWallet.ts:394](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L394)*
 
 #### Parameters:
 
@@ -249,7 +249,7 @@ ___
 
 ▸ **getNonce**(): Promise&#60;string>
 
-*Defined in [src/wallets/IdentityWallet.ts:447](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L447)*
+*Defined in [src/wallets/IdentityWallet.ts:447](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L447)*
 
 **Returns:** Promise&#60;string>
 
@@ -261,7 +261,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:401](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L401)*
+*Defined in [src/wallets/IdentityWallet.ts:401](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L401)*
 
 #### Parameters:
 
@@ -279,7 +279,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:84](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L84)*
+*Defined in [src/wallets/IdentityWallet.ts:84](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L84)*
 
 **Returns:** Promise&#60;[IdentityWalletData](../interfaces/_typings_.identitywalletdata.md)>
 
@@ -289,7 +289,7 @@ ___
 
 ▸ **hashMetaTransaction**(`metaTransaction`: [MetaTransaction](../interfaces/_typings_.metatransaction.md)): Promise&#60;string>
 
-*Defined in [src/wallets/IdentityWallet.ts:302](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L302)*
+*Defined in [src/wallets/IdentityWallet.ts:302](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L302)*
 
 #### Parameters:
 
@@ -307,7 +307,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:294](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L294)*
+*Defined in [src/wallets/IdentityWallet.ts:294](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L294)*
 
 Return the meta-tx hash for given raw transaction for loaded user
 
@@ -327,7 +327,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:143](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L143)*
+*Defined in [src/wallets/IdentityWallet.ts:143](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L143)*
 
 **Returns:** Promise&#60;boolean>
 
@@ -337,7 +337,7 @@ ___
 
 ▸ **isIdentityImplementationUpToDate**(): Promise&#60;boolean>
 
-*Defined in [src/wallets/IdentityWallet.ts:162](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L162)*
+*Defined in [src/wallets/IdentityWallet.ts:162](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L162)*
 
 **Returns:** Promise&#60;boolean>
 
@@ -347,7 +347,7 @@ ___
 
 ▸ **loadFrom**(`walletData`: [IdentityWalletData](../interfaces/_typings_.identitywalletdata.md)): Promise&#60;void>
 
-*Defined in [src/wallets/IdentityWallet.ts:177](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L177)*
+*Defined in [src/wallets/IdentityWallet.ts:177](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L177)*
 
 Loads given wallet data of type `identity`.
 
@@ -365,7 +365,7 @@ ___
 
 ▸ **prepareImplementationUpdate**(`transaction`: [Transaction](_transaction_.transaction.md), `options?`: [TxOptionsInternal](../interfaces/_typings_.txoptionsinternal.md)): Promise&#60;[TxObjectInternal](../interfaces/_typings_.txobjectinternal.md)>
 
-*Defined in [src/wallets/IdentityWallet.ts:463](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L463)*
+*Defined in [src/wallets/IdentityWallet.ts:463](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L463)*
 
 #### Parameters:
 
@@ -384,7 +384,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:358](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L358)*
+*Defined in [src/wallets/IdentityWallet.ts:358](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L358)*
 
 #### Parameters:
 
@@ -400,7 +400,7 @@ ___
 
 ▸ **recoverFromEncryptedKeystore**(`serializedEncryptedKeystore`: string, `password`: string, `progressCallback?`: (progress: number) => any): Promise&#60;[IdentityWalletData](../interfaces/_typings_.identitywalletdata.md)>
 
-*Defined in [src/wallets/IdentityWallet.ts:192](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L192)*
+*Defined in [src/wallets/IdentityWallet.ts:192](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L192)*
 
 Recovers wallet data from a serialized encrypted ethereum JSON keystore v3
 (e.g. as returned by `encryptToSerializedKeystore`).
@@ -423,7 +423,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:227](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L227)*
+*Defined in [src/wallets/IdentityWallet.ts:227](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L227)*
 
 Recovers wallet data from private key.
 Note that mnemonic and derivation path is `undefined` here.
@@ -444,7 +444,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:213](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L213)*
+*Defined in [src/wallets/IdentityWallet.ts:213](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L213)*
 
 Recovers wallet data from mnemonic phrase.
 
@@ -464,7 +464,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:241](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L241)*
+*Defined in [src/wallets/IdentityWallet.ts:241](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L241)*
 
 Returns a `Promise` with the mnemonic seed phrase of loaded user.
 
@@ -476,7 +476,7 @@ ___
 
 ▸ **signMessage**(`message`: ethersUtils.Arrayish): Promise&#60;[Signature](../interfaces/_typings_.signature.md)>
 
-*Defined in [src/wallets/IdentityWallet.ts:270](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L270)*
+*Defined in [src/wallets/IdentityWallet.ts:270](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L270)*
 
 #### Parameters:
 
@@ -492,7 +492,7 @@ ___
 
 ▸ **signMetaTransaction**(`metaTransaction`: [MetaTransaction](../interfaces/_typings_.metatransaction.md)): Promise&#60;string>
 
-*Defined in [src/wallets/IdentityWallet.ts:349](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L349)*
+*Defined in [src/wallets/IdentityWallet.ts:349](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L349)*
 
 #### Parameters:
 
@@ -510,7 +510,7 @@ ___
 
 *Implementation of [TLWallet](../interfaces/_wallets_tlwallet_.tlwallet.md)*
 
-*Defined in [src/wallets/IdentityWallet.ts:266](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/wallets/IdentityWallet.ts#L266)*
+*Defined in [src/wallets/IdentityWallet.ts:266](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/wallets/IdentityWallet.ts#L266)*
 
 #### Parameters:
 
