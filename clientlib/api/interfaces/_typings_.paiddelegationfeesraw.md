@@ -16,7 +16,7 @@ sidebar_label: "PaidDelegationFeesRaw"
 
 •  **currencyNetworkOfFees**: string
 
-*Defined in [src/typings.ts:435](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L435)*
+*Defined in [src/typings.ts:450](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L450)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **feeRecipient**: string
 
-*Defined in [src/typings.ts:433](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L433)*
+*Defined in [src/typings.ts:448](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L448)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **feeSender**: string
 
-*Defined in [src/typings.ts:432](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L432)*
+*Defined in [src/typings.ts:447](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L447)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 •  **totalFee**: string
 
-*Defined in [src/typings.ts:434](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L434)*
+*Defined in [src/typings.ts:449](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L449)*

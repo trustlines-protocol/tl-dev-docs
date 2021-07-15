@@ -16,7 +16,7 @@ sidebar_label: "UserOverview"
 
 •  **balance**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:520](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L520)*
+*Defined in [src/typings.ts:535](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L535)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **frozenBalance**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:521](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L521)*
+*Defined in [src/typings.ts:536](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L536)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **given**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:522](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L522)*
+*Defined in [src/typings.ts:537](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L537)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **leftGiven**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:524](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L524)*
+*Defined in [src/typings.ts:539](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L539)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **leftReceived**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:525](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L525)*
+*Defined in [src/typings.ts:540](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L540)*
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 •  **received**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:523](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L523)*
+*Defined in [src/typings.ts:538](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L538)*

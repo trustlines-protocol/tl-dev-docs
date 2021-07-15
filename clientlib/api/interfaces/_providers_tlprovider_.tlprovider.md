@@ -23,7 +23,7 @@ abstract class of `ethers.js`.
 
 •  **ApiUrl**: string
 
-*Defined in [src/providers/TLProvider.ts:16](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L16)*
+*Defined in [src/providers/TLProvider.ts:16](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L16)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 •  **WsApiUrl**: string
 
-*Defined in [src/providers/TLProvider.ts:17](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L17)*
+*Defined in [src/providers/TLProvider.ts:17](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L17)*
 
 ## Methods
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **createWebsocketStream**(`endpoint`: string, `functionName`: string, `args`: object, `reconnectingOptions?`: [ReconnectingWSOptions](../modules/_typings_.md#reconnectingwsoptions)): any
 
-*Defined in [src/providers/TLProvider.ts:20](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L20)*
+*Defined in [src/providers/TLProvider.ts:20](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L20)*
 
 #### Parameters:
 
@@ -58,7 +58,7 @@ ___
 
 ▸ **fetchEndpoint**&#60;T>(`endpoint`: string, `options?`: object): Promise&#60;T>
 
-*Defined in [src/providers/TLProvider.ts:18](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L18)*
+*Defined in [src/providers/TLProvider.ts:18](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L18)*
 
 #### Type parameters:
 
@@ -81,7 +81,7 @@ ___
 
 ▸ **getBalance**(`userAddress`: string): Promise&#60;[Amount](_typings_.amount.md)>
 
-*Defined in [src/providers/TLProvider.ts:35](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L35)*
+*Defined in [src/providers/TLProvider.ts:35](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L35)*
 
 #### Parameters:
 
@@ -97,7 +97,7 @@ ___
 
 ▸ **getIdentityImplementationAddress**(`userAddress`: string): Promise&#60;string>
 
-*Defined in [src/providers/TLProvider.ts:29](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L29)*
+*Defined in [src/providers/TLProvider.ts:29](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L29)*
 
 #### Parameters:
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **getIdentityNonce**(`userAddress`: string): Promise&#60;number>
 
-*Defined in [src/providers/TLProvider.ts:28](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L28)*
+*Defined in [src/providers/TLProvider.ts:28](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L28)*
 
 #### Parameters:
 
@@ -129,7 +129,7 @@ ___
 
 ▸ **getMetaTxFees**(`metaTransaction`: [MetaTransaction](_typings_.metatransaction.md)): Promise&#60;[MetaTransactionFees](_typings_.metatransactionfees.md)>
 
-*Defined in [src/providers/TLProvider.ts:30](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L30)*
+*Defined in [src/providers/TLProvider.ts:30](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L30)*
 
 #### Parameters:
 
@@ -145,7 +145,7 @@ ___
 
 ▸ **getMetaTxStatus**(`identityAddress`: string, `metaTransactionHash`: string): Promise&#60;[MetaTransactionStatus](_typings_.metatransactionstatus.md)>
 
-*Defined in [src/providers/TLProvider.ts:31](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L31)*
+*Defined in [src/providers/TLProvider.ts:31](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L31)*
 
 #### Parameters:
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **getTxInfos**(`userAddress`: string): Promise&#60;[TxInfos](_typings_.txinfos.md)>
 
-*Defined in [src/providers/TLProvider.ts:26](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L26)*
+*Defined in [src/providers/TLProvider.ts:26](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L26)*
 
 #### Parameters:
 
@@ -178,7 +178,7 @@ ___
 
 ▸ **getTxStatus**(`txHash`: string): Promise&#60;[TransactionStatusObject](_typings_.transactionstatusobject.md)>
 
-*Defined in [src/providers/TLProvider.ts:27](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L27)*
+*Defined in [src/providers/TLProvider.ts:27](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L27)*
 
 #### Parameters:
 
@@ -194,7 +194,7 @@ ___
 
 ▸ **postToEndpoint**&#60;T>(`endpoint`: string, `data`: any): Promise&#60;T>
 
-*Defined in [src/providers/TLProvider.ts:19](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L19)*
+*Defined in [src/providers/TLProvider.ts:19](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L19)*
 
 #### Type parameters:
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **sendSignedMetaTransaction**(`metaTransaction`: [MetaTransaction](_typings_.metatransaction.md)): Promise&#60;string>
 
-*Defined in [src/providers/TLProvider.ts:37](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L37)*
+*Defined in [src/providers/TLProvider.ts:37](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L37)*
 
 #### Parameters:
 
@@ -233,7 +233,7 @@ ___
 
 ▸ **sendSignedTransaction**(`signedTransaction`: string): Promise&#60;string>
 
-*Defined in [src/providers/TLProvider.ts:36](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/providers/TLProvider.ts#L36)*
+*Defined in [src/providers/TLProvider.ts:36](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/providers/TLProvider.ts#L36)*
 
 #### Parameters:
 

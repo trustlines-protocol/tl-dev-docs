@@ -20,7 +20,7 @@ sidebar_label: "UsernameMessage"
 
 *Inherited from [PaymentRequestMessage](_typings_.paymentrequestmessage.md).[direction](_typings_.paymentrequestmessage.md#direction)*
 
-*Defined in [src/typings.ts:214](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L214)*
+*Defined in [src/typings.ts:229](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L229)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 *Inherited from [PaymentRequestMessage](_typings_.paymentrequestmessage.md).[from](_typings_.paymentrequestmessage.md#from)*
 
-*Defined in [src/typings.ts:212](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L212)*
+*Defined in [src/typings.ts:227](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L227)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 *Inherited from [PaymentRequestMessage](_typings_.paymentrequestmessage.md).[to](_typings_.paymentrequestmessage.md#to)*
 
-*Defined in [src/typings.ts:213](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L213)*
+*Defined in [src/typings.ts:228](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L228)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 *Inherited from [PaymentRequestMessage](_typings_.paymentrequestmessage.md).[type](_typings_.paymentrequestmessage.md#type)*
 
-*Defined in [src/typings.ts:211](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L211)*
+*Defined in [src/typings.ts:226](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L226)*
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 •  **username**: string
 
-*Defined in [src/typings.ts:239](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L239)*
+*Defined in [src/typings.ts:254](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L254)*

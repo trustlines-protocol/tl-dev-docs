@@ -12,7 +12,7 @@ sidebar_label: "FeePayer"
 
 •  **Receiver**:  = "receiver"
 
-*Defined in [src/typings.ts:449](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L449)*
+*Defined in [src/typings.ts:464](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L464)*
 
 ___
 
@@ -20,4 +20,4 @@ ___
 
 •  **Sender**:  = "sender"
 
-*Defined in [src/typings.ts:448](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L448)*
+*Defined in [src/typings.ts:463](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L463)*
