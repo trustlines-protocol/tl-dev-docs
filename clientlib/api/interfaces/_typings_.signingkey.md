@@ -16,7 +16,7 @@ sidebar_label: "SigningKey"
 
 •  **mnemonic**: string
 
-*Defined in [src/typings.ts:577](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L577)*
+*Defined in [src/typings.ts:592](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L592)*
 
 ___
 
@@ -24,4 +24,4 @@ ___
 
 •  **privateKey**: string
 
-*Defined in [src/typings.ts:576](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L576)*
+*Defined in [src/typings.ts:591](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L591)*

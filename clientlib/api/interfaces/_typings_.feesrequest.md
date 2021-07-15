@@ -16,7 +16,7 @@ sidebar_label: "FeesRequest"
 
 •  **exchangeContractAddress**: string
 
-*Defined in [src/typings.ts:825](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L825)*
+*Defined in [src/typings.ts:856](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L856)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 •  **expirationUnixTimestampSec**: BigNumber
 
-*Defined in [src/typings.ts:826](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L826)*
+*Defined in [src/typings.ts:857](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L857)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **maker**: string
 
-*Defined in [src/typings.ts:827](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L827)*
+*Defined in [src/typings.ts:858](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L858)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **makerTokenAddress**: string
 
-*Defined in [src/typings.ts:828](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L828)*
+*Defined in [src/typings.ts:859](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L859)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **makerTokenAmount**: BigNumber
 
-*Defined in [src/typings.ts:829](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L829)*
+*Defined in [src/typings.ts:860](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L860)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **salt**: BigNumber
 
-*Defined in [src/typings.ts:830](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L830)*
+*Defined in [src/typings.ts:861](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L861)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **taker**: string
 
-*Defined in [src/typings.ts:831](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L831)*
+*Defined in [src/typings.ts:862](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L862)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **takerTokenAddress**: string
 
-*Defined in [src/typings.ts:832](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L832)*
+*Defined in [src/typings.ts:863](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L863)*
 
 ___
 
@@ -80,4 +80,4 @@ ___
 
 •  **takerTokenAmount**: BigNumber
 
-*Defined in [src/typings.ts:833](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L833)*
+*Defined in [src/typings.ts:864](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L864)*

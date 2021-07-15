@@ -20,7 +20,7 @@ sidebar_label: "NetworkDetailsRaw"
 
 *Inherited from [Network](_typings_.network.md).[abbreviation](_typings_.network.md#abbreviation)*
 
-*Defined in [src/typings.ts:495](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L495)*
+*Defined in [src/typings.ts:510](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L510)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 *Inherited from [Network](_typings_.network.md).[address](_typings_.network.md#address)*
 
-*Defined in [src/typings.ts:496](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L496)*
+*Defined in [src/typings.ts:511](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L511)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 •  **customInterests**: boolean
 
-*Defined in [src/typings.ts:514](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L514)*
+*Defined in [src/typings.ts:529](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L529)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 •  **decimals**: number
 
-*Defined in [src/typings.ts:510](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L510)*
+*Defined in [src/typings.ts:525](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L525)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 •  **defaultInterestRate**: string
 
-*Defined in [src/typings.ts:512](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L512)*
+*Defined in [src/typings.ts:527](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L527)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 •  **interestRateDecimals**: number
 
-*Defined in [src/typings.ts:513](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L513)*
+*Defined in [src/typings.ts:528](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L528)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 •  **isFrozen**: boolean
 
-*Defined in [src/typings.ts:516](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L516)*
+*Defined in [src/typings.ts:531](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L531)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 *Inherited from [Network](_typings_.network.md).[name](_typings_.network.md#name)*
 
-*Defined in [src/typings.ts:494](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L494)*
+*Defined in [src/typings.ts:509](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L509)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **numUsers**: number
 
-*Defined in [src/typings.ts:511](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L511)*
+*Defined in [src/typings.ts:526](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L526)*
 
 ___
 
@@ -96,4 +96,4 @@ ___
 
 •  **preventMediatorInterests**: boolean
 
-*Defined in [src/typings.ts:515](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L515)*
+*Defined in [src/typings.ts:530](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L530)*

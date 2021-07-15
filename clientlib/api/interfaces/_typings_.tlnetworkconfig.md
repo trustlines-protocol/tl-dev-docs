@@ -18,7 +18,7 @@ Configuration object for a TLNetwork instance
 
 • `Optional` **chainId**: number
 
-*Defined in [src/typings.ts:35](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L35)*
+*Defined in [src/typings.ts:35](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L35)*
 
 Chain id used in the signature of meta-tx
 
@@ -28,7 +28,7 @@ ___
 
 • `Optional` **identityFactoryAddress**: string
 
-*Defined in [src/typings.ts:27](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L27)*
+*Defined in [src/typings.ts:27](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L27)*
 
 Address of the identity factory
 
@@ -38,7 +38,7 @@ ___
 
 • `Optional` **identityImplementationAddress**: string
 
-*Defined in [src/typings.ts:31](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L31)*
+*Defined in [src/typings.ts:31](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L31)*
 
 Address of the implementation of the identity contract
 
@@ -48,7 +48,7 @@ ___
 
 • `Optional` **messagingUrl**: string \| [ProviderUrl](_typings_.providerurl.md)
 
-*Defined in [src/typings.ts:15](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L15)*
+*Defined in [src/typings.ts:15](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L15)*
 
 ProviderUrl object or full url for the messaging api
 
@@ -58,7 +58,7 @@ ___
 
 • `Optional` **nonceMechanism**: [NonceMechanism](../enums/_typings_.noncemechanism.md)
 
-*Defined in [src/typings.ts:39](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L39)*
+*Defined in [src/typings.ts:39](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L39)*
 
 Mechanism how to generate nonces for identity meta-tx
 
@@ -68,7 +68,7 @@ ___
 
 • `Optional` **relayUrl**: string \| [ProviderUrl](_typings_.providerurl.md)
 
-*Defined in [src/typings.ts:11](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L11)*
+*Defined in [src/typings.ts:11](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L11)*
 
 ProviderUrl object or full url for the relay api
 
@@ -78,7 +78,7 @@ ___
 
 • `Optional` **walletType**: string
 
-*Defined in [src/typings.ts:23](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L23)*
+*Defined in [src/typings.ts:23](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L23)*
 
 Full URL for trustline rest api
 
@@ -88,6 +88,6 @@ ___
 
 • `Optional` **web3Provider**: any
 
-*Defined in [src/typings.ts:19](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L19)*
+*Defined in [src/typings.ts:19](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L19)*
 
 Web3 provider

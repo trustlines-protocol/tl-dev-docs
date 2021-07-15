@@ -16,7 +16,7 @@ sidebar_label: "PaymentRequestDeclineMessage"
 
 •  **id**: string
 
-*Defined in [src/typings.ts:228](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L228)*
+*Defined in [src/typings.ts:243](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L243)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Optional` **subject**: string
 
-*Defined in [src/typings.ts:229](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L229)*
+*Defined in [src/typings.ts:244](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L244)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 •  **type**: string
 
-*Defined in [src/typings.ts:227](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L227)*
+*Defined in [src/typings.ts:242](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L242)*

@@ -45,7 +45,7 @@ sidebar_label: "utils"
 
 • `Const` **DELEGATION\_GAS\_PRICE\_DIVISOR**: 1000000 = 1000000
 
-*Defined in [src/utils.ts:313](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L313)*
+*Defined in [src/utils.ts:313](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L313)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • `Const` **defaultBaseUrl**: &#34;trustlines://&#34; = "trustlines://"
 
-*Defined in [src/utils.ts:36](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L36)*
+*Defined in [src/utils.ts:36](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L36)*
 
 ## Functions
 
@@ -61,7 +61,7 @@ ___
 
 ▸ `Const`**buildApiUrl**(`UrlObject`: [ProviderUrl](../interfaces/_typings_.providerurl.md)): string
 
-*Defined in [src/utils.ts:491](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L491)*
+*Defined in [src/utils.ts:499](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L499)*
 
 Returns URL by concatenating protocol, host, port and path from ProviderUrl object.
 
@@ -79,7 +79,7 @@ ___
 
 ▸ `Const`**buildUrl**(`baseUrl?`: string, `options?`: { path?: string[] ; query?: object  }): string
 
-*Defined in [src/utils.ts:132](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L132)*
+*Defined in [src/utils.ts:132](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L132)*
 
 Encodes URI components and returns a URL.
 
@@ -98,7 +98,7 @@ ___
 
 ▸ `Const`**buildWsApiUrl**(`UrlObject`: [ProviderUrl](../interfaces/_typings_.providerurl.md)): string
 
-*Defined in [src/utils.ts:503](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L503)*
+*Defined in [src/utils.ts:511](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L511)*
 
 Returns URL by concatenating protocol, host, port and path.
 
@@ -116,7 +116,7 @@ ___
 
 ▸ `Const`**calcRaw**(`value`: number \| string \| BigNumber, `decimals`: number): BigNumber
 
-*Defined in [src/utils.ts:170](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L170)*
+*Defined in [src/utils.ts:170](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L170)*
 
 Returns the smallest representation of a number.
 
@@ -135,7 +135,7 @@ ___
 
 ▸ `Const`**calcValue**(`raw`: number \| string \| BigNumber, `decimals`: number): BigNumber
 
-*Defined in [src/utils.ts:183](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L183)*
+*Defined in [src/utils.ts:183](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L183)*
 
 Returns the biggest representation of a number.
 
@@ -154,7 +154,7 @@ ___
 
 ▸ `Const`**calculateDelegationFees**(`baseFee`: number \| string \| BigNumber, `gasPrice`: number \| string \| BigNumber, `gasLimit`: number \| string \| BigNumber): BigNumber
 
-*Defined in [src/utils.ts:296](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L296)*
+*Defined in [src/utils.ts:296](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L296)*
 
 #### Parameters:
 
@@ -172,7 +172,7 @@ ___
 
 ▸ `Const`**calculateDelegationFeesAmount**(`delegationFees`: [DelegationFeesInternal](../interfaces/_typings_.delegationfeesinternal.md), `gasLimit`: number): [Amount](../interfaces/_typings_.amount.md)
 
-*Defined in [src/utils.ts:280](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L280)*
+*Defined in [src/utils.ts:280](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L280)*
 
 #### Parameters:
 
@@ -189,7 +189,7 @@ ___
 
 ▸ `Const`**checkAddress**(`address`: string): boolean
 
-*Defined in [src/utils.ts:393](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L393)*
+*Defined in [src/utils.ts:394](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L394)*
 
 Checks if given address is a valid address
 
@@ -207,7 +207,7 @@ ___
 
 ▸ `Const`**convertEthToWei**(`value`: number \| string): number
 
-*Defined in [src/utils.ts:405](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L405)*
+*Defined in [src/utils.ts:406](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L406)*
 
 Converts eth to wei
 
@@ -225,7 +225,7 @@ ___
 
 ▸ `Const`**convertHexStringToNumber**(`hexString`: string): number
 
-*Defined in [src/utils.ts:437](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L437)*
+*Defined in [src/utils.ts:445](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L445)*
 
 Return the number representation of the given hex string.
 
@@ -243,7 +243,7 @@ ___
 
 ▸ `Const`**convertToAmount**(`amount`: [AmountInternal](../interfaces/_typings_.amountinternal.md)): [Amount](../interfaces/_typings_.amount.md)
 
-*Defined in [src/utils.ts:211](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L211)*
+*Defined in [src/utils.ts:211](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L211)*
 
 Converts an AmountInternal to Amount object.
 
@@ -261,7 +261,7 @@ ___
 
 ▸ `Const`**convertToDelegationFees**(`delegationFees`: [DelegationFeesInternal](../interfaces/_typings_.delegationfeesinternal.md)): [DelegationFeesObject](../interfaces/_typings_.delegationfeesobject.md)
 
-*Defined in [src/utils.ts:270](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L270)*
+*Defined in [src/utils.ts:270](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L270)*
 
 Formats DelegationFeesInternal into a DelegationFeesObject.
 
@@ -279,7 +279,7 @@ ___
 
 ▸ `Const`**convertToHexString**(`decimalStr`: string \| number \| BigNumber): string
 
-*Defined in [src/utils.ts:415](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L415)*
+*Defined in [src/utils.ts:416](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L416)*
 
 Returns the hexdecimal representation of given decimal string. The value has to be an integer.
 
@@ -297,7 +297,7 @@ ___
 
 ▸ `Const`**fetchUrl**&#60;T>(`url`: string, `options?`: object): Promise&#60;T>
 
-*Defined in [src/utils.ts:43](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L43)*
+*Defined in [src/utils.ts:43](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L43)*
 
 Returns a `Promise` with a JSON object from given URL.
 
@@ -322,7 +322,7 @@ ___
 
 ▸ `Const`**formatEndpoint**(`endpoint`: string): string
 
-*Defined in [src/utils.ts:514](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L514)*
+*Defined in [src/utils.ts:522](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L522)*
 
 Adds a slash to the endpoint if it does not start with it.
 
@@ -340,7 +340,7 @@ ___
 
 ▸ `Const`**formatEvent**&#60;T>(`event`: any, `networkDecimals`: number, `interestRateDecimals`: number): T
 
-*Defined in [src/utils.ts:321](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L321)*
+*Defined in [src/utils.ts:321](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L321)*
 
 Formats the number values of a raw event returned by the relay.
 
@@ -366,7 +366,7 @@ ___
 
 ▸ `Const`**formatExchangeEvent**(`exchangeEvent`: [AnyExchangeEventRaw](_typings_.md#anyexchangeeventraw), `makerDecimals`: number, `takerDecimals`: number): [AnyExchangeEvent](_typings_.md#anyexchangeevent)
 
-*Defined in [src/utils.ts:354](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L354)*
+*Defined in [src/utils.ts:355](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L355)*
 
 Formats the number values of a raw Exchange event as returned by the relay.
 
@@ -386,7 +386,7 @@ ___
 
 ▸ `Const`**formatToAmount**(`raw`: number \| string \| BigNumber, `decimals`: number): [Amount](../interfaces/_typings_.amount.md)
 
-*Defined in [src/utils.ts:224](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L224)*
+*Defined in [src/utils.ts:224](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L224)*
 
 Formats raw representation of number into a Amount object.
 
@@ -405,7 +405,7 @@ ___
 
 ▸ `Const`**formatToAmountInternal**(`raw`: number \| string \| BigNumber, `decimals`: number): [AmountInternal](../interfaces/_typings_.amountinternal.md)
 
-*Defined in [src/utils.ts:196](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L196)*
+*Defined in [src/utils.ts:196](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L196)*
 
 Formats number into an AmountInternal object which is intended for internal use.
 
@@ -424,7 +424,7 @@ ___
 
 ▸ `Const`**formatToDelegationFeesInternal**(`baseFee`: number \| string \| BigNumber, `decimals`: number, `gasPrice`: number \| string \| BigNumber, `currencyNetworkOfFees`: string): [DelegationFeesInternal](../interfaces/_typings_.delegationfeesinternal.md)
 
-*Defined in [src/utils.ts:241](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L241)*
+*Defined in [src/utils.ts:241](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L241)*
 
 Formats number into an AmountInternal object which is intended for internal use.
 
@@ -445,7 +445,7 @@ ___
 
 ▸ `Const`**formatToFeePayer**(`feePayer`: string): [FeePayer](../enums/_typings_.feepayer.md)
 
-*Defined in [src/utils.ts:262](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L262)*
+*Defined in [src/utils.ts:262](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L262)*
 
 #### Parameters:
 
@@ -461,7 +461,7 @@ ___
 
 ▸ `Const`**generateRandomNumber**(`decimals`: number): BigNumber
 
-*Defined in [src/utils.ts:458](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L458)*
+*Defined in [src/utils.ts:466](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L466)*
 
 Generates a random number with specified decimals.
 
@@ -479,7 +479,7 @@ ___
 
 ▸ `Const`**isURL**(`str`: any): boolean
 
-*Defined in [src/utils.ts:471](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L471)*
+*Defined in [src/utils.ts:479](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L479)*
 
 Checks if given string is a valid url.
 
@@ -497,7 +497,7 @@ ___
 
 ▸ `Const`**trimUrl**(`url`: string): string
 
-*Defined in [src/utils.ts:525](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L525)*
+*Defined in [src/utils.ts:533](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L533)*
 
 Trims url from slashes.
 
@@ -515,7 +515,7 @@ ___
 
 ▸ `Const`**websocketStream**(`url`: string, `functionName`: string, `args`: object, `reconnectingOptions?`: [ReconnectingWSOptions](_typings_.md#reconnectingwsoptions)): Observable&#60;any>
 
-*Defined in [src/utils.ts:65](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/utils.ts#L65)*
+*Defined in [src/utils.ts:65](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/utils.ts#L65)*
 
 Returns an Observable for a websocket stream.
 

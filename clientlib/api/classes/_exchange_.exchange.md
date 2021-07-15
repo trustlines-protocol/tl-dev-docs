@@ -19,7 +19,7 @@ and more.
 
 \+ **new Exchange**(`params`: { currencyNetwork: [CurrencyNetwork](_currencynetwork_.currencynetwork.md) ; event: [Event](_event_.event.md) ; payment: [Payment](_payment_.payment.md) ; provider: [TLProvider](../interfaces/_providers_tlprovider_.tlprovider.md) ; transaction: [Transaction](_transaction_.transaction.md) ; user: [User](_user_.user.md)  }): [Exchange](_exchange_.exchange.md)
 
-*Defined in [src/Exchange.ts:51](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L51)*
+*Defined in [src/Exchange.ts:51](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L51)*
 
 #### Parameters:
 
@@ -35,7 +35,7 @@ Name | Type |
 
 ▸ **confirm**(`rawTx`: [RawTxObject](../interfaces/_typings_.rawtxobject.md)): Promise&#60;string>
 
-*Defined in [src/Exchange.ts:421](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L421)*
+*Defined in [src/Exchange.ts:421](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L421)*
 
 Signs a raw transaction object as returned by `prepCancelOrder` or `prepFillOrder`
 and sends the signed transaction.
@@ -54,7 +54,7 @@ ___
 
 ▸ **getExAddresses**(): Promise&#60;string[]>
 
-*Defined in [src/Exchange.ts:72](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L72)*
+*Defined in [src/Exchange.ts:72](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L72)*
 
 Returns all known exchange contract addresses.
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **getLogs**(`exchangeAddress`: string, `filter?`: [EventFilterOptions](../interfaces/_typings_.eventfilteroptions.md)): Promise&#60;[AnyExchangeEvent](../modules/_typings_.md#anyexchangeevent)[]>
 
-*Defined in [src/Exchange.ts:432](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L432)*
+*Defined in [src/Exchange.ts:432](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L432)*
 
 Returns event logs of the Exchange contract for the loaded user.
 
@@ -85,7 +85,7 @@ ___
 
 ▸ **getOrderByHash**(`orderHash`: string, `options?`: [OrderOptions](../interfaces/_typings_.orderoptions.md)): Promise&#60;[SignedOrder](../interfaces/_typings_.signedorder.md)>
 
-*Defined in [src/Exchange.ts:85](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L85)*
+*Defined in [src/Exchange.ts:85](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L85)*
 
 Returns a specific order by its hash.
 
@@ -104,7 +104,7 @@ ___
 
 ▸ **getOrderbook**(`baseTokenAddress`: string, `quoteTokenAddress`: string, `options?`: [OrderbookOptions](../interfaces/_typings_.orderbookoptions.md)): Promise&#60;[Orderbook](../interfaces/_typings_.orderbook.md)>
 
-*Defined in [src/Exchange.ts:155](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L155)*
+*Defined in [src/Exchange.ts:155](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L155)*
 
 Returns the orderbook for a given token pair.
 
@@ -124,7 +124,7 @@ ___
 
 ▸ **getOrders**(`query?`: [OrdersQuery](../interfaces/_typings_.ordersquery.md)): Promise&#60;[SignedOrder](../interfaces/_typings_.signedorder.md)[]>
 
-*Defined in [src/Exchange.ts:118](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L118)*
+*Defined in [src/Exchange.ts:118](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L118)*
 
 Returns orders that match given query parameters.
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **makeOrder**(`exchangeContractAddress`: string, `makerTokenAddress`: string, `takerTokenAddress`: string, `makerTokenValue`: number \| string, `takerTokenValue`: number \| string, `options?`: [ExchangeOptions](../interfaces/_typings_.exchangeoptions.md)): Promise&#60;[SignedOrder](../interfaces/_typings_.signedorder.md)>
 
-*Defined in [src/Exchange.ts:196](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L196)*
+*Defined in [src/Exchange.ts:196](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L196)*
 
 Creates an order and posts it to the relay server. If successful, the method returns the created order.
 
@@ -165,7 +165,7 @@ ___
 
 ▸ **prepCancelOrder**(`signedOrder`: [SignedOrder](../interfaces/_typings_.signedorder.md), `cancelTakerTokenValue`: number \| string, `options?`: [ExchangeTxOptions](../modules/_typings_.md#exchangetxoptions)): Promise&#60;[TxObject](../interfaces/_typings_.txobject.md)>
 
-*Defined in [src/Exchange.ts:379](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L379)*
+*Defined in [src/Exchange.ts:379](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L379)*
 
 Prepares an ethereum transaction for cancelling an order.
 
@@ -185,7 +185,7 @@ ___
 
 ▸ **prepTakeOrder**(`signedOrder`: [SignedOrder](../interfaces/_typings_.signedorder.md), `fillTakerTokenValue`: number \| string, `options?`: [ExchangeTxOptions](../modules/_typings_.md#exchangetxoptions)): Promise&#60;[ExchangeTx](../interfaces/_typings_.exchangetx.md)>
 
-*Defined in [src/Exchange.ts:269](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/Exchange.ts#L269)*
+*Defined in [src/Exchange.ts:269](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/Exchange.ts#L269)*
 
 Prepares an ethereum transaction object for taking an order.
 

@@ -18,7 +18,7 @@ sidebar_label: "Order"
 
 •  **availableMakerTokenAmount**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:770](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L770)*
+*Defined in [src/typings.ts:801](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L801)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 •  **availableTakerTokenAmount**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:771](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L771)*
+*Defined in [src/typings.ts:802](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L802)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 •  **cancelledMakerTokenAmount**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:768](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L768)*
+*Defined in [src/typings.ts:799](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L799)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 •  **cancelledTakerTokenAmount**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:769](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L769)*
+*Defined in [src/typings.ts:800](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L800)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 •  **exchangeContractAddress**: string
 
-*Defined in [src/typings.ts:762](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L762)*
+*Defined in [src/typings.ts:793](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L793)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 •  **expirationUnixTimestampSec**: string
 
-*Defined in [src/typings.ts:764](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L764)*
+*Defined in [src/typings.ts:795](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L795)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 •  **feeRecipient**: string
 
-*Defined in [src/typings.ts:763](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L763)*
+*Defined in [src/typings.ts:794](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L794)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 •  **filledMakerTokenAmount**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:766](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L766)*
+*Defined in [src/typings.ts:797](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L797)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 •  **filledTakerTokenAmount**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:767](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L767)*
+*Defined in [src/typings.ts:798](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L798)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 •  **hash**: string
 
-*Defined in [src/typings.ts:765](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L765)*
+*Defined in [src/typings.ts:796](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L796)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 •  **maker**: string
 
-*Defined in [src/typings.ts:753](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L753)*
+*Defined in [src/typings.ts:784](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L784)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 •  **makerFee**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:755](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L755)*
+*Defined in [src/typings.ts:786](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L786)*
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 •  **makerTokenAddress**: string
 
-*Defined in [src/typings.ts:759](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L759)*
+*Defined in [src/typings.ts:790](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L790)*
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 •  **makerTokenAmount**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:757](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L757)*
+*Defined in [src/typings.ts:788](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L788)*
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 •  **salt**: string
 
-*Defined in [src/typings.ts:761](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L761)*
+*Defined in [src/typings.ts:792](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L792)*
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 •  **taker**: string
 
-*Defined in [src/typings.ts:754](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L754)*
+*Defined in [src/typings.ts:785](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L785)*
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 •  **takerFee**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:756](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L756)*
+*Defined in [src/typings.ts:787](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L787)*
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 •  **takerTokenAddress**: string
 
-*Defined in [src/typings.ts:760](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L760)*
+*Defined in [src/typings.ts:791](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L791)*
 
 ___
 
@@ -162,4 +162,4 @@ ___
 
 •  **takerTokenAmount**: [Amount](_typings_.amount.md)
 
-*Defined in [src/typings.ts:758](https://github.com/trustlines-protocol/clientlib/blob/4830efe/src/typings.ts#L758)*
+*Defined in [src/typings.ts:789](https://github.com/trustlines-protocol/clientlib/blob/8b30ce1/src/typings.ts#L789)*
