@@ -8,21 +8,13 @@ Anyone can use these public RPC endpoints to connect to the Trustlines Blockchai
 
 ### Trustlines Blockchain
 
-- https://tlbc.rpc.anyblock.tools
-
-- wss://ws.tlbc.rpc.anyblock.tools
+- https://trustlines-rpc.giveth.io/
 
 - ChainID: 4660
 - Block-explorer: https://explore.tlbc.trustlines.foundation/
 
 ### Laika testnet
-
-- https://laika.rpc.anyblock.tools
-
-- wss://ws.laika.rpc.anyblock.tools
-
-- https://access.laika.trustlines.foundation
-
+- No public rpc endpoint
 - ChainID: 18548
 - Block-explorer: https://explore.laika.trustlines.foundation/
 
