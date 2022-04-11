@@ -8,7 +8,7 @@ Anyone can use these public RPC endpoints to connect to the Trustlines Blockchai
 
 ### Trustlines Blockchain
 
-- https://trustlines-rpc.giveth.io/
+- https://trustlines-relay.giveth.io/
 
 - ChainID: 4660
 - Block-explorer: https://explore.tlbc.trustlines.foundation/
