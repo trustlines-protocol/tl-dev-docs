@@ -8,7 +8,7 @@ module.exports = {
         "introduction",
         "types_of_contracts",
         "contributing",
-        "currency_networks_tlbc",
+        "currency_networks",
       ],
     },
     {

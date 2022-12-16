@@ -11,4 +11,9 @@ The exchanges contracts are implementing an exchange which could be used to trad
 
 ### Identity
 
+:::warning Deprecated
+The Trustlines protocol migrated to Gnosis Chain and instead of our identites contracts, we now use
+Gnosis Safe L2 v1.3.0 as Identity. 
+:::
+
 The identity implementation contract allows to represent a user as a contract on a blockchain. It enables the use of meta-transactions where a delegate pays the blockchain fee of a transaction for a user. To reduce the costs of deploying an identity for a new user, we instead deploy a proxy contract that points to a reference identity implementation. This deployment is done by the identity proxy factory contract.

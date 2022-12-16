@@ -1,6 +1,5 @@
 ---
-layout: contracts
-title: Beacon.json
+title: AdministrativeProxy.json
 ---
 
 ```json
