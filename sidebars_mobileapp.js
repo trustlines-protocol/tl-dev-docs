@@ -51,7 +51,10 @@ module.exports = {
       type: "category",
       label: "Tutorials",
       collapsed: false,
-      items: [{ type: "doc", id: "tutorials/localhost_with_docker" }],
+      items: [
+        { type: "doc", id: "tutorials/localhost_with_docker" },
+        { type: "doc", id: "tutorials/crashlytics-stack-traces" }
+      ],
     },
   ],
 }
