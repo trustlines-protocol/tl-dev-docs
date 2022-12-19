@@ -1,5 +1,5 @@
 {
-  "version-0.20.1/Relay": [
+  "version-0.23.0/Relay": [
     {
       "collapsed": false,
       "type": "category",
@@ -7,11 +7,11 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-0.20.1/introduction"
+          "id": "version-0.23.0/introduction"
         },
         {
           "type": "doc",
-          "id": "version-0.20.1/contributing"
+          "id": "version-0.23.0/contributing"
         }
       ]
     },
@@ -22,11 +22,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-0.20.1/getting_started/docker"
-        },
-        {
-          "type": "doc",
-          "id": "version-0.20.1/getting_started/manual"
+          "id": "version-0.23.0/getting_started/manual"
         }
       ]
     },
@@ -37,38 +33,23 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-0.20.1/develop/develop"
+          "id": "version-0.23.0/develop/develop"
         },
         {
           "type": "doc",
-          "id": "version-0.20.1/develop/configuration"
+          "id": "version-0.23.0/develop/configuration"
         },
         {
           "type": "doc",
-          "id": "version-0.20.1/develop/pre_commit_hooks"
+          "id": "version-0.23.0/develop/pre_commit_hooks"
         },
         {
           "type": "doc",
-          "id": "version-0.20.1/develop/dependencies"
+          "id": "version-0.23.0/develop/dependencies"
         },
         {
           "type": "doc",
-          "id": "version-0.20.1/develop/release"
-        }
-      ]
-    },
-    {
-      "collapsed": false,
-      "type": "category",
-      "label": "Tutorials",
-      "items": [
-        {
-          "type": "doc",
-          "id": "version-0.20.1/tutorials/trustlines_system"
-        },
-        {
-          "type": "doc",
-          "id": "version-0.20.1/tutorials/trustlines_tlbc_system"
+          "id": "version-0.23.0/develop/release"
         }
       ]
     },
@@ -79,7 +60,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-0.20.1/api/introduction"
+          "id": "version-0.23.0/api/introduction"
         },
         {
           "collapsed": false,
@@ -88,15 +69,15 @@
           "items": [
             {
               "type": "doc",
-              "id": "version-0.20.1/api/network"
+              "id": "version-0.23.0/api/network"
             },
             {
               "type": "doc",
-              "id": "version-0.20.1/api/user"
+              "id": "version-0.23.0/api/user"
             },
             {
               "type": "doc",
-              "id": "version-0.20.1/api/miscellaneous"
+              "id": "version-0.23.0/api/miscellaneous"
             }
           ]
         }

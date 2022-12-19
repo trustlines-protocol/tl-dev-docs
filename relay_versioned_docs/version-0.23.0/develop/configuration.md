@@ -9,8 +9,7 @@ can be configured via the keys under `[node_rpc]`
 
 ```toml
 [node_rpc]
-## Possible values for connection type are ipc, http, websocket. Default: http
-## type = websocket
+## Possible values for connection type are ipc, and http. Default: http
 port = 8545
 host = "localhost"
 use_ssl = false

@@ -13,30 +13,54 @@ GET /networks
 curl https://relay0.testnet.trustlines.network/api/v1/networks
 ```
 #### Response
-| Attribute    | Type    | JSON Type                               | Description                          |
-|--------------|---------|-----------------------------------------|--------------------------------------|
-| name         | string  | string                                  | Full name of the currency network    |
-| abbreviation | string  | string                                  | Abbreviated name of currency network |
-| address      | address | string - hex-encoded prefixed with "0x" | Contract address of currency network |
+| Attribute                | Type       | JSON Type                               | Description                                             |
+|--------------------------|------------|-----------------------------------------|---------------------------------------------------------|
+| abbreviation             | string     | string                                  | Abbreviated name of currency network                    |
+| address                  | address    | string - hex-encoded prefixed with "0x" | Contract address of currency network                    |
+| decimals                 | int        | number                                  | Decimals specified in currency network                  |
+| name                     | string     | string                                  | Full name of the currency network                       |
+| numUsers                 | int        | number                                  | Total number of users in currency network               |
+| capacityImbalanceFeeDivisor | int     | number                                  | The divisor on value transferred for the mediator fees  |
+| defaultInterestRate      | BigInteger | string                                  | The default interest rate for every user in the network |
+| interestRateDecimals     | int        | number                                  | Decimals of the interest rate                           |
+| customInterests          | bool       | bool                                    | Whether custom interest rate can be set by users        |
+| preventMediatorInterests | bool       | bool                                    | Whether to prevent mediators from paying interest       |
+| isFrozen                 | bool       | bool                                    | Whether the currency network is frozen                  |
 #### Example Response
 ```json
 [
   {
-    "name": "Hours",
-    "abbreviation": "HOU",
-    "address": "0xC0B33D88C704455075a0724AA167a286da778DDE"
+      "abbreviation": "HOU",
+      "address": "0xC0B33D88C704455075a0724AA167a286da778DDE",
+      "decimals": 2,
+      "name": "Hours",
+      "numUsers": 3,
+      "capacityImbalanceFeeDivisor": 100,
+      "defaultInterestRate": "100",
+      "interestRateDecimals": 2,
+      "customInterests": false,
+      "preventMediatorInterests": false,
+      "isFrozen": false
   },
   {
-    "name": "Fugger",
-    "abbreviation": "FUG",
-    "address": "0x55bdaAf9f941A5BB3EacC8D876eeFf90b90ddac9"
+      "abbreviation": "Fugger",
+      "address": "0x55bdaAf9f941A5BB3EacC8D876eeFf90b90ddac9",
+      "decimals": 2,
+      "name": "FUG",
+      "numUsers": 3,
+      "capacityImbalanceFeeDivisor": 100,
+      "defaultInterestRate": "100",
+      "interestRateDecimals": 2,
+      "customInterests": false,
+      "preventMediatorInterests": false,
+      "isFrozen": false
   }
 ]
 ```
 
 ---
 
-### Currency network details
+### Currency Network Details
 Returns detailed information of currency network.
 #### Request
 ```
@@ -58,6 +82,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
 | decimals                 | int        | number                                  | Decimals specified in currency network                  |
 | name                     | string     | string                                  | Full name of the currency network                       |
 | numUsers                 | int        | number                                  | Total number of users in currency network               |
+| capacityImbalanceFeeDivisor | int     | number                                  | The divisor on value transferred for the mediator fees  |
 | defaultInterestRate      | BigInteger | string                                  | The default interest rate for every user in the network |
 | interestRateDecimals     | int        | number                                  | Decimals of the interest rate                           |
 | customInterests          | bool       | bool                                    | Whether custom interest rate can be set by users        |
@@ -71,6 +96,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
   "decimals": 2,
   "name": "Hours",
   "numUsers": 3,
+  "capacityImbalanceFeeDivisor": 100,
   "defaultInterestRate": "100",
   "interestRateDecimals": 2,
   "customInterests": false,
@@ -81,7 +107,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
 
 ---
 
-### Users list in currency network
+### Users List in Currency Network
 Returns a list of user addresses in a currency network.
 #### Request
 ```
@@ -108,7 +134,7 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
 
 ---
 
-### Trustlines list in currency network
+### Trustlines List in Currency Network
 Returns a list of all trustlines in a currency network.
 #### Request
 ```
@@ -161,7 +187,7 @@ A list of trustlines with the following attributes:
 
 ---
 
-### User details in currency network
+### User Details in Currency Network
 Returns detailed information of a user in a currency network.
 #### Request
 ```
@@ -454,109 +480,17 @@ GET /networks/:networkAddress/events?type=:type&fromBlock=:fromBlock
 | Name      | Type   | Required | Description                                                                               |
 |-----------|--------|----------|-------------------------------------------------------------------------------------------|
 | network   | string | YES      | Address of currency network                                                               |
-| type      | string | NO       | Either `TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel` or `Transfer` |
+| type      | string | NO       | Either `TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel`, `Transfer`, `DebtUpdate`, `NetworkFreeze`, or `BalanceUpdate` |
 | fromBlock | int    | NO       | Start of block range                                                                      |
 #### Example Request
 ```
 curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455075a0724AA167a286da778DDE/events?type=TrustlineUpdate&fromBlock=123456
 ```
 #### Response
-| Attribute      | Type   | Description                                                                               |
-|----------------|--------|-------------------------------------------------------------------------------------------|
-| networkAddress | string | Address of currency network                                                               |
-| blockNumber    | string | Number of block                                                                           |
-| timestamp      | int    | UNIX timestamp                                                                            |
-| type           | string | Either `TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel` or `Transfer` |
-| from           | string | Address of `from` user                                                                    |
-| to             | string | Address of `to` user                                                                      |
-| status         | string | `sent`, `pending` or `confirmed` depending on block height                                |
-| transactionId  | string | Transaction hash                                                                          |
-| blockHash      | string | Hash of the block containing the event                                                    |
-| logIndex       | number | Log index of the event                                                                    |
+Returns a list of the events in a currency network. By default this will return events of type
+`TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel`, and `Transfer`
+See [Event Response](./events.md) for a detail of the possible values returned.
 
-Following additional attributes for `TrustlineUpdate` and `TrustlineUpdateRequest` events:
-
-| Attribute            | Type   | Description                                        |
-|----------------------|--------|----------------------------------------------------|
-| given                | string | Proposed or accepted amount `from -> to`           |
-| received             | string | Proposed or accepted amount `to -> from`           |
-| interestRateGiven    | string | Proposed or accepted rate of interests `from -> to`|
-| interestRateReceived | string | Proposed or accepted rate of interests `to -> from`|
-| isFrozen             | bool   | Proposed or accepted frozen status                 |
-
-Following additional attributes for `Transfer` events:
-
-| Attribute | Type   | Description                                          |
-|-----------|--------|------------------------------------------------------|
-| amount    | string | Transfer amount `from -> to`                         |
-| extraData | string | extraData as specified in the corresponding transfer |
-|           |        |                                                      |
-
-#### Example Response
-```json
-[
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 6997877,
-        "timestamp": 1524655432,
-        "type": "TrustlineUpdateRequest",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-        "status": "confirmed",
-        "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-        "blockHash": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-        "logIndex": 12,
-        "given": "20000",
-        "received": "20000",
-        "interestRateGiven": "1000",
-        "interestRateReceived": "1000",
-        "isFrozen": false
-    },
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 6997877,
-        "timestamp": 1524655432,
-        "type": "TrustlineUpdateCancel",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-        "status": "confirmed",
-        "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-        "blockHash": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-        "logIndex": 14
-    },
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 6997899,
-        "timestamp": 1524655600,
-        "type": "TrustlineUpdate",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-        "status": "confirmed",
-        "transactionId": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-        "blockHash": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-        "logIndex": 1,
-        "given": "10000",
-        "received": "10000",
-        "interestRateGiven": "1000",
-        "interestRateReceived": "1000",
-        "isFrozen": false
-    },
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 7011809,
-        "timestamp": 1524755036,
-        "type": "Transfer",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-        "status": "confirmed",
-        "transactionId": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-        "blockHash": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-        "logIndex": 2,
-        "amount": "100",
-        "extraData": "0x1234"
-    }
-]
-```
 
 ---
 
@@ -578,101 +512,10 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
 | type      | string | NO       | Either `TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel` or `Transfer` |
 | fromBlock | int    | NO       | Start of block range                                                                      |
 #### Response
-| Attribute      | Type   | Description                                                                               |
-|----------------|--------|-------------------------------------------------------------------------------------------|
-| networkAddress | string | Address of currency network                                                               |
-| blockNumber    | string | Number of block                                                                           |
-| timestamp      | int    | UNIX timestamp                                                                            |
-| type           | string | Either `TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel` or `Transfer` |
-| from           | string | Address of `from` user                                                                    |
-| to             | string | Address of `to` user                                                                      |
-| status         | string | `sent`, `pending` or `confirmed` depending on block height                                |
-| transactionId  | string | Transaction hash                                                                          |
-| blockHash      | string | Hash of the block containing the event                                                    |
-| logIndex       | number | Log index of the event                                                                    |
 
-Following additional attributes for `TrustlineUpdate` and `TrustlineUpdateRequest` events:
-
-| Attribute            | Type   | Description                                         |
-|----------------------|--------|-----------------------------------------------------|
-| given                | string | Proposed or accepted amount `from -> to`            |
-| received             | string | Proposed or accepted amount `to -> from`            |
-| interestRateGiven    | string | Proposed or accepted rate of interests `from -> to` |
-| interestRateReceived | string | Proposed or accepted rate of interests `to -> from` |
-| isFrozen             | bool   | Proposed or accepted frozen state                   |
-
-Following additional attributes for `Transfer` events:
-
-| Attribute | Type   | Description                                          |
-|-----------|--------|------------------------------------------------------|
-| amount    | string | Transfer amount `from -> to`                         |
-| extraData | string | extraData as specified in the corresponding transfer |
-
-#### Example Response
-```json
-[
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 6997877,
-        "timestamp": 1524655432,
-        "type": "TrustlineUpdateRequest",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-        "status": "confirmed",
-        "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-        "blockHash": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-        "logIndex": 1,
-        "given": "20000",
-        "received": "20000",
-        "interestRateGiven": "1000",
-        "interestRateReceived": "1000",
-        "isFrozen": false
-    },
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 6997877,
-        "timestamp": 1524655432,
-        "type": "TrustlineUpdateCancel",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-        "status": "confirmed",
-        "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-        "blockHash": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-        "logIndex": 2
-    },
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 6997899,
-        "timestamp": 1524655600,
-        "type": "TrustlineUpdate",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-        "status": "confirmed",
-        "transactionId": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-        "blockHash": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-        "logIndex": 3,
-        "given": "10000",
-        "received": "10000",
-        "interestRateGiven": "1000",
-        "interestRateReceived": "1000",
-        "isFrozen": false
-    },
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 7011809,
-        "timestamp": 1524755036,
-        "type": "Transfer",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-        "status": "confirmed",
-        "transactionId": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-        "blockHash": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-        "logIndex": 4,
-        "amount": "100",
-        "extraData": "0x1234"
-    }
-]
-```
+Returns a list of the events of a user in a currency network. These events can be of type
+`TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel`, `Transfer`, `DebtUpdate`, or `BalanceUpdate`
+See [Event Response](./events.md) for a detail of the possible values returned.
 
 ---
 
@@ -695,97 +538,10 @@ curl https://relay0.testnet.trustlines.network/api/v1/networks/0xC0B33D88C704455
 | type        | string | NO       | Either `TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel` or `BalanceUpdate` |
 | fromBlock   | int    | NO       | Start of block range                                                                           |
 #### Response
-| Attribute      | Type   | Description                                                                                    |
-|----------------|--------|------------------------------------------------------------------------------------------------|
-| networkAddress | string | Address of currency network                                                                    |
-| blockNumber    | string | Number of block                                                                                |
-| timestamp      | int    | UNIX timestamp                                                                                 |
-| type           | string | Either `TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel` or `BalanceUpdate` |
-| from           | string | Address of `from` user                                                                         |
-| to             | string | Address of `to` user                                                                           |
-| status         | string | `sent`, `pending` or `confirmed` depending on block height                                     |
-| transactionId  | string | Transaction hash                                                                               |
+Returns a list of the events of a trustline, these events can be of type
+`TrustlineUpdate`, `TrustlineUpdateRequest`, `TrustlineUpdateCancel`, or `BalanceUpdate`
+See [Event Response](./events.md) for a detail of the possible values returned.
 
-Following additional attributes for `TrustlineUpdate` and `TrustlineUpdateRequest` events:
-
-| Attribute            | Type   | Description                                         |
-|----------------------|--------|-----------------------------------------------------|
-| given                | string | Proposed or accepted amount `from -> to`            |
-| received             | string | Proposed or accepted amount `to -> from`            |
-| interestRateGiven    | string | Proposed or accepted rate of interests `from -> to` |
-| interestRateReceived | string | Proposed or accepted rate of interests `to -> from` |
-| isFrozen             | bool   | Proposed or accepted frozen state                   |
-
-Following additional attributes for `BalanceUpdate`:
-
-| Attribute            | Type   | Description                                         |
-|----------------------|--------|-----------------------------------------------------|
-| amount               | string | New balance of trustline from view of `from`        |
-
-#### Example Response
-```json
-[
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 6997877,
-        "timestamp": 1524655432,
-        "type": "TrustlineUpdateRequest",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-        "blockHash": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-        "logIndex": 1,
-        "status": "confirmed",
-        "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-        "given": "20000",
-        "received": "20000",
-        "interestRateGiven": "1000",
-        "interestRateReceived": "1000",
-        "isFrozen": false
-    },
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 6997877,
-        "timestamp": 1524655432,
-        "type": "TrustlineUpdateCancel",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ff66eb1A824FF9D1bB7e234a2d3B7A3b0345320",
-        "status": "confirmed",
-        "transactionId": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-        "blockHash": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-        "logIndex": 2
-    },
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 6997899,
-        "timestamp": 1524655600,
-        "type": "TrustlineUpdate",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-        "status": "confirmed",
-        "transactionId": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-        "blockHash": "0xb141aa3baec4e7151d8bd6ecab46d26b1add131e50bcc517c956a7ac979815cd",
-        "logIndex": 3,
-        "given": "10000",
-        "received": "10000",
-        "interestRateGiven": "1000",
-        "interestRateReceived": "1000",
-        "isFrozen": false
-    },
-    {
-        "networkAddress": "0xC0B33D88C704455075a0724AA167a286da778DDE",
-        "blockNumber": 7011809,
-        "timestamp": 1524755036,
-        "type": "BalanceUpdate",
-        "from": "0xcbF1153F6e5AC01D363d432e24112e8aA56c55ce",
-        "to": "0x7Ec3543702FA8F2C7b2bD84C034aAc36C263cA8b",
-        "status": "confirmed",
-        "transactionId": "0x05c91f6506e78b1ca2413df9985ca7d37d2da5fc076c0b55c5d9eb9fdd7513a6",
-        "blockHash": "0x10d4e9acb58d42d433dbc5c995e9a258cd2bb7fe82fedf2ebab82e450d30c643",
-        "logIndex": 4,
-        "amount": "100"
-    }
-]
-```
 ---
 
 ### Accrued interests of user

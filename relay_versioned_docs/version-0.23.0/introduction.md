@@ -9,7 +9,7 @@ relationships stored on a trustless infrastructure, e.g. a blockchain.
 In the technology stack, the relay server is located in between a client of the Trustlines Protocol,
 e.g. a mobile app build on to of the [Trustlines clientlib](https://github.com/trustlines-protocol/clientlib), and the deployed
 [Trustlines smart contracts](https://github.com/trustlines-protocol/contracts) on a chosen blockchain, e.g.
-[The Trustlines Blockchain (TLBC)](https://explore.tlbc.trustlines.foundation).
+[Gnosis Chain](https://www.gnosis.io/).
 
 Operating a relay server requires an ethereum based blockchain node, a postgres database
 and a [py-eth-index](https://github.com/trustlines-protocol/py-eth-index)
@@ -26,5 +26,12 @@ More specifically the relay currently handles:
 - Relaying transactions of the user to a blockchain node
 - Paying for meta-transactions of a user in exchange for a fee
 - Sending notifications for user events.
+
+:::note Gnosis chain
+For our deployment on Gnosis Chain, we've decided to no longer use our identity contracts and instead use the
+Gnosis Safe contracts to increase the interoperability with other applications. Because of this decision, the relay
+is being used like a graph node for the Trustlines Protocol while the gnosis-safe-relay is the one that deploys identities 
+and submits meta-transactions to the blockchain.
+:::
 
 Depending on the use case it is possible to enable/disable some of the functionality.
