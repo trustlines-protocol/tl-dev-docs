@@ -10,29 +10,17 @@ you want to connect to. You can either connect to a local develop relay server o
 ```javascript
 import { TLNetwork } from '@trustlines/trustlines-clientlib'
 
-// Instance using a relay connected to the Laika Testnet
-const laika = new TLNetwork({
-  relayUrl: {
-    protocol: 'https',
-    port: '80',
-    host: 'relay0.testnet.trustlines.network',
-    path: '/api/v1'
-  },
-  messagingUrl: {
-    protocol: 'https',
-    port: '80',
-    host: 'relay0.testnet.trustlines.network',
-    path: '/api/v1'
-  }
-
-  // ...
-})
-
-// Instance using a relay connected to the TLBC
-const tlbc = new TLNetwork({
-  relayUrl: 'https://tlbc.relay.anyblock.tools/api/v1',
-  messagingUrl: 'https://messaging.trustlines.app/api/v1'
-  // ...
+// Instantiate a new TLNetwork instance connected to Gnosis Chain
+const gnosis = new TLNetwork({
+  relayUrl: 'https://trustlines-relay-gnosis.giveth.io/api/v1',
+  messagingUrl: 'https://messaging-gn.trustlines.app/api/v1',
+  walletType: 'safe',
+  identityFactoryAddress: '0x1234...',
+  identityImplementationAddress: '0x1234...',
+  gnosisSafeL2Address: '0x3E5c63644E683549055b9Be8653de26E0B4CD36E',
+  gnosisSafeProxyFactoryAddress: '0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2',
+  chainId: 100,
+  safeRelayUrl: 'https://trustlines-safe-relay-gnosis.giveth.io/api',
 })
 ```
 
