@@ -93,7 +93,7 @@ Please copy them to the current directory with:
 docker-compose run --rm --no-deps -v $(pwd):/here --entrypoint /bin/bash relay -c "cp /opt/relay/trustlines-contracts/build/contracts.json /here"
 ```
 
-Checkout [this documentation](/relay/tutorials/trustlines_system#get-contract-abis) to see
+Checkout [this documentation](/relay/0.21.0/tutorials/trustlines_system#get-contract-abis) to see
 alternative approaches how to retrieve the compiled contracts file.
 
 ### Setup Initial Database
