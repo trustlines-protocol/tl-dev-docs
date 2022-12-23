@@ -11,7 +11,6 @@ module.exports = {
       label: "Getting started",
       collapsed: false,
       items: [
-        "getting_started/docker",
         "getting_started/manual",
       ],
     },
@@ -26,12 +25,6 @@ module.exports = {
         "develop/dependencies",
         "develop/release",
       ],
-    },
-    {
-      type: "category",
-      label: "Tutorials",
-      collapsed: false,
-      items: ["tutorials/trustlines_system", "tutorials/trustlines_tlbc_system"],
     },
     {
       type: "category",

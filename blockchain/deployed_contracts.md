@@ -194,4 +194,4 @@ The following contracts have been deployed on the Trustlines Blockchain.
 
 ### Currency Networks
 
-For contracts related to currency networks deployed on tlbc, see the [contracts documenation](../contracts/currency_networks_tlbc)
+For contracts related to currency networks deployed on tlbc, see the [contracts documenation](../contracts/currency_networks)

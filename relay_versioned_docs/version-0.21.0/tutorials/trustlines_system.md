@@ -4,7 +4,7 @@ title: Running the Trustlines system
 
 This document explains how to run your own [trustlines network](https://trustlines.network/) relay server infrastructure. We will walk you through setting up a relay server and all dependent components. The current documentation is written for a Debian-based Linux system.
 
-If you are low on time, you may jump to the description of the [docker-compose based setup](/relay/getting_started/docker).
+If you are low on time, you may jump to the description of the [docker-compose based setup](/relay/0.21.0/getting_started/docker).
 
 ## Dependencies
 
@@ -140,7 +140,7 @@ cp ~/opt/trustlines-system/trustlines-contracts/build/contracts.json ~
 
 If you did not follow this document to install the relay but prefer an
 alternative approach (like via
-[docker-compose](/relay/getting_started/docker)), checkout [this
+[docker-compose](/relay/0.21.0/getting_started/docker)), checkout [this
 section](#get-contract-abis) about the different options to retrieve the
 `contracts.json` file.
 

@@ -19,6 +19,7 @@ module.exports = [
       "api/modules/_extradata_",
       "api/modules/_providers_provider_",
       "api/modules/_providers_relayprovider_",
+      "api/modules/_providers_saferelayprovider_",
       "api/modules/_providers_tlprovider_",
       "api/modules/_signers_tlsigner_",
       "api/modules/_signers_web3signer_",
@@ -26,6 +27,7 @@ module.exports = [
       "api/modules/_utils_",
       "api/modules/_wallets_etherswallet_",
       "api/modules/_wallets_identitywallet_",
+      "api/modules/_wallets_safewallet_",
       "api/modules/_wallets_tlwallet_",
       "api/modules/_wallets_walletfromethers_"
     ]
@@ -57,9 +59,11 @@ module.exports = [
       "api/classes/_userinformation_.userinformation",
       "api/classes/_providers_provider_.provider",
       "api/classes/_providers_relayprovider_.relayprovider",
+      "api/classes/_providers_saferelayprovider_.saferelayprovider",
       "api/classes/_signers_web3signer_.web3signer",
       "api/classes/_wallets_etherswallet_.etherswallet",
       "api/classes/_wallets_identitywallet_.identitywallet",
+      "api/classes/_wallets_safewallet_.safewallet",
       "api/classes/_wallets_walletfromethers_.walletfromethers"
     ]
   },
@@ -88,6 +92,7 @@ module.exports = [
       "api/interfaces/_typings_.ecsignature",
       "api/interfaces/_typings_.earnedmediationfeeslistobject",
       "api/interfaces/_typings_.earnedmediationfeeslistraw",
+      "api/interfaces/_typings_.estimationresponse",
       "api/interfaces/_typings_.etherswalletdata",
       "api/interfaces/_typings_.eventfilteroptions",
       "api/interfaces/_typings_.exchangecancelevent",
@@ -134,6 +139,11 @@ module.exports = [
       "api/interfaces/_typings_.paymenttxobject",
       "api/interfaces/_typings_.providerurl",
       "api/interfaces/_typings_.rawtxobject",
+      "api/interfaces/_typings_.safemetatransaction",
+      "api/interfaces/_typings_.safemultisigtxresponse",
+      "api/interfaces/_typings_.safesignature",
+      "api/interfaces/_typings_.safetransactionfees",
+      "api/interfaces/_typings_.safewalletdata",
       "api/interfaces/_typings_.signature",
       "api/interfaces/_typings_.signedorder",
       "api/interfaces/_typings_.signedorderraw",

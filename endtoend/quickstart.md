@@ -41,33 +41,17 @@ You can verify the proper installation by running `quickstart --help` which shou
 
 ## Running the script
 
-You can run the script with `quickstart tlbc` or `quickstart laika`, depending on whether you want to
-test out the Trustlines system on the main Trustlines Blockchain or the Laika testnet.
+To test out the system with a private dev chain you can run
+`./run-e2e.sh -b` in the root folder of this repository.
 
-To test out the system you will need an account with either TLC or Laika coins.
-If you do not have access to coins, you can still test out the system with a private dev chain by running
-`./run-e2e.sh` in the root folder of this repository.
-
-The script will prompt you for three means of setting up your account:
- - Generate a new private key, you will need to transfer coins to the new address
- - Import an encrypted keystore.json
- - Import a raw private key
-
-The script will generate a new directory called either `/tlbc` or `/laika` with all the
-files necessary to run the trustlines system. It will then run the trustlines system.
-You will find the file `config.toml` that can be used to modify the config of the relay.
+This will launch all services configured in the docker-compose file.
 The file `addresses.json` contains the addresses of currency networks used by the relay.
-The key and password for the blockchain node is in the `config` directory.
-The directories `databases`, `enode`, and `shared` are used to persist the data of the blockchain node.
+The key and password for the blockchain node is in the `keys` directory.
+
 There is no persistence of the database of the events indexer used by the relay.
-The script uses the port `30302` for networking of the blockchain node and exposes the relay api on
-`127.0.0.1:5000`
+The script exposes the relay api on `127.0.0.1:5000` and the safe-relay on `127.0.0.1:8001`
 
 ## Stopping and restarting services
 
-You can stop the running via `docker stop <service>` or stop all running docker
-containers with `docker stop $(docker ps -a -q)`. You can remove the containers
-similarly using `docker rm <service>` or `docker rm $(docker ps -a -q)`.
-
-To resume running the services, change directory into the created `/tlbc` or `/laika`
-and execute `./run-e2e.sh`.
+You can stop all services by stoping the script, or you can stop individual docker containers by using 
+`docker stop <service>`.
